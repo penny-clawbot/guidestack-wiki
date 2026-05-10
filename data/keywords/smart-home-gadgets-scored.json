@@ -1,0 +1,1416 @@
+{
+  "niche": "smart home gadgets",
+  "timestamp": "2026-05-10 14:23:22",
+  "total_keywords": 60,
+  "opportunities_above_threshold": 0,
+  "score_threshold": 60,
+  "scored_keywords": [
+    {
+      "keyword": "how to smart home gadgets",
+      "volume_estimate": 286918,
+      "competition_score": 68.3,
+      "rpm_estimate": 3.44,
+      "content_feasibility": 100,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 68.3,
+        "result_count": 10,
+        "big_sites": 3,
+        "avg_content_depth": 162.6,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 42.03,
+      "grade": "C"
+    },
+    {
+      "keyword": "essential smart home gadgets that actually make your life easier smart plugs smart thermostats",
+      "volume_estimate": 1261766,
+      "competition_score": 68.2,
+      "rpm_estimate": 3.06,
+      "content_feasibility": 80,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 68.2,
+        "result_count": 10,
+        "big_sites": 3,
+        "avg_content_depth": 159.6,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 35.64,
+      "grade": "D"
+    },
+    {
+      "keyword": "best smart home gadgets for beginners",
+      "volume_estimate": 3460311,
+      "competition_score": 68.2,
+      "rpm_estimate": 24.61,
+      "content_feasibility": 80,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 68.2,
+        "result_count": 10,
+        "big_sites": 3,
+        "avg_content_depth": 160.6,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 45.99,
+      "grade": "C"
+    },
+    {
+      "keyword": "top smart home gadgets 2024",
+      "volume_estimate": 4231370,
+      "competition_score": 53.2,
+      "rpm_estimate": 2.15,
+      "content_feasibility": 80,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 53.2,
+        "result_count": 10,
+        "big_sites": 2,
+        "avg_content_depth": 159.4,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 40.01,
+      "grade": "C"
+    },
+    {
+      "keyword": "top smart home gadgets for beginners",
+      "volume_estimate": 3063039,
+      "competition_score": 53.2,
+      "rpm_estimate": 5.8,
+      "content_feasibility": 80,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 53.2,
+        "result_count": 10,
+        "big_sites": 2,
+        "avg_content_depth": 162.0,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 41.76,
+      "grade": "C"
+    },
+    {
+      "keyword": "how to smart home gadgets youtube",
+      "volume_estimate": 266476,
+      "competition_score": 95,
+      "rpm_estimate": 5.72,
+      "content_feasibility": 100,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 95,
+        "result_count": 10,
+        "big_sites": 10,
+        "avg_content_depth": 158.5,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 32.56,
+      "grade": "D"
+    },
+    {
+      "keyword": "best smart home gadgets reddit",
+      "volume_estimate": 1551684,
+      "competition_score": 95,
+      "rpm_estimate": 18.98,
+      "content_feasibility": 80,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 95,
+        "result_count": 10,
+        "big_sites": 10,
+        "avg_content_depth": 160.3,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 34.71,
+      "grade": "D"
+    },
+    {
+      "keyword": "why smart home gadgets 2024",
+      "volume_estimate": 734901,
+      "competition_score": 53.2,
+      "rpm_estimate": 3.1,
+      "content_feasibility": 100,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 53.2,
+        "result_count": 10,
+        "big_sites": 2,
+        "avg_content_depth": 159.4,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 49.91,
+      "grade": "C"
+    },
+    {
+      "keyword": "smart home gadgets 2025",
+      "volume_estimate": 8411114,
+      "competition_score": 95,
+      "rpm_estimate": 4.34,
+      "content_feasibility": 80,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 95,
+        "result_count": 10,
+        "big_sites": 5,
+        "avg_content_depth": 159.8,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 27.68,
+      "grade": "D"
+    },
+    {
+      "keyword": "what is smart home gadgets",
+      "volume_estimate": 1588894,
+      "competition_score": 53.2,
+      "rpm_estimate": 2.94,
+      "content_feasibility": 100,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 53.2,
+        "result_count": 10,
+        "big_sites": 2,
+        "avg_content_depth": 158.3,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 50.48,
+      "grade": "C"
+    },
+    {
+      "keyword": "how to smart home gadgets amazon",
+      "volume_estimate": 823768,
+      "competition_score": 83.1,
+      "rpm_estimate": 1.78,
+      "content_feasibility": 100,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 83.1,
+        "result_count": 10,
+        "big_sites": 4,
+        "avg_content_depth": 156.4,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 37.41,
+      "grade": "D"
+    },
+    {
+      "keyword": "the best smart home gadgets for 2026 engadget the main reason we prefer philips hue bulbs is that they re widely supported across smart home ecosystems",
+      "volume_estimate": 5076504,
+      "competition_score": 38.1,
+      "rpm_estimate": 28.02,
+      "content_feasibility": 80,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 38.1,
+        "result_count": 10,
+        "big_sites": 1,
+        "avg_content_depth": 157.0,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 57.26,
+      "grade": "C"
+    },
+    {
+      "keyword": "top smart home gadgets",
+      "volume_estimate": 14007571,
+      "competition_score": 83.0,
+      "rpm_estimate": 4.14,
+      "content_feasibility": 80,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 83.0,
+        "result_count": 10,
+        "big_sites": 4,
+        "avg_content_depth": 151.7,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 31.43,
+      "grade": "D"
+    },
+    {
+      "keyword": "top smart home gadgets reddit",
+      "volume_estimate": 3661837,
+      "competition_score": 95,
+      "rpm_estimate": 4.14,
+      "content_feasibility": 80,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 95,
+        "result_count": 10,
+        "big_sites": 10,
+        "avg_content_depth": 160.2,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 27.59,
+      "grade": "D"
+    },
+    {
+      "keyword": "how to smart home gadgets 2024",
+      "volume_estimate": 1563545,
+      "competition_score": 68.2,
+      "rpm_estimate": 3.06,
+      "content_feasibility": 100,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 68.2,
+        "result_count": 10,
+        "big_sites": 3,
+        "avg_content_depth": 158.7,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 44.56,
+      "grade": "C"
+    },
+    {
+      "keyword": "smart home gadgets smart home gadgets is your one stop smart home shop to find the best knowledge expertise and selection of smart home products in one place",
+      "volume_estimate": 3910565,
+      "competition_score": 53.1,
+      "rpm_estimate": 23.54,
+      "content_feasibility": 80,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 53.1,
+        "result_count": 10,
+        "big_sites": 2,
+        "avg_content_depth": 156.3,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 50.31,
+      "grade": "C"
+    },
+    {
+      "keyword": "top smart home gadgets 2025",
+      "volume_estimate": 3278100,
+      "competition_score": 83.2,
+      "rpm_estimate": 3.43,
+      "content_feasibility": 80,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 83.2,
+        "result_count": 10,
+        "big_sites": 4,
+        "avg_content_depth": 161.2,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 31.02,
+      "grade": "D"
+    },
+    {
+      "keyword": "never mind repainting these expert tested smart home gadgets will completely transform the way your home looks and works the best cheap smart home devices and gadget deals right now",
+      "volume_estimate": 1365010,
+      "competition_score": 68.2,
+      "rpm_estimate": 28.16,
+      "content_feasibility": 80,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 68.2,
+        "result_count": 10,
+        "big_sites": 3,
+        "avg_content_depth": 158.4,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 47.69,
+      "grade": "C"
+    },
+    {
+      "keyword": "useful smart home gadgets that make life so much easier and most are discounted zdnet the flic duo is a smart remote control with two buttons",
+      "volume_estimate": 1576095,
+      "competition_score": 83.2,
+      "rpm_estimate": 2.6,
+      "content_feasibility": 80,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 83.2,
+        "result_count": 10,
+        "big_sites": 4,
+        "avg_content_depth": 159.0,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 30.62,
+      "grade": "D"
+    },
+    {
+      "keyword": "these expert tested smart home gadgets will completely transform the way your home looks and works the best cheap smart home devices and gadget deals right now",
+      "volume_estimate": 3582485,
+      "competition_score": 68.2,
+      "rpm_estimate": 11.57,
+      "content_feasibility": 80,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 68.2,
+        "result_count": 10,
+        "big_sites": 3,
+        "avg_content_depth": 162.4,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 39.73,
+      "grade": "D"
+    },
+    {
+      "keyword": "top 10 smart home gadgets to upgrade your interior decorilla online interior design smart home devices in a modern living room by decorilla why it",
+      "volume_estimate": 715176,
+      "competition_score": 68.2,
+      "rpm_estimate": 5.39,
+      "content_feasibility": 80,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 68.2,
+        "result_count": 10,
+        "big_sites": 3,
+        "avg_content_depth": 157.9,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 36.18,
+      "grade": "D"
+    },
+    {
+      "keyword": "how to smart home gadgets 2025",
+      "volume_estimate": 429416,
+      "competition_score": 83.2,
+      "rpm_estimate": 4.39,
+      "content_feasibility": 100,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 83.2,
+        "result_count": 10,
+        "big_sites": 4,
+        "avg_content_depth": 158.6,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 37.52,
+      "grade": "D"
+    },
+    {
+      "keyword": "why smart home gadgets youtube",
+      "volume_estimate": 1460275,
+      "competition_score": 95,
+      "rpm_estimate": 2.35,
+      "content_feasibility": 100,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 95,
+        "result_count": 10,
+        "big_sites": 9,
+        "avg_content_depth": 145.0,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 33.41,
+      "grade": "D"
+    },
+    {
+      "keyword": "zdnet also useful smart home gadgets that make life so much easier and most are discounted",
+      "volume_estimate": 985706,
+      "competition_score": 23.1,
+      "rpm_estimate": 4.73,
+      "content_feasibility": 80,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 23.1,
+        "result_count": 10,
+        "big_sites": 0,
+        "avg_content_depth": 154.1,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 50.85,
+      "grade": "C"
+    },
+    {
+      "keyword": "useful smart home gadgets that make life so much easier and most are discounted",
+      "volume_estimate": 694132,
+      "competition_score": 53.2,
+      "rpm_estimate": 3.62,
+      "content_feasibility": 80,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 53.2,
+        "result_count": 10,
+        "big_sites": 2,
+        "avg_content_depth": 157.8,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 40.08,
+      "grade": "C"
+    },
+    {
+      "keyword": "best smart home gadgets",
+      "volume_estimate": 14172748,
+      "competition_score": 83.2,
+      "rpm_estimate": 11.3,
+      "content_feasibility": 80,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 83.2,
+        "result_count": 10,
+        "big_sites": 4,
+        "avg_content_depth": 159.8,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 34.8,
+      "grade": "D"
+    },
+    {
+      "keyword": "and life has been so much easier zdnet also useful smart home gadgets that make life so much easier",
+      "volume_estimate": 1697179,
+      "competition_score": 53.1,
+      "rpm_estimate": 4.44,
+      "content_feasibility": 80,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 53.1,
+        "result_count": 10,
+        "big_sites": 2,
+        "avg_content_depth": 156.9,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 41.14,
+      "grade": "C"
+    },
+    {
+      "keyword": "smart home gadgets youtube",
+      "volume_estimate": 7546410,
+      "competition_score": 95,
+      "rpm_estimate": 5.53,
+      "content_feasibility": 80,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 95,
+        "result_count": 10,
+        "big_sites": 10,
+        "avg_content_depth": 153.7,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 28.25,
+      "grade": "D"
+    },
+    {
+      "keyword": "smart home gadgets for beginners",
+      "volume_estimate": 1711338,
+      "competition_score": 68.2,
+      "rpm_estimate": 1.72,
+      "content_feasibility": 80,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 68.2,
+        "result_count": 10,
+        "big_sites": 3,
+        "avg_content_depth": 158.2,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 35.0,
+      "grade": "D"
+    },
+    {
+      "keyword": "best smart home gadgets youtube",
+      "volume_estimate": 2776589,
+      "competition_score": 95,
+      "rpm_estimate": 7.95,
+      "content_feasibility": 80,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 95,
+        "result_count": 10,
+        "big_sites": 8,
+        "avg_content_depth": 153.5,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 29.42,
+      "grade": "D"
+    },
+    {
+      "keyword": "smart home gadgets canada online store switchbot hub mini smart remote",
+      "volume_estimate": 1627393,
+      "competition_score": 23.0,
+      "rpm_estimate": 2.6,
+      "content_feasibility": 80,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 23.0,
+        "result_count": 10,
+        "big_sites": 0,
+        "avg_content_depth": 151.7,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 49.89,
+      "grade": "C"
+    },
+    {
+      "keyword": "how to smart home gadgets reddit",
+      "volume_estimate": 331690,
+      "competition_score": 95,
+      "rpm_estimate": 3.84,
+      "content_feasibility": 100,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 95,
+        "result_count": 10,
+        "big_sites": 10,
+        "avg_content_depth": 159.9,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 31.91,
+      "grade": "D"
+    },
+    {
+      "keyword": "why smart home gadgets 2025",
+      "volume_estimate": 1823579,
+      "competition_score": 83.2,
+      "rpm_estimate": 3.29,
+      "content_feasibility": 100,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 83.2,
+        "result_count": 10,
+        "big_sites": 4,
+        "avg_content_depth": 160.4,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 38.69,
+      "grade": "D"
+    },
+    {
+      "keyword": "smart home gadgets amazon",
+      "volume_estimate": 1978045,
+      "competition_score": 68.2,
+      "rpm_estimate": 2.73,
+      "content_feasibility": 80,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 68.2,
+        "result_count": 10,
+        "big_sites": 3,
+        "avg_content_depth": 158.0,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 35.49,
+      "grade": "D"
+    },
+    {
+      "keyword": "your one stop smart home shop smart home gadgets smart home gadgets is your one stop smart home shop to find the best knowledge expertise",
+      "volume_estimate": 1703663,
+      "competition_score": 53.2,
+      "rpm_estimate": 22.75,
+      "content_feasibility": 80,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 53.2,
+        "result_count": 10,
+        "big_sites": 2,
+        "avg_content_depth": 160.0,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 49.9,
+      "grade": "C"
+    },
+    {
+      "keyword": "have smart home gadgets for a truly smarter home gadget flow best of all this smart sensor sends both voice and mobile alerts",
+      "volume_estimate": 1003542,
+      "competition_score": 53.1,
+      "rpm_estimate": 23.84,
+      "content_feasibility": 80,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 53.1,
+        "result_count": 10,
+        "big_sites": 2,
+        "avg_content_depth": 156.2,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 50.45,
+      "grade": "C"
+    },
+    {
+      "keyword": "this cool item on our list of must have smart home gadgets creates a lovely surround lighting experience behind your tv screen",
+      "volume_estimate": 501668,
+      "competition_score": 53.1,
+      "rpm_estimate": 4.3,
+      "content_feasibility": 80,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 53.1,
+        "result_count": 10,
+        "big_sites": 2,
+        "avg_content_depth": 155.2,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 39.87,
+      "grade": "D"
+    },
+    {
+      "keyword": "best smart home gadgets forum",
+      "volume_estimate": 2531282,
+      "competition_score": 53.2,
+      "rpm_estimate": 16.09,
+      "content_feasibility": 80,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 53.2,
+        "result_count": 10,
+        "big_sites": 2,
+        "avg_content_depth": 158.4,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 46.7,
+      "grade": "C"
+    },
+    {
+      "keyword": "how to smart home gadgets for beginners",
+      "volume_estimate": 779862,
+      "competition_score": 53.2,
+      "rpm_estimate": 3.81,
+      "content_feasibility": 100,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 53.2,
+        "result_count": 10,
+        "big_sites": 2,
+        "avg_content_depth": 162.2,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 50.47,
+      "grade": "C"
+    },
+    {
+      "keyword": "smart home gadgets 2024",
+      "volume_estimate": 5907266,
+      "competition_score": 53.2,
+      "rpm_estimate": 2.23,
+      "content_feasibility": 80,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 53.2,
+        "result_count": 10,
+        "big_sites": 2,
+        "avg_content_depth": 158.4,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 40.05,
+      "grade": "C"
+    },
+    {
+      "keyword": "best smart home gadgets 2024",
+      "volume_estimate": 3773503,
+      "competition_score": 68.2,
+      "rpm_estimate": 8.17,
+      "content_feasibility": 80,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 68.2,
+        "result_count": 10,
+        "big_sites": 3,
+        "avg_content_depth": 159.4,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 38.1,
+      "grade": "D"
+    },
+    {
+      "keyword": "smart home gadgets forum",
+      "volume_estimate": 3058663,
+      "competition_score": 37.5,
+      "rpm_estimate": 2.6,
+      "content_feasibility": 80,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 37.5,
+        "result_count": 10,
+        "big_sites": 1,
+        "avg_content_depth": 123.5,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 45.25,
+      "grade": "C"
+    },
+    {
+      "keyword": "top smart home gadgets forum",
+      "volume_estimate": 520072,
+      "competition_score": 53.1,
+      "rpm_estimate": 5.27,
+      "content_feasibility": 80,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 53.1,
+        "result_count": 10,
+        "big_sites": 2,
+        "avg_content_depth": 152.7,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 40.4,
+      "grade": "C"
+    },
+    {
+      "keyword": "why smart home gadgets for beginners",
+      "volume_estimate": 1666210,
+      "competition_score": 53.2,
+      "rpm_estimate": 4.24,
+      "content_feasibility": 100,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 53.2,
+        "result_count": 10,
+        "big_sites": 2,
+        "avg_content_depth": 160.3,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 51.26,
+      "grade": "C"
+    },
+    {
+      "keyword": "why smart home gadgets forum",
+      "volume_estimate": 1215234,
+      "competition_score": 68.1,
+      "rpm_estimate": 2.08,
+      "content_feasibility": 100,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 68.1,
+        "result_count": 10,
+        "big_sites": 3,
+        "avg_content_depth": 157.2,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 44.01,
+      "grade": "C"
+    },
+    {
+      "keyword": "must have smart home gadgets for a truly smarter home gadget flow best of all",
+      "volume_estimate": 1023858,
+      "competition_score": 53.0,
+      "rpm_estimate": 17.14,
+      "content_feasibility": 80,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 53.0,
+        "result_count": 10,
+        "big_sites": 2,
+        "avg_content_depth": 149.9,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 47.27,
+      "grade": "C"
+    },
+    {
+      "keyword": "why smart home gadgets",
+      "volume_estimate": 1486892,
+      "competition_score": 38.2,
+      "rpm_estimate": 2.43,
+      "content_feasibility": 100,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 38.2,
+        "result_count": 10,
+        "big_sites": 1,
+        "avg_content_depth": 157.8,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 56.18,
+      "grade": "C"
+    },
+    {
+      "keyword": "best smart home gadgets amazon",
+      "volume_estimate": 268165,
+      "competition_score": 68.3,
+      "rpm_estimate": 11.03,
+      "content_feasibility": 80,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 68.3,
+        "result_count": 10,
+        "big_sites": 3,
+        "avg_content_depth": 162.8,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 37.15,
+      "grade": "D"
+    },
+    {
+      "keyword": "top smart home gadgets amazon",
+      "volume_estimate": 3091509,
+      "competition_score": 83.1,
+      "rpm_estimate": 3.4,
+      "content_feasibility": 80,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 83.1,
+        "result_count": 10,
+        "big_sites": 4,
+        "avg_content_depth": 153.5,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 31.04,
+      "grade": "D"
+    },
+    {
+      "keyword": "top smart home gadgets youtube",
+      "volume_estimate": 960072,
+      "competition_score": 95,
+      "rpm_estimate": 3.01,
+      "content_feasibility": 80,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 95,
+        "result_count": 10,
+        "big_sites": 8,
+        "avg_content_depth": 153.6,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 26.97,
+      "grade": "D"
+    },
+    {
+      "keyword": "how to smart home gadgets forum",
+      "volume_estimate": 1667602,
+      "competition_score": 52.9,
+      "rpm_estimate": 3.52,
+      "content_feasibility": 100,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 52.9,
+        "result_count": 10,
+        "big_sites": 2,
+        "avg_content_depth": 143.9,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 50.95,
+      "grade": "C"
+    },
+    {
+      "keyword": "why smart home gadgets amazon",
+      "volume_estimate": 1104097,
+      "competition_score": 95,
+      "rpm_estimate": 3.51,
+      "content_feasibility": 100,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 95,
+        "result_count": 10,
+        "big_sites": 5,
+        "avg_content_depth": 157.4,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 34.11,
+      "grade": "D"
+    },
+    {
+      "keyword": "cool smart home gadgets for 2026 bring your home to the 21st century with this collection of smart home gadgets and products including products for alexa google home",
+      "volume_estimate": 1064489,
+      "competition_score": 68.2,
+      "rpm_estimate": 4.44,
+      "content_feasibility": 80,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 68.2,
+        "result_count": 10,
+        "big_sites": 3,
+        "avg_content_depth": 158.8,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 36.31,
+      "grade": "D"
+    },
+    {
+      "keyword": "essential smart home gadgets that actually make your life easier jan 18 essential smart home gadgets that actually make your life easier smart plugs",
+      "volume_estimate": 559374,
+      "competition_score": 53.2,
+      "rpm_estimate": 4.58,
+      "content_feasibility": 80,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 53.2,
+        "result_count": 10,
+        "big_sites": 2,
+        "avg_content_depth": 157.8,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 40.17,
+      "grade": "C"
+    },
+    {
+      "keyword": "why smart home gadgets reddit",
+      "volume_estimate": 1181719,
+      "competition_score": 95,
+      "rpm_estimate": 2.76,
+      "content_feasibility": 100,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 95,
+        "result_count": 10,
+        "big_sites": 10,
+        "avg_content_depth": 157.4,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 33.66,
+      "grade": "D"
+    },
+    {
+      "keyword": "add some color to your home theater with the philips hue play gradient lightstrip this cool item on our list of must have smart home gadgets creates a lovely surround lighting experience behind your tv screen",
+      "volume_estimate": 671471,
+      "competition_score": 68.1,
+      "rpm_estimate": 3.96,
+      "content_feasibility": 80,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 68.1,
+        "result_count": 10,
+        "big_sites": 3,
+        "avg_content_depth": 154.9,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 35.42,
+      "grade": "D"
+    },
+    {
+      "keyword": "smart home gadgets reddit",
+      "volume_estimate": 2861744,
+      "competition_score": 95,
+      "rpm_estimate": 2.99,
+      "content_feasibility": 80,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 95,
+        "result_count": 10,
+        "big_sites": 10,
+        "avg_content_depth": 159.5,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 27.04,
+      "grade": "D"
+    },
+    {
+      "keyword": "best smart home gadgets 2025",
+      "volume_estimate": 4286467,
+      "competition_score": 83.2,
+      "rpm_estimate": 11.27,
+      "content_feasibility": 80,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 83.2,
+        "result_count": 10,
+        "big_sites": 4,
+        "avg_content_depth": 162.1,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 34.79,
+      "grade": "D"
+    },
+    {
+      "keyword": "tested smart home gadgets will completely transform the way your home looks and works the best cheap smart home devices and gadget deals right now",
+      "volume_estimate": 2733495,
+      "competition_score": 68.3,
+      "rpm_estimate": 29.97,
+      "content_feasibility": 80,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 68.3,
+        "result_count": 10,
+        "big_sites": 3,
+        "avg_content_depth": 163.0,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 48.53,
+      "grade": "C"
+    },
+    {
+      "keyword": "have smart home gadgets creates a lovely surround lighting experience behind your tv screen",
+      "volume_estimate": 1470075,
+      "competition_score": 95,
+      "rpm_estimate": 5.46,
+      "content_feasibility": 80,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 95,
+        "result_count": 10,
+        "big_sites": 5,
+        "avg_content_depth": 156.9,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 28.22,
+      "grade": "D"
+    }
+  ],
+  "top_opportunities": [],
+  "scored_clusters": [
+    {
+      "cluster": "smart home",
+      "keyword_count": 60,
+      "total_volume_estimate": 148743623,
+      "avg_competition": 68.7,
+      "avg_rpm": 7.56,
+      "avg_feasibility": 85.7,
+      "commercial_ratio": 0.27,
+      "cluster_score": 16.35,
+      "top_keywords": [
+        "best smart home gadgets",
+        "top smart home gadgets",
+        "smart home gadgets 2025",
+        "smart home gadgets youtube",
+        "smart home gadgets 2024"
+      ],
+      "content_strategy": "High-volume highway. Broad informational content, featured snippets optimization, PAA targeting."
+    }
+  ],
+  "summary": {
+    "avg_opportunity_score": 39.75,
+    "grade_a_count": 0,
+    "grade_b_count": 0,
+    "grade_c_count": 28
+  }
+}

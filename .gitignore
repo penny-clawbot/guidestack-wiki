@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Build output (regenerated from templates + content)
+output/*/dist/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Logs
+logs/
+
+# Environment
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Temp
+*.tmp
+*.bak

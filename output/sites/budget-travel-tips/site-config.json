@@ -1,0 +1,10 @@
+{
+  "name": "Budget Travel Guide",
+  "niche": "budget travel",
+  "domain": "budget-travel.com",
+  "description": "Your comprehensive guide to budget travel. Expert tips, reviews, and strategies.",
+  "keywords": ["budget-travel", "budget travel"],
+  "colors": {"primary": "#2563eb", "secondary": "#7c3aed", "accent": "#f59e0b"},
+  "author": "PennyPress",
+  "language": "en"
+}

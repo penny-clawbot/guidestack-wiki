@@ -1,0 +1,11 @@
+{
+  "project_name": "PennyPress",
+  "version": "0.1.0",
+  "ollama_url": "http://localhost:11434",
+  "searxng_url": "http://localhost:8888",
+  "output_dir": "output/sites",
+  "data_dir": "data",
+  "github_org": "pennypress-sites",
+  "cloudflare_account": "",
+  "sites": []
+}

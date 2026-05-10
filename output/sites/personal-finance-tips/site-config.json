@@ -1,0 +1,10 @@
+{
+  "name": "Personal Finance Guide",
+  "niche": "personal finance",
+  "domain": "personal-finance.com",
+  "description": "Your comprehensive guide to personal finance. Expert tips, reviews, and strategies.",
+  "keywords": ["personal-finance", "personal finance"],
+  "colors": {"primary": "#2563eb", "secondary": "#7c3aed", "accent": "#f59e0b"},
+  "author": "PennyPress",
+  "language": "en"
+}

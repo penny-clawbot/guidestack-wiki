@@ -1,0 +1,39 @@
+{
+  "niche": "budget travel tips",
+  "clusters": [
+    {
+      "cluster": "general",
+      "keyword_count": 57,
+      "total_volume_estimate": 98879,
+      "avg_competition": 51.8,
+      "avg_rpm": 9.16,
+      "avg_feasibility": 77.6,
+      "commercial_ratio": 0.28,
+      "cluster_score": 0.02,
+      "top_keywords": [
+        "best budget travel tips youtube",
+        "budget travel tips reddit",
+        "best budget travel tips forum",
+        "top budget travel tips amazon",
+        "top budget travel tips youtube"
+      ],
+      "content_strategy": "Niche micro-content. Long-tail targeting, question-based articles, internal linking strategy."
+    },
+    {
+      "cluster": "light",
+      "keyword_count": 3,
+      "total_volume_estimate": 2158,
+      "avg_competition": 56.0,
+      "avg_rpm": 4.91,
+      "avg_feasibility": 70.0,
+      "commercial_ratio": 0.0,
+      "cluster_score": 0.0,
+      "top_keywords": [
+        "budget travel tips from a frugal financial pro short girl travels from packing hacks to flight advice we",
+        "budget travel tips save money on flights hotels",
+        "short girl travels from packing hacks to flight advice we ve compiled a mix of common and out of the box budget travel tips"
+      ],
+      "content_strategy": "Niche micro-content. Long-tail targeting, question-based articles, internal linking strategy."
+    }
+  ]
+}

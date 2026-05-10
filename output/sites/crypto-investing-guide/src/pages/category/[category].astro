@@ -1,0 +1,81 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import fs from 'node:fs';
+import path from 'node:path';
+
+export function getStaticPaths() {
+  const cd = 'src/content/articles';
+  const categories = new Set<string>();
+  if (fs.existsSync(cd)) {
+    for (const file of fs.readdirSync(cd).filter((f: string) => f.endsWith('.md'))) {
+      const c = fs.readFileSync(path.join(cd, file), 'utf-8');
+      const m = c.match(/category:\s*["'](.+?)["']/);
+      if (m) categories.add(m[1]);
+    }
+  }
+  return Array.from(categories).map(cat => ({ params: { category: cat }, props: { category: cat } }));
+}
+
+const cd = 'src/content/articles';
+const { category } = Astro.props;
+const articles: Array<{title: string; description: string; slug: string; date: string; readingTime: string}> = [];
+if (fs.existsSync(cd)) {
+  for (const file of fs.readdirSync(cd).filter((f: string) => f.endsWith('.md'))) {
+    const c = fs.readFileSync(path.join(cd, file), 'utf-8');
+    const cm = c.match(/category:\s*["'](.+?)["']/);
+    if (cm && cm[1] === category) {
+      const tm = c.match(/title:\s*["'](.+?)["']/);
+      const dm = c.match(/description:\s*["'](.+?)["']/);
+      const dtm = c.match(/date:\s*["'](.+?)["']/);
+      const rm = c.match(/readingTime:\s*["'](.+?)["']/);
+      articles.push({
+        title: tm?.[1] || '', description: dm?.[1] || '',
+        slug: file.replace(/\.md$/, '').replace(/^\d{4}-\d{2}-\d{2}-(ai-)?/, ''),
+        date: dtm?.[1] || '', readingTime: rm?.[1] || ''
+      });
+    }
+  }
+}
+articles.sort((a, b) => b.date.localeCompare(a.date));
+const siteConfig = JSON.parse(fs.readFileSync('site-config.json', 'utf-8'));
+const catLabel = category.replace(/-/g, ' ').replace(/\b\w/g, (l: string) => l.toUpperCase());
+const breadcrumbs = [{ name: 'Home', url: '/' }, { name: catLabel, url: `/category/${category}` }];
+---
+
+<BaseLayout title={`${catLabel} - ${siteConfig.name}`} description={`Browse all ${catLabel.toLowerCase()} articles. Expert guides, tips, and resources.`} ogType="website" breadcrumbs={breadcrumbs} siteName={siteConfig.name}>
+  <!-- Category header -->
+  <header class="mb-10">
+    <nav aria-label="Breadcrumb" class="mb-4">
+      <ol class="flex items-center gap-1.5 text-sm text-[var(--color-text-muted)]">
+        <li><a href="/" class="hover:text-[var(--color-primary)] transition-colors">Home</a></li>
+        <li><span class="mx-1">›</span></li>
+        <li class="text-[var(--color-text)] font-medium">{catLabel}</li>
+      </ol>
+    </nav>
+    <h1 class="text-3xl sm:text-4xl font-extrabold text-[var(--color-text-heading)] mb-3">{catLabel}</h1>
+    <p class="text-lg text-[var(--color-text-muted)]">{articles.length} article{articles.length !== 1 ? 's' : ''} in this category</p>
+  </header>
+
+  {articles.length > 0 ? (
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      {articles.map(a => (
+        <a href={`/${a.slug}`} class="card group">
+          <div class="p-5">
+            <span class="badge-primary text-xs mb-3">{catLabel}</span>
+            <h2 class="font-bold text-[var(--color-text-heading)] mb-2 group-hover:text-[var(--color-primary)] transition-colors line-clamp-2">{a.title}</h2>
+            <p class="text-sm text-[var(--color-text-muted)] line-clamp-3 mb-3">{a.description}</p>
+            <div class="flex items-center gap-3 text-xs text-[var(--color-text-muted)]">
+              <span>{new Date(a.date + 'T00:00:00').toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}</span>
+              {a.readingTime && <span>· {a.readingTime} read</span>}
+            </div>
+          </div>
+        </a>
+      ))}
+    </div>
+  ) : (
+    <div class="text-center py-20">
+      <span class="text-5xl mb-4 block">📭</span>
+      <p class="text-[var(--color-text-muted)]">No articles in this category yet. Check back soon!</p>
+    </div>
+  )}
+</BaseLayout>

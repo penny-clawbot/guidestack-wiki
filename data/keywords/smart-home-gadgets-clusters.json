@@ -1,0 +1,23 @@
+{
+  "niche": "smart home gadgets",
+  "clusters": [
+    {
+      "cluster": "smart home",
+      "keyword_count": 60,
+      "total_volume_estimate": 148743623,
+      "avg_competition": 68.7,
+      "avg_rpm": 7.56,
+      "avg_feasibility": 85.7,
+      "commercial_ratio": 0.27,
+      "cluster_score": 16.35,
+      "top_keywords": [
+        "best smart home gadgets",
+        "top smart home gadgets",
+        "smart home gadgets 2025",
+        "smart home gadgets youtube",
+        "smart home gadgets 2024"
+      ],
+      "content_strategy": "High-volume highway. Broad informational content, featured snippets optimization, PAA targeting."
+    }
+  ]
+}

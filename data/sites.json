@@ -1,0 +1,54 @@
+{
+  "sites": [
+    {
+      "name": "budget-travel-tips",
+      "niche": "budget travel",
+      "status": "active",
+      "created": "2026-05-10T15:23:59-04:00",
+      "last_build": "2026-05-10T15:43:26-04:00",
+      "last_deploy": null,
+      "article_count": 36
+    },
+    {
+      "name": "crypto-investing-guide",
+      "niche": "crypto investing",
+      "status": "active",
+      "created": "2026-05-10T15:53:14-04:00",
+      "last_build": "2026-05-10T16:16:38-04:00",
+      "last_deploy": null,
+      "article_count": 15
+    },
+    {
+      "name": "ai-tools-hub",
+      "niche": "AI tools and productivity",
+      "status": "active",
+      "created": "2026-05-10T15:53:15-04:00",
+      "last_build": "2026-05-10T16:37:31-04:00",
+      "last_deploy": null,
+      "article_count": 15
+    },
+    {
+      "name": "personal-finance-tips",
+      "niche": "personal finance",
+      "status": "active",
+      "created": "2026-05-10T15:53:15-04:00",
+      "last_build": "2026-05-10T16:58:37-04:00",
+      "last_deploy": null,
+      "article_count": 15
+    }
+  ],
+  "settings": {
+    "articles_per_batch": 5,
+    "min_articles_before_deploy": 15,
+    "max_articles_per_site": 100,
+    "content_types": [
+      "pillar",
+      "standard",
+      "faq",
+      "howto",
+      "listicle",
+      "comparison"
+    ],
+    "build_on_new_content": true
+  }
+}

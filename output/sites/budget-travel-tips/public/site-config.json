@@ -1,0 +1,20 @@
+{
+  "name": "BudgetTravel Tips",
+  "niche": "budget travel tips",
+  "domain": "budgettraveltips.example.com",
+  "description": "Your ultimate guide to traveling the world on a budget. Tips, tricks, and strategies to save money while exploring.",
+  "keywords": [
+    "budget travel",
+    "cheap flights",
+    "affordable destinations",
+    "travel hacks",
+    "backpacking"
+  ],
+  "colors": {
+    "primary": "#2563eb",
+    "secondary": "#7c3aed",
+    "accent": "#f59e0b"
+  },
+  "author": "PennyPress",
+  "language": "en"
+}

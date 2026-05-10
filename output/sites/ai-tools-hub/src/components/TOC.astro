@@ -1,0 +1,22 @@
+---
+export interface Props {
+  headlines?: Array<{id: string; text: string; level: number}>;
+}
+
+const { headlines = [] } = Astro.props;
+---
+
+{headlines.length > 0 && (
+  <nav aria-label="Table of contents" class="bg-[var(--color-bg)] border border-[var(--color-border)] rounded-xl p-5 sticky top-24">
+    <h3 class="text-lg font-semibold mb-4">Table of Contents</h3>
+    <ul class="space-y-2 text-sm">
+      {headlines.map(h => (
+        <li style={`padding-left: ${(h.level - 2) * 12}px`}>
+          <a href={`#${h.id}`} class="hover:text-primary transition-colors line-clamp-2">
+            {h.text}
+          </a>
+        </li>
+      ))}
+    </ul>
+  </nav>
+)}
