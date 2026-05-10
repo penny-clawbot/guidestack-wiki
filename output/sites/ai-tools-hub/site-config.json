@@ -1,9 +1,9 @@
 {
-  "name": "AI Tools Guide",
-  "niche": "AI tools",
-  "domain": "ai-tools.com",
-  "description": "Your comprehensive guide to AI tools. Expert tips, reviews, and strategies.",
-  "keywords": ["ai-tools", "AI tools"],
+  "name": "AI Tools And Productivity Guide",
+  "niche": "AI tools and productivity",
+  "domain": "ai-tools-and-productivity.com",
+  "description": "Your comprehensive guide to AI tools and productivity. Expert tips, reviews, and strategies.",
+  "keywords": ["ai-tools-and-productivity", "AI tools and productivity"],
   "colors": {"primary": "#2563eb", "secondary": "#7c3aed", "accent": "#f59e0b"},
   "author": "PennyPress",
   "language": "en"

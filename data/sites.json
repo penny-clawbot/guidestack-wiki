@@ -7,7 +7,7 @@
       "created": "2026-05-10T15:23:59-04:00",
       "last_build": "2026-05-10T15:43:26-04:00",
       "last_deploy": null,
-      "article_count": 36
+      "article_count": 39
     },
     {
       "name": "crypto-investing-guide",
@@ -16,7 +16,7 @@
       "created": "2026-05-10T15:53:14-04:00",
       "last_build": "2026-05-10T16:16:38-04:00",
       "last_deploy": null,
-      "article_count": 15
+      "article_count": 18
     },
     {
       "name": "ai-tools-hub",
@@ -25,7 +25,7 @@
       "created": "2026-05-10T15:53:15-04:00",
       "last_build": "2026-05-10T16:37:31-04:00",
       "last_deploy": null,
-      "article_count": 15
+      "article_count": 18
     },
     {
       "name": "personal-finance-tips",
@@ -34,7 +34,7 @@
       "created": "2026-05-10T15:53:15-04:00",
       "last_build": "2026-05-10T16:58:37-04:00",
       "last_deploy": null,
-      "article_count": 15
+      "article_count": 18
     }
   ],
   "settings": {

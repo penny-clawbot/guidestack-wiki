@@ -68,12 +68,16 @@ echo "   ✅ $COUNT articles copied"
 
 # Step 4: Copy latest template pages
 echo "[4/5] Updating template pages..."
+mkdir -p "$SITE_DIR/src/pages/category"
+mkdir -p "$SITE_DIR/src/layouts"
+mkdir -p "$SITE_DIR/src/styles"
 cp "$TEMPLATE_DIR/src/pages/index.astro" "$SITE_DIR/src/pages/index.astro"
 cp "$TEMPLATE_DIR/src/pages/[slug].astro" "$SITE_DIR/src/pages/[slug].astro"
-mkdir -p "$SITE_DIR/src/pages/category"
 cp "$TEMPLATE_DIR/src/pages/category/[category].astro" "$SITE_DIR/src/pages/category/[category].astro"
 cp "$TEMPLATE_DIR/src/layouts/BaseLayout.astro" "$SITE_DIR/src/layouts/BaseLayout.astro"
+cp "$TEMPLATE_DIR/src/styles/global.css" "$SITE_DIR/src/styles/global.css"
 cp "$TEMPLATE_DIR/tailwind.config.mjs" "$SITE_DIR/tailwind.config.mjs"
+cp "$TEMPLATE_DIR/astro.config.mjs" "$SITE_DIR/astro.config.mjs"
 echo "   ✅ Templates updated"
 
 # Step 5: Build
