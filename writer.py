@@ -34,14 +34,14 @@ def _strip_thinking(text: str) -> str:
     Finds the first markdown header that looks like actual content."""
     lines = text.split('\n')
     content_start = 0
-    
+
     # Skip lines that look like thinking/reasoning
     thinking_patterns = [
         'the user asks', 'the user wants', 'we need to', 'i need to',
         'plan:', 'draft:', 'let me', 'i will', 'i should', 'first, i',
         'okay, i', 'here is', 'thinking process'
     ]
-    
+
     for i, line in enumerate(lines):
         stripped = line.strip().lower()
         # Skip empty lines and thinking patterns
@@ -58,11 +58,11 @@ def _strip_thinking(text: str) -> str:
         if len(stripped) > 50 and not any(stripped.startswith(p) for p in thinking_patterns):
             content_start = i
             break
-    
+
     return '\n'.join(lines[content_start:]).strip()
 
 
-def generate_with_minimax(prompt: str, max_tokens: int = 4096, timeout: int = 300) -> Optional[str]:
+def generate_with_minimax(prompt: str, max_tokens: int = 4096, timeout: int = 300, retries: int = 2) -> Optional[str]:
     """Generate content using MiniMax M2.7 via Anthropic Messages API."""
     if not API_KEY:
         print("  ⚠️ MINIMAX_API_KEY not found", file=sys.stderr)
@@ -89,36 +89,41 @@ def generate_with_minimax(prompt: str, max_tokens: int = 4096, timeout: int = 30
         }
     )
 
-    try:
-        with urllib.request.urlopen(req, timeout=timeout) as resp:
-            data = json.loads(resp.read())
-            # Anthropic format with thinking: content may have thinking + text blocks
-            # Find the actual text block (skip thinking blocks)
-            text_content = ""
-            for block in data.get("content", []):
-                if block.get("type") == "text" and block.get("text", "").strip():
-                    text_content = block["text"].strip()
-                    break
-            
-            if text_content:
-                # Strip any remaining chain-of-thought preamble
-                text_content = _strip_thinking(text_content)
-                if len(text_content.split()) > 50:
-                    return text_content
-            
-            return None
-    except Exception as e:
-        print(f"  ⚠️ MiniMax API error: {e}", file=sys.stderr)
-        return None
+    for attempt in range(1, retries + 1):
+        try:
+            with urllib.request.urlopen(req, timeout=timeout) as resp:
+                data = json.loads(resp.read())
+                # Anthropic format with thinking: content may have thinking + text blocks
+                # Find the actual text block (skip thinking blocks)
+                text_content = ""
+                for block in data.get("content", []):
+                    if block.get("type") == "text" and block.get("text", "").strip():
+                        text_content = block["text"].strip()
+                        break
+
+                if text_content:
+                    # Strip any remaining chain-of-thought preamble
+                    text_content = _strip_thinking(text_content)
+                    if len(text_content.split()) > 50:
+                        return text_content
+
+                return None
+        except Exception as e:
+            print(f"  ⚠️ MiniMax API error (attempt {attempt}/{retries}): {e}", file=sys.stderr)
+            if attempt < retries:
+                import time
+                time.sleep(3 * attempt)  # Backoff: 3s, 6s
+            else:
+                return None
 
 
-def generate_article(topic: str, article_type: str, target_words: int = 1500, niche: str = "general") -> str:
+def generate_article(topic: str, article_type: str, target_words: int = 800, niche: str = "general") -> str:
     """Generate an article using MiniMax M2.7, with template fallback."""
 
     prompt = _build_prompt(topic, article_type, target_words, niche)
-    print(f"  🤖 Generating with MiniMax M2.7...", file=sys.stderr)
+    print(f"  🤖 Generating with MiniMax M2.7 ({target_words} words)...", file=sys.stderr)
 
-    result = generate_with_minimax(prompt, max_tokens=min(16384, target_words * 2))
+    result = generate_with_minimax(prompt, max_tokens=min(4096, target_words * 3))
 
     if result and len(result.split()) > 200:
         print(f"  ✅ MiniMax generated {len(result.split())} words", file=sys.stderr)
@@ -132,59 +137,41 @@ def generate_article(topic: str, article_type: str, target_words: int = 1500, ni
 def _build_prompt(topic: str, article_type: str, target_words: int, niche: str) -> str:
     """Build the LLM prompt."""
     type_instructions = {
-        "pillar": f"""Write a COMPREHENSIVE pillar article about "{topic}".
-- Target: {target_words}+ words
-- Structure: H1 title → compelling hook intro → 5-8 H2 sections with H3 subsections → FAQ section (5+ Q&As) → conclusion with CTA
-- Include: real statistics (make them realistic), expert insights, actionable tips
-- Add [LINK: related-topic] placeholders for internal linking (3-5)
-- Use markdown formatting (headers, bold, lists, tables where appropriate)
-- Tone: authoritative but accessible, like an experienced guide""",
+        "pillar": f"""Write a comprehensive guide about "{topic}".
+- {target_words}+ words, H1 title, 5-6 H2 sections, FAQ with 3 Q&As, conclusion
+- Include specific examples and actionable tips
+- Markdown: ## headers, **bold**, - lists
+- Output ONLY the article starting with # Title""",
 
-        "standard": f"""Write a detailed article about "{topic}".
-- Target: {target_words}+ words
-- Structure: H1 → hook intro → 3-5 H2 sections with substance → conclusion
-- Add 2-3 [LINK: related-topic] internal link placeholders
-- Use markdown formatting
-- Tone: informative, engaging, practical""",
+        "standard": f"""Write an article about "{topic}".
+- {target_words}+ words, H1 title, 3-4 H2 sections, conclusion
+- Markdown: ## headers, **bold**, - lists
+- Output ONLY the article starting with # Title""",
 
         "faq": f"""Write an FAQ article: "{topic}".
-- Target: {target_words}+ words
-- Structure: H1 → brief intro → 8-12 questions with detailed answers (100-200 words each) → conclusion
-- Each answer should be genuinely helpful and thorough
-- Add [LINK: topic] placeholders where relevant""",
+- {target_words}+ words, 6-8 questions with detailed answers
+- Markdown: ## for each question
+- Output ONLY the article starting with # Title""",
 
-        "howto": f"""Write a step-by-step how-to guide: "{topic}".
-- Target: {target_words}+ words
-- Structure: H1 → intro → prerequisites → numbered steps (8-15) with H2 headings → tips section → FAQ (3 questions) → conclusion
-- Be specific and actionable in each step
-- Add [LINK: related-topic] placeholders""",
+        "howto": f"""Write a step-by-step guide: "{topic}".
+- {target_words}+ words, numbered steps with H2 headings, tips section
+- Be specific and actionable
+- Output ONLY the article starting with # Title""",
 
-        "listicle": f"""Write a listicle article: "{topic}".
-- Target: {target_words}+ words
-- Structure: H1 → intro → 10+ items with H2 headings (100-200 words each with pros/cons) → comparison/takeaway section → conclusion
-- Make each item distinct and valuable
-- Add [LINK: topic] placeholders""",
+        "listicle": f"""Write a listicle: "{topic}".
+- {target_words}+ words, 8-10 items with H2 headings, brief pros/cons each
+- Output ONLY the article starting with # Title""",
 
-        "comparison": f"""Write a detailed comparison article: "{topic}".
-- Target: {target_words}+ words
-- Structure: H1 → intro → overview of each option → feature-by-feature comparison (markdown table) → who should choose what → winner/verdict → conclusion
-- Be objective and data-driven
-- Add [LINK: topic] placeholders""",
+        "comparison": f"""Write a comparison: "{topic}".
+- {target_words}+ words, feature comparison table, who should choose what, verdict
+- Output ONLY the article starting with # Title""",
     }
 
     instructions = type_instructions.get(article_type, type_instructions["standard"])
 
-    return f"""You are an expert SEO content writer specializing in {niche}. {instructions}
+    return f"""You are an expert {niche} writer. {instructions}
 
-IMPORTANT RULES:
-- Output ONLY the article content in markdown format (no frontmatter, no YAML)
-- Start with the H1 title line (# Title)
-- Use proper markdown: ## headers, **bold**, - bullet lists, | tables |
-- Write naturally for humans, not for search engines
-- Include specific examples, data points, and actionable advice
-- Never use filler content or repetitive statements
-
-Write the complete article now:"""
+Rules: Output ONLY markdown article. Start with # Title. Use ## headers, **bold**, - lists. Be specific, no filler. Write now:"""
 
 
 def generate_template_article(topic: str, article_type: str, target_words: int, niche: str) -> str:
@@ -212,10 +199,10 @@ Understanding **{topic}** is essential for making informed decisions. Whether yo
 
 Before diving into specific strategies, let's establish the core principles:
 
-- **Foundation matters** — A strong understanding of basics prevents costly mistakes
-- **Consistency beats intensity** — Regular, focused effort outperforms sporadic bursts
-- **Measure and iterate** — Track your progress and adjust based on results
-- **Learn from others** — The community has valuable experience to share
+- **Foundation matters** - A strong understanding of basics prevents costly mistakes
+- **Consistency beats intensity** - Regular, focused effort outperforms sporadic bursts
+- **Measure and iterate** - Track your progress and adjust based on results
+- **Learn from others** - The community has valuable experience to share
 
 [LINK: {topic.lower().replace(' ', '-')}-guide]
 
@@ -225,10 +212,10 @@ Before diving into specific strategies, let's establish the core principles:
 
 The most important step is the first one. Here's how to begin effectively:
 
-1. **Research thoroughly** — Understand the landscape before committing resources
-2. **Set clear goals** — Define what success looks like for your specific situation
-3. **Start small** — Test your approach on a small scale before expanding
-4. **Document everything** — Future you will thank present you for keeping records
+1. **Research thoroughly** - Understand the landscape before committing resources
+2. **Set clear goals** - Define what success looks like for your specific situation
+3. **Start small** - Test your approach on a small scale before expanding
+4. **Document everything** - Future you will thank present you for keeping records
 
 ### Intermediate Approaches
 
@@ -276,11 +263,11 @@ The most common misconception is that you need expensive tools or extensive prio
 
 ### Is this worth investing time in?
 
-For most people, yes. The potential benefits — including time savings, improved outcomes, and new capabilities — typically justify the initial learning investment.
+For most people, yes. The potential benefits - including time savings, improved outcomes, and new capabilities - typically justify the initial learning investment.
 
 ## Conclusion
 
-{topic} offers genuine value when approached with the right mindset and strategies. By following the guidance in this article — researching thoroughly, starting small, measuring results, and iterating based on data — you'll be well-positioned for success.
+{topic} offers genuine value when approached with the right mindset and strategies. By following the guidance in this article - researching thoroughly, starting small, measuring results, and iterating based on data - you'll be well-positioned for success.
 
 The key is to start today and stay consistent. Progress compounds over time, and every expert was once a beginner.
 
@@ -292,22 +279,22 @@ The key is to start today and stay consistent. Progress compounds over time, and
 
 
 # Convenience functions
-def generate_pillar_article(topic, target_word_count=3500, niche="general"):
+def generate_pillar_article(topic, target_word_count=2000, niche="general"):
     return generate_article(topic, "pillar", target_word_count, niche)
 
-def generate_standard_article(topic, target_word_count=1800, niche="general"):
+def generate_standard_article(topic, target_word_count=800, niche="general"):
     return generate_article(topic, "standard", target_word_count, niche)
 
-def generate_faq_article(topic, target_word_count=1200, niche="general"):
+def generate_faq_article(topic, target_word_count=800, niche="general"):
     return generate_article(topic, "faq", target_word_count, niche)
 
-def generate_howto_article(topic, target_word_count=1500, niche="general"):
+def generate_howto_article(topic, target_word_count=800, niche="general"):
     return generate_article(topic, "howto", target_word_count, niche)
 
-def generate_listicle_article(topic, target_word_count=2000, niche="general"):
+def generate_listicle_article(topic, target_word_count=1000, niche="general"):
     return generate_article(topic, "listicle", target_word_count, niche)
 
-def generate_comparison_article(topic, target_word_count=2000, niche="general"):
+def generate_comparison_article(topic, target_word_count=1000, niche="general"):
     return generate_article(topic, "comparison", target_word_count, niche)
 
 

@@ -1,0 +1,44 @@
+{
+  "ci": {
+    "collect": {
+      "staticDistDir": "./dist",
+      "numberOfRuns": 1,
+      "settings": {
+        "preset": "desktop",
+        "skipAudits": ["uses-http2", "uses-text-compression"]
+      }
+    },
+    "assert": {
+      "assertions": {
+        "categories:performance": ["warn", { "minScore": 0.7 }],
+        "categories:accessibility": ["warn", { "minScore": 0.8 }],
+        "categories:best-practices": ["warn", { "minScore": 0.8 }],
+        "categories:seo": ["error", { "minScore": 0.9 }],
+        "first-contentful-paint": ["warn", { "maxNumericValue": 2000 }],
+        "largest-contentful-paint": ["warn", { "maxNumericValue": 2500 }],
+        "cumulative-layout-shift": ["error", { "maxNumericValue": 0.1 }],
+        "interactive": ["warn", { "maxNumericValue": 3500 }],
+        "total-blocking-time": ["warn", { "maxNumericValue": 300 }],
+        "render-blocking-resources": ["warn", { "maxLength": 2 }],
+        "uses-rel-preconnect": ["warn", { "maxLength": 0 }],
+        "dom-size": ["warn", { "maxNumericValue": 1500 }],
+        "viewport": ["error", { "maxLength": 0 }],
+        "document-title": ["error", { "maxLength": 0 }],
+        "meta-description": ["error", { "maxLength": 0 }],
+        "hreflang": ["off"],
+        "canonical": ["warn", { "maxLength": 0 }],
+        "is-crawlable": ["error", { "maxLength": 0 }],
+        "robots-txt": ["warn", { "maxLength": 0 }],
+        "tap-targets": ["warn", { "maxLength": 0 }],
+        "structured-data": ["warn"]
+      }
+    },
+    "upload": {
+      "target": "filesystem",
+      "outputDir": "./lhci-reports"
+    },
+    "server": {
+      "port": 0
+    }
+  }
+}

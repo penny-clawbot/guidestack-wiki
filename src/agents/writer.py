@@ -18,15 +18,18 @@ MODEL = "MiniMax-M2.7"
 
 # Try to load key from zshrc if not set
 if not API_KEY:
-    try:
-        with open(os.path.expanduser("~/.zshrc")) as f:
-            for line in f:
-                if "MINIMAX_API_KEY" in line and "export" in line:
-                    key = line.split("=", 1)[1].strip().strip('"').strip("'")
-                    API_KEY = key
+    import pathlib
+    for rc in [pathlib.Path.home() / ".zshrc", pathlib.Path("/Users/penny/.zshrc")]:
+        try:
+            with open(rc) as f:
+                for line in f:
+                    if "MINIMAX_API_KEY" in line and "export" in line:
+                        API_KEY = line.split("=", 1)[1].strip().strip('"').strip("'")
+                        break
+                if API_KEY:
                     break
-    except:
-        pass
+        except:
+            pass
 
 
 def _strip_thinking(text: str) -> str:

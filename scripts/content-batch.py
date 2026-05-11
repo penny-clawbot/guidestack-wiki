@@ -116,24 +116,32 @@ def main():
     output_dir = f'/Users/penny/Documents/Penny/pseo-network/data/content/{site_name}'
     os.makedirs(output_dir, exist_ok=True)
     
+    # Check existing articles to avoid duplicates
+    existing_slugs = set()
+    for f in os.listdir(output_dir) if os.path.isdir(output_dir) else []:
+        if f.endswith('.md'):
+            existing_slugs.add(f)
+
     # Get topic pool
     topics = get_topic_pool(niche, count)
-    
-    print(f"Generating {count} articles for '{site_name}' (niche: {niche})", flush=True)
+
+    print(f"Generating {count} articles for '{site_name}' (niche: {niche}, {len(existing_slugs)} existing)", flush=True)
     print(f"=" * 50, flush=True)
     
     total_words = 0
     total_time = 0
     failures = 0
+    skipped = 0
     
     for i, (topic, article_type) in enumerate(topics):
         slug = re.sub(r'[^a-z0-9]+', '-', topic.lower()).strip('-')
         date = datetime.now().strftime('%Y-%m-%d')
         expected_file = f'{output_dir}/{date}-ai-{slug}.md'
         
-        # Skip if exists
-        if os.path.exists(expected_file):
+        # Skip if exists (by date-slug match or exact file)
+        if os.path.exists(expected_file) or any(expected_file.split('/')[-1] == ef for ef in existing_slugs):
             print(f"[{i+1}/{count}] SKIP (exists): {topic[:50]}", flush=True)
+            skipped += 1
             continue
         
         print(f"[{i+1}/{count}] {article_type}: {topic[:50]}", flush=True)

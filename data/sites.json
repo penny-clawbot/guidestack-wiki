@@ -5,25 +5,25 @@
       "niche": "budget travel",
       "status": "active",
       "created": "2026-05-10T15:23:59-04:00",
-      "last_build": "2026-05-10T15:43:26-04:00",
+      "last_build": "2026-05-11T08:33:01-04:00",
       "last_deploy": null,
-      "article_count": 39
+      "article_count": 41
     },
     {
       "name": "crypto-investing-guide",
       "niche": "crypto investing",
       "status": "active",
       "created": "2026-05-10T15:53:14-04:00",
-      "last_build": "2026-05-10T16:16:38-04:00",
+      "last_build": "2026-05-11T08:33:05-04:00",
       "last_deploy": null,
-      "article_count": 18
+      "article_count": 42
     },
     {
       "name": "ai-tools-hub",
       "niche": "AI tools and productivity",
       "status": "active",
       "created": "2026-05-10T15:53:15-04:00",
-      "last_build": "2026-05-10T16:37:31-04:00",
+      "last_build": "2026-05-11T08:33:08-04:00",
       "last_deploy": null,
       "article_count": 18
     },
@@ -32,9 +32,36 @@
       "niche": "personal finance",
       "status": "active",
       "created": "2026-05-10T15:53:15-04:00",
-      "last_build": "2026-05-10T16:58:37-04:00",
+      "last_build": "2026-05-11T08:33:11-04:00",
       "last_deploy": null,
       "article_count": 18
+    },
+    {
+      "name": "bitcoin-beginners",
+      "niche": "bitcoin beginners",
+      "status": "active",
+      "created": "2026-05-10T17:41:18-04:00",
+      "last_build": "2026-05-11T08:33:14-04:00",
+      "last_deploy": null,
+      "article_count": 18
+    },
+    {
+      "name": "crypto-trading-strategies",
+      "niche": "crypto trading strategies",
+      "status": "active",
+      "created": "2026-05-10T17:41:30-04:00",
+      "last_build": "2026-05-11T08:33:18-04:00",
+      "last_deploy": null,
+      "article_count": 25
+    },
+    {
+      "name": "defi-yield-guide",
+      "niche": "DeFi yield guide",
+      "status": "active",
+      "created": "2026-05-10T17:41:30-04:00",
+      "last_build": "2026-05-11T08:33:22-04:00",
+      "last_deploy": null,
+      "article_count": 15
     }
   ],
   "settings": {
