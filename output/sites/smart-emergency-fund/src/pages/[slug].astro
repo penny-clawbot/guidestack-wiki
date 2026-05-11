@@ -1,0 +1,306 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import fs from 'node:fs';
+import path from 'node:path';
+import { marked } from 'marked';
+
+const cd = 'src/content/articles';
+
+function parseFile(file: string) {
+  const raw = fs.readFileSync(path.join(cd, file), 'utf-8');
+  const fmMatch = raw.match(/^---\n([\s\S]*?)\n---\n([\s\S]*)$/);
+  if (!fmMatch) return null;
+  const fm: Record<string, any> = {};
+  fmMatch[1].split('\n').forEach((line: string) => {
+    const m = line.match(/^(\w+):\s*["']?(.+?)["']?\s*$/);
+    if (m) fm[m[1]] = m[2];
+  });
+  if (typeof fm.tags === 'string') fm.tags = fm.tags.split(',').map((t: string) => t.trim());
+  const htmlContent = marked.parse(fmMatch[2], { gfm: true, breaks: true }) as string;
+  return { title: fm.title || '', description: fm.description || '', date: fm.date || '', category: fm.category || 'general', tags: fm.tags || [], content: htmlContent, readingTime: fm.readingTime || '' };
+}
+
+export function getStaticPaths() {
+  const cd2 = 'src/content/articles';
+  const slugs: string[] = [];
+  if (fs.existsSync(cd2)) {
+    for (const file of fs.readdirSync(cd2).filter((f: string) => f.endsWith('.md'))) {
+      slugs.push(file.replace(/\.md$/, '').replace(/^\d{4}-\d{2}-\d{2}-(ai-)?/, ''));
+    }
+  }
+  return slugs.map(slug => ({ params: { slug } }));
+}
+
+const { slug } = Astro.params;
+let article: any = null;
+let articleFile = '';
+
+if (fs.existsSync(cd)) {
+  for (const file of fs.readdirSync(cd).filter((f: string) => f.endsWith('.md'))) {
+    if (file.replace(/\.md$/, '').replace(/^\d{4}-\d{2}-\d{2}-(ai-)?/, '') === slug) {
+      article = parseFile(file);
+      articleFile = file;
+      break;
+    }
+  }
+}
+if (!article) return Astro.redirect('/');
+
+const siteConfig = JSON.parse(fs.readFileSync('site-config.json', 'utf-8'));
+
+// Get all articles for related posts
+const allArticles: Array<{title: string; slug: string; category: string; description: string}> = [];
+if (fs.existsSync(cd)) {
+  for (const file of fs.readdirSync(cd).filter((f: string) => f.endsWith('.md'))) {
+    const s = file.replace(/\.md$/, '').replace(/^\d{4}-\d{2}-\d{2}-(ai-)?/, '');
+    if (s !== slug) {
+      const a = parseFile(file);
+      if (a) allArticles.push({ title: a.title, slug: s, category: a.category, description: a.description });
+    }
+  }
+}
+
+// Related: same category first, then random
+const sameCategory = allArticles.filter(a => a.category === article.category);
+const otherCategory = allArticles.filter(a => a.category !== article.category);
+const related = [...sameCategory.slice(0, 4), ...otherCategory.slice(0, 4)].slice(0, 5);
+
+const formattedDate = article.date ? new Date(article.date + 'T00:00:00').toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }) : '';
+const catLabel = article.category.replace(/-/g, ' ').replace(/\b\w/g, (l: string) => l.toUpperCase());
+
+const breadcrumbs = [
+  { name: 'Home', url: '/' },
+  { name: catLabel, url: `/category/${article.category}` },
+  { name: article.title, url: `/${slug}` }
+];
+
+// Auto-extract FAQ sections from article content for schema
+const faqRegex = /<h2[^>]*>(.*?)<\/h2>\s*<p>(.*?)<\/p>/g;
+const faqItems: Array<{question: string; answer: string}> = [];
+const contentStr = article.content as string;
+
+// Look for FAQ patterns: "## Frequently Asked Questions" or "## FAQ" followed by Q&A pairs
+const faqSectionRegex = /<(?:h2|h3)[^>]*>(?:.*?(?:FAQ|Frequently Asked Questions|Common Questions|Questions).*?)<\/(?:h2|h3)>([\s\S]*?)(?=<h[23][^>]*>(?!.*?(?:answer|respond|reply))<\/article|$)/i;
+const faqMatch = contentStr.match(faqSectionRegex);
+
+if (faqMatch) {
+  const faqContent = faqMatch[1];
+  // Extract question-answer pairs
+  const qaRegex = /<(?:h3|h4)[^>]*>(.*?)<\/(?:h3|h4)>\s*([\s\S]*?)(?=<(?:h3|h4)[^>]*>|$)/g;
+  let qaMatch;
+  while ((qaMatch = qaRegex.exec(faqContent)) !== null) {
+    const q = qaMatch[1].replace(/<[^>]*>/g, '').trim();
+    const a = qaMatch[2].replace(/<[^>]*>/g, '').trim().substring(0, 500);
+    if (q.length > 5 && a.length > 10) {
+      faqItems.push({ question: q, answer: a });
+    }
+  }
+}
+
+// Build enhanced schema with FAQ if found
+const today = new Date().toISOString().split('T')[0];
+const schemaObj: Record<string, any> = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": article.title,
+  "description": article.description,
+  "datePublished": article.date,
+  "dateModified": today,
+  "author": {
+    "@type": "Organization",
+    "name": siteConfig.author || siteConfig.name,
+    "url": siteConfig.domain ? `https://${siteConfig.domain}` : undefined
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": siteConfig.name,
+    "logo": {
+      "@type": "ImageObject",
+      "url": `https://${siteConfig.domain || 'example.com'}/logo.png`
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": `/${slug}`
+  }
+};
+
+// Add FAQ schema if FAQ items found
+if (faqItems.length > 0) {
+  schemaObj.mainEntity = faqItems.slice(0, 10).map(item => ({
+    "@type": "Question",
+    "name": item.question,
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": item.answer
+    }
+  }));
+}
+
+const schema = schemaObj;
+
+// Auto-link related articles in content body
+const contentHtml = article.content as string;
+let enhancedContent = contentHtml;
+const linkableArticles = allArticles.slice(0, 15);
+for (const ra of linkableArticles) {
+  // Only link if the article title phrase appears in content (avoid over-linking)
+  const titleWords = ra.title.split(' ').filter(w => w.length > 4).slice(0, 3);
+  if (titleWords.length < 2) continue;
+  const phrase = titleWords.join(' ');
+  if (enhancedContent.toLowerCase().includes(phrase.toLowerCase()) && !enhancedContent.includes(`/${ra.slug}"`)) {
+    // Only add if not already linked
+    const regex = new RegExp(`(${phrase.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'i');
+    if ((enhancedContent.match(regex) || []).length <= 1) {
+      enhancedContent = enhancedContent.replace(regex, `<a href="/${ra.slug}">$1</a>`);
+    }
+  }
+}
+
+// Extract headings for TOC
+const headingRegex = /<h([2-3]) id="([^"]*)"[^>]*>(.*?)<\/h\1>/g;
+const tocItems: Array<{level: number; id: string; text: string}> = [];
+let match;
+while ((match = headingRegex.exec(article.content)) !== null) {
+  tocItems.push({
+    level: parseInt(match[1]),
+    id: match[2],
+    text: match[3].replace(/<[^>]*>/g, '')
+  });
+}
+---
+
+<BaseLayout title={`${article.title} - ${siteConfig.name}`} description={article.description} ogType="article" publishedTime={article.date} author={siteConfig.author || siteConfig.name} categories={article.tags} schema={schema} breadcrumbs={breadcrumbs} siteName={siteConfig.name}>
+  <div class="grid grid-cols-1 lg:grid-cols-12 gap-10">
+    <!-- Main article -->
+    <article class="lg:col-span-8 max-w-none">
+      <!-- Breadcrumbs -->
+      <nav aria-label="Breadcrumb" class="mb-6">
+        <ol class="flex items-center flex-wrap gap-1.5 text-sm text-[var(--color-text-muted)]">
+          <li><a href="/" class="hover:text-[var(--color-primary)] transition-colors">Home</a></li>
+          <li><span class="mx-1">›</span></li>
+          <li><a href={`/category/${article.category}`} class="hover:text-[var(--color-primary)] transition-colors">{catLabel}</a></li>
+          <li><span class="mx-1">›</span></li>
+          <li class="text-[var(--color-text)] font-medium truncate max-w-[200px]">{article.title}</li>
+        </ol>
+      </nav>
+
+      <!-- Article header -->
+      <header class="mb-10">
+        <div class="flex flex-wrap gap-2 mb-4">
+          <span class="badge-primary">{catLabel}</span>
+          {article.tags.slice(0, 3).map((tag: string) => (
+            <span class="badge bg-[var(--color-bg-alt)] text-[var(--color-text-muted)]">{tag}</span>
+          ))}
+        </div>
+        <h1 class="text-3xl sm:text-4xl lg:text-[2.75rem] font-extrabold text-[var(--color-text-heading)] leading-tight mb-5">
+          {article.title}
+        </h1>
+        <p class="text-lg text-[var(--color-text-muted)] leading-relaxed mb-5">{article.description}</p>
+        <div class="flex items-center gap-4 text-sm text-[var(--color-text-muted)]">
+          <div class="flex items-center gap-2">
+            <div class="w-8 h-8 rounded-full bg-gradient-to-br from-[var(--color-primary)] to-[var(--color-accent)] flex items-center justify-center text-white text-xs font-bold">PP</div>
+            <span class="font-medium text-[var(--color-text)]">{siteConfig.author || siteConfig.name}</span>
+          </div>
+          <span>·</span>
+          <time datetime={article.date}>{formattedDate}</time>
+          {article.readingTime && <><span>·</span><span>{article.readingTime} read</span></>}
+          <span>·</span>
+          <span class="text-xs opacity-70">Updated {new Date().toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}</span>
+        </div>
+      </header>
+
+      <!-- Ad -->
+      <div class="ad-slot mb-8">
+        <span>Advertisement</span>
+      </div>
+
+      <!-- Article body -->
+      <div class="prose prose-lg max-w-none" set:html={enhancedContent} />
+
+      <!-- Bottom ad -->
+      <div class="ad-slot mt-10">
+        <span>Advertisement</span>
+      </div>
+
+      <!-- Tags -->
+      {article.tags.length > 0 && (
+        <div class="mt-10 pt-8 border-t border-[var(--color-border)]">
+          <h3 class="text-sm font-semibold text-[var(--color-text-heading)] mb-3">Related Topics</h3>
+          <div class="flex flex-wrap gap-2">
+            {article.tags.map((tag: string) => (
+              <span class="badge bg-[var(--color-bg-alt)] text-[var(--color-text-muted)] hover:bg-[var(--color-primary-light)] hover:text-[var(--color-primary)] transition-all cursor-pointer">{tag}</span>
+            ))}
+          </div>
+        </div>
+      )}
+
+      <!-- Related articles -->
+      {related.length > 0 && (
+        <section class="mt-12 pt-8 border-t border-[var(--color-border)]">
+          <h3 class="text-xl font-bold text-[var(--color-text-heading)] mb-6">Continue Reading</h3>
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            {related.slice(0, 4).map(r => (
+              <a href={`/${r.slug}`} class="card group p-4">
+                <span class="badge-primary text-xs mb-2">{r.category.replace(/-/g, ' ')}</span>
+                <h4 class="font-semibold text-sm text-[var(--color-text-heading)] group-hover:text-[var(--color-primary)] transition-colors line-clamp-2">{r.title}</h4>
+              </a>
+            ))}
+          </div>
+        </section>
+      )}
+    </article>
+
+    <!-- Sidebar -->
+    <aside class="lg:col-span-4">
+      <div class="sticky top-24 space-y-6">
+        <!-- Table of Contents -->
+        {tocItems.length > 0 && (
+          <div class="bg-[var(--color-bg-card)] border border-[var(--color-border)] rounded-2xl p-5">
+            <h3 class="font-semibold text-sm text-[var(--color-text-heading)] mb-3 flex items-center gap-2">
+              <svg class="w-4 h-4 text-[var(--color-primary)]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 10h16M4 14h16M4 18h16"/></svg>
+              On This Page
+            </h3>
+            <nav class="space-y-1">
+              {tocItems.map(item => (
+                <a href={`#${item.id}`} class={`toc-link ${item.level === 3 ? 'pl-6' : ''}`}>{item.text}</a>
+              ))}
+            </nav>
+          </div>
+        )}
+
+        <!-- Ad slot -->
+        <div class="ad-slot">
+          <span>Advertisement</span>
+        </div>
+
+        <!-- Popular posts -->
+        <div class="bg-[var(--color-bg-card)] border border-[var(--color-border)] rounded-2xl p-5">
+          <h3 class="font-semibold text-sm text-[var(--color-text-heading)] mb-4 flex items-center gap-2">
+            <svg class="w-4 h-4 text-[var(--color-accent)]" fill="currentColor" viewBox="0 0 20 20"><path d="M12.395 2.553a1 1 0 00-1.45-.385c-.345.23-.614.558-.822.88-.214.33-.403.713-.57 1.116-.334.804-.614 1.768-.84 2.734a31.365 31.365 0 00-.613 3.58 2.64 2.64 0 01-.945-1.067c-.328-.68-.398-1.534-.398-2.654A1 1 0 005.05 6.05 6.981 6.981 0 003 11a7 7 0 1011.95-4.95c-.592-.591-.98-.985-1.348-1.467-.363-.476-.724-1.063-1.207-2.03zM12.12 15.12A3 3 0 017 13s.879.5 2.5.5c0-1 .5-4 1.25-4.5.5 1 .786 1.293 1.371 1.879A2.99 2.99 0 0113 13a2.99 2.99 0 01-.879 2.121z"/></svg>
+            Trending
+          </h3>
+          <ul class="space-y-3">
+            {allArticles.slice(0, 6).map((post, i) => (
+              <li class="flex gap-3">
+                <span class="flex-shrink-0 w-6 h-6 rounded-lg bg-[var(--color-bg-alt)] flex items-center justify-center text-xs font-bold text-[var(--color-primary)]">{i + 1}</span>
+                <a href={`/${post.slug}`} class="text-sm text-[var(--color-text)] hover:text-[var(--color-primary)] transition-colors line-clamp-2">{post.title}</a>
+              </li>
+            ))}
+          </ul>
+        </div>
+
+        <!-- Newsletter -->
+        <div class="bg-gradient-to-br from-[var(--color-primary)]/5 to-[var(--color-accent)]/5 border border-[var(--color-primary)]/20 rounded-2xl p-5">
+          <h3 class="font-semibold text-sm text-[var(--color-text-heading)] mb-2">📬 Stay in the Loop</h3>
+          <p class="text-xs text-[var(--color-text-muted)] mb-3">Get the latest travel tips delivered weekly.</p>
+          <form class="space-y-2" onsubmit="event.preventDefault(); this.querySelector('button').textContent='✓ Done!';">
+            <input type="email" placeholder="your@email.com" required
+              class="w-full px-3 py-2 text-sm border border-[var(--color-border)] rounded-lg bg-[var(--color-bg)] focus:outline-none focus:ring-2 focus:ring-[var(--color-primary)]" />
+            <button type="submit" class="btn-primary w-full text-xs">Subscribe Free</button>
+          </form>
+        </div>
+      </div>
+    </aside>
+  </div>
+</BaseLayout>
