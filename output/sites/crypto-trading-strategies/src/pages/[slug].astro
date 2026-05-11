@@ -139,6 +139,24 @@ if (faqItems.length > 0) {
 
 const schema = schemaObj;
 
+// Auto-link related articles in content body
+const contentHtml = article.content as string;
+let enhancedContent = contentHtml;
+const linkableArticles = allArticles.slice(0, 15);
+for (const ra of linkableArticles) {
+  // Only link if the article title phrase appears in content (avoid over-linking)
+  const titleWords = ra.title.split(' ').filter(w => w.length > 4).slice(0, 3);
+  if (titleWords.length < 2) continue;
+  const phrase = titleWords.join(' ');
+  if (enhancedContent.toLowerCase().includes(phrase.toLowerCase()) && !enhancedContent.includes(`/${ra.slug}"`)) {
+    // Only add if not already linked
+    const regex = new RegExp(`(${phrase.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'i');
+    if ((enhancedContent.match(regex) || []).length <= 1) {
+      enhancedContent = enhancedContent.replace(regex, `<a href="/${ra.slug}">$1</a>`);
+    }
+  }
+}
+
 // Extract headings for TOC
 const headingRegex = /<h([2-3]) id="([^"]*)"[^>]*>(.*?)<\/h\1>/g;
 const tocItems: Array<{level: number; id: string; text: string}> = [];
@@ -187,6 +205,8 @@ while ((match = headingRegex.exec(article.content)) !== null) {
           <span>·</span>
           <time datetime={article.date}>{formattedDate}</time>
           {article.readingTime && <><span>·</span><span>{article.readingTime} read</span></>}
+          <span>·</span>
+          <span class="text-xs opacity-70">Updated {new Date().toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}</span>
         </div>
       </header>
 
@@ -196,7 +216,7 @@ while ((match = headingRegex.exec(article.content)) !== null) {
       </div>
 
       <!-- Article body -->
-      <div class="prose prose-lg max-w-none" set:html={article.content} />
+      <div class="prose prose-lg max-w-none" set:html={enhancedContent} />
 
       <!-- Bottom ad -->
       <div class="ad-slot mt-10">

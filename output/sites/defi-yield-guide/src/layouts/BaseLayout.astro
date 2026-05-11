@@ -69,7 +69,9 @@ const siteConfig = fs.existsSync('site-config.json') ? JSON.parse(fs.readFileSyn
   <meta property="og:title" content={title} />
   <meta property="og:description" content={description} />
   <meta property="og:url" content={canonicalURL} />
-  {ogImage && <meta property="og:image" content={ogImage} />}
+  <meta property="og:image" content={ogImage || `data:image/svg+xml,${encodeURIComponent(`<svg xmlns='http://www.w3.org/2000/svg' width='1200' height='630'><defs><linearGradient id='g' x1='0%25' y1='0%25' x2='100%25' y2='100%25'><stop offset='0%25' style='stop-color:%232563eb'/><stop offset='100%25' style='stop-color:%237c3aed'/></linearGradient></defs><rect width='1200' height='630' fill='url(%23g)'/><text x='600' y='280' text-anchor='middle' fill='white' font-family='system-ui,sans-serif' font-size='48' font-weight='bold'>${title.length > 60 ? title.substring(0, 57) + '...' : title}</text><text x='600' y='360' text-anchor='middle' fill='rgba(255,255,255,0.8)' font-family='system-ui,sans-serif' font-size='24'>${displayTitle}</text></svg>`)}`} />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
   <meta property="og:type" content={ogType} />
   <meta property="og:site_name" content={displayTitle} />
   <meta property="og:locale" content="en_US" />
@@ -78,7 +80,7 @@ const siteConfig = fs.existsSync('site-config.json') ? JSON.parse(fs.readFileSyn
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content={title} />
   <meta name="twitter:description" content={description} />
-  {ogImage && <meta name="twitter:image" content={ogImage} />}
+  <meta name="twitter:image" content={ogImage || `data:image/svg+xml,${encodeURIComponent(`<svg xmlns='http://www.w3.org/2000/svg' width='1200' height='630'><defs><linearGradient id='g' x1='0%25' y1='0%25' x2='100%25' y2='100%25'><stop offset='0%25' style='stop-color:%232563eb'/><stop offset='100%25' style='stop-color:%237c3aed'/></linearGradient></defs><rect width='1200' height='630' fill='url(%23g)'/><text x='600' y='280' text-anchor='middle' fill='white' font-family='system-ui,sans-serif' font-size='48' font-weight='bold'>${title.length > 60 ? title.substring(0, 57) + '...' : title}</text><text x='600' y='360' text-anchor='middle' fill='rgba(255,255,255,0.8)' font-family='system-ui,sans-serif' font-size='24'>${displayTitle}</text></svg>`)}`} />
 
   <!-- Article specific -->
   {ogType === 'article' && publishedTime && <meta property="article:published_time" content={publishedTime} />}
@@ -90,6 +92,18 @@ const siteConfig = fs.existsSync('site-config.json') ? JSON.parse(fs.readFileSyn
   <link rel="icon" href="data:image/svg+xml,{faviconSvg}" />
   <meta name="theme-color" content="#2563eb" />
 
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": displayTitle,
+    "url": siteUrl,
+    "description": description,
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": `${siteUrl}/?q={search_term_string}`,
+      "query-input": "required name=search_term_string"
+    }
+  })} />
   <!-- JSON-LD Schema -->
   {schema && <script type="application/ld+json" set:html={JSON.stringify(schema)} />}
   {breadcrumbs.length > 0 && (
