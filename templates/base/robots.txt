@@ -26,4 +26,4 @@ User-agent: Twitterbot
 Allow: /
 
 # Sitemaps
-Sitemap: https://crypto-investing.com/sitemap.xml
+Sitemap: {{SITEMAP_URL}}

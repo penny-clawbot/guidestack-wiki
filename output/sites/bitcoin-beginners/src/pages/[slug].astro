@@ -74,16 +74,70 @@ const breadcrumbs = [
   { name: article.title, url: `/${slug}` }
 ];
 
-const schema = {
+// Auto-extract FAQ sections from article content for schema
+const faqRegex = /<h2[^>]*>(.*?)<\/h2>\s*<p>(.*?)<\/p>/g;
+const faqItems: Array<{question: string; answer: string}> = [];
+const contentStr = article.content as string;
+
+// Look for FAQ patterns: "## Frequently Asked Questions" or "## FAQ" followed by Q&A pairs
+const faqSectionRegex = /<(?:h2|h3)[^>]*>(?:.*?(?:FAQ|Frequently Asked Questions|Common Questions|Questions).*?)<\/(?:h2|h3)>([\s\S]*?)(?=<h[23][^>]*>(?!.*?(?:answer|respond|reply))<\/article|$)/i;
+const faqMatch = contentStr.match(faqSectionRegex);
+
+if (faqMatch) {
+  const faqContent = faqMatch[1];
+  // Extract question-answer pairs
+  const qaRegex = /<(?:h3|h4)[^>]*>(.*?)<\/(?:h3|h4)>\s*([\s\S]*?)(?=<(?:h3|h4)[^>]*>|$)/g;
+  let qaMatch;
+  while ((qaMatch = qaRegex.exec(faqContent)) !== null) {
+    const q = qaMatch[1].replace(/<[^>]*>/g, '').trim();
+    const a = qaMatch[2].replace(/<[^>]*>/g, '').trim().substring(0, 500);
+    if (q.length > 5 && a.length > 10) {
+      faqItems.push({ question: q, answer: a });
+    }
+  }
+}
+
+// Build enhanced schema with FAQ if found
+const today = new Date().toISOString().split('T')[0];
+const schemaObj: Record<string, any> = {
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": article.title,
   "description": article.description,
   "datePublished": article.date,
-  "author": { "@type": "Organization", "name": siteConfig.author || siteConfig.name },
-  "publisher": { "@type": "Organization", "name": siteConfig.name },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": `/${slug}` }
+  "dateModified": today,
+  "author": {
+    "@type": "Organization",
+    "name": siteConfig.author || siteConfig.name,
+    "url": siteConfig.domain ? `https://${siteConfig.domain}` : undefined
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": siteConfig.name,
+    "logo": {
+      "@type": "ImageObject",
+      "url": `https://${siteConfig.domain || 'example.com'}/logo.png`
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": `/${slug}`
+  }
 };
+
+// Add FAQ schema if FAQ items found
+if (faqItems.length > 0) {
+  schemaObj.mainEntity = faqItems.slice(0, 10).map(item => ({
+    "@type": "Question",
+    "name": item.question,
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": item.answer
+    }
+  }));
+}
+
+const schema = schemaObj;
 
 // Extract headings for TOC
 const headingRegex = /<h([2-3]) id="([^"]*)"[^>]*>(.*?)<\/h\1>/g;

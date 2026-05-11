@@ -138,32 +138,61 @@ def _build_prompt(topic: str, article_type: str, target_words: int, niche: str) 
     """Build the LLM prompt."""
     type_instructions = {
         "pillar": f"""Write a comprehensive guide about "{topic}".
-- {target_words}+ words, H1 title, 5-6 H2 sections, FAQ with 3 Q&As, conclusion
-- Include specific examples and actionable tips
-- Markdown: ## headers, **bold**, - lists
+- {target_words}+ words
+- STRUCTURE (strictly follow):
+  1. Start with a direct 2-3 sentence answer/summary (no intro fluff, no "in today's world")
+  2. 5-6 H2 sections with specific data, statistics with sources, actionable tips
+  3. "## Frequently Asked Questions" section with 5 questions as H3, each with a direct 1-3 sentence answer
+  4. Brief conclusion
+- Include specific numbers, percentages, dates with sources (e.g., "According to [Source], 45% of...")
+- Markdown: # title, ## H2, ### H3, **bold**, - lists
 - Output ONLY the article starting with # Title""",
 
         "standard": f"""Write an article about "{topic}".
-- {target_words}+ words, H1 title, 3-4 H2 sections, conclusion
+- {target_words}+ words
+- STRUCTURE (strictly follow):
+  1. Start with a direct 2-3 sentence answer/summary (no intro fluff)
+  2. 3-4 H2 sections with specific examples and data
+  3. "## Frequently Asked Questions" section with 3 questions as H3, each with a direct 1-3 sentence answer
+  4. Brief conclusion
+- Include specific numbers and sources where possible
 - Markdown: ## headers, **bold**, - lists
 - Output ONLY the article starting with # Title""",
 
         "faq": f"""Write an FAQ article: "{topic}".
-- {target_words}+ words, 6-8 questions with detailed answers
-- Markdown: ## for each question
+- {target_words}+ words, 8 questions with detailed answers
+- Each question as ## heading, answer immediately follows
+- Answers must be direct and factual (1-4 sentences first, then expand)
+- Include specific data and sources in answers
 - Output ONLY the article starting with # Title""",
 
         "howto": f"""Write a step-by-step guide: "{topic}".
-- {target_words}+ words, numbered steps with H2 headings, tips section
-- Be specific and actionable
+- {target_words}+ words
+- STRUCTURE:
+  1. Start with a direct 2-3 sentence summary of what this guide accomplishes
+  2. "## Step-by-Step Instructions" with numbered steps as H3
+  3. "## Frequently Asked Questions" with 4 questions as H3
+  4. Tips section
+- Be specific and actionable, include specific numbers/dates
 - Output ONLY the article starting with # Title""",
 
         "listicle": f"""Write a listicle: "{topic}".
-- {target_words}+ words, 8-10 items with H2 headings, brief pros/cons each
+- {target_words}+ words, 8-10 items with H2 headings
+- STRUCTURE:
+  1. Start with a direct 2-3 sentence answer summarizing the top picks
+  2. Each item: H2 heading, brief pros/cons, specific details
+  3. "## Frequently Asked Questions" with 3 questions as H3
+- Include specific prices, ratings, or data points for each item
 - Output ONLY the article starting with # Title""",
 
         "comparison": f"""Write a comparison: "{topic}".
-- {target_words}+ words, feature comparison table, who should choose what, verdict
+- {target_words}+ words
+- STRUCTURE:
+  1. Start with a direct 2-3 sentence answer: which option is best for whom
+  2. Feature comparison with specific data
+  3. "## Frequently Asked Questions" with 4 questions as H3
+  4. Final verdict with specific reasoning
+- Include specific numbers, prices, performance data
 - Output ONLY the article starting with # Title""",
     }
 
@@ -171,7 +200,7 @@ def _build_prompt(topic: str, article_type: str, target_words: int, niche: str) 
 
     return f"""You are an expert {niche} writer. {instructions}
 
-Rules: Output ONLY markdown article. Start with # Title. Use ## headers, **bold**, - lists. Be specific, no filler. Write now:"""
+Rules: Output ONLY markdown article. Start with # Title. CRITICAL: First paragraph must be a direct answer/summary — NO "in today's world", "have you ever wondered", or filler intros. Use ## headers, ### for FAQ sub-questions, **bold**, - lists. Include specific numbers and sources. Add a "## Frequently Asked Questions" section with ### H3 questions. Be specific, no filler. Write now:"""
 
 
 def generate_template_article(topic: str, article_type: str, target_words: int, niche: str) -> str:

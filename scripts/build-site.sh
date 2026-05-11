@@ -78,7 +78,11 @@ cp "$TEMPLATE_DIR/src/layouts/BaseLayout.astro" "$SITE_DIR/src/layouts/BaseLayou
 cp "$TEMPLATE_DIR/src/styles/global.css" "$SITE_DIR/src/styles/global.css"
 cp "$TEMPLATE_DIR/tailwind.config.mjs" "$SITE_DIR/tailwind.config.mjs"
 cp "$TEMPLATE_DIR/astro.config.mjs" "$SITE_DIR/astro.config.mjs"
-echo "   ✅ Templates updated"
+
+# Inject correct sitemap URL into robots.txt
+SITE_DOMAIN=$(python3 -c "import json; print(json.load(open('$SITE_DIR/site-config.json')).get('domain','${SLUG}.com'))")
+sed "s|{{SITEMAP_URL}}|https://${SITE_DOMAIN}/sitemap.xml|" "$TEMPLATE_DIR/robots.txt" > "$SITE_DIR/public/robots.txt"
+echo "   ✅ Templates updated"}, {
 
 # Step 5: Build
 echo "[5/6] Building site..."

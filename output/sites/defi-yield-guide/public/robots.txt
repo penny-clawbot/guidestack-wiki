@@ -1,4 +1,29 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://example.com/sitemap.xml
+# AI Crawlers — explicitly allowed for LLM SEO
+User-agent: GPTBot
+Allow: /
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: ChatGPT-User
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: ClaudeBot-SearchBot
+Allow: /
+User-agent: CCBot
+Allow: /
+User-agent: Google-Extended
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: Bytespider
+Allow: /
+User-agent: facebookexternalhit
+Allow: /
+User-agent: Twitterbot
+Allow: /
+
+# Sitemaps
+Sitemap: https://defi-yield-guide.com/sitemap.xml

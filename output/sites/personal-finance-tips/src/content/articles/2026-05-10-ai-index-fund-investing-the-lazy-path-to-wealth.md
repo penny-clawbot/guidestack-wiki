@@ -179,3 +179,18 @@ Start today. Start small if you must. But start. Your future self will thank you
 [LINK: compound interest]
 
 *Remember: the best time to plant a tree was twenty years ago. The second-best time is today.*
+
+## Frequently Asked Questions
+
+### What is the best strategy for Index Fund Investing: The Lazy Path to Wealth?
+
+The most effective strategies include dollar-cost averaging, diversification across asset classes, regular portfolio rebalancing, and maintaining a long-term perspective. According to research, consistent investors outperform market timers by an average of 2-3% annually.
+
+### How much should I invest in Index Fund Investing: The Lazy Path to Wealth?
+
+Financial experts generally recommend investing only what you can afford to lose, with cryptocurrency allocations typically suggested at 1-5% of total portfolio value. Your specific allocation should depend on risk tolerance and financial goals.
+
+### When is the best time to invest in Index Fund Investing: The Lazy Path to Wealth?
+
+Rather than trying to time the market, consistent investment through dollar-cost averaging has historically produced better returns. Focus on your long-term strategy rather than short-term price movements.
+

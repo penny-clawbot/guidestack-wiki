@@ -250,3 +250,18 @@ Begin your DeFi journey today by bridging a small portion of your crypto holding
 Your crypto has worked hard to get here. Now it's time to let it work for you.
 
 *Ready to start bridging? Explore our recommended DeFi protocols and bridge aggregators in the resources section above, and remember: always do your own research before committing funds to any DeFi opportunity.*
+
+## Frequently Asked Questions
+
+### What is " in DeFi?
+
+" in decentralized finance refers to financial services built on blockchain technology that operate without traditional intermediaries like banks. The DeFi market has grown to over $50 billion in total value locked as of 2026.
+
+### How do I use " safely?
+
+Safety in DeFi requires using audited protocols, verifying smart contract addresses, starting with small amounts, understanding impermanent loss risks, and never sharing wallet seed phrases or private keys.
+
+### What are the yields for "?
+
+DeFi yields vary significantly based on market conditions, protocol risk, and lock-up periods. As of 2026, stablecoin yields typically range from 3-8% APY, while riskier protocols may offer 10-30% APY with higher risk.
+
