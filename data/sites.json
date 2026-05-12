@@ -5,72 +5,72 @@
       "niche": "budget travel",
       "status": "active",
       "created": "2026-05-10T15:23:59-04:00",
-      "last_build": "2026-05-11T08:33:01-04:00",
+      "last_build": "2026-05-12T08:04:29-04:00",
       "last_deploy": null,
-      "article_count": 41
+      "article_count": 52
     },
     {
       "name": "crypto-investing-guide",
       "niche": "crypto investing",
       "status": "active",
       "created": "2026-05-10T15:53:14-04:00",
-      "last_build": "2026-05-11T08:33:05-04:00",
+      "last_build": "2026-05-12T08:04:33-04:00",
       "last_deploy": null,
-      "article_count": 42
+      "article_count": 53
     },
     {
       "name": "ai-tools-hub",
       "niche": "AI tools and productivity",
       "status": "active",
       "created": "2026-05-10T15:53:15-04:00",
-      "last_build": "2026-05-11T08:33:08-04:00",
+      "last_build": "2026-05-12T08:04:38-04:00",
       "last_deploy": null,
-      "article_count": 18
+      "article_count": 52
     },
     {
       "name": "personal-finance-tips",
       "niche": "personal finance",
       "status": "active",
       "created": "2026-05-10T15:53:15-04:00",
-      "last_build": "2026-05-11T08:33:11-04:00",
+      "last_build": "2026-05-12T08:04:42-04:00",
       "last_deploy": null,
-      "article_count": 18
+      "article_count": 52
     },
     {
       "name": "bitcoin-beginners",
       "niche": "bitcoin beginners",
       "status": "active",
       "created": "2026-05-10T17:41:18-04:00",
-      "last_build": "2026-05-11T08:33:14-04:00",
+      "last_build": "2026-05-12T08:04:46-04:00",
       "last_deploy": null,
-      "article_count": 18
+      "article_count": 52
     },
     {
       "name": "crypto-trading-strategies",
       "niche": "crypto trading strategies",
       "status": "active",
       "created": "2026-05-10T17:41:30-04:00",
-      "last_build": "2026-05-11T08:33:18-04:00",
+      "last_build": "2026-05-12T08:04:50-04:00",
       "last_deploy": null,
-      "article_count": 25
+      "article_count": 52
     },
     {
       "name": "defi-yield-guide",
       "niche": "DeFi yield guide",
       "status": "active",
       "created": "2026-05-10T17:41:30-04:00",
-      "last_build": "2026-05-11T08:33:22-04:00",
+      "last_build": "2026-05-12T08:04:55-04:00",
       "last_deploy": null,
-      "article_count": 15
+      "article_count": 43
     },
     {
       "name": "smart-emergency-fund",
       "niche": "emergency fund",
       "status": "active",
       "created": "2026-05-11T14:12:05-04:00",
-      "last_build": null,
+      "last_build": "2026-05-12T08:04:57-04:00",
       "last_deploy": null,
-      "article_count": 0
+      "article_count": 20
     }
   ],
   "settings": {
