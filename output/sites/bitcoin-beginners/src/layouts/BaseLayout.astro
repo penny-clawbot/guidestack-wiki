@@ -11,7 +11,9 @@ export interface Props {
   modifiedTime?: string;
   author?: string;
   categories?: string[];
+  articleSection?: string;
   schema?: object;
+  extraSchemas?: object[];
   breadcrumbs?: Array<{name: string; url: string}>;
   siteName?: string;
 }
@@ -26,7 +28,9 @@ const {
   modifiedTime,
   author = 'PennyPress',
   categories = [],
+  articleSection,
   schema,
+  extraSchemas = [],
   breadcrumbs = [],
   siteName
 } = Astro.props;
@@ -34,10 +38,16 @@ const {
 import fs from 'node:fs';
 import path from 'node:path';
 
-const siteUrl = import.meta.env.SITE_URL || 'https://example.com';
+const siteConfig = fs.existsSync('site-config.json') ? JSON.parse(fs.readFileSync('site-config.json', 'utf-8')) : {};
+const domain = siteConfig.domain || 'example.com';
+const siteUrl = `https://${domain}`;
 const canonicalURL = canonical || new URL(Astro.url.pathname, siteUrl).href;
 const displayTitle = siteName || title.split(' - ')[0]?.split(' | ')[0] || title;
 const faviconSvg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y=".9em" font-size="90">📰</text></svg>`;
+
+// Auto OG image (SVG)
+const autoOgImage = `data:image/svg+xml,${encodeURIComponent(`<svg xmlns='http://www.w3.org/2000/svg' width='1200' height='630'><defs><linearGradient id='g' x1='0%25' y1='0%25' x2='100%25' y2='100%25'><stop offset='0%25' style='stop-color:%232563eb'/><stop offset='100%25' style='stop-color:%237c3aed'/></linearGradient></defs><rect width='1200' height='630' fill='url(%23g)'/><text x='600' y='280' text-anchor='middle' fill='white' font-family='system-ui,sans-serif' font-size='48' font-weight='bold'>${title.length > 60 ? title.substring(0, 57) + '...' : title}</text><text x='600' y='360' text-anchor='middle' fill='rgba(255,255,255,0.8)' font-family='system-ui,sans-serif' font-size='24'>${displayTitle}</text></svg>`)}`;
+const ogImageUrl = ogImage || autoOgImage;
 
 // Dynamic nav categories from site content
 const contentDir = 'src/content/articles';
@@ -49,8 +59,35 @@ if (fs.existsSync(contentDir)) {
     if (catMatch) navCategorySet.add(catMatch[1]);
   }
 }
-const navItems = Array.from(navCategorySet).slice(0, 5);
-const siteConfig = fs.existsSync('site-config.json') ? JSON.parse(fs.readFileSync('site-config.json', 'utf-8')) : {};
+const navItems = Array.from(navCategorySet).slice(0, 6);
+
+// Organization schema (GEO-enhanced)
+const orgSchema = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": displayTitle,
+  "url": siteUrl,
+  "description": siteConfig.description || description,
+  "logo": { "@type": "ImageObject", "url": `${siteUrl}/logo.png` },
+  "sameAs": siteConfig.social ? Object.values(siteConfig.social) : undefined,
+  "foundingDate": "2024",
+  "knowsAbout": siteConfig.niche || siteConfig.keywords?.join(', ')
+};
+
+// WebSite schema with SearchAction
+const webSiteSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": displayTitle,
+  "url": siteUrl,
+  "description": description,
+  "publisher": { "@type": "Organization", "name": displayTitle },
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": { "@type": "EntryPoint", "urlTemplate": `${siteUrl}/?q={search_term_string}` },
+    "query-input": "required name=search_term_string"
+  }
+};
 ---
 
 <!DOCTYPE html>
@@ -63,13 +100,18 @@ const siteConfig = fs.existsSync('site-config.json') ? JSON.parse(fs.readFileSyn
   <!-- Core SEO -->
   <title>{title}</title>
   <meta name="description" content={description} />
+  <meta name="author" content={author} />
+  <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="/feed.xml" />
+  <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
+  <link rel="llms-txt" href="/llms.txt" />
   <link rel="canonical" href={canonicalURL} />
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
 
   <!-- Open Graph -->
   <meta property="og:title" content={title} />
   <meta property="og:description" content={description} />
   <meta property="og:url" content={canonicalURL} />
-  <meta property="og:image" content={ogImage || `data:image/svg+xml,${encodeURIComponent(`<svg xmlns='http://www.w3.org/2000/svg' width='1200' height='630'><defs><linearGradient id='g' x1='0%25' y1='0%25' x2='100%25' y2='100%25'><stop offset='0%25' style='stop-color:%232563eb'/><stop offset='100%25' style='stop-color:%237c3aed'/></linearGradient></defs><rect width='1200' height='630' fill='url(%23g)'/><text x='600' y='280' text-anchor='middle' fill='white' font-family='system-ui,sans-serif' font-size='48' font-weight='bold'>${title.length > 60 ? title.substring(0, 57) + '...' : title}</text><text x='600' y='360' text-anchor='middle' fill='rgba(255,255,255,0.8)' font-family='system-ui,sans-serif' font-size='24'>${displayTitle}</text></svg>`)}`} />
+  <meta property="og:image" content={ogImageUrl} />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
   <meta property="og:type" content={ogType} />
@@ -80,32 +122,43 @@ const siteConfig = fs.existsSync('site-config.json') ? JSON.parse(fs.readFileSyn
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content={title} />
   <meta name="twitter:description" content={description} />
-  <meta name="twitter:image" content={ogImage || `data:image/svg+xml,${encodeURIComponent(`<svg xmlns='http://www.w3.org/2000/svg' width='1200' height='630'><defs><linearGradient id='g' x1='0%25' y1='0%25' x2='100%25' y2='100%25'><stop offset='0%25' style='stop-color:%232563eb'/><stop offset='100%25' style='stop-color:%237c3aed'/></linearGradient></defs><rect width='1200' height='630' fill='url(%23g)'/><text x='600' y='280' text-anchor='middle' fill='white' font-family='system-ui,sans-serif' font-size='48' font-weight='bold'>${title.length > 60 ? title.substring(0, 57) + '...' : title}</text><text x='600' y='360' text-anchor='middle' fill='rgba(255,255,255,0.8)' font-family='system-ui,sans-serif' font-size='24'>${displayTitle}</text></svg>`)}`} />
+  <meta name="twitter:image" content={ogImageUrl} />
 
-  <!-- Article specific -->
+  <!-- Article specific meta -->
   {ogType === 'article' && publishedTime && <meta property="article:published_time" content={publishedTime} />}
   {ogType === 'article' && modifiedTime && <meta property="article:modified_time" content={modifiedTime} />}
   {ogType === 'article' && <meta property="article:author" content={author} />}
+  {ogType === 'article' && articleSection && <meta property="article:section" content={articleSection} />}
   {categories.map(cat => <meta property="article:tag" content={cat} />)}
 
-  <!-- Favicon -->
+  <!-- Favicon + Theme -->
   <link rel="icon" href="data:image/svg+xml,{faviconSvg}" />
   <meta name="theme-color" content="#2563eb" />
+  <meta name="color-scheme" content="light dark" />
 
-  <script type="application/ld+json" set:html={JSON.stringify({
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": displayTitle,
-    "url": siteUrl,
-    "description": description,
-    "potentialAction": {
-      "@type": "SearchAction",
-      "target": `${siteUrl}/?q={search_term_string}`,
-      "query-input": "required name=search_term_string"
-    }
-  })} />
-  <!-- JSON-LD Schema -->
+  <!-- Preconnect for fonts CDN -->
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="dns-prefetch" href={siteUrl} />
+
+  <!-- Inline critical CSS for above-the-fold -->
+  <style is:inline>
+    body{margin:0;font-family:'Inter',system-ui,-apple-system,sans-serif;-webkit-font-smoothing:antialiased;background:var(--color-bg,#fff);color:var(--color-text,#1e293b)}
+    #reading-progress{position:fixed;top:0;left:0;height:3px;background:linear-gradient(90deg,var(--color-primary,#2563eb),var(--color-accent,#f59e0b));z-index:9999;transition:width 50ms linear;width:0%}
+  </style>
+
+  <!-- Organization Schema -->
+  <script type="application/ld+json" set:html={JSON.stringify(orgSchema)} />
+
+  <!-- WebSite Schema with SearchAction -->
+  <script type="application/ld+json" set:html={JSON.stringify(webSiteSchema)} />
+
+  <!-- Page-specific Schema -->
   {schema && <script type="application/ld+json" set:html={JSON.stringify(schema)} />}
+  {extraSchemas && extraSchemas.map((s, i) => <script type="application/ld+json" set:html={JSON.stringify(s)} />)}
+
+  <!-- BreadcrumbList Schema -->
   {breadcrumbs.length > 0 && (
     <script type="application/ld+json" set:html={JSON.stringify({
       "@context": "https://schema.org",
@@ -118,14 +171,9 @@ const siteConfig = fs.existsSync('site-config.json') ? JSON.parse(fs.readFileSyn
       }))
     })} />
   )}
-
-  <!-- Preconnect for performance -->
-  <link rel="dns-prefetch" href={siteUrl} />
-  <link rel="preconnect" href={siteUrl} crossorigin />
-  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
 </head>
 <body class="min-h-screen flex flex-col">
-  <!-- Reading Progress Bar (article pages) -->
+  <!-- Reading Progress Bar -->
   <div id="reading-progress"></div>
 
   <!-- Navigation -->
@@ -187,6 +235,7 @@ const siteConfig = fs.existsSync('site-config.json') ? JSON.parse(fs.readFileSyn
             <span class="text-lg font-bold text-[var(--color-text-heading)]">{displayTitle}</span>
           </a>
           <p class="text-sm text-[var(--color-text-muted)] leading-relaxed">{description}</p>
+          <p class="text-xs text-[var(--color-text-muted)] mt-3 opacity-70">Affiliate Disclosure: Some links on this site are affiliate links. We may earn a commission at no extra cost to you.</p>
         </div>
         <div>
           <h4 class="font-semibold text-sm mb-4 text-[var(--color-text-heading)]">Categories</h4>
@@ -208,7 +257,7 @@ const siteConfig = fs.existsSync('site-config.json') ? JSON.parse(fs.readFileSyn
         <div>
           <h4 class="font-semibold text-sm mb-4 text-[var(--color-text-heading)]">Stay Updated</h4>
           <p class="text-sm text-[var(--color-text-muted)] mb-3">Get the latest tips and guides delivered to your inbox.</p>
-          <form class="flex gap-2" onsubmit="event.preventDefault(); this.querySelector('button').textContent='✓ Subscribed!';">
+          <form class="flex gap-2" data-newsletter="footer" onsubmit="event.preventDefault();const f=this;if(f.querySelector('input[type=email]').value){f.querySelector('button').textContent='✓ Subscribed!';f.querySelector('input[type=email]').disabled=true;}}">
             <input type="email" placeholder="you@email.com" required
               class="flex-1 px-3 py-2 text-sm border border-[var(--color-border)] rounded-lg bg-[var(--color-bg)] focus:outline-none focus:ring-2 focus:ring-[var(--color-primary)] focus:border-transparent" />
             <button type="submit" class="btn-primary text-xs">Subscribe</button>
@@ -227,64 +276,81 @@ const siteConfig = fs.existsSync('site-config.json') ? JSON.parse(fs.readFileSyn
     <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7"/></svg>
   </button>
 
-  <!-- Scripts -->
+  <!-- Minimal inline JS — no external dependencies -->
   <script is:inline>
-    // Theme toggle
-    const theme = localStorage.getItem('theme');
-    if (theme === 'dark' || (!theme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-      document.documentElement.classList.add('dark');
-    }
-    document.getElementById('sun-icon')?.classList.toggle('hidden', !document.documentElement.classList.contains('dark'));
-    document.getElementById('moon-icon')?.classList.toggle('hidden', document.documentElement.classList.contains('dark'));
-    document.getElementById('theme-toggle')?.addEventListener('click', () => {
+    // Theme toggle (runs immediately to prevent flash)
+    const t=localStorage.getItem('theme');
+    if(t==='dark'||(!t&&matchMedia('(prefers-color-scheme:dark)').matches))document.documentElement.classList.add('dark');
+    const sI=document.getElementById('sun-icon'),mI=document.getElementById('moon-icon');
+    if(sI)sI.classList.toggle('hidden',!document.documentElement.classList.contains('dark'));
+    if(mI)mI.classList.toggle('hidden',document.documentElement.classList.contains('dark'));
+    document.getElementById('theme-toggle')?.addEventListener('click',()=>{
       document.documentElement.classList.toggle('dark');
-      const isDark = document.documentElement.classList.contains('dark');
-      localStorage.setItem('theme', isDark ? 'dark' : 'light');
-      document.getElementById('sun-icon')?.classList.toggle('hidden', !isDark);
-      document.getElementById('moon-icon')?.classList.toggle('hidden', isDark);
+      const d=document.documentElement.classList.contains('dark');
+      localStorage.setItem('theme',d?'dark':'light');
+      sI?.classList.toggle('hidden',!d);mI?.classList.toggle('hidden',d);
     });
 
     // Mobile menu
-    document.getElementById('mobile-menu-btn')?.addEventListener('click', () => {
+    document.getElementById('mobile-menu-btn')?.addEventListener('click',()=>{
       document.getElementById('mobile-menu')?.classList.toggle('hidden');
     });
 
     // Reading progress
-    const progressBar = document.getElementById('reading-progress');
-    if (progressBar && document.querySelector('.prose')) {
-      window.addEventListener('scroll', () => {
-        const scrollTop = window.scrollY;
-        const docHeight = document.documentElement.scrollHeight - window.innerHeight;
-        const progress = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
-        progressBar.style.width = progress + '%';
-      });
+    const pB=document.getElementById('reading-progress');
+    if(pB&&document.querySelector('.prose')){
+      window.addEventListener('scroll',()=>{const s=scrollY,h=document.documentElement.scrollHeight-innerHeight;pB.style.width=(h>0?(s/h)*100:0)+'%';},{passive:true});
     }
 
     // Back to top
-    const backToTop = document.getElementById('back-to-top');
-    if (backToTop) {
-      window.addEventListener('scroll', () => {
-        backToTop.classList.toggle('visible', window.scrollY > 400);
-      });
-      backToTop.addEventListener('click', () => {
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-      });
+    const bT=document.getElementById('back-to-top');
+    if(bT){
+      window.addEventListener('scroll',()=>{bT.classList.toggle('visible',scrollY>400);},{passive:true});
+      bT.addEventListener('click',()=>scrollTo({top:0,behavior:'smooth'}));
     }
 
-    // Active TOC link
-    const tocLinks = document.querySelectorAll('.toc-link');
-    if (tocLinks.length > 0) {
-      const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-          if (entry.isIntersecting) {
-            tocLinks.forEach(l => l.classList.remove('active'));
-            const active = document.querySelector(`.toc-link[href="#${entry.target.id}"]`);
-            if (active) active.classList.add('active');
-          }
-        });
-      }, { rootMargin: '-20% 0px -70% 0px' });
-      document.querySelectorAll('.prose h2, .prose h3').forEach(h => observer.observe(h));
+    // Active TOC link tracking
+    const tL=document.querySelectorAll('.toc-link');
+    if(tL.length>0){
+      const o=new IntersectionObserver(e=>{
+        e.forEach(en=>{if(en.isIntersecting){tL.forEach(l=>l.classList.remove('active'));const a=document.querySelector(`.toc-link[href="#${en.target.id}"]`);if(a)a.classList.add('active');}});
+      },{rootMargin:'-20% 0px -70% 0px'});
+      document.querySelectorAll('.prose h2,.prose h3').forEach(h=>o.observe(h));
     }
+
+    // FAQ accordion
+    document.querySelectorAll('.faq-question').forEach(q=>{
+      q.addEventListener('click',()=>{
+        const item=q.parentElement;
+        const isOpen=item.classList.contains('open');
+        document.querySelectorAll('.faq-item.open').forEach(i=>i.classList.remove('open'));
+        if(!isOpen)item.classList.add('open');
+      });
+    });
+
+    // Client-side search (homepage)
+    const searchInput=document.getElementById('search-input');
+    if(searchInput){
+      searchInput.addEventListener('input',e=>{
+        const q=e.target.value.toLowerCase();
+        document.querySelectorAll('[data-searchable]').forEach(el=>{
+          const t=el.textContent.toLowerCase();
+          el.style.display=!q||t.includes(q)?'':'none';
+        });
+      });
+    }
+  
+    // Copy button for code blocks
+    document.querySelectorAll('.prose pre').forEach(pre=>{
+      const btn=document.createElement('button');
+      btn.className='copy-btn';btn.textContent='Copy';
+      btn.addEventListener('click',()=>{
+        const code=pre.querySelector('code')?.textContent||pre.textContent;
+        navigator.clipboard.writeText(code).then(()=>{btn.textContent='Copied!';setTimeout(()=>btn.textContent='Copy',2000);});
+      });
+      pre.style.position='relative';pre.appendChild(btn);
+    });
+
   </script>
 </body>
 </html>

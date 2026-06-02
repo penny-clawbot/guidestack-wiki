@@ -135,63 +135,77 @@ def generate_article(topic: str, article_type: str, target_words: int = 800, nic
 
 
 def _build_prompt(topic: str, article_type: str, target_words: int, niche: str) -> str:
-    """Build the LLM prompt."""
+    """Build the LLM prompt with GEO-optimized article structure."""
     type_instructions = {
-        "pillar": f"""Write a comprehensive guide about "{topic}".
+        "pillar": f"""Write a comprehensive guide about \"{topic}\".
 - {target_words}+ words
-- STRUCTURE (strictly follow):
-  1. Start with a direct 2-3 sentence answer/summary (no intro fluff, no "in today's world")
-  2. 5-6 H2 sections with specific data, statistics with sources, actionable tips
-  3. "## Frequently Asked Questions" section with 5 questions as H3, each with a direct 1-3 sentence answer
-  4. Brief conclusion
-- Include specific numbers, percentages, dates with sources (e.g., "According to [Source], 45% of...")
-- Markdown: # title, ## H2, ### H3, **bold**, - lists
+- STRUCTURE (strictly follow — every item is required):
+  1. **First paragraph**: 2-3 sentence direct answer/summary (no intro fluff, no \"in today's world\")
+  2. **## H2 headings**: MUST be question-style (\"## How to Invest in Bitcoin\", \"## What is a Hardware Wallet?\") — NOT declarative statements
+  3. **5-6 H2 sections** with specific data, statistics with sources, actionable tips
+  4. **IMAGE**: Include one contextual image with descriptive alt text: ![descriptive alt text describing the image content](https://example.com/image.jpg) — alt text must describe what is shown, not just \"image\"
+  5. **TABLE**: At least one markdown comparison table with headers and data
+  6. **FAQ**: \"## Frequently Asked Questions\" section with 5 questions as ### H3, each with a direct 1-3 sentence answer
+  7. **SOURCES**: Cite specific numbers/percentages with source references (e.g., \"According to CoinMarketCap, 45% of investors...")
+  8. **Conclusion**: Brief closing paragraph
+- Markdown: # title, ## H2 (question-style), ### H3, **bold**, | table | columns |, numbered lists
 - Output ONLY the article starting with # Title""",
 
-        "standard": f"""Write an article about "{topic}".
+        "standard": f"""Write an article about \"{topic}\".
 - {target_words}+ words
-- STRUCTURE (strictly follow):
-  1. Start with a direct 2-3 sentence answer/summary (no intro fluff)
-  2. 3-4 H2 sections with specific examples and data
-  3. "## Frequently Asked Questions" section with 3 questions as H3, each with a direct 1-3 sentence answer
-  4. Brief conclusion
-- Include specific numbers and sources where possible
-- Markdown: ## headers, **bold**, - lists
+- STRUCTURE (strictly follow — every item is required):
+  1. **First paragraph**: 2-3 sentence direct answer/summary (no intro fluff)
+  2. **## H2 headings**: MUST be question-style (\"## How to Save Money Fast\", \"## What is Compound Interest?\") — NOT declarative
+  3. **3-4 H2 sections** with specific examples and data
+  4. **IMAGE**: Include one contextual image with descriptive alt text: ![alt describing image content](https://example.com/image.jpg)
+  5. **TABLE**: At least one markdown table with headers and data
+  6. **FAQ**: \"## Frequently Asked Questions\" with 3 questions as ### H3, direct 1-3 sentence answers
+  7. **SOURCES**: Cite specific numbers with source references
+  8. **Conclusion**: Brief closing paragraph
+- Markdown: ## headers (question-style), ### H3 for FAQ, **bold**, - lists, | table | data |
 - Output ONLY the article starting with # Title""",
 
-        "faq": f"""Write an FAQ article: "{topic}".
+        "faq": f"""Write an FAQ article: \"{topic}\".
 - {target_words}+ words, 8 questions with detailed answers
-- Each question as ## heading, answer immediately follows
-- Answers must be direct and factual (1-4 sentences first, then expand)
-- Include specific data and sources in answers
+- Each ## heading MUST be question-style: \"## How to Invest in Crypto?\", \"## What is DeFi?\", \"## Why Does X Matter?\"
+- **IMAGE**: Include one contextual image with descriptive alt text: ![alt describing image content](https://example.com/image.jpg)
+- **TABLE**: At least one markdown table in the article
+- Answers must be direct and factual, then expand with detail
+- Include specific data and source citations
 - Output ONLY the article starting with # Title""",
 
-        "howto": f"""Write a step-by-step guide: "{topic}".
+        "howto": f"""Write a step-by-step guide: \"{topic}\".
 - {target_words}+ words
-- STRUCTURE:
-  1. Start with a direct 2-3 sentence summary of what this guide accomplishes
-  2. "## Step-by-Step Instructions" with numbered steps as H3
-  3. "## Frequently Asked Questions" with 4 questions as H3
-  4. Tips section
-- Be specific and actionable, include specific numbers/dates
+- STRUCTURE (strictly follow):
+  1. **First paragraph**: 2-3 sentence summary of what this guide accomplishes
+  2. **IMAGE**: Include one contextual image with descriptive alt text: ![alt describing image content](https://example.com/image.jpg)
+  3. \"## Step-by-Step Instructions\" — each step as ### H3 (\"### Step 1: ...\", \"### Step 2: ...\")
+  4. **TABLE**: Summary table comparing options or results
+  5. **FAQ**: \"## Frequently Asked Questions\" with 4 questions as ### H3
+  6. Tips section with specific actionable advice
+- Include specific numbers/dates in each step and cite sources
 - Output ONLY the article starting with # Title""",
 
-        "listicle": f"""Write a listicle: "{topic}".
-- {target_words}+ words, 8-10 items with H2 headings
+        "listicle": f"""Write a listicle: \"{topic}\".
+- {target_words}+ words, 8-10 items
 - STRUCTURE:
-  1. Start with a direct 2-3 sentence answer summarizing the top picks
-  2. Each item: H2 heading, brief pros/cons, specific details
-  3. "## Frequently Asked Questions" with 3 questions as H3
+  1. **First paragraph**: 2-3 sentence answer summarizing the top picks
+  2. **IMAGE**: Include one contextual image with descriptive alt text: ![alt describing image content](https://example.com/image.jpg)
+  3. Each item: ## H2 (numbered question-style like \"## #1: How to Choose the Best...\"), brief pros/cons, specific details
+  4. **TABLE**: Comparison table across items
+  5. **FAQ**: \"## Frequently Asked Questions\" with 3 questions as ### H3
 - Include specific prices, ratings, or data points for each item
+- Cite sources for all statistics
 - Output ONLY the article starting with # Title""",
 
-        "comparison": f"""Write a comparison: "{topic}".
+        "comparison": f"""Write a comparison: \"{topic}\".
 - {target_words}+ words
 - STRUCTURE:
-  1. Start with a direct 2-3 sentence answer: which option is best for whom
-  2. Feature comparison with specific data
-  3. "## Frequently Asked Questions" with 4 questions as H3
-  4. Final verdict with specific reasoning
+  1. **First paragraph**: 2-3 sentence answer: which option is best for whom
+  2. **IMAGE**: Include one contextual image with descriptive alt text: ![alt describing image content](https://example.com/image.jpg)
+  3. Feature comparison as a markdown table with headers and data columns
+  4. \"## Frequently Asked Questions\" with 4 questions as ### H3
+  5. Final verdict with specific reasoning and source citations
 - Include specific numbers, prices, performance data
 - Output ONLY the article starting with # Title""",
     }
@@ -200,7 +214,16 @@ def _build_prompt(topic: str, article_type: str, target_words: int, niche: str) 
 
     return f"""You are an expert {niche} writer. {instructions}
 
-Rules: Output ONLY markdown article. Start with # Title. CRITICAL: First paragraph must be a direct answer/summary — NO "in today's world", "have you ever wondered", or filler intros. Use ## headers, ### for FAQ sub-questions, **bold**, - lists. Include specific numbers and sources. Add a "## Frequently Asked Questions" section with ### H3 questions. Be specific, no filler. Write now:"""
+GEO-QUALITY CHECKLIST — your article MUST contain ALL of the following:
+☐ Direct answer in first paragraph (2-3 sentences, no filler intros)
+☐ ## H2 headings in question-style ("How to...", "What is...", "Why...")
+☐ At least 1 markdown table with headers and data
+☐ At least 1 image with descriptive alt text: ![alt text](url)
+☐ ## Frequently Asked Questions section with ### H3 sub-questions
+☐ At least 3 data points with source citations (e.g., "According to [Source]...")
+☐ Brief conclusion paragraph
+
+Rules: Output ONLY markdown article. Start with # Title. No filler. Write now:"""
 
 
 def generate_template_article(topic: str, article_type: str, target_words: int, niche: str) -> str:

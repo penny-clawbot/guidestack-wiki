@@ -1,29 +1,29 @@
+# AI Crawler Allow Rules (GEO Best Practice 2026)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Google-Agent
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+# Agent: directive for AI search engines (https://www.robotstxt.org/agent.html)
+Agent: *
+
 User-agent: *
 Allow: /
 
-# AI Crawlers — explicitly allowed for LLM SEO
-User-agent: GPTBot
-Allow: /
-User-agent: OAI-SearchBot
-Allow: /
-User-agent: ChatGPT-User
-Allow: /
-User-agent: ClaudeBot
-Allow: /
-User-agent: ClaudeBot-SearchBot
-Allow: /
-User-agent: CCBot
-Allow: /
-User-agent: Google-Extended
-Allow: /
-User-agent: PerplexityBot
-Allow: /
-User-agent: Bytespider
-Allow: /
-User-agent: facebookexternalhit
-Allow: /
-User-agent: Twitterbot
-Allow: /
-
-# Sitemaps
-Sitemap: https://crypto-investing.com/sitemap.xml
+Sitemap: https://example.com/sitemap.xml

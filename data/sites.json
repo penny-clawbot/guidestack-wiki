@@ -5,7 +5,7 @@
       "niche": "budget travel",
       "status": "active",
       "created": "2026-05-10T15:23:59-04:00",
-      "last_build": "2026-05-12T08:04:29-04:00",
+      "last_build": "2026-05-14T02:02:27-04:00",
       "last_deploy": null,
       "article_count": 52
     },
@@ -14,7 +14,7 @@
       "niche": "crypto investing",
       "status": "active",
       "created": "2026-05-10T15:53:14-04:00",
-      "last_build": "2026-05-12T08:04:33-04:00",
+      "last_build": "2026-05-14T02:02:32-04:00",
       "last_deploy": null,
       "article_count": 53
     },
@@ -23,7 +23,7 @@
       "niche": "AI tools and productivity",
       "status": "active",
       "created": "2026-05-10T15:53:15-04:00",
-      "last_build": "2026-05-12T08:04:38-04:00",
+      "last_build": "2026-05-14T02:02:36-04:00",
       "last_deploy": null,
       "article_count": 52
     },
@@ -32,7 +32,7 @@
       "niche": "personal finance",
       "status": "active",
       "created": "2026-05-10T15:53:15-04:00",
-      "last_build": "2026-05-12T08:04:42-04:00",
+      "last_build": "2026-05-14T02:02:41-04:00",
       "last_deploy": null,
       "article_count": 52
     },
@@ -41,7 +41,7 @@
       "niche": "bitcoin beginners",
       "status": "active",
       "created": "2026-05-10T17:41:18-04:00",
-      "last_build": "2026-05-12T08:04:46-04:00",
+      "last_build": "2026-05-14T02:02:46-04:00",
       "last_deploy": null,
       "article_count": 52
     },
@@ -50,7 +50,7 @@
       "niche": "crypto trading strategies",
       "status": "active",
       "created": "2026-05-10T17:41:30-04:00",
-      "last_build": "2026-05-12T08:04:50-04:00",
+      "last_build": "2026-05-14T02:02:50-04:00",
       "last_deploy": null,
       "article_count": 52
     },
@@ -59,18 +59,18 @@
       "niche": "DeFi yield guide",
       "status": "active",
       "created": "2026-05-10T17:41:30-04:00",
-      "last_build": "2026-05-12T08:04:55-04:00",
+      "last_build": "2026-05-14T02:02:55-04:00",
       "last_deploy": null,
-      "article_count": 43
+      "article_count": 45
     },
     {
       "name": "smart-emergency-fund",
       "niche": "emergency fund",
       "status": "active",
       "created": "2026-05-11T14:12:05-04:00",
-      "last_build": "2026-05-12T08:04:57-04:00",
+      "last_build": "2026-05-14T02:03:01-04:00",
       "last_deploy": null,
-      "article_count": 20
+      "article_count": 42
     }
   ],
   "settings": {

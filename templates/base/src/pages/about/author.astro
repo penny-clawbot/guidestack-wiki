@@ -1,0 +1,54 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import fs from 'node:fs';
+const siteConfig = JSON.parse(fs.readFileSync('site-config.json', 'utf-8'));
+const domain = siteConfig.domain || 'example.com';
+const siteUrl = `https://${domain}`;
+const authorName = siteConfig.author || siteConfig.name;
+const breadcrumbs = [{ name: 'Home', url: '/' }, { name: 'About', url: '/about' }, { name: authorName, url: '/about/author' }];
+const schema = {
+  "@context": "https://schema.org", "@type": "Person", "name": authorName,
+  "url": `${siteUrl}/about/author`, "jobTitle": "Content Editor",
+  "worksFor": { "@type": "Organization", "name": siteConfig.name, "url": siteUrl },
+  "knowsAbout": siteConfig.niche,
+  "sameAs": siteConfig.social ? Object.values(siteConfig.social) : undefined
+};
+---
+<BaseLayout title={`${authorName} - Author`} description={`About ${authorName}, editor at ${siteConfig.name}.`} ogType="profile" breadcrumbs={breadcrumbs} siteName={siteConfig.name} schema={schema}>
+  <article class="max-w-3xl mx-auto">
+    <nav aria-label="Breadcrumb" class="mb-6">
+      <ol class="flex items-center gap-1.5 text-sm text-[var(--color-text-muted)]">
+        <li><a href="/" class="hover:text-[var(--color-primary)]">Home</a></li>
+        <li><span class="mx-1">›</span></li>
+        <li><a href="/about" class="hover:text-[var(--color-primary)]">About</a></li>
+        <li><span class="mx-1">›</span></li>
+        <li class="text-[var(--color-text)] font-medium">{authorName}</li>
+      </ol>
+    </nav>
+    <div class="flex items-center gap-6 mb-8">
+      <div class="w-24 h-24 rounded-full bg-gradient-to-br from-[var(--color-primary)] to-[var(--color-accent)] flex items-center justify-center text-white text-2xl font-bold flex-shrink-0">
+        {authorName.split(' ').map(w => w[0]).join('').substring(0, 2)}
+      </div>
+      <div>
+        <h1 class="text-3xl font-extrabold text-[var(--color-text-heading)]">{authorName}</h1>
+        <p class="text-[var(--color-text-muted)]">Content Editor · {siteConfig.name}</p>
+      </div>
+    </div>
+    <div class="prose prose-lg">
+      <p>{authorName} is the editorial team behind {siteConfig.name}. With a focus on {siteConfig.niche}, we research and publish comprehensive guides that help readers make informed decisions.</p>
+      <h2>Editorial Philosophy</h2>
+      <p>Every article undergoes thorough research and fact-checking. We provide practical, actionable information rather than generic advice.</p>
+      <h2>Expertise</h2>
+      <ul>
+        <li>In-depth {siteConfig.niche} research and analysis</li>
+        <li>Practical how-to guides with step-by-step instructions</li>
+        <li>Unbiased product and service comparisons</li>
+        <li>Data-driven insights with cited sources</li>
+      </ul>
+      <h2>Connect</h2>
+      <ul>
+        <li><a href="/" rel="me">{siteConfig.name}</a></li>
+      </ul>
+    </div>
+  </article>
+</BaseLayout>

@@ -38,11 +38,27 @@ if (fs.existsSync(cd)) {
 }
 articles.sort((a, b) => b.date.localeCompare(a.date));
 const siteConfig = JSON.parse(fs.readFileSync('site-config.json', 'utf-8'));
+const domain = siteConfig.domain || 'example.com';
+const siteUrl = `https://${domain}`;
 const catLabel = category.replace(/-/g, ' ').replace(/\b\w/g, (l: string) => l.toUpperCase());
 const breadcrumbs = [{ name: 'Home', url: '/' }, { name: catLabel, url: `/category/${category}` }];
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": `${catLabel} - ${siteConfig.name}`,
+  "description": `Browse all ${catLabel.toLowerCase()} articles.`,
+  "url": `${siteUrl}/category/${category}`,
+  "publisher": { "@type": "Organization", "name": siteConfig.name, "url": siteUrl },
+  "mainEntity": {
+    "@type": "ItemList",
+    "numberOfItems": articles.length,
+    "itemListElement": articles.slice(0, 10).map((a, i) => ({ "@type": "ListItem", "position": i + 1, "url": `${siteUrl}/${a.slug}`, "name": a.title }))
+  }
+};
 ---
 
-<BaseLayout title={`${catLabel} - ${siteConfig.name}`} description={`Browse all ${catLabel.toLowerCase()} articles. Expert guides, tips, and resources.`} ogType="website" breadcrumbs={breadcrumbs} siteName={siteConfig.name}>
+<BaseLayout title={`${catLabel} - ${siteConfig.name}`} description={`Browse all ${catLabel.toLowerCase()} articles. Expert guides, tips, and resources.`} ogType="website" breadcrumbs={breadcrumbs} siteName={siteConfig.name} schema={schema}
+  canonical={`${siteUrl}/category/${category}`}>
   <!-- Category header -->
   <header class="mb-10">
     <nav aria-label="Breadcrumb" class="mb-4">

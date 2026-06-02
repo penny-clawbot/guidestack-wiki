@@ -1,0 +1,1209 @@
+{
+  "niche": "work from home tips",
+  "timestamp": "2026-05-11 14:05:11",
+  "total_keywords": 51,
+  "opportunities_above_threshold": 0,
+  "score_threshold": 60,
+  "scored_keywords": [
+    {
+      "keyword": "work from home tips amazon",
+      "volume_estimate": 3421,
+      "competition_score": 53.1,
+      "rpm_estimate": 7.23,
+      "content_feasibility": 70,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 53.1,
+        "result_count": 10,
+        "big_sites": 2,
+        "avg_content_depth": 156.7,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 28.54,
+      "grade": "D"
+    },
+    {
+      "keyword": "how to work from home tips",
+      "volume_estimate": 212,
+      "competition_score": 53.2,
+      "rpm_estimate": 4.31,
+      "content_feasibility": 85,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 53.2,
+        "result_count": 10,
+        "big_sites": 2,
+        "avg_content_depth": 160.6,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 28.01,
+      "grade": "D"
+    },
+    {
+      "keyword": "what is work from home tips",
+      "volume_estimate": 386,
+      "competition_score": 53.2,
+      "rpm_estimate": 6.81,
+      "content_feasibility": 85,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 53.2,
+        "result_count": 10,
+        "big_sites": 2,
+        "avg_content_depth": 160.6,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 30.38,
+      "grade": "D"
+    },
+    {
+      "keyword": "how to work from home tips for focus balance",
+      "volume_estimate": 542,
+      "competition_score": 68.2,
+      "rpm_estimate": 2.98,
+      "content_feasibility": 85,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 68.2,
+        "result_count": 10,
+        "big_sites": 3,
+        "avg_content_depth": 158.5,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 23.95,
+      "grade": "D"
+    },
+    {
+      "keyword": "work from home tips microsoft jul 7 choose a work area",
+      "volume_estimate": 1365,
+      "competition_score": 23.2,
+      "rpm_estimate": 6.24,
+      "content_feasibility": 80,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 23.2,
+        "result_count": 10,
+        "big_sites": 0,
+        "avg_content_depth": 160.0,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 40.11,
+      "grade": "C"
+    },
+    {
+      "keyword": "how to work from home tips for beginners",
+      "volume_estimate": 405,
+      "competition_score": 53.2,
+      "rpm_estimate": 3.53,
+      "content_feasibility": 85,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 53.2,
+        "result_count": 10,
+        "big_sites": 2,
+        "avg_content_depth": 160.8,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 28.8,
+      "grade": "D"
+    },
+    {
+      "keyword": "here are my top work from home tips how to actually be productive in your own space while a million",
+      "volume_estimate": 809,
+      "competition_score": 38.2,
+      "rpm_estimate": 14.17,
+      "content_feasibility": 80,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 38.2,
+        "result_count": 10,
+        "big_sites": 1,
+        "avg_content_depth": 160.4,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 38.21,
+      "grade": "D"
+    },
+    {
+      "keyword": "why work from home tips 2025",
+      "volume_estimate": 233,
+      "competition_score": 38.2,
+      "rpm_estimate": 7.49,
+      "content_feasibility": 95,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 38.2,
+        "result_count": 10,
+        "big_sites": 1,
+        "avg_content_depth": 160.8,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 39.01,
+      "grade": "D"
+    },
+    {
+      "keyword": "why work from home tips for beginners",
+      "volume_estimate": 733,
+      "competition_score": 38.2,
+      "rpm_estimate": 6.7,
+      "content_feasibility": 95,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 38.2,
+        "result_count": 10,
+        "big_sites": 1,
+        "avg_content_depth": 161.7,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 40.92,
+      "grade": "C"
+    },
+    {
+      "keyword": "why work from home tips amazon",
+      "volume_estimate": 453,
+      "competition_score": 95,
+      "rpm_estimate": 2.78,
+      "content_feasibility": 85,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 95,
+        "result_count": 10,
+        "big_sites": 6,
+        "avg_content_depth": 158.6,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 14.41,
+      "grade": "F"
+    },
+    {
+      "keyword": "how to work from home tips to boost productivity bamboohr jul 18",
+      "volume_estimate": 578,
+      "competition_score": 38.1,
+      "rpm_estimate": 7.91,
+      "content_feasibility": 95,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 38.1,
+        "result_count": 10,
+        "big_sites": 1,
+        "avg_content_depth": 157.5,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 41.15,
+      "grade": "C"
+    },
+    {
+      "keyword": "how to work from home tips reddit",
+      "volume_estimate": 798,
+      "competition_score": 95,
+      "rpm_estimate": 2.42,
+      "content_feasibility": 85,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 95,
+        "result_count": 10,
+        "big_sites": 10,
+        "avg_content_depth": 160.0,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 15.27,
+      "grade": "F"
+    },
+    {
+      "keyword": "work from home tips youtube",
+      "volume_estimate": 4649,
+      "competition_score": 95,
+      "rpm_estimate": 6.48,
+      "content_feasibility": 70,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 95,
+        "result_count": 10,
+        "big_sites": 8,
+        "avg_content_depth": 157.8,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 16.96,
+      "grade": "F"
+    },
+    {
+      "keyword": "why work from home tips youtube",
+      "volume_estimate": 251,
+      "competition_score": 95,
+      "rpm_estimate": 3.58,
+      "content_feasibility": 85,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 95,
+        "result_count": 10,
+        "big_sites": 7,
+        "avg_content_depth": 155.4,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 13.73,
+      "grade": "F"
+    },
+    {
+      "keyword": "how to work from home tips 2024",
+      "volume_estimate": 512,
+      "competition_score": 38.3,
+      "rpm_estimate": 7.94,
+      "content_feasibility": 95,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 38.3,
+        "result_count": 10,
+        "big_sites": 1,
+        "avg_content_depth": 164.1,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 40.84,
+      "grade": "C"
+    },
+    {
+      "keyword": "ucn work from home tips to stay on track choose a dedicated workspace",
+      "volume_estimate": 1480,
+      "competition_score": 38.2,
+      "rpm_estimate": 6.32,
+      "content_feasibility": 80,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 38.2,
+        "result_count": 10,
+        "big_sites": 1,
+        "avg_content_depth": 161.9,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 35.49,
+      "grade": "D"
+    },
+    {
+      "keyword": "top work from home tips 2025",
+      "volume_estimate": 1102,
+      "competition_score": 23.2,
+      "rpm_estimate": 8.36,
+      "content_feasibility": 80,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 23.2,
+        "result_count": 10,
+        "big_sites": 0,
+        "avg_content_depth": 162.2,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 40.76,
+      "grade": "C"
+    },
+    {
+      "keyword": "top work from home tips reddit",
+      "volume_estimate": 152,
+      "competition_score": 95,
+      "rpm_estimate": 19.07,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 95,
+        "result_count": 10,
+        "big_sites": 10,
+        "avg_content_depth": 159.5,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 17.06,
+      "grade": "F"
+    },
+    {
+      "keyword": "top work from home tips",
+      "volume_estimate": 5986,
+      "competition_score": 38.2,
+      "rpm_estimate": 15.52,
+      "content_feasibility": 80,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 38.2,
+        "result_count": 10,
+        "big_sites": 1,
+        "avg_content_depth": 160.4,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 42.33,
+      "grade": "C"
+    },
+    {
+      "keyword": "work from home tips forum",
+      "volume_estimate": 2335,
+      "competition_score": 53.1,
+      "rpm_estimate": 4.73,
+      "content_feasibility": 70,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 53.1,
+        "result_count": 10,
+        "big_sites": 2,
+        "avg_content_depth": 155.5,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 26.91,
+      "grade": "D"
+    },
+    {
+      "keyword": "work from home tips 2024",
+      "volume_estimate": 1760,
+      "competition_score": 53.2,
+      "rpm_estimate": 2.28,
+      "content_feasibility": 70,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 53.2,
+        "result_count": 10,
+        "big_sites": 2,
+        "avg_content_depth": 160.9,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 25.42,
+      "grade": "D"
+    },
+    {
+      "keyword": "work from home tips to stay on track ucn work from home tips to stay on track",
+      "volume_estimate": 172,
+      "competition_score": 53.2,
+      "rpm_estimate": 6.7,
+      "content_feasibility": 70,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 53.2,
+        "result_count": 10,
+        "big_sites": 2,
+        "avg_content_depth": 161.6,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 23.75,
+      "grade": "D"
+    },
+    {
+      "keyword": "work from home tips reddit",
+      "volume_estimate": 2922,
+      "competition_score": 95,
+      "rpm_estimate": 5.66,
+      "content_feasibility": 70,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 95,
+        "result_count": 10,
+        "big_sites": 10,
+        "avg_content_depth": 161.1,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 15.91,
+      "grade": "F"
+    },
+    {
+      "keyword": "top work from home tips forum",
+      "volume_estimate": 700,
+      "competition_score": 53.2,
+      "rpm_estimate": 11.02,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 53.2,
+        "result_count": 10,
+        "big_sites": 2,
+        "avg_content_depth": 160.0,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 27.69,
+      "grade": "D"
+    },
+    {
+      "keyword": "best work from home tips 2024",
+      "volume_estimate": 236,
+      "competition_score": 53.2,
+      "rpm_estimate": 13.24,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 53.2,
+        "result_count": 10,
+        "big_sites": 2,
+        "avg_content_depth": 161.2,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 26.98,
+      "grade": "D"
+    },
+    {
+      "keyword": "top work from home tips youtube",
+      "volume_estimate": 1613,
+      "competition_score": 95,
+      "rpm_estimate": 14.1,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 95,
+        "result_count": 10,
+        "big_sites": 9,
+        "avg_content_depth": 152.9,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 18.55,
+      "grade": "F"
+    },
+    {
+      "keyword": "how to work from home tips 2025",
+      "volume_estimate": 786,
+      "competition_score": 23.2,
+      "rpm_estimate": 3.34,
+      "content_feasibility": 95,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 23.2,
+        "result_count": 10,
+        "big_sites": 0,
+        "avg_content_depth": 162.2,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 44.84,
+      "grade": "C"
+    },
+    {
+      "keyword": "top work from home tips amazon",
+      "volume_estimate": 1145,
+      "competition_score": 68.1,
+      "rpm_estimate": 15.0,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 68.1,
+        "result_count": 10,
+        "big_sites": 3,
+        "avg_content_depth": 156.1,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 25.94,
+      "grade": "D"
+    },
+    {
+      "keyword": "why work from home tips reddit",
+      "volume_estimate": 694,
+      "competition_score": 95,
+      "rpm_estimate": 2.83,
+      "content_feasibility": 85,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 95,
+        "result_count": 10,
+        "big_sites": 10,
+        "avg_content_depth": 160.5,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 15.22,
+      "grade": "F"
+    },
+    {
+      "keyword": "work from home tips to stay on track ucn choose a dedicated workspace and try to set it up just like your office find a comfortable spot to work that you can associate with your job and leave when",
+      "volume_estimate": 1359,
+      "competition_score": 23.2,
+      "rpm_estimate": 6.08,
+      "content_feasibility": 80,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 23.2,
+        "result_count": 10,
+        "big_sites": 0,
+        "avg_content_depth": 159.8,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 40.03,
+      "grade": "C"
+    },
+    {
+      "keyword": "top work from home tips for beginners",
+      "volume_estimate": 1883,
+      "competition_score": 53.3,
+      "rpm_estimate": 10.26,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 53.3,
+        "result_count": 10,
+        "big_sites": 2,
+        "avg_content_depth": 163.5,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 28.85,
+      "grade": "D"
+    },
+    {
+      "keyword": "why work from home tips",
+      "volume_estimate": 3054,
+      "competition_score": 38.3,
+      "rpm_estimate": 2.25,
+      "content_feasibility": 95,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 38.3,
+        "result_count": 10,
+        "big_sites": 1,
+        "avg_content_depth": 162.6,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 41.28,
+      "grade": "C"
+    },
+    {
+      "keyword": "best work from home tips 2025",
+      "volume_estimate": 338,
+      "competition_score": 68.2,
+      "rpm_estimate": 25.78,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 68.2,
+        "result_count": 10,
+        "big_sites": 3,
+        "avg_content_depth": 160.0,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 28.59,
+      "grade": "D"
+    },
+    {
+      "keyword": "best work from home tips for beginners",
+      "volume_estimate": 336,
+      "competition_score": 53.2,
+      "rpm_estimate": 16.44,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 53.2,
+        "result_count": 10,
+        "big_sites": 2,
+        "avg_content_depth": 161.5,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 28.86,
+      "grade": "D"
+    },
+    {
+      "keyword": "top work from home tips 2024",
+      "volume_estimate": 447,
+      "competition_score": 38.2,
+      "rpm_estimate": 14.0,
+      "content_feasibility": 80,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 38.2,
+        "result_count": 10,
+        "big_sites": 1,
+        "avg_content_depth": 159.5,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 37.1,
+      "grade": "D"
+    },
+    {
+      "keyword": "best work from home tips youtube",
+      "volume_estimate": 189,
+      "competition_score": 95,
+      "rpm_estimate": 28.32,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 95,
+        "result_count": 10,
+        "big_sites": 8,
+        "avg_content_depth": 154.5,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 21.27,
+      "grade": "D"
+    },
+    {
+      "keyword": "work from home tips 2025",
+      "volume_estimate": 1042,
+      "competition_score": 38.3,
+      "rpm_estimate": 3.06,
+      "content_feasibility": 80,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 38.3,
+        "result_count": 10,
+        "big_sites": 1,
+        "avg_content_depth": 163.0,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 33.29,
+      "grade": "D"
+    },
+    {
+      "keyword": "how to work from home tips amazon",
+      "volume_estimate": 522,
+      "competition_score": 83.1,
+      "rpm_estimate": 3.01,
+      "content_feasibility": 85,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 83.1,
+        "result_count": 10,
+        "big_sites": 4,
+        "avg_content_depth": 157.0,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 18.83,
+      "grade": "F"
+    },
+    {
+      "keyword": "best work from home tips",
+      "volume_estimate": 6107,
+      "competition_score": 68.3,
+      "rpm_estimate": 12.14,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 68.3,
+        "result_count": 10,
+        "big_sites": 3,
+        "avg_content_depth": 163.3,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 27.23,
+      "grade": "D"
+    },
+    {
+      "keyword": "why work from home tips 2024",
+      "volume_estimate": 259,
+      "competition_score": 38.2,
+      "rpm_estimate": 4.85,
+      "content_feasibility": 95,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 38.2,
+        "result_count": 10,
+        "big_sites": 1,
+        "avg_content_depth": 161.2,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 37.72,
+      "grade": "D"
+    },
+    {
+      "keyword": "best work from home tips reddit",
+      "volume_estimate": 1690,
+      "competition_score": 95,
+      "rpm_estimate": 17.78,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 95,
+        "result_count": 10,
+        "big_sites": 10,
+        "avg_content_depth": 158.8,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 20.17,
+      "grade": "D"
+    },
+    {
+      "keyword": "why work from home tips forum",
+      "volume_estimate": 636,
+      "competition_score": 38.2,
+      "rpm_estimate": 4.79,
+      "content_feasibility": 95,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 38.2,
+        "result_count": 10,
+        "big_sites": 1,
+        "avg_content_depth": 161.8,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 39.53,
+      "grade": "D"
+    },
+    {
+      "keyword": "insanely practical work from home tips from our 100 remote mar 26",
+      "volume_estimate": 1139,
+      "competition_score": 38.2,
+      "rpm_estimate": 5.1,
+      "content_feasibility": 80,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 38.2,
+        "result_count": 10,
+        "big_sites": 1,
+        "avg_content_depth": 158.0,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 34.45,
+      "grade": "D"
+    },
+    {
+      "keyword": "best work from home tips forum",
+      "volume_estimate": 345,
+      "competition_score": 38.2,
+      "rpm_estimate": 21.9,
+      "content_feasibility": 80,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 38.2,
+        "result_count": 10,
+        "big_sites": 1,
+        "avg_content_depth": 161.2,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 40.44,
+      "grade": "C"
+    },
+    {
+      "keyword": "my best work from home tips as a founder and ceo",
+      "volume_estimate": 1443,
+      "competition_score": 68.2,
+      "rpm_estimate": 14.66,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 68.2,
+        "result_count": 10,
+        "big_sites": 3,
+        "avg_content_depth": 162.5,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 26.12,
+      "grade": "D"
+    },
+    {
+      "keyword": "work from home tips how to actually be productive in your own space while a million",
+      "volume_estimate": 652,
+      "competition_score": 38.2,
+      "rpm_estimate": 2.75,
+      "content_feasibility": 80,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 38.2,
+        "result_count": 10,
+        "big_sites": 1,
+        "avg_content_depth": 161.5,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 32.36,
+      "grade": "D"
+    },
+    {
+      "keyword": "how to work from home tips forum",
+      "volume_estimate": 956,
+      "competition_score": 53.2,
+      "rpm_estimate": 7.93,
+      "content_feasibility": 85,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 53.2,
+        "result_count": 10,
+        "big_sites": 2,
+        "avg_content_depth": 159.0,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 32.63,
+      "grade": "D"
+    },
+    {
+      "keyword": "work from home tips to help you stay productive self feb 24 without taking regular breaks i start to lose focus and get distracted",
+      "volume_estimate": 402,
+      "competition_score": 53.3,
+      "rpm_estimate": 2.52,
+      "content_feasibility": 70,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 53.3,
+        "result_count": 10,
+        "big_sites": 2,
+        "avg_content_depth": 163.6,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 23.25,
+      "grade": "D"
+    },
+    {
+      "keyword": "best work from home tips amazon",
+      "volume_estimate": 1799,
+      "competition_score": 68.1,
+      "rpm_estimate": 13.44,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 68.1,
+        "result_count": 10,
+        "big_sites": 3,
+        "avg_content_depth": 156.9,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 25.97,
+      "grade": "D"
+    },
+    {
+      "keyword": "how to work from home tips youtube",
+      "volume_estimate": 864,
+      "competition_score": 95,
+      "rpm_estimate": 3.86,
+      "content_feasibility": 85,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 95,
+        "result_count": 10,
+        "big_sites": 8,
+        "avg_content_depth": 155.1,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 16.15,
+      "grade": "F"
+    },
+    {
+      "keyword": "work from home tips for beginners",
+      "volume_estimate": 1499,
+      "competition_score": 38.2,
+      "rpm_estimate": 2.21,
+      "content_feasibility": 80,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 38.2,
+        "result_count": 10,
+        "big_sites": 1,
+        "avg_content_depth": 159.4,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 33.54,
+      "grade": "D"
+    }
+  ],
+  "top_opportunities": [],
+  "scored_clusters": [
+    {
+      "cluster": "work from",
+      "keyword_count": 51,
+      "total_volume_estimate": 63391,
+      "avg_competition": 57.5,
+      "avg_rpm": 8.66,
+      "avg_feasibility": 79.5,
+      "commercial_ratio": 0.35,
+      "cluster_score": 0.01,
+      "top_keywords": [
+        "best work from home tips",
+        "top work from home tips",
+        "work from home tips youtube",
+        "work from home tips amazon",
+        "why work from home tips"
+      ],
+      "content_strategy": "Niche micro-content. Long-tail targeting, question-based articles, internal linking strategy."
+    }
+  ],
+  "summary": {
+    "avg_opportunity_score": 29.31,
+    "grade_a_count": 0,
+    "grade_b_count": 0,
+    "grade_c_count": 10
+  }
+}

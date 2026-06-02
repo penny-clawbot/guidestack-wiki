@@ -1,0 +1,88 @@
+---
+// NetworkSchema.astro
+// Outputs JSON-LD structured data linking all PennyPress Network properties.
+// This creates an Organization graph that helps search engines understand
+// the relationship between all sites in the network.
+// FREE — no external dependencies.
+
+import fs from 'node:fs';
+import path from 'node:path';
+
+interface Props {
+  currentSiteId: string;
+}
+
+const { currentSiteId } = Astro.props;
+
+const configPath = path.resolve('site-config.json');
+const siteConfig = fs.existsSync(configPath) ? JSON.parse(fs.readFileSync(configPath, 'utf-8')) : {};
+const currentDomain = siteConfig.domain || 'example.com';
+
+const networkPaths = [
+  path.resolve('../../network-config.json'),
+  path.resolve('../../../network-config.json'),
+  path.resolve('/Users/penny/Documents/Penny/pseo-network/network-config.json'),
+];
+
+let networkConfig: any = null;
+for (const p of networkPaths) {
+  if (fs.existsSync(p)) {
+    networkConfig = JSON.parse(fs.readFileSync(p, 'utf-8'));
+    break;
+  }
+}
+
+if (!networkConfig) return;
+
+const currentSite = networkConfig.sites.find((s: any) => s.domain === currentDomain || s.id === currentSiteId);
+
+// Build Organization schema linking all network properties
+const networkSchema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": `https://${networkConfig.networkDomain || 'pennypress.network'}/#organization`,
+      "name": networkConfig.networkName,
+      "url": `https://${networkConfig.networkDomain || 'pennypress.network'}`,
+      "logo": {
+        "@type": "ImageObject",
+        "url": `https://${networkConfig.networkDomain || 'pennypress.network'}/logo.png`
+      },
+      "sameAs": networkConfig.sites
+        .filter((s: any) => s.domain !== currentDomain)
+        .map((s: any) => `https://${s.domain}`)
+    },
+    // Current site as a WebSite owned by the Organization
+    ...(currentSite ? [{
+      "@type": "WebSite",
+      "@id": `https://${currentSite.domain}/#website`,
+      "name": currentSite.name,
+      "url": `https://${currentSite.domain}`,
+      "description": currentSite.description,
+      "publisher": {
+        "@id": `https://${networkConfig.networkDomain || 'pennypress.network'}/#organization`
+      },
+      "isPartOf": {
+        "@id": `https://${networkConfig.networkDomain || 'pennypress.network'}/#website`
+      }
+    }] : []),
+    // Link to related sites as relatedLink (SEO signal)
+    ...(currentSite ? (currentSite.related || []).map((relId: string) => {
+      const relSite = networkConfig.sites.find((s: any) => s.id === relId);
+      if (!relSite) return null;
+      return {
+        "@type": "WebSite",
+        "name": relSite.name,
+        "url": `https://${relSite.domain}`,
+        "description": relSite.description,
+        "publisher": {
+          "@id": `https://${networkConfig.networkDomain || 'pennypress.network'}/#organization`
+        }
+      };
+    }).filter(Boolean) : [])
+  ]
+};
+---
+
+<script type="application/ld+json" set:html={JSON.stringify(networkSchema)} />

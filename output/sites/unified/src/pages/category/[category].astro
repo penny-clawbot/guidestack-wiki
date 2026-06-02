@@ -1,0 +1,39 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import fs from 'node:fs';
+import path from 'node:path';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import fs from 'node:fs';
+import path from 'node:path';
+
+const siteConfig = JSON.parse(fs.readFileSync('site-config.json','utf-8'));
+const niches = siteConfig.niches || [];
+const ARTICLES_DIR = 'src/content/articles';
+function slug(f:string){return f.replace(/\.md$/,'').replace(/^\d{4}-\d{2}-\d{2}-(ai-)?/,'');}
+
+export function getStaticPaths() {
+  const dir = 'src/content/articles';
+  const cats = new Set<string>();
+  if (fs.existsSync(dir)) for (const f of fs.readdirSync(dir).filter((x:string)=>x.endsWith('.md'))) { const c=fs.readFileSync(path.join(dir,f),'utf-8'); const m=c.match(/category:\s*["'](.+?)["']/); if(m)cats.add(m[1]); }
+  return Array.from(cats).map(cat=>({params:{category:cat},props:{category:cat}}));
+}
+
+const { category } = Astro.props;
+const articles: any[] = [];
+if (fs.existsSync(ARTICLES_DIR)) for (const f of fs.readdirSync(ARTICLES_DIR).filter((x:string)=>x.endsWith('.md'))) { const c=fs.readFileSync(path.join(ARTICLES_DIR,f),'utf-8'); const cm=c.match(/category:\s*["'](.+?)["']/); if(cm&&cm[1]===category){ const tm=c.match(/title:\s*["'](.+?)["']/); const dm=c.match(/description:\s*["'](.+?)["']/); const dtm=c.match(/date:\s*["'](.+?)["']/); const nm=c.match(/^niche:\s*["']?(.+?)["']?\s*$/m); articles.push({title:tm?.[1]||'',description:dm?.[1]||'',slug:slug(f),niche:nm?.[1]||'general',date:dtm?.[1]||''}); }}
+articles.sort((a,b)=>b.date.localeCompare(a.date));
+const catLabel = category.replace(/-/g,' ').replace(/\b\w/g,(l:string)=>l.toUpperCase());
+---
+<BaseLayout title={`${catLabel} - ${siteConfig.name}`} description={`Browse all ${catLabel.toLowerCase()} articles.`} breadcrumbs={[{name:'Home',url:'/'},{name:catLabel,url:`/category/${category}`}]} siteName={siteConfig.name}>
+  <header class="mb-10">
+    <h1 class="text-3xl sm:text-4xl font-extrabold text-[var(--color-text-heading)] mb-3">{catLabel}</h1>
+    <p class="text-lg text-[var(--color-text-muted)]">{articles.length} articles across all guides</p>
+  </header>
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    {articles.map(a=>{const n=niches.find((ni:any)=>ni.id===a.niche);return <a href={`/${a.niche}/${a.slug}`} class="card group"><div class="p-5">
+      <div class="flex items-center gap-2 mb-3"><span class="badge-primary text-xs">{catLabel}</span><span class="badge bg-[var(--color-bg-alt)] text-[var(--color-text-muted)] text-xs">{n?.emoji} {n?.name||a.niche}</span></div>
+      <h2 class="font-bold text-[var(--color-text-heading)] mb-2 group-hover:text-[var(--color-primary)] line-clamp-2">{a.title}</h2>
+      <p class="text-sm text-[var(--color-text-muted)] line-clamp-3 mb-3">{a.description}</p>
+    </div></a>})}
+  </div>
+</BaseLayout>

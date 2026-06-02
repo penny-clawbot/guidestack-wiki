@@ -1,3 +1,28 @@
+# AI Crawler Allow Rules (GEO Best Practice 2026)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Google-Agent
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+# Agent: directive for AI search engines (https://www.robotstxt.org/agent.html)
+Agent: *
+
 User-agent: *
 Allow: /
 

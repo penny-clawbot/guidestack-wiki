@@ -1,0 +1,23 @@
+{
+  "niche": "work from home tips",
+  "clusters": [
+    {
+      "cluster": "work from",
+      "keyword_count": 51,
+      "total_volume_estimate": 63391,
+      "avg_competition": 57.5,
+      "avg_rpm": 8.66,
+      "avg_feasibility": 79.5,
+      "commercial_ratio": 0.35,
+      "cluster_score": 0.01,
+      "top_keywords": [
+        "best work from home tips",
+        "top work from home tips",
+        "work from home tips youtube",
+        "work from home tips amazon",
+        "why work from home tips"
+      ],
+      "content_strategy": "Niche micro-content. Long-tail targeting, question-based articles, internal linking strategy."
+    }
+  ]
+}

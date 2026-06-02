@@ -1,0 +1,85 @@
+{
+  "networkName": "PennyPress Network",
+  "networkDomain": "pennypress.network",
+  "publisher": "PennyPress",
+  "sites": [
+    {
+      "id": "bitcoin-beginners",
+      "name": "Bitcoin Beginners Guide",
+      "domain": "bitcoin-beginners.com",
+      "description": "Comprehensive Bitcoin guides for beginners — wallets, buying, mining, security and more.",
+      "niche": "crypto",
+      "keywords": ["bitcoin", "crypto", "blockchain", "wallets", "mining"],
+      "related": ["crypto-investing-guide", "defi-yield-guide", "crypto-trading-strategies"]
+    },
+    {
+      "id": "crypto-investing-guide",
+      "name": "Crypto Investing Guide",
+      "domain": "crypto-investing.com",
+      "description": "Expert crypto investment strategies, portfolio building, and market analysis.",
+      "niche": "crypto",
+      "keywords": ["crypto investing", "portfolio", "altcoins", "market analysis", "defi"],
+      "related": ["bitcoin-beginners", "defi-yield-guide", "crypto-trading-strategies"]
+    },
+    {
+      "id": "crypto-trading-strategies",
+      "name": "Crypto Trading Strategies Guide",
+      "domain": "crypto-trading-strategies.com",
+      "description": "Advanced crypto trading strategies, technical analysis, and risk management.",
+      "niche": "crypto",
+      "keywords": ["crypto trading", "technical analysis", "day trading", "risk management"],
+      "related": ["crypto-investing-guide", "defi-yield-guide", "bitcoin-beginners"]
+    },
+    {
+      "id": "defi-yield-guide",
+      "name": "DeFi Yield Guide",
+      "domain": "defi-yield-guide.com",
+      "description": "Your guide to DeFi yield farming, staking, liquidity pools, and passive income.",
+      "niche": "crypto",
+      "keywords": ["defi", "yield farming", "staking", "liquidity pools", "passive income"],
+      "related": ["crypto-investing-guide", "bitcoin-beginners", "crypto-trading-strategies"]
+    },
+    {
+      "id": "personal-finance-tips",
+      "name": "Personal Finance Guide",
+      "domain": "personal-finance.com",
+      "description": "Practical personal finance tips — budgeting, saving, investing, and building wealth.",
+      "niche": "finance",
+      "keywords": ["personal finance", "budgeting", "saving", "investing", "wealth building"],
+      "related": ["smart-emergency-fund"]
+    },
+    {
+      "id": "smart-emergency-fund",
+      "name": "Emergency Fund Guide",
+      "domain": "emergency-fund.com",
+      "description": "Smart emergency fund strategies — how much to save, where to keep it, and when to use it.",
+      "niche": "finance",
+      "keywords": ["emergency fund", "savings", "financial safety", "rainy day fund"],
+      "related": ["personal-finance-tips"]
+    },
+    {
+      "id": "ai-tools-hub",
+      "name": "AI Tools And Productivity Guide",
+      "domain": "ai-tools-and-productivity.com",
+      "description": "Discover the best AI tools and productivity hacks for work, creativity, and life.",
+      "niche": "tech",
+      "keywords": ["ai tools", "productivity", "automation", "machine learning", "chatgpt"],
+      "related": ["budget-travel-tips"]
+    },
+    {
+      "id": "budget-travel-tips",
+      "name": "Budget Travel Guide",
+      "domain": "budget-travel.com",
+      "description": "Budget travel tips, cheap destinations, backpacking guides, and money-saving travel hacks.",
+      "niche": "lifestyle",
+      "keywords": ["budget travel", "cheap flights", "hostels", "travel hacking", "backpacking"],
+      "related": ["personal-finance-tips", "ai-tools-hub"]
+    }
+  ],
+  "clusters": {
+    "crypto": ["bitcoin-beginners", "crypto-investing-guide", "crypto-trading-strategies", "defi-yield-guide"],
+    "finance": ["personal-finance-tips", "smart-emergency-fund"],
+    "tech": ["ai-tools-hub"],
+    "lifestyle": ["budget-travel-tips"]
+  }
+}

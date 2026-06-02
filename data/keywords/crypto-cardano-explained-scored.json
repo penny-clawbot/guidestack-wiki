@@ -1,0 +1,956 @@
+{
+  "niche": "crypto cardano explained",
+  "timestamp": "2026-05-11 14:07:36",
+  "total_keywords": 40,
+  "opportunities_above_threshold": 0,
+  "score_threshold": 60,
+  "scored_keywords": [
+    {
+      "keyword": "how to crypto cardano explained",
+      "volume_estimate": 2011,
+      "competition_score": 68.2,
+      "rpm_estimate": 5.62,
+      "content_feasibility": 85,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 68.2,
+        "result_count": 10,
+        "big_sites": 3,
+        "avg_content_depth": 159.1,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 27.72,
+      "grade": "D"
+    },
+    {
+      "keyword": "crypto cardano explained forum",
+      "volume_estimate": 4483,
+      "competition_score": 83.2,
+      "rpm_estimate": 2.35,
+      "content_feasibility": 70,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 83.2,
+        "result_count": 10,
+        "big_sites": 4,
+        "avg_content_depth": 160.6,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 18.47,
+      "grade": "F"
+    },
+    {
+      "keyword": "best crypto cardano explained reddit",
+      "volume_estimate": 4269,
+      "competition_score": 95,
+      "rpm_estimate": 18.44,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 95,
+        "result_count": 10,
+        "big_sites": 10,
+        "avg_content_depth": 158.1,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 21.85,
+      "grade": "D"
+    },
+    {
+      "keyword": "best crypto cardano explained",
+      "volume_estimate": 2628,
+      "competition_score": 53.2,
+      "rpm_estimate": 10.81,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 53.2,
+        "result_count": 10,
+        "big_sites": 2,
+        "avg_content_depth": 157.9,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 29.61,
+      "grade": "D"
+    },
+    {
+      "keyword": "how to crypto cardano explained amazon",
+      "volume_estimate": 513,
+      "competition_score": 95,
+      "rpm_estimate": 4.02,
+      "content_feasibility": 85,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 95,
+        "result_count": 10,
+        "big_sites": 6,
+        "avg_content_depth": 155.5,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 15.27,
+      "grade": "F"
+    },
+    {
+      "keyword": "why crypto cardano explained 2025",
+      "volume_estimate": 2697,
+      "competition_score": 68.2,
+      "rpm_estimate": 6.46,
+      "content_feasibility": 85,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 68.2,
+        "result_count": 10,
+        "big_sites": 3,
+        "avg_content_depth": 158.5,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 28.69,
+      "grade": "D"
+    },
+    {
+      "keyword": "how to crypto cardano explained for beginners",
+      "volume_estimate": 910,
+      "competition_score": 68.2,
+      "rpm_estimate": 3.96,
+      "content_feasibility": 85,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 68.2,
+        "result_count": 10,
+        "big_sites": 3,
+        "avg_content_depth": 158.1,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 25.41,
+      "grade": "D"
+    },
+    {
+      "keyword": "crypto cardano explained for beginners",
+      "volume_estimate": 3575,
+      "competition_score": 68.2,
+      "rpm_estimate": 5.47,
+      "content_feasibility": 70,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 68.2,
+        "result_count": 10,
+        "big_sites": 3,
+        "avg_content_depth": 158.9,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 23.64,
+      "grade": "D"
+    },
+    {
+      "keyword": "why crypto cardano explained",
+      "volume_estimate": 547,
+      "competition_score": 53.2,
+      "rpm_estimate": 5.43,
+      "content_feasibility": 85,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 53.2,
+        "result_count": 10,
+        "big_sites": 2,
+        "avg_content_depth": 160.3,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 30.32,
+      "grade": "D"
+    },
+    {
+      "keyword": "how to crypto cardano explained reddit",
+      "volume_estimate": 284,
+      "competition_score": 95,
+      "rpm_estimate": 4.16,
+      "content_feasibility": 85,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 95,
+        "result_count": 10,
+        "big_sites": 10,
+        "avg_content_depth": 156.9,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 14.25,
+      "grade": "F"
+    },
+    {
+      "keyword": "best crypto cardano explained for beginners",
+      "volume_estimate": 1136,
+      "competition_score": 68.2,
+      "rpm_estimate": 23.83,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 68.2,
+        "result_count": 10,
+        "big_sites": 3,
+        "avg_content_depth": 158.7,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 29.61,
+      "grade": "D"
+    },
+    {
+      "keyword": "why crypto cardano explained forum",
+      "volume_estimate": 1150,
+      "competition_score": 68.3,
+      "rpm_estimate": 6.45,
+      "content_feasibility": 85,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 68.3,
+        "result_count": 10,
+        "big_sites": 3,
+        "avg_content_depth": 164.0,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 27.08,
+      "grade": "D"
+    },
+    {
+      "keyword": "crypto cardano explained 2025",
+      "volume_estimate": 419,
+      "competition_score": 53.1,
+      "rpm_estimate": 5.19,
+      "content_feasibility": 70,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 53.1,
+        "result_count": 10,
+        "big_sites": 2,
+        "avg_content_depth": 155.6,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 24.49,
+      "grade": "D"
+    },
+    {
+      "keyword": "top crypto cardano explained youtube",
+      "volume_estimate": 812,
+      "competition_score": 95,
+      "rpm_estimate": 15.02,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 95,
+        "result_count": 10,
+        "big_sites": 8,
+        "avg_content_depth": 154.4,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 17.89,
+      "grade": "F"
+    },
+    {
+      "keyword": "best crypto cardano explained amazon",
+      "volume_estimate": 2433,
+      "competition_score": 95,
+      "rpm_estimate": 28.33,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 95,
+        "result_count": 10,
+        "big_sites": 5,
+        "avg_content_depth": 159.7,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 25.15,
+      "grade": "D"
+    },
+    {
+      "keyword": "why crypto cardano explained for beginners",
+      "volume_estimate": 920,
+      "competition_score": 68.2,
+      "rpm_estimate": 4.61,
+      "content_feasibility": 85,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 68.2,
+        "result_count": 10,
+        "big_sites": 3,
+        "avg_content_depth": 157.9,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 25.76,
+      "grade": "D"
+    },
+    {
+      "keyword": "best crypto cardano explained youtube",
+      "volume_estimate": 2260,
+      "competition_score": 95,
+      "rpm_estimate": 29.63,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 95,
+        "result_count": 10,
+        "big_sites": 8,
+        "avg_content_depth": 153.8,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 25.58,
+      "grade": "D"
+    },
+    {
+      "keyword": "crypto cardano explained amazon",
+      "volume_estimate": 1128,
+      "competition_score": 68.0,
+      "rpm_estimate": 7.84,
+      "content_feasibility": 70,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 68.0,
+        "result_count": 10,
+        "big_sites": 3,
+        "avg_content_depth": 149.6,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 22.94,
+      "grade": "D"
+    },
+    {
+      "keyword": "how to crypto cardano explained 2024",
+      "volume_estimate": 537,
+      "competition_score": 53.1,
+      "rpm_estimate": 7.68,
+      "content_feasibility": 85,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 53.1,
+        "result_count": 10,
+        "big_sites": 2,
+        "avg_content_depth": 153.5,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 31.47,
+      "grade": "D"
+    },
+    {
+      "keyword": "crypto cardano explained 2024",
+      "volume_estimate": 2664,
+      "competition_score": 68.1,
+      "rpm_estimate": 4.95,
+      "content_feasibility": 70,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 68.1,
+        "result_count": 10,
+        "big_sites": 3,
+        "avg_content_depth": 153.5,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 23.0,
+      "grade": "D"
+    },
+    {
+      "keyword": "top crypto cardano explained",
+      "volume_estimate": 3166,
+      "competition_score": 53.2,
+      "rpm_estimate": 8.39,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 53.2,
+        "result_count": 10,
+        "big_sites": 2,
+        "avg_content_depth": 158.9,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 28.88,
+      "grade": "D"
+    },
+    {
+      "keyword": "top crypto cardano explained forum",
+      "volume_estimate": 5434,
+      "competition_score": 53.2,
+      "rpm_estimate": 9.7,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 53.2,
+        "result_count": 10,
+        "big_sites": 2,
+        "avg_content_depth": 161.4,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 30.25,
+      "grade": "D"
+    },
+    {
+      "keyword": "why crypto cardano explained 2024",
+      "volume_estimate": 1358,
+      "competition_score": 68.1,
+      "rpm_estimate": 6.68,
+      "content_feasibility": 85,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 68.1,
+        "result_count": 10,
+        "big_sites": 3,
+        "avg_content_depth": 156.7,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 27.57,
+      "grade": "D"
+    },
+    {
+      "keyword": "why crypto cardano explained amazon",
+      "volume_estimate": 1102,
+      "competition_score": 68.1,
+      "rpm_estimate": 6.76,
+      "content_feasibility": 85,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 68.1,
+        "result_count": 10,
+        "big_sites": 3,
+        "avg_content_depth": 155.8,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 27.22,
+      "grade": "D"
+    },
+    {
+      "keyword": "top crypto cardano explained reddit",
+      "volume_estimate": 1111,
+      "competition_score": 95,
+      "rpm_estimate": 15.28,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 95,
+        "result_count": 10,
+        "big_sites": 10,
+        "avg_content_depth": 157.4,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 18.48,
+      "grade": "F"
+    },
+    {
+      "keyword": "top crypto cardano explained 2024",
+      "volume_estimate": 3427,
+      "competition_score": 53.2,
+      "rpm_estimate": 12.77,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 53.2,
+        "result_count": 10,
+        "big_sites": 2,
+        "avg_content_depth": 161.9,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 30.84,
+      "grade": "D"
+    },
+    {
+      "keyword": "crypto cardano explained youtube",
+      "volume_estimate": 1176,
+      "competition_score": 95,
+      "rpm_estimate": 6.63,
+      "content_feasibility": 70,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 95,
+        "result_count": 10,
+        "big_sites": 9,
+        "avg_content_depth": 155.8,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 14.93,
+      "grade": "F"
+    },
+    {
+      "keyword": "top crypto cardano explained 2025",
+      "volume_estimate": 1387,
+      "competition_score": 68.2,
+      "rpm_estimate": 17.25,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 68.2,
+        "result_count": 10,
+        "big_sites": 3,
+        "avg_content_depth": 158.5,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 27.15,
+      "grade": "D"
+    },
+    {
+      "keyword": "what is crypto cardano explained",
+      "volume_estimate": 477,
+      "competition_score": 68.1,
+      "rpm_estimate": 4.28,
+      "content_feasibility": 85,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 68.1,
+        "result_count": 10,
+        "big_sites": 3,
+        "avg_content_depth": 155.3,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 24.42,
+      "grade": "D"
+    },
+    {
+      "keyword": "why crypto cardano explained youtube",
+      "volume_estimate": 672,
+      "competition_score": 95,
+      "rpm_estimate": 4.31,
+      "content_feasibility": 85,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 95,
+        "result_count": 10,
+        "big_sites": 7,
+        "avg_content_depth": 153.9,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 15.92,
+      "grade": "F"
+    },
+    {
+      "keyword": "top crypto cardano explained for beginners",
+      "volume_estimate": 763,
+      "competition_score": 68.2,
+      "rpm_estimate": 9.34,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 68.2,
+        "result_count": 10,
+        "big_sites": 3,
+        "avg_content_depth": 158.9,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 22.92,
+      "grade": "D"
+    },
+    {
+      "keyword": "why crypto cardano explained reddit",
+      "volume_estimate": 2132,
+      "competition_score": 95,
+      "rpm_estimate": 6.05,
+      "content_feasibility": 85,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 95,
+        "result_count": 10,
+        "big_sites": 10,
+        "avg_content_depth": 157.5,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 18.93,
+      "grade": "F"
+    },
+    {
+      "keyword": "best crypto cardano explained 2025",
+      "volume_estimate": 2428,
+      "competition_score": 53.1,
+      "rpm_estimate": 18.11,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 53.1,
+        "result_count": 10,
+        "big_sites": 2,
+        "avg_content_depth": 153.6,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 32.59,
+      "grade": "D"
+    },
+    {
+      "keyword": "crypto cardano explained reddit",
+      "volume_estimate": 4906,
+      "competition_score": 95,
+      "rpm_estimate": 6.39,
+      "content_feasibility": 70,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 95,
+        "result_count": 10,
+        "big_sites": 10,
+        "avg_content_depth": 159.8,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 17.0,
+      "grade": "F"
+    },
+    {
+      "keyword": "best crypto cardano explained 2024",
+      "volume_estimate": 3020,
+      "competition_score": 68.2,
+      "rpm_estimate": 15.78,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 68.2,
+        "result_count": 10,
+        "big_sites": 3,
+        "avg_content_depth": 161.2,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 27.71,
+      "grade": "D"
+    },
+    {
+      "keyword": "how to crypto cardano explained youtube",
+      "volume_estimate": 872,
+      "competition_score": 95,
+      "rpm_estimate": 6.41,
+      "content_feasibility": 85,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 95,
+        "result_count": 10,
+        "big_sites": 9,
+        "avg_content_depth": 154.4,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 17.47,
+      "grade": "F"
+    },
+    {
+      "keyword": "top crypto cardano explained amazon",
+      "volume_estimate": 1747,
+      "competition_score": 83.0,
+      "rpm_estimate": 10.57,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 83.0,
+        "result_count": 10,
+        "big_sites": 4,
+        "avg_content_depth": 151.6,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 20.55,
+      "grade": "D"
+    },
+    {
+      "keyword": "how to crypto cardano explained forum",
+      "volume_estimate": 788,
+      "competition_score": 68.2,
+      "rpm_estimate": 2.27,
+      "content_feasibility": 85,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 68.2,
+        "result_count": 10,
+        "big_sites": 3,
+        "avg_content_depth": 157.8,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 24.28,
+      "grade": "D"
+    },
+    {
+      "keyword": "how to crypto cardano explained 2025",
+      "volume_estimate": 784,
+      "competition_score": 53.1,
+      "rpm_estimate": 7.46,
+      "content_feasibility": 85,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 53.1,
+        "result_count": 10,
+        "big_sites": 2,
+        "avg_content_depth": 156.8,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 32.05,
+      "grade": "D"
+    },
+    {
+      "keyword": "best crypto cardano explained forum",
+      "volume_estimate": 2236,
+      "competition_score": 67.9,
+      "rpm_estimate": 13.38,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 67.9,
+        "result_count": 10,
+        "big_sites": 3,
+        "avg_content_depth": 143.1,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 26.33,
+      "grade": "D"
+    }
+  ],
+  "top_opportunities": [],
+  "scored_clusters": [
+    {
+      "cluster": "crypto cardano",
+      "keyword_count": 40,
+      "total_volume_estimate": 74362,
+      "avg_competition": 73.6,
+      "avg_rpm": 9.7,
+      "avg_feasibility": 76.4,
+      "commercial_ratio": 0.4,
+      "cluster_score": 0.01,
+      "top_keywords": [
+        "top crypto cardano explained forum",
+        "crypto cardano explained reddit",
+        "crypto cardano explained forum",
+        "best crypto cardano explained reddit",
+        "crypto cardano explained for beginners"
+      ],
+      "content_strategy": "Authority-building approach. Guest posts, PR, expert quotes, original data/reports."
+    }
+  ],
+  "summary": {
+    "avg_opportunity_score": 24.34,
+    "grade_a_count": 0,
+    "grade_b_count": 0,
+    "grade_c_count": 0
+  }
+}

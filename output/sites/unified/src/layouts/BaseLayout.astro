@@ -1,0 +1,208 @@
+---
+import '../styles/global.css';
+
+export interface Props {
+  title: string;
+  description?: string;
+  ogType?: string;
+  publishedTime?: string;
+  modifiedTime?: string;
+  author?: string;
+  categories?: string[];
+  schema?: object;
+  breadcrumbs?: Array<{name: string; url: string}>;
+  siteName?: string;
+}
+
+const {
+  title, description = 'Comprehensive guides, tips, and expert insights.',
+  ogType = 'website', publishedTime, modifiedTime, author = 'PennyPress',
+  categories = [], schema, breadcrumbs = [], siteName
+} = Astro.props;
+
+import fs from 'node:fs';
+
+const siteConfig = JSON.parse(fs.readFileSync('site-config.json', 'utf-8'));
+const niches = siteConfig.niches || [];
+const domain = siteConfig.domain || 'pennypress.com';
+const siteUrl = `https://${domain}`;
+const displayTitle = siteName || siteConfig.name;
+const canonicalURL = new URL(Astro.url.pathname, siteUrl).href;
+const autoOg = `data:image/svg+xml,${encodeURIComponent(`<svg xmlns='http://www.w3.org/2000/svg' width='1200' height='630'><defs><linearGradient id='g' x1='0%25' y1='0%25' x2='100%25' y2='100%25'><stop offset='0%25' style='stop-color:%231e40af'/><stop offset='100%25' style='stop-color:%237c3aed'/></linearGradient></defs><rect width='1200' height='630' fill='url(%23g)'/><text x='600' y='280' text-anchor='middle' fill='white' font-family='system-ui,sans-serif' font-size='44' font-weight='bold'>${(title.length>55?title.substring(0,52)+'...':title)}</text><text x='600' y='350' text-anchor='middle' fill='rgba(255,255,255,0.7)' font-family='system-ui,sans-serif' font-size='22'>${displayTitle}</text></svg>`)}`;
+---
+
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{title}</title>
+  <meta name="description" content={description} />
+  <link rel="canonical" href={canonicalURL} />
+  <meta property="og:title" content={title} />
+  <meta property="og:description" content={description} />
+  <meta property="og:url" content={canonicalURL} />
+  <meta property="og:image" content={autoOg} />
+  <meta property="og:type" content={ogType} />
+  <meta property="og:site_name" content={displayTitle} />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content={title} />
+  <meta name="twitter:description" content={description} />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%231e40af' stroke-width='2'%3E%3Cpath d='M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20'/%3E%3C/svg%3E" />
+  <meta name="theme-color" content="#1e40af" />
+  <meta name="color-scheme" content="light dark" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  {schema && <script type="application/ld+json" set:html={JSON.stringify(schema)} />}
+  {breadcrumbs.length > 0 && <script type="application/ld+json" set:html={JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":breadcrumbs.map((c,i)=>({"@type":"ListItem","position":i+1,"name":c.name,"item":`${siteUrl}${c.url}`}))})} />}
+  <style is:inline>body{margin:0;font-family:'Inter',system-ui,-apple-system,sans-serif;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;background:var(--color-bg,#fff);color:var(--color-text,#1e293b)}#reading-progress{position:fixed;top:0;left:0;height:3px;background:linear-gradient(90deg,#1e40af,#7c3aed);z-index:9999;width:0%;transition:width .1s linear}</style>
+</head>
+<body class="min-h-screen flex flex-col antialiased">
+  <div id="reading-progress"></div>
+
+  <!-- Navigation -->
+  <header class="bg-white/80 dark:bg-slate-900/80 backdrop-blur-xl border-b border-slate-200 dark:border-slate-800 sticky top-0 z-50">
+    <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16">
+        <!-- Logo -->
+        <a href="/" class="flex items-center gap-2.5 group shrink-0">
+          <svg class="w-8 h-8 text-blue-700 dark:text-blue-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"/><path d="m9 9.5 2 2 4-4"/></svg>
+          <span class="text-lg font-extrabold text-slate-900 dark:text-white tracking-tight group-hover:text-blue-700 dark:group-hover:text-blue-400 transition-colors">{displayTitle}</span>
+        </a>
+
+        <!-- Desktop nav -->
+        <div class="hidden xl:flex items-center gap-0.5">
+          <a href="/" class="nav-link">
+            <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+            Home
+          </a>
+          {niches.map((n: any) => <a href={`/${n.id}`} class="nav-link">{n.name}</a>)}
+        </div>
+
+        <!-- Right controls -->
+        <div class="flex items-center gap-1.5">
+          <button id="theme-toggle" class="icon-btn" aria-label="Toggle theme">
+            <svg class="w-[18px] h-[18px] hidden dark:block" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+            <svg class="w-[18px] h-[18px] block dark:hidden" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+          </button>
+          <button id="mobile-menu-btn" class="xl:hidden icon-btn" aria-label="Menu">
+            <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Mobile nav -->
+      <div id="mobile-menu" class="hidden xl:hidden pb-4">
+        <div class="flex flex-col gap-0.5 pt-3 border-t border-slate-200 dark:border-slate-800">
+          <a href="/" class="mobile-nav-link">
+            <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+            Home
+          </a>
+          {niches.map((n: any) => <a href={`/${n.id}`} class="mobile-nav-link">{n.name}</a>)}
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Main -->
+  <main class="flex-1">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
+      <slot />
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-slate-50 dark:bg-slate-900 border-t border-slate-200 dark:border-slate-800 mt-auto">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+      <div class="grid grid-cols-2 md:grid-cols-12 gap-8">
+        <!-- Brand -->
+        <div class="col-span-2 md:col-span-4">
+          <a href="/" class="flex items-center gap-2.5 mb-4">
+            <svg class="w-7 h-7 text-blue-700 dark:text-blue-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"/></svg>
+            <span class="text-base font-bold text-slate-900 dark:text-white">{displayTitle}</span>
+          </a>
+          <p class="text-sm text-slate-500 dark:text-slate-400 leading-relaxed max-w-xs">{siteConfig.description}</p>
+        </div>
+        <!-- Categories -->
+        <div class="col-span-1 md:col-span-4">
+          <h4 class="font-semibold text-sm text-slate-900 dark:text-white mb-4 flex items-center gap-2">
+            <svg class="w-4 h-4 text-slate-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h6v6H4zM14 4h6v6h-6zM4 14h6v6H4zM14 14h6v6h-6z"/></svg>
+            Guide Categories
+          </h4>
+          <ul class="grid grid-cols-2 gap-x-4 gap-y-2">
+            {niches.map((n: any) => <li><a href={`/${n.id}`} class="text-sm text-slate-500 dark:text-slate-400 hover:text-blue-700 dark:hover:text-blue-400 transition-colors">{n.name}</a></li>)}
+          </ul>
+        </div>
+        <!-- Newsletter -->
+        <div class="col-span-1 md:col-span-4">
+          <h4 class="font-semibold text-sm text-slate-900 dark:text-white mb-4 flex items-center gap-2">
+            <svg class="w-4 h-4 text-slate-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+            Stay Updated
+          </h4>
+          <p class="text-sm text-slate-500 dark:text-slate-400 mb-3">Get the latest guides delivered to your inbox.</p>
+          <form class="flex gap-2" onsubmit="event.preventDefault();this.querySelector('button').textContent='Subscribed!';this.querySelector('button').classList.add('bg-emerald-600');">
+            <input type="email" placeholder="you@email.com" required class="flex-1 min-w-0 px-3 py-2.5 text-sm border border-slate-300 dark:border-slate-700 rounded-lg bg-white dark:bg-slate-800 text-slate-900 dark:text-white placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent transition-shadow" />
+            <button type="submit" class="shrink-0 px-4 py-2.5 bg-blue-700 hover:bg-blue-800 text-white text-sm font-semibold rounded-lg transition-colors focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 dark:focus:ring-offset-slate-900">Subscribe</button>
+          </form>
+        </div>
+      </div>
+      <div class="mt-12 pt-8 border-t border-slate-200 dark:border-slate-800 flex flex-col sm:flex-row items-center justify-between gap-4">
+        <p class="text-xs text-slate-400">&copy; {new Date().getFullYear()} {displayTitle}. All rights reserved.</p>
+        <p class="text-xs text-slate-400">Built for knowledge seekers.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to top -->
+  <button id="back-to-top" class="fixed bottom-6 right-6 w-10 h-10 rounded-full bg-blue-700 text-white shadow-lg opacity-0 translate-y-4 pointer-events-none transition-all duration-300 hover:bg-blue-800 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 z-50 flex items-center justify-center" aria-label="Back to top">
+    <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m18 15-6-6-6 6"/></svg>
+  </button>
+
+  <script is:inline>
+    // Theme — instant to prevent flash
+    (function(){
+      const d=document.documentElement;
+      const t=localStorage.getItem('theme');
+      if(t==='dark'||(!t&&matchMedia('(prefers-color-scheme:dark)').matches))d.classList.add('dark');
+    })();
+
+    document.getElementById('theme-toggle')?.addEventListener('click',()=>{
+      document.documentElement.classList.toggle('dark');
+      localStorage.setItem('theme',document.documentElement.classList.contains('dark')?'dark':'light');
+    });
+
+    // Mobile menu
+    document.getElementById('mobile-menu-btn')?.addEventListener('click',()=>{
+      document.getElementById('mobile-menu')?.classList.toggle('hidden');
+    });
+
+    // Back to top
+    const bT=document.getElementById('back-to-top');
+    if(bT){
+      window.addEventListener('scroll',()=>{
+        if(scrollY>400){bT.classList.remove('opacity-0','translate-y-4','pointer-events-none');bT.classList.add('opacity-100','translate-y-0','pointer-events-auto')}
+        else{bT.classList.add('opacity-0','translate-y-4','pointer-events-none');bT.classList.remove('opacity-100','translate-y-0','pointer-events-auto')}
+      },{passive:true});
+      bT.addEventListener('click',()=>scrollTo({top:0,behavior:'smooth'}));
+    }
+
+    // Reading progress
+    const pB=document.getElementById('reading-progress');
+    if(pB&&document.querySelector('.prose')){
+      window.addEventListener('scroll',()=>{const s=scrollY,h=document.documentElement.scrollHeight-innerHeight;pB.style.width=(h>0?(s/h)*100:0)+'%';},{passive:true});
+    }
+
+    // FAQ accordion
+    document.querySelectorAll('.faq-question').forEach(q=>q.addEventListener('click',()=>{
+      const i=q.parentElement,o=i.classList.contains('open');
+      document.querySelectorAll('.faq-item.open').forEach(x=>x.classList.remove('open'));
+      if(!o)i.classList.add('open');
+    }));
+
+    // Search
+    const sI=document.getElementById('search-input');
+    if(sI)sI.addEventListener('input',e=>{const q=e.target.value.toLowerCase();document.querySelectorAll('[data-searchable]').forEach(el=>{el.style.display=!q||el.textContent.toLowerCase().includes(q)?'':'none'})});
+  </script>
+</body>
+</html>

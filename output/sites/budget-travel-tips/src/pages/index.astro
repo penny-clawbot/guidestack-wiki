@@ -1,14 +1,16 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import CrossSiteLinks from '../components/CrossSiteLinks.astro';
 import fs from 'node:fs';
 import path from 'node:path';
 
 const contentDir = 'src/content/articles';
 
 interface Article { title: string; description: string; slug: string; date: string; category: string; readingTime: string; tags: string[]; }
-const articles: Article[] = [];
 
-if (fs.existsSync(contentDir)) {
+function loadArticles(): Article[] {
+  const articles: Article[] = [];
+  if (!fs.existsSync(contentDir)) return articles;
   for (const file of fs.readdirSync(contentDir).filter(f => f.endsWith('.md'))) {
     const content = fs.readFileSync(path.join(contentDir, file), 'utf-8');
     const fm: Record<string, any> = {};
@@ -20,71 +22,137 @@ if (fs.existsSync(contentDir)) {
       });
       if (typeof fm.tags === 'string') fm.tags = fm.tags.split(',').map((t: string) => t.trim());
       articles.push({
-        title: fm.title || file, description: fm.description || '',
+        title: fm.title || file,
+        description: fm.description || '',
         slug: file.replace(/\.md$/, '').replace(/^\d{4}-\d{2}-\d{2}-(ai-)?/, ''),
-        date: fm.date || '', category: fm.category || 'general',
-        readingTime: fm.readingTime || '', tags: fm.tags || [],
+        date: fm.date || '',
+        category: fm.category || 'general',
+        readingTime: fm.readingTime || '',
+        tags: fm.tags || [],
       });
     }
   }
+  return articles;
 }
 
+const articles = loadArticles();
 articles.sort((a, b) => b.date.localeCompare(a.date));
+
 const siteConfig = JSON.parse(fs.readFileSync('site-config.json', 'utf-8'));
-const featured = articles.slice(0, 3);
-const recent = articles.slice(3, 12);
+const niche = siteConfig.niche || 'Knowledge';
+const featured = articles.slice(0, 6);
+const latest = articles.slice(0, 9);
 const totalArticles = articles.length;
 const totalWords = articles.reduce((sum, a) => sum + (parseInt(a.readingTime) || 5) * 200, 0);
-const categories = [...new Set(articles.map(a => a.category))];
+
+// Category grid with counts
+const categoryMap = new Map<string, number>();
+articles.forEach(a => categoryMap.set(a.category, (categoryMap.get(a.category) || 0) + 1));
+const categories = Array.from(categoryMap.entries()).sort((a, b) => b[1] - a[1]);
+
+// Category emoji mapping
+const catEmojis: Record<string, string> = {
+  'getting-started': '🚀', 'advanced': '⚡', 'tools': '🛠️', 'tips': '💡',
+  'guides': '📖', 'reviews': '⭐', 'comparisons': '⚖️', 'tutorials': '🎓',
+  'general': '📰', 'best-practices': '🏆', 'troubleshooting': '🔧',
+  'planning': '📋', 'budget': '💰', 'destinations': '🗺️', 'accommodation': '🏨',
+  'transportation': '✈️', 'food': '🍽️', 'safety': '🛡️', 'culture': '🎭',
+};
+
+const domain = siteConfig.domain || 'example.com';
+const siteUrl = `https://${domain}`;
+
+// Homepage CollectionPage schema
+const homePageSchema = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": siteConfig.name,
+  "description": siteConfig.description,
+  "url": siteUrl,
+  "publisher": {
+    "@type": "Organization",
+    "name": siteConfig.name,
+    "url": siteUrl,
+    "logo": { "@type": "ImageObject", "url": `${siteUrl}/logo.png` }
+  },
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": siteConfig.name,
+    "url": siteUrl
+  },
+  "about": {
+    "@type": "Thing",
+    "name": niche
+  },
+  "mainEntity": {
+    "@type": "ItemList",
+    "numberOfItems": totalArticles,
+    "itemListElement": featured.slice(0, 6).map((a, i) => ({
+      "@type": "ListItem",
+      "position": i + 1,
+      "url": `${siteUrl}/${a.slug}`,
+      "name": a.title
+    }))
+  }
+};
+
+const homeBreadcrumbs = [{ name: 'Home', url: '/' }];
 ---
 
-<BaseLayout title={siteConfig.name} description={siteConfig.description} ogType="website" siteName={siteConfig.name}>
-  <!-- Hero -->
+<BaseLayout title={siteConfig.name} description={siteConfig.description} ogType="website" siteName={siteConfig.name} schema={homePageSchema} breadcrumbs={homeBreadcrumbs}>
+  <!-- Hero Section -->
   <section class="mb-12 py-8">
     <div class="max-w-3xl">
-      <div class="badge-primary mb-4">📖 Expert {siteConfig.niche || 'Knowledge'} Resource</div>
+      <div class="badge-primary mb-4">📖 Expert {niche} Resource</div>
       <h1 class="text-4xl sm:text-5xl font-extrabold text-[var(--color-text-heading)] mb-5 leading-tight">
-        {siteConfig.name}
+        Expert {niche} Guides — Everything You Need to Know
       </h1>
       <p class="text-lg sm:text-xl text-[var(--color-text-muted)] leading-relaxed mb-6">
         {siteConfig.description}
       </p>
+
+      <!-- Search bar -->
+      <div class="search-bar max-w-xl mb-6">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+        <input id="search-input" type="search" placeholder="Search guides..." aria-label="Search articles" />
+      </div>
+
       <div class="flex flex-wrap gap-3 text-sm text-[var(--color-text-muted)]">
-        <span class="flex items-center gap-1.5">
+        <span class="flex items-center gap-1.5 bg-[var(--color-bg-alt)] px-3 py-1.5 rounded-full">
           <svg class="w-4 h-4 text-[var(--color-primary)]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"/></svg>
-          {totalArticles} Articles
+          <strong>{totalArticles}</strong> Articles
         </span>
-        <span class="flex items-center gap-1.5">
+        <span class="flex items-center gap-1.5 bg-[var(--color-bg-alt)] px-3 py-1.5 rounded-full">
           <svg class="w-4 h-4 text-[var(--color-primary)]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
-          {(totalWords / 1000).toFixed(0)}K+ Words
+          <strong>{(totalWords / 1000).toFixed(0)}K+</strong> Words
         </span>
-        <span class="flex items-center gap-1.5">
+        <span class="flex items-center gap-1.5 bg-[var(--color-bg-alt)] px-3 py-1.5 rounded-full">
           <svg class="w-4 h-4 text-[var(--color-primary)]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z"/></svg>
-          {categories.length} Categories
+          <strong>{categories.length}</strong> Categories
         </span>
       </div>
     </div>
   </section>
 
-  <!-- Featured Articles -->
+  <!-- Popular Guides (top 6 with cover images) -->
   {featured.length > 0 && (
     <section class="mb-12">
       <h2 class="text-2xl font-bold text-[var(--color-text-heading)] mb-6 flex items-center gap-2">
-        <span class="text-[var(--color-accent)]">⭐</span> Featured
+        <span class="text-[var(--color-accent)]">⭐</span> Popular Guides
       </h2>
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6" data-searchable="true">
         {featured.map((a, i) => (
-          <a href={`/${a.slug}`} class={`card group ${i === 0 ? 'md:col-span-1' : ''}`}>
-            <div class="h-48 bg-gradient-to-br from-[var(--color-primary)]/10 to-[var(--color-accent)]/10 flex items-center justify-center">
-              <span class="text-5xl opacity-60">{i === 0 ? '✈️' : i === 1 ? '🗺️' : '💡'}</span>
+          <a href={`/${a.slug}`} class="card group" data-searchable="true">
+            <div class="h-44 bg-gradient-to-br from-[var(--color-primary)]/10 to-[var(--color-accent)]/10 flex items-center justify-center relative">
+              <span class="text-5xl opacity-50">{catEmojis[a.category] || ['✈️', '🗺️', '💡', '📚', '🎓', '🏆'][i % 6]}</span>
+              <span class="absolute top-3 right-3 badge-primary text-xs">{a.category.replace(/-/g, ' ')}</span>
             </div>
             <div class="p-5">
-              <div class="badge-primary mb-3 text-xs">{a.category.replace(/-/g, ' ')}</div>
               <h3 class="font-bold text-[var(--color-text-heading)] mb-2 group-hover:text-[var(--color-primary)] transition-colors line-clamp-2">{a.title}</h3>
               <p class="text-sm text-[var(--color-text-muted)] line-clamp-2">{a.description}</p>
               <div class="mt-3 flex items-center gap-3 text-xs text-[var(--color-text-muted)]">
                 <span>{new Date(a.date + 'T00:00:00').toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}</span>
-                {a.readingTime && <span>{a.readingTime} read</span>}
+                {a.readingTime && <span>· {a.readingTime} read</span>}
               </div>
             </div>
           </a>
@@ -93,49 +161,83 @@ const categories = [...new Set(articles.map(a => a.category))];
     </section>
   )}
 
-  <!-- Recent Articles -->
-  <section class="mb-12">
-    <div class="flex items-center justify-between mb-6">
-      <h2 class="text-2xl font-bold text-[var(--color-text-heading)]">Latest Articles</h2>
-      <span class="text-sm text-[var(--color-text-muted)]">{articles.length} total</span>
-    </div>
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-      {recent.map(a => (
-        <a href={`/${a.slug}`} class="card group">
-          <div class="p-5">
-            <div class="badge-primary mb-3 text-xs">{a.category.replace(/-/g, ' ')}</div>
-            <h3 class="font-bold text-[var(--color-text-heading)] mb-2 group-hover:text-[var(--color-primary)] transition-colors line-clamp-2">{a.title}</h3>
-            <p class="text-sm text-[var(--color-text-muted)] line-clamp-3 mb-3">{a.description}</p>
-            <div class="flex items-center gap-3 text-xs text-[var(--color-text-muted)]">
-              <span>{new Date(a.date + 'T00:00:00').toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}</span>
-              {a.readingTime && <span>· {a.readingTime} read</span>}
-            </div>
-          </div>
-        </a>
-      ))}
-    </div>
-  </section>
-
-  <!-- Load more / All articles link -->
-  {articles.length > 12 && (
-    <div class="text-center mb-12">
-      <a href="/all-articles" class="btn-secondary">View All {articles.length} Articles →</a>
-    </div>
-  )}
-
-  <!-- Categories -->
-  {categories.length > 1 && (
+  <!-- Latest Guides -->
+  {latest.length > 6 && (
     <section class="mb-12">
-      <h2 class="text-2xl font-bold text-[var(--color-text-heading)] mb-6">Browse by Category</h2>
-      <div class="flex flex-wrap gap-3">
-        {categories.map(cat => (
-          <a href={`/category/${cat}`} class="badge bg-[var(--color-bg-alt)] text-[var(--color-text-muted)] hover:bg-[var(--color-primary-light)] hover:text-[var(--color-primary)] transition-all px-4 py-2 text-sm font-medium">
-            {cat.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase())}
+      <div class="flex items-center justify-between mb-6">
+        <h2 class="text-2xl font-bold text-[var(--color-text-heading)]">Latest Guides</h2>
+        <span class="text-sm text-[var(--color-text-muted)]">{articles.length} total</span>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {latest.slice(6, 9).map(a => (
+          <a href={`/${a.slug}`} class="card group" data-searchable="true">
+            <div class="p-5">
+              <div class="flex items-center gap-2 mb-3">
+                <span class="badge-primary text-xs">{a.category.replace(/-/g, ' ')}</span>
+                <span class="text-xs text-[var(--color-text-muted)]">{new Date(a.date + 'T00:00:00').toLocaleDateString('en-US', { month: 'short', day: 'numeric' })}</span>
+              </div>
+              <h3 class="font-bold text-[var(--color-text-heading)] mb-2 group-hover:text-[var(--color-primary)] transition-colors line-clamp-2">{a.title}</h3>
+              <p class="text-sm text-[var(--color-text-muted)] line-clamp-3 mb-3">{a.description}</p>
+              {a.readingTime && <span class="text-xs text-[var(--color-text-muted)]">{a.readingTime} read</span>}
+            </div>
           </a>
         ))}
       </div>
     </section>
   )}
+
+  <!-- Browse by Category (grid with counts) -->
+  {categories.length > 1 && (
+    <section class="mb-12">
+      <h2 class="text-2xl font-bold text-[var(--color-text-heading)] mb-6">📂 Browse by Category</h2>
+      <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+        {categories.map(([cat, count]) => (
+          <a href={`/category/${cat}`} class="category-card" data-searchable="true">
+            <div class="text-3xl mb-2">{catEmojis[cat] || '📄'}</div>
+            <h3>{cat.replace(/-/g, ' ').replace(/\b\w/g, (l: string) => l.toUpperCase())}</h3>
+            <span class="count">{count} {count === 1 ? 'guide' : 'guides'}</span>
+          </a>
+        ))}
+      </div>
+    </section>
+  )}
+
+  <!-- All remaining articles -->
+  {articles.length > 9 && (
+    <section class="mb-12">
+      <div class="flex items-center justify-between mb-6">
+        <h2 class="text-2xl font-bold text-[var(--color-text-heading)]">All Articles</h2>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {articles.slice(9).map(a => (
+          <a href={`/${a.slug}`} class="card group p-4" data-searchable="true">
+            <div class="flex items-center gap-2 mb-2">
+              <span class="badge-primary text-xs">{a.category.replace(/-/g, ' ')}</span>
+              <span class="text-xs text-[var(--color-text-muted)]">{new Date(a.date + 'T00:00:00').toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}</span>
+            </div>
+            <h3 class="font-bold text-sm text-[var(--color-text-heading)] group-hover:text-[var(--color-primary)] transition-colors line-clamp-2">{a.title}</h3>
+            <p class="text-xs text-[var(--color-text-muted)] line-clamp-2 mt-1">{a.description}</p>
+          </a>
+        ))}
+      </div>
+    </section>
+  )}
+
+  <!-- Cross-site links -->
+  <CrossSiteLinks currentSiteNiche={niche} currentSiteKeywords={siteConfig.keywords || []} />
+
+  <!-- Newsletter CTA -->
+  <section class="newsletter-cta mt-8 mb-8">
+    <div class="max-w-2xl mx-auto text-center py-12 px-4">
+      <h2 class="text-2xl font-bold mb-3">🚀 Get Expert {niche} Guides Weekly</h2>
+      <p class="mb-6">Join 2,000+ readers. Free tips, tools, and strategies delivered every Friday.</p>
+      <form class="flex gap-2 max-w-md mx-auto" onsubmit="event.preventDefault(); this.querySelector('button').textContent='✓ Subscribed!';">
+        <input type="email" placeholder="your@email.com" required class="flex-1 px-4 py-3 rounded-lg" />
+        <button type="submit" class="px-6 py-3 rounded-lg font-semibold">Subscribe</button>
+      </form>
+      <p class="text-xs mt-3 opacity-70">No spam. Unsubscribe anytime.</p>
+    </div>
+  </section>
 
   <!-- Ad slot -->
   <div class="ad-slot my-8">

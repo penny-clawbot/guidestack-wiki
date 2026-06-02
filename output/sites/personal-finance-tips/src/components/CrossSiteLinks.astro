@@ -1,0 +1,59 @@
+---
+// Renders related links to other sites in the network
+import fs from 'node:fs';
+
+interface Props {
+  currentSiteNiche: string;
+  currentSiteKeywords: string[];
+  maxLinks?: number;
+}
+
+const { currentSiteNiche, currentSiteKeywords = [], maxLinks = 3 } = Astro.props;
+
+// Load network config if available
+let networkSites: Array<{id: string; name: string; domain: string; description: string; niche: string; keywords: string[]}> = [];
+const networkConfigPath = 'network-config.json';
+if (fs.existsSync(networkConfigPath)) {
+  const netConfig = JSON.parse(fs.readFileSync(networkConfigPath, 'utf-8'));
+  networkSites = netConfig.sites || [];
+}
+
+// Filter out current site and find related sites by niche overlap or keyword match
+const currentDomain = (() => {
+  try { return JSON.parse(fs.readFileSync('site-config.json', 'utf-8')).domain; } catch { return ''; }
+})();
+
+const relatedSites = networkSites
+  .filter(s => s.domain !== currentDomain)
+  .map(s => {
+    let score = 0;
+    // Same broader niche cluster
+    if (s.keywords?.some(k => currentSiteKeywords.some(ck => k.toLowerCase().includes(ck.toLowerCase()) || ck.toLowerCase().includes(k.toLowerCase())))) score += 3;
+    // Description overlap
+    if (s.description.toLowerCase().split(' ').some(w => w.length > 4 && currentSiteKeywords.some(k => k.toLowerCase().includes(w)))) score += 1;
+    return { ...s, score };
+  })
+  .filter(s => s.score > 0)
+  .sort((a, b) => b.score - a.score)
+  .slice(0, maxLinks);
+---
+
+{relatedSites.length > 0 && (
+  <div class="mt-8 p-5 bg-[var(--color-bg-alt)] border border-[var(--color-border)] rounded-xl">
+    <h3 class="text-sm font-semibold text-[var(--color-text-heading)] mb-3 flex items-center gap-2">
+      <svg class="w-4 h-4 text-[var(--color-primary)]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"/></svg>
+      More Resources You Might Like
+    </h3>
+    <div class="space-y-2">
+      {relatedSites.map(site => (
+        <a href={`https://${site.domain}`} target="_blank" rel="noopener" class="flex items-center gap-3 p-2 rounded-lg hover:bg-[var(--color-bg)] transition-colors group">
+          <span class="text-lg">🌐</span>
+          <div>
+            <span class="text-sm font-medium text-[var(--color-text)] group-hover:text-[var(--color-primary)] transition-colors">{site.name}</span>
+            <p class="text-xs text-[var(--color-text-muted)] line-clamp-1">{site.description}</p>
+          </div>
+        </a>
+      ))}
+    </div>
+  </div>
+)}

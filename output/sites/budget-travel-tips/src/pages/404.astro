@@ -1,0 +1,41 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import fs from 'node:fs';
+import path from 'node:path';
+const siteConfig = fs.existsSync('site-config.json') ? JSON.parse(fs.readFileSync('site-config.json', 'utf-8')) : { name: 'Guide', niche: 'guides' };
+const contentDir = 'src/content/articles';
+const popular: Array<{title: string; slug: string; category: string}> = [];
+if (fs.existsSync(contentDir)) {
+  for (const file of fs.readdirSync(contentDir).filter((f: string) => f.endsWith('.md')).slice(0, 6)) {
+    const raw = fs.readFileSync(path.join(contentDir, file), 'utf-8');
+    const tm = raw.match(/title:\s*["'](.+?)["']/);
+    const cm = raw.match(/category:\s*["'](.+?)["']/);
+    popular.push({ title: tm?.[1] || 'Article', slug: file.replace(/\.md$/, '').replace(/^\d{4}-\d{2}-\d{2}-(ai-)?/, ''), category: cm?.[1] || 'general' });
+  }
+}
+---
+<BaseLayout title="Page Not Found" description="The page you're looking for doesn't exist." siteName={siteConfig.name}>
+  <div class="max-w-2xl mx-auto text-center py-20">
+    <span class="text-7xl mb-6 block">🔍</span>
+    <h1 class="text-4xl font-extrabold text-[var(--color-text-heading)] mb-4">Page Not Found</h1>
+    <p class="text-lg text-[var(--color-text-muted)] mb-8">The page you're looking for doesn't exist or has been moved.</p>
+    <div class="search-bar max-w-md mx-auto mb-12">
+      <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+      <input type="search" placeholder="Search guides..." aria-label="Search articles" oninput="window.location.href='/?q='+encodeURIComponent(this.value)" />
+    </div>
+    {popular.length > 0 && (
+      <div class="text-left">
+        <h2 class="text-lg font-bold text-[var(--color-text-heading)] mb-4">Popular Guides</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+          {popular.map(a => (
+            <a href={`/${a.slug}`} class="card group p-4">
+              <span class="badge-primary text-xs mb-2">{a.category.replace(/-/g, ' ')}</span>
+              <h3 class="font-semibold text-sm text-[var(--color-text-heading)] group-hover:text-[var(--color-primary)] transition-colors line-clamp-2">{a.title}</h3>
+            </a>
+          ))}
+        </div>
+      </div>
+    )}
+    <div class="mt-10"><a href="/" class="btn-primary">Back to Home</a></div>
+  </div>
+</BaseLayout>

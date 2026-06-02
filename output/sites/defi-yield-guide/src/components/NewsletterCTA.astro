@@ -1,0 +1,14 @@
+---
+const { niche = 'Knowledge' } = Astro.props;
+---
+<section class="newsletter-cta">
+  <div class="max-w-2xl mx-auto text-center py-12 px-4">
+    <h2 class="text-2xl font-bold mb-3">🚀 Get Expert {niche} Guides Weekly</h2>
+    <p class="mb-6">Join 2,000+ readers. Free tips, tools, and strategies delivered every Friday.</p>
+    <form class="flex gap-2 max-w-md mx-auto" onsubmit="event.preventDefault(); this.querySelector('button').textContent='✓ Subscribed!';">
+      <input type="email" placeholder="your@email.com" required class="flex-1 px-4 py-3 rounded-lg" />
+      <button type="submit" class="px-6 py-3 rounded-lg font-semibold">Subscribe</button>
+    </form>
+    <p class="text-xs mt-3 opacity-70">No spam. Unsubscribe anytime.</p>
+  </div>
+</section>

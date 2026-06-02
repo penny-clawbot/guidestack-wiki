@@ -1,0 +1,716 @@
+{
+  "niche": "dogecoin wallet guide",
+  "timestamp": "2026-05-11 14:08:31",
+  "total_keywords": 40,
+  "opportunities_above_threshold": 0,
+  "score_threshold": 60,
+  "scored_keywords": [
+    {
+      "keyword": "how to dogecoin wallet guide amazon",
+      "volume_estimate": 603,
+      "competition_score": 50,
+      "rpm_estimate": 3.59,
+      "content_feasibility": 85,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 50,
+        "result_count": 0,
+        "big_sites": [],
+        "avg_content_depth": 0,
+        "top_domains": []
+      },
+      "opportunity_score": 30.65,
+      "grade": "D"
+    },
+    {
+      "keyword": "how to dogecoin wallet guide forum",
+      "volume_estimate": 972,
+      "competition_score": 50,
+      "rpm_estimate": 7.86,
+      "content_feasibility": 85,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 50,
+        "result_count": 0,
+        "big_sites": [],
+        "avg_content_depth": 0,
+        "top_domains": []
+      },
+      "opportunity_score": 33.71,
+      "grade": "D"
+    },
+    {
+      "keyword": "best dogecoin wallet guide reddit",
+      "volume_estimate": 1181,
+      "competition_score": 50,
+      "rpm_estimate": 11.9,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 50,
+        "result_count": 0,
+        "big_sites": [],
+        "avg_content_depth": 0,
+        "top_domains": []
+      },
+      "opportunity_score": 29.75,
+      "grade": "D"
+    },
+    {
+      "keyword": "what is dogecoin wallet guide",
+      "volume_estimate": 847,
+      "competition_score": 50,
+      "rpm_estimate": 6.88,
+      "content_feasibility": 85,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 50,
+        "result_count": 0,
+        "big_sites": [],
+        "avg_content_depth": 0,
+        "top_domains": []
+      },
+      "opportunity_score": 32.95,
+      "grade": "D"
+    },
+    {
+      "keyword": "top dogecoin wallet guide amazon",
+      "volume_estimate": 3946,
+      "competition_score": 50,
+      "rpm_estimate": 11.41,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 50,
+        "result_count": 0,
+        "big_sites": [],
+        "avg_content_depth": 0,
+        "top_domains": []
+      },
+      "opportunity_score": 31.38,
+      "grade": "D"
+    },
+    {
+      "keyword": "how to dogecoin wallet guide reddit",
+      "volume_estimate": 786,
+      "competition_score": 50,
+      "rpm_estimate": 6.05,
+      "content_feasibility": 85,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 50,
+        "result_count": 0,
+        "big_sites": [],
+        "avg_content_depth": 0,
+        "top_domains": []
+      },
+      "opportunity_score": 32.39,
+      "grade": "D"
+    },
+    {
+      "keyword": "best dogecoin wallet guide",
+      "volume_estimate": 3446,
+      "competition_score": 50,
+      "rpm_estimate": 12.26,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 50,
+        "result_count": 0,
+        "big_sites": [],
+        "avg_content_depth": 0,
+        "top_domains": []
+      },
+      "opportunity_score": 31.53,
+      "grade": "D"
+    },
+    {
+      "keyword": "dogecoin wallet guide 2024",
+      "volume_estimate": 3332,
+      "competition_score": 50,
+      "rpm_estimate": 5.01,
+      "content_feasibility": 70,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 50,
+        "result_count": 0,
+        "big_sites": [],
+        "avg_content_depth": 0,
+        "top_domains": []
+      },
+      "opportunity_score": 28.43,
+      "grade": "D"
+    },
+    {
+      "keyword": "top dogecoin wallet guide forum",
+      "volume_estimate": 4778,
+      "competition_score": 50,
+      "rpm_estimate": 17.17,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 50,
+        "result_count": 0,
+        "big_sites": [],
+        "avg_content_depth": 0,
+        "top_domains": []
+      },
+      "opportunity_score": 34.09,
+      "grade": "D"
+    },
+    {
+      "keyword": "top dogecoin wallet guide reddit",
+      "volume_estimate": 3016,
+      "competition_score": 50,
+      "rpm_estimate": 10.62,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 50,
+        "result_count": 0,
+        "big_sites": [],
+        "avg_content_depth": 0,
+        "top_domains": []
+      },
+      "opportunity_score": 30.64,
+      "grade": "D"
+    },
+    {
+      "keyword": "dogecoin wallet guide forum",
+      "volume_estimate": 3779,
+      "competition_score": 50,
+      "rpm_estimate": 5.68,
+      "content_feasibility": 70,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 50,
+        "result_count": 0,
+        "big_sites": [],
+        "avg_content_depth": 0,
+        "top_domains": []
+      },
+      "opportunity_score": 28.91,
+      "grade": "D"
+    },
+    {
+      "keyword": "why dogecoin wallet guide",
+      "volume_estimate": 1920,
+      "competition_score": 50,
+      "rpm_estimate": 2.89,
+      "content_feasibility": 85,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 50,
+        "result_count": 0,
+        "big_sites": [],
+        "avg_content_depth": 0,
+        "top_domains": []
+      },
+      "opportunity_score": 32.43,
+      "grade": "D"
+    },
+    {
+      "keyword": "how to dogecoin wallet guide",
+      "volume_estimate": 3357,
+      "competition_score": 50,
+      "rpm_estimate": 3.96,
+      "content_feasibility": 85,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 50,
+        "result_count": 0,
+        "big_sites": [],
+        "avg_content_depth": 0,
+        "top_domains": []
+      },
+      "opportunity_score": 34.01,
+      "grade": "D"
+    },
+    {
+      "keyword": "dogecoin wallet guide 2025",
+      "volume_estimate": 2990,
+      "competition_score": 50,
+      "rpm_estimate": 2.77,
+      "content_feasibility": 70,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 50,
+        "result_count": 0,
+        "big_sites": [],
+        "avg_content_depth": 0,
+        "top_domains": []
+      },
+      "opportunity_score": 27.33,
+      "grade": "D"
+    },
+    {
+      "keyword": "top dogecoin wallet guide for beginners",
+      "volume_estimate": 1140,
+      "competition_score": 50,
+      "rpm_estimate": 17.89,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 50,
+        "result_count": 0,
+        "big_sites": [],
+        "avg_content_depth": 0,
+        "top_domains": []
+      },
+      "opportunity_score": 32.21,
+      "grade": "D"
+    },
+    {
+      "keyword": "dogecoin wallet guide for beginners",
+      "volume_estimate": 2108,
+      "competition_score": 50,
+      "rpm_estimate": 3.69,
+      "content_feasibility": 70,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 50,
+        "result_count": 0,
+        "big_sites": [],
+        "avg_content_depth": 0,
+        "top_domains": []
+      },
+      "opportunity_score": 27.18,
+      "grade": "D"
+    },
+    {
+      "keyword": "why dogecoin wallet guide 2024",
+      "volume_estimate": 2058,
+      "competition_score": 50,
+      "rpm_estimate": 4.49,
+      "content_feasibility": 85,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 50,
+        "result_count": 0,
+        "big_sites": [],
+        "avg_content_depth": 0,
+        "top_domains": []
+      },
+      "opportunity_score": 33.37,
+      "grade": "D"
+    },
+    {
+      "keyword": "why dogecoin wallet guide 2025",
+      "volume_estimate": 1526,
+      "competition_score": 50,
+      "rpm_estimate": 6.27,
+      "content_feasibility": 85,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 50,
+        "result_count": 0,
+        "big_sites": [],
+        "avg_content_depth": 0,
+        "top_domains": []
+      },
+      "opportunity_score": 33.73,
+      "grade": "D"
+    },
+    {
+      "keyword": "top dogecoin wallet guide youtube",
+      "volume_estimate": 3149,
+      "competition_score": 50,
+      "rpm_estimate": 17.11,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 50,
+        "result_count": 0,
+        "big_sites": [],
+        "avg_content_depth": 0,
+        "top_domains": []
+      },
+      "opportunity_score": 33.43,
+      "grade": "D"
+    },
+    {
+      "keyword": "dogecoin wallet guide reddit",
+      "volume_estimate": 1207,
+      "competition_score": 50,
+      "rpm_estimate": 4.23,
+      "content_feasibility": 70,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 50,
+        "result_count": 0,
+        "big_sites": [],
+        "avg_content_depth": 0,
+        "top_domains": []
+      },
+      "opportunity_score": 26.56,
+      "grade": "D"
+    },
+    {
+      "keyword": "best dogecoin wallet guide 2025",
+      "volume_estimate": 712,
+      "competition_score": 50,
+      "rpm_estimate": 18.64,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 50,
+        "result_count": 0,
+        "big_sites": [],
+        "avg_content_depth": 0,
+        "top_domains": []
+      },
+      "opportunity_score": 31.81,
+      "grade": "D"
+    },
+    {
+      "keyword": "dogecoin wallet guide amazon",
+      "volume_estimate": 2327,
+      "competition_score": 50,
+      "rpm_estimate": 5.21,
+      "content_feasibility": 70,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 50,
+        "result_count": 0,
+        "big_sites": [],
+        "avg_content_depth": 0,
+        "top_domains": []
+      },
+      "opportunity_score": 27.97,
+      "grade": "D"
+    },
+    {
+      "keyword": "dogecoin wallet guide youtube",
+      "volume_estimate": 3294,
+      "competition_score": 50,
+      "rpm_estimate": 5.45,
+      "content_feasibility": 70,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 50,
+        "result_count": 0,
+        "big_sites": [],
+        "avg_content_depth": 0,
+        "top_domains": []
+      },
+      "opportunity_score": 28.6,
+      "grade": "D"
+    },
+    {
+      "keyword": "how to dogecoin wallet guide youtube",
+      "volume_estimate": 812,
+      "competition_score": 50,
+      "rpm_estimate": 3.13,
+      "content_feasibility": 85,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 50,
+        "result_count": 0,
+        "big_sites": [],
+        "avg_content_depth": 0,
+        "top_domains": []
+      },
+      "opportunity_score": 30.96,
+      "grade": "D"
+    },
+    {
+      "keyword": "how to dogecoin wallet guide for beginners",
+      "volume_estimate": 704,
+      "competition_score": 50,
+      "rpm_estimate": 3.75,
+      "content_feasibility": 85,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 50,
+        "result_count": 0,
+        "big_sites": [],
+        "avg_content_depth": 0,
+        "top_domains": []
+      },
+      "opportunity_score": 31.02,
+      "grade": "D"
+    },
+    {
+      "keyword": "why dogecoin wallet guide reddit",
+      "volume_estimate": 3005,
+      "competition_score": 50,
+      "rpm_estimate": 3.58,
+      "content_feasibility": 85,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 50,
+        "result_count": 0,
+        "big_sites": [],
+        "avg_content_depth": 0,
+        "top_domains": []
+      },
+      "opportunity_score": 33.61,
+      "grade": "D"
+    },
+    {
+      "keyword": "best dogecoin wallet guide amazon",
+      "volume_estimate": 1947,
+      "competition_score": 50,
+      "rpm_estimate": 25.11,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 50,
+        "result_count": 0,
+        "big_sites": [],
+        "avg_content_depth": 0,
+        "top_domains": []
+      },
+      "opportunity_score": 36.06,
+      "grade": "D"
+    },
+    {
+      "keyword": "why dogecoin wallet guide forum",
+      "volume_estimate": 394,
+      "competition_score": 50,
+      "rpm_estimate": 5.14,
+      "content_feasibility": 85,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 50,
+        "result_count": 0,
+        "big_sites": [],
+        "avg_content_depth": 0,
+        "top_domains": []
+      },
+      "opportunity_score": 30.66,
+      "grade": "D"
+    },
+    {
+      "keyword": "best dogecoin wallet guide forum",
+      "volume_estimate": 2982,
+      "competition_score": 50,
+      "rpm_estimate": 23.06,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 50,
+        "result_count": 0,
+        "big_sites": [],
+        "avg_content_depth": 0,
+        "top_domains": []
+      },
+      "opportunity_score": 35.85,
+      "grade": "D"
+    },
+    {
+      "keyword": "why dogecoin wallet guide amazon",
+      "volume_estimate": 3345,
+      "competition_score": 50,
+      "rpm_estimate": 3.28,
+      "content_feasibility": 85,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 50,
+        "result_count": 0,
+        "big_sites": [],
+        "avg_content_depth": 0,
+        "top_domains": []
+      },
+      "opportunity_score": 33.65,
+      "grade": "D"
+    },
+    {
+      "keyword": "best dogecoin wallet guide 2024",
+      "volume_estimate": 2292,
+      "competition_score": 50,
+      "rpm_estimate": 28.39,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 50,
+        "result_count": 0,
+        "big_sites": [],
+        "avg_content_depth": 0,
+        "top_domains": []
+      },
+      "opportunity_score": 37.69,
+      "grade": "D"
+    },
+    {
+      "keyword": "top dogecoin wallet guide",
+      "volume_estimate": 3979,
+      "competition_score": 50,
+      "rpm_estimate": 11.14,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 50,
+        "result_count": 0,
+        "big_sites": [],
+        "avg_content_depth": 0,
+        "top_domains": []
+      },
+      "opportunity_score": 31.28,
+      "grade": "D"
+    },
+    {
+      "keyword": "best dogecoin wallet guide for beginners",
+      "volume_estimate": 750,
+      "competition_score": 50,
+      "rpm_estimate": 25.49,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 50,
+        "result_count": 0,
+        "big_sites": [],
+        "avg_content_depth": 0,
+        "top_domains": []
+      },
+      "opportunity_score": 34.77,
+      "grade": "D"
+    },
+    {
+      "keyword": "why dogecoin wallet guide youtube",
+      "volume_estimate": 1702,
+      "competition_score": 50,
+      "rpm_estimate": 2.73,
+      "content_feasibility": 85,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 50,
+        "result_count": 0,
+        "big_sites": [],
+        "avg_content_depth": 0,
+        "top_domains": []
+      },
+      "opportunity_score": 32.12,
+      "grade": "D"
+    },
+    {
+      "keyword": "how to dogecoin wallet guide 2024",
+      "volume_estimate": 590,
+      "competition_score": 50,
+      "rpm_estimate": 7.8,
+      "content_feasibility": 85,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 50,
+        "result_count": 0,
+        "big_sites": [],
+        "avg_content_depth": 0,
+        "top_domains": []
+      },
+      "opportunity_score": 32.76,
+      "grade": "D"
+    },
+    {
+      "keyword": "best dogecoin wallet guide youtube",
+      "volume_estimate": 3164,
+      "competition_score": 50,
+      "rpm_estimate": 13.57,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 50,
+        "result_count": 0,
+        "big_sites": [],
+        "avg_content_depth": 0,
+        "top_domains": []
+      },
+      "opportunity_score": 31.95,
+      "grade": "D"
+    },
+    {
+      "keyword": "how to dogecoin wallet guide 2025",
+      "volume_estimate": 60,
+      "competition_score": 50,
+      "rpm_estimate": 2.8,
+      "content_feasibility": 85,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 50,
+        "result_count": 0,
+        "big_sites": [],
+        "avg_content_depth": 0,
+        "top_domains": []
+      },
+      "opportunity_score": 26.02,
+      "grade": "D"
+    },
+    {
+      "keyword": "top dogecoin wallet guide 2025",
+      "volume_estimate": 4155,
+      "competition_score": 50,
+      "rpm_estimate": 9.89,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 50,
+        "result_count": 0,
+        "big_sites": [],
+        "avg_content_depth": 0,
+        "top_domains": []
+      },
+      "opportunity_score": 30.82,
+      "grade": "D"
+    },
+    {
+      "keyword": "top dogecoin wallet guide 2024",
+      "volume_estimate": 2455,
+      "competition_score": 50,
+      "rpm_estimate": 19.48,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 50,
+        "result_count": 0,
+        "big_sites": [],
+        "avg_content_depth": 0,
+        "top_domains": []
+      },
+      "opportunity_score": 34.05,
+      "grade": "D"
+    },
+    {
+      "keyword": "why dogecoin wallet guide for beginners",
+      "volume_estimate": 765,
+      "competition_score": 50,
+      "rpm_estimate": 7.04,
+      "content_feasibility": 85,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 50,
+        "result_count": 0,
+        "big_sites": [],
+        "avg_content_depth": 0,
+        "top_domains": []
+      },
+      "opportunity_score": 32.85,
+      "grade": "D"
+    }
+  ],
+  "top_opportunities": [],
+  "scored_clusters": [
+    {
+      "cluster": "dogecoin wallet",
+      "keyword_count": 40,
+      "total_volume_estimate": 85575,
+      "avg_competition": 50.0,
+      "avg_rpm": 9.66,
+      "avg_feasibility": 76.4,
+      "commercial_ratio": 0.4,
+      "cluster_score": 0.02,
+      "top_keywords": [
+        "top dogecoin wallet guide forum",
+        "top dogecoin wallet guide 2025",
+        "top dogecoin wallet guide",
+        "top dogecoin wallet guide amazon",
+        "dogecoin wallet guide forum"
+      ],
+      "content_strategy": "Niche micro-content. Long-tail targeting, question-based articles, internal linking strategy."
+    }
+  ],
+  "summary": {
+    "avg_opportunity_score": 31.73,
+    "grade_a_count": 0,
+    "grade_b_count": 0,
+    "grade_c_count": 0
+  }
+}

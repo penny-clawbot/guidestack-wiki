@@ -1,0 +1,104 @@
+---
+// NetworkFooter.astro
+// Shared footer component showing all related PennyPress Network sites
+// Drop into BaseLayout.astro footer section
+// FREE component — no external dependencies.
+
+import fs from 'node:fs';
+import path from 'node:path';
+
+interface Props {
+  currentSiteId: string;
+}
+
+const { currentSiteId } = Astro.props;
+
+const configPath = path.resolve('site-config.json');
+const siteConfig = fs.existsSync(configPath) ? JSON.parse(fs.readFileSync(configPath, 'utf-8')) : {};
+const currentDomain = siteConfig.domain || 'example.com';
+
+// Load network config from the network root
+const networkPaths = [
+  path.resolve('../../network-config.json'),
+  path.resolve('../../../network-config.json'),
+  path.resolve('/Users/penny/Documents/Penny/pseo-network/network-config.json'),
+];
+
+let networkConfig: any = null;
+for (const p of networkPaths) {
+  if (fs.existsSync(p)) {
+    networkConfig = JSON.parse(fs.readFileSync(p, 'utf-8'));
+    break;
+  }
+}
+
+if (!networkConfig) {
+  // Inline fallback
+  networkConfig = {
+    networkName: "PennyPress Network",
+    sites: [
+      { id: "bitcoin-beginners", name: "Bitcoin Beginners Guide", domain: "bitcoin-beginners.com", niche: "crypto" },
+      { id: "crypto-investing-guide", name: "Crypto Investing Guide", domain: "crypto-investing.com", niche: "crypto" },
+      { id: "crypto-trading-strategies", name: "Crypto Trading Strategies Guide", domain: "crypto-trading-strategies.com", niche: "crypto" },
+      { id: "defi-yield-guide", name: "DeFi Yield Guide", domain: "defi-yield-guide.com", niche: "crypto" },
+      { id: "personal-finance-tips", name: "Personal Finance Guide", domain: "personal-finance.com", niche: "finance" },
+      { id: "smart-emergency-fund", name: "Emergency Fund Guide", domain: "emergency-fund.com", niche: "finance" },
+      { id: "ai-tools-hub", name: "AI Tools And Productivity Guide", domain: "ai-tools-and-productivity.com", niche: "tech" },
+      { id: "budget-travel-tips", name: "Budget Travel Guide", domain: "budget-travel.com", niche: "lifestyle" },
+    ],
+    clusters: {
+      crypto: ["bitcoin-beginners", "crypto-investing-guide", "crypto-trading-strategies", "defi-yield-guide"],
+      finance: ["personal-finance-tips", "smart-emergency-fund"],
+      tech: ["ai-tools-hub"],
+      lifestyle: ["budget-travel-tips"],
+    }
+  };
+}
+
+// Find current site and its related sites
+const currentSite = networkConfig.sites.find((s: any) => s.domain === currentDomain || s.id === currentSiteId);
+const currentNiche = currentSite?.niche || 'crypto';
+
+// Get same-cluster sites (shown first) + other sites
+const clusterSites = networkConfig.sites.filter((s: any) => s.niche === currentNiche && (s.domain !== currentDomain && s.id !== currentSiteId));
+const otherSites = networkConfig.sites.filter((s: any) => s.niche !== currentNiche);
+
+const nicheLabels: Record<string, string> = {
+  crypto: '🪙 Crypto & DeFi',
+  finance: '💰 Personal Finance',
+  tech: '🤖 AI & Tech',
+  lifestyle: '✈️ Lifestyle'
+};
+---
+
+<div class="network-footer border-t border-[var(--color-border)] pt-6 mt-6">
+  <h4 class="font-semibold text-sm mb-3 text-[var(--color-text-heading)]">🌐 {networkConfig.networkName}</h4>
+  
+  {clusterSites.length > 0 && (
+    <div class="mb-3">
+      <p class="text-xs text-[var(--color-text-muted)] mb-2 font-medium">{nicheLabels[currentNiche] || 'Related Sites'}</p>
+      <div class="flex flex-wrap gap-2">
+        {clusterSites.map((site: any) => (
+          <a href={`https://${site.domain}`} 
+             class="inline-flex items-center gap-1 px-3 py-1.5 text-xs rounded-full bg-[var(--color-primary)]/10 text-[var(--color-primary)] hover:bg-[var(--color-primary)]/20 transition-colors"
+             target="_blank" rel="noopener">
+            {site.name}
+          </a>
+        ))}
+      </div>
+    </div>
+  )}
+
+  <div>
+    <p class="text-xs text-[var(--color-text-muted)] mb-2 font-medium">Explore More</p>
+    <div class="flex flex-wrap gap-2">
+      {otherSites.map((site: any) => (
+        <a href={`https://${site.domain}`}
+           class="inline-flex items-center gap-1 px-3 py-1.5 text-xs rounded-full bg-[var(--color-bg-alt)] text-[var(--color-text-muted)] hover:text-[var(--color-primary)] hover:bg-[var(--color-primary)]/10 transition-colors"
+           target="_blank" rel="noopener">
+          {site.name}
+        </a>
+      ))}
+    </div>
+  </div>
+</div>

@@ -141,10 +141,13 @@ Target length: {target_words}+ words of pure substance.
 
 Structure:
 1. Start with # "{topic.title()}" (compelling, click-worthy title)
-2. Hook paragraph — open with a surprising statistic, relatable scenario, or counterintuitive insight. NO generic "In today's world" or "Understanding X is important" openings.
-3. 6-8 ## sections, each with ### subsections where appropriate
-4. End with a "## Frequently Asked Questions" section (5 Q&As)
-5. Final section: "## Final Thoughts" — concise summary with a clear takeaway
+2. Hook paragraph — open with a surprising statistic, relatable scenario, or counterintuitive insight. NO generic "In today's world" or "Understanding X is important" openings. CRITICAL: Include a concrete number, dollar amount, or percentage in the FIRST 100 WORDS — AI search engines extract answers from opening paragraphs.
+3. 6-8 ## sections, each with ### subsections where appropriate. Every ## heading must be phrased as a question (e.g., "## How Do I Start Investing in 2026?" not just "## Getting Started") for featured snippet capture.
+4. Include at least one comparison table in markdown |col1|col2| format
+5. Add 2-3 image placeholder blocks: ![Descriptive alt text for SEO](https://example.com/image.jpg) — alt text must describe the image content for accessibility and AI readability
+6. Add 3-5 [LINK: specific-related-topic] placeholders for internal linking
+7. End with a "## Frequently Asked Questions" section (5 Q&As)
+8. Final section: "## Final Thoughts" — concise summary with a clear takeaway
 
 Content rules:
 - Write like a seasoned {niche} journalist with 10 years of experience
@@ -152,8 +155,6 @@ Content rules:
 - Reference real destinations, brands, tools, or strategies by name
 - Use first-person plural ("we") and second-person ("you") naturally
 - Mix short punchy sentences with longer explanatory ones
-- Include at least one comparison table
-- Add 3-5 [LINK: specific-related-topic] placeholders for internal linking
 - Every section must deliver actionable value — zero filler
 
 Formatting:
@@ -166,10 +167,12 @@ Target length: {target_words}+ words.
 
 Structure:
 1. # "{topic.title()}" (compelling title)
-2. Hook — open with something unexpected or relatable, NOT "In this article we'll explore"
-3. 4-6 ## sections with real substance
-4. "## Key Takeaways" bullet list before the conclusion
-5. Brief conclusion
+2. Hook — open with something unexpected or relatable, NOT "In this article we'll explore". CRITICAL: Include a concrete number, dollar amount, or percentage in the FIRST 100 WORDS — AI search engines extract answers from opening paragraphs.
+3. 4-6 ## sections with real substance. Every ## heading must be phrased as a question (e.g., "## What Are the Best Strategies for 2026?" not just "## Best Strategies") for featured snippet capture.
+4. Include at least one comparison table in markdown |col1|col2| format
+5. Add 1-2 image placeholder blocks: ![Descriptive alt text for SEO](https://example.com/image.jpg)
+6. "## Key Takeaways" bullet list before the conclusion
+7. Brief conclusion
 
 Content rules:
 - Write like an experienced {niche} blogger who actually practices what they write about
@@ -187,10 +190,11 @@ Target length: {target_words}+ words.
 
 Structure:
 1. # "{topic.title()}" 
-2. Brief intro (2-3 sentences setting context)
-3. 10-15 questions, each with a detailed 100-200 word answer
+2. Brief intro (2-3 sentences setting context). CRITICAL: Include a concrete number, dollar amount, or percentage in the FIRST 100 WORDS.
+3. 10-15 questions, each with a detailed 100-200 word answer. Each question becomes an ## heading (e.g., "## What is the Best Way to Get Started in 2026?") for featured snippet eligibility.
 4. Questions should range from beginner to advanced
-5. Brief closing
+5. Add 1-2 image placeholder blocks: ![Descriptive alt text](https://example.com/image.jpg)
+6. Brief closing
 
 Content rules:
 - Each answer must be genuinely helpful — include specific advice, not vague generalities
@@ -207,19 +211,20 @@ Target length: {target_words}+ words.
 
 Structure:
 1. # "{topic.title()}" 
-2. Hook — why this matters right now, what the reader will gain
+2. Hook — why this matters right now, what the reader will gain. CRITICAL: Include a concrete number or percentage in the FIRST 100 WORDS.
 3. "## What You'll Need" — prerequisites checklist
 4. "## Step-by-Step Instructions" — 8-15 numbered steps, grouped under ## headings
 5. "## Pro Tips" section — 5 insider tips
 6. "## Common Mistakes" — what to watch out for
-7. Brief FAQ (3 questions)
-8. Short conclusion
+7. Include at least one comparison table in markdown |col1|col2| format
+8. Add screenshot/image placeholders: ![Describe what this screenshot shows](https://example.com/screenshot.jpg)
+9. Brief FAQ (3 questions)
+10. Short conclusion
 
 Content rules:
 - Each step must be specific and actionable — "Do X by using Y to achieve Z"
 - Include realistic time estimates and difficulty levels
 - Mention specific tools, services, or resources by name
-- Add screenshots/placeholders where visual aids would help
 - Add [LINK: related-topic] placeholders
 
 Formatting: Numbered steps, proper markdown. NO frontmatter.""",
@@ -230,14 +235,14 @@ Target length: {target_words}+ words.
 
 Structure:
 1. # "{topic.title()}" (number in title like "10 Best..." or "Top 15...")
-2. Hook — why this list matters, what makes it different
+2. Hook — why this list matters, what makes it different. CRITICAL: Include a concrete number in the FIRST 100 WORDS.
 3. Each item gets its own ## heading with:
    - What it is (1-2 sentences)
    - Why it's great (specific reasons)
    - Best for / Who should use it
    - Potential drawbacks
 4. "## How We Chose" methodology section
-5. "## Quick Comparison" summary table
+5. "## Quick Comparison" summary table (markdown | format)
 6. Conclusion with top pick recommendation
 
 Content rules:
@@ -246,6 +251,7 @@ Content rules:
 - Write like a reviewer who's actually tested everything
 - Order items from best to worst (or beginner to advanced)
 - Add [LINK: related-topic] placeholders
+- Add 1-2 image placeholders: ![Descriptive alt text](https://example.com/image.jpg)
 
 Formatting: ## for each item, proper markdown, include a comparison table. NO frontmatter.""",
 
@@ -255,9 +261,9 @@ Target length: {target_words}+ words.
 
 Structure:
 1. # "{topic.title()}"
-2. Hook — the decision the reader is trying to make
+2. Hook — the decision the reader is trying to make. CRITICAL: Include a concrete number or percentage in the FIRST 100 WORDS.
 3. Quick summary: "## At a Glance" — one paragraph per option
-4. "## Feature Comparison" — detailed markdown table
+4. "## Feature Comparison" — detailed markdown table with | Option A | Option B | headers
 5. ## section for each option covering: pros, cons, best for, pricing
 6. "## Which Should You Choose?" — decision matrix based on use case
 7. "## Our Verdict" — clear recommendation
@@ -267,6 +273,7 @@ Content rules:
 - Include specific numbers for comparison (prices, speeds, ratings, etc.)
 - Write for someone making a real purchase decision
 - Add [LINK: related-topic] placeholders
+- Add 1-2 image placeholders: ![Descriptive alt text](https://example.com/image.jpg)
 
 Formatting: Tables, proper markdown. NO frontmatter.""",
     }

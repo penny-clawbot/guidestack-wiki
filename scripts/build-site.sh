@@ -66,6 +66,10 @@ if [ -d "$ARTICLES_SRC" ]; then
 fi
 echo "   ✅ $COUNT articles copied"
 
+# Step 3.5: Validate content quality
+echo "[3.5/6] Validating content quality..."
+python3 "$PROJECT_DIR/scripts/validate-content.py" "$SITE_DIR" --min-score 60 || echo "   ⚠️  Some articles below quality threshold (proceeding anyway)"
+
 # Step 4: Copy latest template pages
 echo "[4/5] Updating template pages..."
 mkdir -p "$SITE_DIR/src/pages/category"
@@ -74,6 +78,29 @@ mkdir -p "$SITE_DIR/src/styles"
 cp "$TEMPLATE_DIR/src/pages/index.astro" "$SITE_DIR/src/pages/index.astro"
 cp "$TEMPLATE_DIR/src/pages/[slug].astro" "$SITE_DIR/src/pages/[slug].astro"
 cp "$TEMPLATE_DIR/src/pages/category/[category].astro" "$SITE_DIR/src/pages/category/[category].astro"
+
+# Copy new pages (legal, 404, author)
+for page in about.astro privacy-policy.astro terms.astro contact.astro 404.astro; do
+  cp "$TEMPLATE_DIR/src/pages/$page" "$SITE_DIR/src/pages/$page" 2>/dev/null || true
+done
+mkdir -p "$SITE_DIR/src/pages/about"
+cp "$TEMPLATE_DIR/src/pages/about/author.astro" "$SITE_DIR/src/pages/about/author.astro" 2>/dev/null || true
+
+# Copy new dynamic page directories
+mkdir -p "$SITE_DIR/src/pages/compare" "$SITE_DIR/src/pages/best"
+cp "$TEMPLATE_DIR/src/pages/compare/[...slug].astro" "$SITE_DIR/src/pages/compare/[...slug].astro" 2>/dev/null || true
+cp "$TEMPLATE_DIR/src/pages/best/[category].astro" "$SITE_DIR/src/pages/best/[category].astro" 2>/dev/null || true
+
+# Copy new components and utils
+mkdir -p "$SITE_DIR/src/components" "$SITE_DIR/src/utils" "$SITE_DIR/src/data"
+cp "$TEMPLATE_DIR/src/components/CrossSiteLinks.astro" "$SITE_DIR/src/components/CrossSiteLinks.astro" 2>/dev/null || true
+cp "$TEMPLATE_DIR/src/components/MidArticleCTA.astro" "$SITE_DIR/src/components/MidArticleCTA.astro" 2>/dev/null || true
+cp "$TEMPLATE_DIR/src/utils/marked-config.ts" "$SITE_DIR/src/utils/marked-config.ts" 2>/dev/null || true
+cp "$TEMPLATE_DIR/src/data/affiliates.json" "$SITE_DIR/src/data/affiliates.json" 2>/dev/null || true
+
+# Copy RSS feed + network config
+cp "$TEMPLATE_DIR/src/pages/feed.xml.ts" "$SITE_DIR/src/pages/feed.xml.ts" 2>/dev/null || true
+cp "$PROJECT_DIR/network-config.json" "$SITE_DIR/network-config.json" 2>/dev/null || true
 cp "$TEMPLATE_DIR/src/layouts/BaseLayout.astro" "$SITE_DIR/src/layouts/BaseLayout.astro"
 cp "$TEMPLATE_DIR/src/styles/global.css" "$SITE_DIR/src/styles/global.css"
 cp "$TEMPLATE_DIR/tailwind.config.mjs" "$SITE_DIR/tailwind.config.mjs"
@@ -98,9 +125,13 @@ rm -rf dist
 npx astro build 2>&1 | grep -E "page|Complete|Error|ERROR" || true
 
 # Step 6: Generate sitemap
-echo "[6/6] Generating sitemap..."
+echo "[6/7] Generating sitemap..."
 rm -rf "$SITE_DIR/dist/sitemap.xml"
 python3 "$PROJECT_DIR/scripts/generate-sitemap.py" "$SITE_DIR" 2>&1 | tail -1
+
+# Generate llms.txt for AI crawlers (GEO)
+python3 "$PROJECT_DIR/scripts/generate-llms-txt.py" "$SITE_DIR"
+python3 "$PROJECT_DIR/scripts/generate-llms-full.py" "$SITE_DIR"
 
 # Count output
 PAGES=$(find dist -name "*.html" 2>/dev/null | wc -l | tr -d ' ')

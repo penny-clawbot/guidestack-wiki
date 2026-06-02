@@ -1,0 +1,173 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import fs from 'node:fs';
+import path from 'node:path';
+const siteConfig = JSON.parse(fs.readFileSync('site-config.json', 'utf-8'));
+const niches = siteConfig.niches || [];
+const cd = 'src/content/articles';
+interface Art { title:string; description:string; slug:string; date:string; category:string; readingTime:string; tags:string[]; niche:string; }
+function load(): Art[] {
+  const a: Art[] = [];
+  if (!fs.existsSync(cd)) return a;
+  for (const f of fs.readdirSync(cd).filter((x:string)=>x.endsWith('.md'))) {
+    const c = fs.readFileSync(path.join(cd,f),'utf-8');
+    const fm: Record<string,any> = {};
+    const m = c.match(/^---\n([\s\S]*?)\n---/);
+    if (m) { m[1].split('\n').forEach((l:string)=>{const x=l.match(/^(\w+):\s*["']?(.+?)["']?\s*$/);if(x)fm[x[1]]=x[2]}); if(typeof fm.tags==='string')fm.tags=fm.tags.split(',').map((t:string)=>t.trim()); }
+    a.push({title:fm.title||f,description:fm.description||'',slug:f.replace(/\.md$/,'').replace(/^\d{4}-\d{2}-\d{2}-(ai-)?/,''),date:fm.date||'',category:fm.category||'general',readingTime:fm.readingTime||'',tags:fm.tags||[],niche:fm.niche||'general'});
+  }
+  return a;
+}
+const articles = load().sort((a,b)=>b.date.localeCompare(a.date));
+const nicheCounts = new Map<string,number>(); niches.forEach((n:any)=>nicheCounts.set(n.id,0)); articles.forEach(a=>nicheCounts.set(a.niche,(nicheCounts.get(a.niche)||0)+1));
+const featured = articles.slice(0,6);
+const latest = articles.slice(6,18);
+
+const nicheColors: Record<string,string> = {
+  'crypto-investing':'from-blue-600 to-blue-700',
+  'ai-tools':'from-violet-600 to-violet-700',
+  'bitcoin-beginners':'from-amber-500 to-orange-600',
+  'crypto-trading':'from-emerald-600 to-emerald-700',
+  'defi-yield':'from-cyan-600 to-teal-700',
+  'personal-finance':'from-green-600 to-green-700',
+  'emergency-fund':'from-rose-600 to-rose-700',
+  'budget-travel':'from-sky-600 to-indigo-600',
+};
+
+const nicheIcons: Record<string,string> = {
+  'crypto-investing':'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" x2="12" y1="2" y2="22"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>',
+  'ai-tools':'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 8V4H8"/><rect width="16" height="12" x="4" y="8" rx="2"/><path d="M2 14h2"/><path d="M20 14h2"/><path d="M15 13v2"/><path d="M9 13v2"/></svg>',
+  'bitcoin-beginners':'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>',
+  'crypto-trading':'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/></svg>',
+  'defi-yield':'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="20" x="2" y="2" rx="2.18" ry="2.18"/><line x1="7" x2="7" y1="2" y2="22"/><line x1="17" x2="17" y1="2" y2="22"/><line x1="2" x2="22" y1="12" y2="12"/><line x1="2" x2="7" y1="7" y2="7"/><line x1="2" x2="7" y1="17" y2="17"/><line x1="17" x2="22" y1="7" y2="7"/><line x1="17" x2="22" y1="17" y2="17"/></svg>',
+  'personal-finance':'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="14" x="2" y="5" rx="2"/><line x1="2" x2="22" y1="10" y2="10"/></svg>',
+  'emergency-fund':'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/></svg>',
+  'budget-travel':'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z"/></svg>',
+};
+---
+
+<BaseLayout title={siteConfig.name} description={siteConfig.description} ogType="website" siteName={siteConfig.name}>
+  <!-- Hero -->
+  <section class="mb-16">
+    <div class="max-w-2xl">
+      <div class="inline-flex items-center gap-2 px-3 py-1.5 bg-blue-50 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 text-xs font-semibold rounded-full mb-6">
+        <svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+        Expert Knowledge Hub
+      </div>
+      <h1 class="text-4xl sm:text-5xl lg:text-6xl font-black text-slate-900 dark:text-white tracking-tight leading-[1.1] mb-6">
+        Your Complete<br/>Guide Library
+      </h1>
+      <p class="text-lg sm:text-xl text-slate-500 dark:text-slate-400 leading-relaxed mb-8 max-w-xl">
+        {siteConfig.description}
+      </p>
+      <div class="search-bar max-w-lg mb-8">
+        <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+        <input id="search-input" type="search" placeholder="Search guides, topics, keywords..." aria-label="Search articles" />
+      </div>
+      <div class="flex flex-wrap gap-4 text-sm text-slate-400">
+        <span class="flex items-center gap-2">
+          <svg class="w-4 h-4 text-blue-600 dark:text-blue-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" x2="8" y1="13" y2="13"/><line x1="16" x2="8" y1="17" y2="17"/></svg>
+          <strong class="text-slate-700 dark:text-slate-200">{articles.length}</strong> Articles
+        </span>
+        <span class="flex items-center gap-2">
+          <svg class="w-4 h-4 text-violet-600 dark:text-violet-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h6v6H4zM14 4h6v6h-6zM4 14h6v6H4zM14 14h6v6h-6z"/></svg>
+          <strong class="text-slate-700 dark:text-slate-200">{niches.length}</strong> Categories
+        </span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Niche Cards -->
+  <section class="mb-16">
+    <div class="flex items-center justify-between mb-8">
+      <h2 class="text-2xl font-bold text-slate-900 dark:text-white">Explore Our Guides</h2>
+      <span class="text-sm text-slate-400 hidden sm:block">Pick a topic to dive in</span>
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+      {niches.map((n: any) => {
+        const count = nicheCounts.get(n.id) || 0;
+        const top3 = articles.filter(a => a.niche === n.id).slice(0, 3);
+        const gradient = nicheColors[n.id] || 'from-slate-600 to-slate-700';
+        const iconSvg = nicheIcons[n.id] || '';
+        return <a href={`/${n.id}`} class="card group p-0" data-searchable="true">
+          <div class={`h-2 bg-gradient-to-r ${gradient}`} />
+          <div class="p-5">
+            <div class="flex items-start justify-between mb-3">
+              <div class={`niche-icon bg-gradient-to-br ${gradient}`}>
+                <span class="w-6 h-6" set:html={iconSvg} />
+              </div>
+              <span class="text-xs font-semibold text-slate-400 bg-slate-100 dark:bg-slate-700 px-2.5 py-1 rounded-full">{count} guides</span>
+            </div>
+            <h3 class="font-bold text-slate-900 dark:text-white mb-1 group-hover:text-blue-700 dark:group-hover:text-blue-400 transition-colors">{n.name}</h3>
+            <p class="text-sm text-slate-500 dark:text-slate-400 line-clamp-2 mb-3">{n.description}</p>
+            {top3.length > 0 && (
+              <ul class="pt-3 border-t border-slate-100 dark:border-slate-700 space-y-1.5">
+                {top3.map(a=><li class="text-xs text-slate-400 truncate flex items-center gap-1.5">
+                  <svg class="w-3 h-3 shrink-0 text-slate-300 dark:text-slate-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+                  {a.title}
+                </li>)}
+              </ul>
+            )}
+          </div>
+        </a>;
+      })}
+    </div>
+  </section>
+
+  <!-- Featured -->
+  {featured.length > 0 && <section class="mb-16">
+    <div class="flex items-center gap-2 mb-8">
+      <svg class="w-5 h-5 text-amber-500" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+      <h2 class="text-2xl font-bold text-slate-900 dark:text-white">Popular Guides</h2>
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+      {featured.map(a => {
+        const nc = niches.find((n:any)=>n.id===a.niche);
+        const gradient = nicheColors[a.niche] || 'from-slate-600 to-slate-700';
+        const iconSvg = nicheIcons[a.niche] || '';
+        return <a href={`/${a.niche}/${a.slug}`} class="card group" data-searchable="true">
+          <div class={`h-28 bg-gradient-to-br ${gradient} flex items-center justify-center relative`}>
+            <span class="w-10 h-10 text-white/40" set:html={iconSvg} />
+            <span class="absolute top-3 right-3 text-xs font-semibold text-white/80 bg-white/15 backdrop-blur-sm px-2.5 py-1 rounded-full">{nc?.name||a.niche}</span>
+          </div>
+          <div class="p-5">
+            <h3 class="font-bold text-slate-900 dark:text-white mb-2 group-hover:text-blue-700 dark:group-hover:text-blue-400 transition-colors line-clamp-2">{a.title}</h3>
+            <p class="text-sm text-slate-500 dark:text-slate-400 line-clamp-2">{a.description}</p>
+          </div>
+        </a>;
+      })}
+    </div>
+  </section>}
+
+  <!-- Latest -->
+  {latest.length > 0 && <section class="mb-16">
+    <h2 class="text-2xl font-bold text-slate-900 dark:text-white mb-8">Latest Guides</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+      {latest.map(a => {
+        const nc = niches.find((n:any)=>n.id===a.niche);
+        const gradient = nicheColors[a.niche] || 'from-slate-600 to-slate-700';
+        return <a href={`/${a.niche}/${a.slug}`} class="card group p-5 flex flex-col" data-searchable="true">
+          <div class="flex items-center gap-2 mb-3">
+            <div class={`w-1.5 h-1.5 rounded-full bg-gradient-to-r ${gradient}`} />
+            <span class="text-xs font-semibold text-slate-500 dark:text-slate-400">{nc?.name||a.niche}</span>
+          </div>
+          <h3 class="font-semibold text-sm text-slate-900 dark:text-white group-hover:text-blue-700 dark:group-hover:text-blue-400 transition-colors line-clamp-2">{a.title}</h3>
+          <p class="text-xs text-slate-400 mt-2 line-clamp-2">{a.description}</p>
+        </a>;
+      })}
+    </div>
+  </section>}
+
+  <!-- Newsletter -->
+  <section class="newsletter-cta">
+    <div class="max-w-2xl mx-auto text-center py-14 px-6">
+      <svg class="w-10 h-10 text-white/60 mx-auto mb-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+      <h2 class="text-2xl font-bold mb-3">Get Expert Guides Weekly</h2>
+      <p class="mb-6 text-white/70">Join 2,000+ readers. Free tips, tools, and strategies every Friday.</p>
+      <form class="flex gap-2 max-w-md mx-auto" onsubmit="event.preventDefault();this.querySelector('button').textContent='Subscribed!';this.querySelector('button').style.background='#059669';">
+        <input type="email" placeholder="your@email.com" required class="flex-1 px-4 py-3 rounded-lg text-sm" />
+        <button type="submit" class="px-6 py-3 rounded-lg font-semibold text-sm whitespace-nowrap">Subscribe Free</button>
+      </form>
+    </div>
+  </section>
+</BaseLayout>

@@ -1,0 +1,63 @@
+# GuideStack robots.txt
+User-agent: *
+Allow: /
+
+# AI Search Engine Crawlers — ALLOWED
+User-agent: GPTBot
+Allow: /
+
+User-agent: GPTBot-Image
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: CohereBot
+Allow: /
+
+User-agent: AI21Bot
+Allow: /
+
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# Agent: directive — AI search engines crawl here for structured content
+# https://developer.blockchainseo.ai/agent
+# https://agent.blockchainseo.ai/sitemap.xml
+
+User-agent: GoogleOther
+Allow: /
+
+User-agent: o1-bot
+Allow: /
+
+User-agent: claude-web
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+# Allow llms.txt for AI search engines (structured content manifest)
+Allow: /llms.txt
+
+Sitemap: https://{site_domain}/sitemap-index.xml

@@ -1,0 +1,152 @@
+{
+  "timestamp": "2026-06-01T09:01:26.964306",
+  "freshness_threshold_days": 90,
+  "total_articles": 458,
+  "total_stale": 0,
+  "sites": [
+    {
+      "site": "ai-tools-hub",
+      "niche": "AI tools and productivity",
+      "total": 54,
+      "fresh": 0,
+      "recent": 54,
+      "aging": 0,
+      "stale": 0,
+      "oldest_article": {
+        "title": "Terms of Service",
+        "slug": "terms-of-service",
+        "date": "2026-05-10",
+        "age_days": 22,
+        "status": "recent",
+        "file": "2026-05-10-ai-terms-of-service.md"
+      },
+      "stale_articles": []
+    },
+    {
+      "site": "bitcoin-beginners",
+      "niche": "bitcoin beginners",
+      "total": 59,
+      "fresh": 0,
+      "recent": 59,
+      "aging": 0,
+      "stale": 0,
+      "oldest_article": {
+        "title": "Understanding Bitcoin Halving Cycles: How They Affect Price, Supply, and Mining",
+        "slug": "understanding-bitcoin-halving-cycles",
+        "date": "2026-05-10",
+        "age_days": 22,
+        "status": "recent",
+        "file": "2026-05-10-understanding-bitcoin-halving-cycles.md"
+      },
+      "stale_articles": []
+    },
+    {
+      "site": "budget-travel-tips",
+      "niche": "budget travel",
+      "total": 54,
+      "fresh": 0,
+      "recent": 54,
+      "aging": 0,
+      "stale": 0,
+      "oldest_article": {
+        "title": "How to Find Budget Accommodation Anywhere",
+        "slug": "how-to-find-budget-accommodation-anywhere",
+        "date": "2026-05-10",
+        "age_days": 22,
+        "status": "recent",
+        "file": "2026-05-10-ai-how-to-find-budget-accommodation-anywhere.md"
+      },
+      "stale_articles": []
+    },
+    {
+      "site": "crypto-investing-guide",
+      "niche": "crypto investing",
+      "total": 55,
+      "fresh": 0,
+      "recent": 55,
+      "aging": 0,
+      "stale": 0,
+      "oldest_article": {
+        "title": "Terms of Service",
+        "slug": "terms-of-service",
+        "date": "2026-05-10",
+        "age_days": 22,
+        "status": "recent",
+        "file": "2026-05-10-ai-terms-of-service.md"
+      },
+      "stale_articles": []
+    },
+    {
+      "site": "crypto-trading-strategies",
+      "niche": "crypto trading strategies",
+      "total": 61,
+      "fresh": 0,
+      "recent": 61,
+      "aging": 0,
+      "stale": 0,
+      "oldest_article": {
+        "title": "How to Read Crypto Candlestick Charts: A Complete Beginner",
+        "slug": "how-to-read-crypto-candlestick-charts",
+        "date": "2026-05-10",
+        "age_days": 22,
+        "status": "recent",
+        "file": "2026-05-10-how-to-read-crypto-candlestick-charts.md"
+      },
+      "stale_articles": []
+    },
+    {
+      "site": "defi-yield-guide",
+      "niche": "DeFi yield guide",
+      "total": 57,
+      "fresh": 0,
+      "recent": 57,
+      "aging": 0,
+      "stale": 0,
+      "oldest_article": {
+        "title": "Best DeFi Yield Farming Platforms 2026: The Ultimate Guide to Maximizing Your Crypto Returns",
+        "slug": "best-defi-yield-farming-platforms-2026",
+        "date": "2026-05-10",
+        "age_days": 22,
+        "status": "recent",
+        "file": "2026-05-10-best-defi-yield-farming-platforms-2026.md"
+      },
+      "stale_articles": []
+    },
+    {
+      "site": "personal-finance-tips",
+      "niche": "personal finance",
+      "total": 54,
+      "fresh": 0,
+      "recent": 54,
+      "aging": 0,
+      "stale": 0,
+      "oldest_article": {
+        "title": "Index Fund Investing: The Lazy Path to Wealth",
+        "slug": "index-fund-investing-the-lazy-path-to-wealth",
+        "date": "2026-05-10",
+        "age_days": 22,
+        "status": "recent",
+        "file": "2026-05-10-ai-index-fund-investing-the-lazy-path-to-wealth.md"
+      },
+      "stale_articles": []
+    },
+    {
+      "site": "smart-emergency-fund",
+      "niche": "emergency fund",
+      "total": 64,
+      "fresh": 0,
+      "recent": 64,
+      "aging": 0,
+      "stale": 0,
+      "oldest_article": {
+        "title": "emergency fund guide for self-employed workers",
+        "slug": "emergency-fund-guide-for-self-employed-workers",
+        "date": "2026-05-11",
+        "age_days": 21,
+        "status": "recent",
+        "file": "2026-05-11-ai-emergency-fund-guide-for-self-employed-workers.md"
+      },
+      "stale_articles": []
+    }
+  ]
+}

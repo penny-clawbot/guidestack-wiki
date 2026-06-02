@@ -1,0 +1,11 @@
+{
+  "links": [
+    {"keyword": "Booking.com", "url": "https://www.booking.com/index.html?aid=REPLACE_AID", "title": "Book on Booking.com"},
+    {"keyword": "Airbnb", "url": "https://www.airbnb.com/?ref=REPLACE_REF", "title": "Book on Airbnb"},
+    {"keyword": "Hostelworld", "url": "https://www.hostelworld.com/?ref=REPLACE_REF", "title": "Book on Hostelworld"},
+    {"keyword": "Amazon", "url": "https://amzn.to/REPLACE_TAG", "title": "Shop on Amazon"},
+    {"keyword": "Expedia", "url": "https://www.expedia.com/?aff=REPLACE_AFF", "title": "Book on Expedia"},
+    {"keyword": "Kayak", "url": "https://www.kayak.com/?ref=REPLACE_REF", "title": "Search on Kayak"}
+  ],
+  "_note": "Replace REPLACE_* values with actual affiliate IDs."
+}

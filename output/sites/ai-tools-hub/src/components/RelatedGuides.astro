@@ -1,0 +1,21 @@
+---
+const { guides = [], currentSlug = '' } = Astro.props;
+const related = guides.filter((g: any) => g.slug !== currentSlug).slice(0, 4);
+---
+{related.length > 0 && (
+  <section class="related-guides py-12 px-0">
+    <h2 class="text-xl font-bold text-[var(--color-text-heading)] mb-6 flex items-center gap-2">
+      📖 Continue Reading
+    </h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+      {related.map((guide: any) => (
+        <a href={`/${guide.slug}`} class="group p-4 rounded-lg border border-[var(--color-border)] hover:border-[var(--color-primary)] transition-all">
+          <span class="text-xs text-[var(--color-primary)] font-medium uppercase">{guide.category || 'Guide'}</span>
+          <h3 class="text-lg font-semibold mt-1 text-[var(--color-text-heading)] group-hover:text-[var(--color-primary)] transition-colors line-clamp-2">{guide.title}</h3>
+          <p class="text-sm text-[var(--color-text-muted)] mt-2 line-clamp-2">{guide.description}</p>
+          <span class="text-xs text-[var(--color-text-muted)] mt-3 block">{guide.readingTime || '5 min read'}</span>
+        </a>
+      ))}
+    </div>
+  </section>
+)}

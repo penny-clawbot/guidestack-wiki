@@ -1,0 +1,17 @@
+---
+interface Props { niche?: string; }
+const { niche = 'this topic' } = Astro.props;
+---
+<div class="my-8 p-6 bg-gradient-to-r from-[var(--color-primary)]/5 to-[var(--color-accent)]/5 border border-[var(--color-primary)]/20 rounded-2xl">
+  <div class="flex items-start gap-4">
+    <span class="text-3xl flex-shrink-0">📧</span>
+    <div class="flex-1">
+      <h3 class="font-bold text-[var(--color-text-heading)] mb-1">Enjoying this guide?</h3>
+      <p class="text-sm text-[var(--color-text-muted)] mb-3">Get more expert {niche} tips delivered to your inbox every week. Join 2,000+ readers.</p>
+      <form class="flex gap-2 max-w-sm" data-newsletter="mid-article" onsubmit="event.preventDefault();const f=this;if(f.querySelector('input').value){f.querySelector('button').textContent='Subscribed!';f.querySelector('input').disabled=true;}">
+        <input type="email" placeholder="your@email.com" required class="flex-1 px-3 py-2 text-sm border border-[var(--color-border)] rounded-lg bg-[var(--color-bg)] focus:outline-none focus:ring-2 focus:ring-[var(--color-primary)]" />
+        <button type="submit" class="btn-primary text-xs">Subscribe Free</button>
+      </form>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,716 @@
+{
+  "niche": "home insurance guide",
+  "timestamp": "2026-05-22 10:09:36",
+  "total_keywords": 40,
+  "opportunities_above_threshold": 0,
+  "score_threshold": 60,
+  "scored_keywords": [
+    {
+      "keyword": "why home insurance guide 2025",
+      "volume_estimate": 1091,
+      "competition_score": 50,
+      "rpm_estimate": 49.04,
+      "content_feasibility": 85,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 50,
+        "result_count": 0,
+        "big_sites": [],
+        "avg_content_depth": 0,
+        "top_domains": []
+      },
+      "opportunity_score": 54.92,
+      "grade": "C"
+    },
+    {
+      "keyword": "home insurance guide reddit",
+      "volume_estimate": 4224,
+      "competition_score": 50,
+      "rpm_estimate": 59.15,
+      "content_feasibility": 70,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 50,
+        "result_count": 0,
+        "big_sites": [],
+        "avg_content_depth": 0,
+        "top_domains": []
+      },
+      "opportunity_score": 47.69,
+      "grade": "C"
+    },
+    {
+      "keyword": "home insurance guide forum",
+      "volume_estimate": 2534,
+      "competition_score": 50,
+      "rpm_estimate": 47.3,
+      "content_feasibility": 70,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 50,
+        "result_count": 0,
+        "big_sites": [],
+        "avg_content_depth": 0,
+        "top_domains": []
+      },
+      "opportunity_score": 45.78,
+      "grade": "C"
+    },
+    {
+      "keyword": "how to home insurance guide forum",
+      "volume_estimate": 816,
+      "competition_score": 50,
+      "rpm_estimate": 55.4,
+      "content_feasibility": 85,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 50,
+        "result_count": 0,
+        "big_sites": [],
+        "avg_content_depth": 0,
+        "top_domains": []
+      },
+      "opportunity_score": 54.88,
+      "grade": "C"
+    },
+    {
+      "keyword": "top home insurance guide 2025",
+      "volume_estimate": 2344,
+      "competition_score": 50,
+      "rpm_estimate": 28.39,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 50,
+        "result_count": 0,
+        "big_sites": [],
+        "avg_content_depth": 0,
+        "top_domains": []
+      },
+      "opportunity_score": 37.72,
+      "grade": "D"
+    },
+    {
+      "keyword": "top home insurance guide amazon",
+      "volume_estimate": 1523,
+      "competition_score": 50,
+      "rpm_estimate": 41.62,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 50,
+        "result_count": 0,
+        "big_sites": [],
+        "avg_content_depth": 0,
+        "top_domains": []
+      },
+      "opportunity_score": 42.62,
+      "grade": "C"
+    },
+    {
+      "keyword": "top home insurance guide youtube",
+      "volume_estimate": 3294,
+      "competition_score": 50,
+      "rpm_estimate": 52.41,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 50,
+        "result_count": 0,
+        "big_sites": [],
+        "avg_content_depth": 0,
+        "top_domains": []
+      },
+      "opportunity_score": 47.31,
+      "grade": "C"
+    },
+    {
+      "keyword": "top home insurance guide",
+      "volume_estimate": 786,
+      "competition_score": 50,
+      "rpm_estimate": 27.07,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 50,
+        "result_count": 0,
+        "big_sites": [],
+        "avg_content_depth": 0,
+        "top_domains": []
+      },
+      "opportunity_score": 35.51,
+      "grade": "D"
+    },
+    {
+      "keyword": "how to home insurance guide youtube",
+      "volume_estimate": 589,
+      "competition_score": 50,
+      "rpm_estimate": 39.47,
+      "content_feasibility": 85,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 50,
+        "result_count": 0,
+        "big_sites": [],
+        "avg_content_depth": 0,
+        "top_domains": []
+      },
+      "opportunity_score": 48.91,
+      "grade": "C"
+    },
+    {
+      "keyword": "best home insurance guide youtube",
+      "volume_estimate": 2882,
+      "competition_score": 50,
+      "rpm_estimate": 42.46,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 50,
+        "result_count": 0,
+        "big_sites": [],
+        "avg_content_depth": 0,
+        "top_domains": []
+      },
+      "opportunity_score": 43.94,
+      "grade": "C"
+    },
+    {
+      "keyword": "why home insurance guide amazon",
+      "volume_estimate": 2926,
+      "competition_score": 50,
+      "rpm_estimate": 33.36,
+      "content_feasibility": 85,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 50,
+        "result_count": 0,
+        "big_sites": [],
+        "avg_content_depth": 0,
+        "top_domains": []
+      },
+      "opportunity_score": 48.75,
+      "grade": "C"
+    },
+    {
+      "keyword": "home insurance guide 2025",
+      "volume_estimate": 3884,
+      "competition_score": 50,
+      "rpm_estimate": 46.71,
+      "content_feasibility": 70,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 50,
+        "result_count": 0,
+        "big_sites": [],
+        "avg_content_depth": 0,
+        "top_domains": []
+      },
+      "opportunity_score": 46.18,
+      "grade": "C"
+    },
+    {
+      "keyword": "how to home insurance guide",
+      "volume_estimate": 830,
+      "competition_score": 50,
+      "rpm_estimate": 58.67,
+      "content_feasibility": 85,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 50,
+        "result_count": 0,
+        "big_sites": [],
+        "avg_content_depth": 0,
+        "top_domains": []
+      },
+      "opportunity_score": 54.91,
+      "grade": "C"
+    },
+    {
+      "keyword": "why home insurance guide for beginners",
+      "volume_estimate": 599,
+      "competition_score": 50,
+      "rpm_estimate": 27.36,
+      "content_feasibility": 85,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 50,
+        "result_count": 0,
+        "big_sites": [],
+        "avg_content_depth": 0,
+        "top_domains": []
+      },
+      "opportunity_score": 42.76,
+      "grade": "C"
+    },
+    {
+      "keyword": "best home insurance guide amazon",
+      "volume_estimate": 5076,
+      "competition_score": 50,
+      "rpm_estimate": 45.91,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 50,
+        "result_count": 0,
+        "big_sites": [],
+        "avg_content_depth": 0,
+        "top_domains": []
+      },
+      "opportunity_score": 46.25,
+      "grade": "C"
+    },
+    {
+      "keyword": "why home insurance guide reddit",
+      "volume_estimate": 355,
+      "competition_score": 50,
+      "rpm_estimate": 29.38,
+      "content_feasibility": 85,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 50,
+        "result_count": 0,
+        "big_sites": [],
+        "avg_content_depth": 0,
+        "top_domains": []
+      },
+      "opportunity_score": 42.83,
+      "grade": "C"
+    },
+    {
+      "keyword": "what is home insurance guide",
+      "volume_estimate": 360,
+      "competition_score": 50,
+      "rpm_estimate": 45.75,
+      "content_feasibility": 85,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 50,
+        "result_count": 0,
+        "big_sites": [],
+        "avg_content_depth": 0,
+        "top_domains": []
+      },
+      "opportunity_score": 51.2,
+      "grade": "C"
+    },
+    {
+      "keyword": "top home insurance guide forum",
+      "volume_estimate": 5359,
+      "competition_score": 50,
+      "rpm_estimate": 32.66,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 50,
+        "result_count": 0,
+        "big_sites": [],
+        "avg_content_depth": 0,
+        "top_domains": []
+      },
+      "opportunity_score": 40.77,
+      "grade": "C"
+    },
+    {
+      "keyword": "top home insurance guide reddit",
+      "volume_estimate": 3701,
+      "competition_score": 50,
+      "rpm_estimate": 48.09,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 50,
+        "result_count": 0,
+        "big_sites": [],
+        "avg_content_depth": 0,
+        "top_domains": []
+      },
+      "opportunity_score": 46.69,
+      "grade": "C"
+    },
+    {
+      "keyword": "top home insurance guide for beginners",
+      "volume_estimate": 829,
+      "competition_score": 50,
+      "rpm_estimate": 26.27,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 50,
+        "result_count": 0,
+        "big_sites": [],
+        "avg_content_depth": 0,
+        "top_domains": []
+      },
+      "opportunity_score": 35.25,
+      "grade": "D"
+    },
+    {
+      "keyword": "best home insurance guide for beginners",
+      "volume_estimate": 1716,
+      "competition_score": 50,
+      "rpm_estimate": 30.1,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 50,
+        "result_count": 0,
+        "big_sites": [],
+        "avg_content_depth": 0,
+        "top_domains": []
+      },
+      "opportunity_score": 37.96,
+      "grade": "D"
+    },
+    {
+      "keyword": "best home insurance guide reddit",
+      "volume_estimate": 1176,
+      "competition_score": 50,
+      "rpm_estimate": 51.1,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 50,
+        "result_count": 0,
+        "big_sites": [],
+        "avg_content_depth": 0,
+        "top_domains": []
+      },
+      "opportunity_score": 45.75,
+      "grade": "C"
+    },
+    {
+      "keyword": "home insurance guide youtube",
+      "volume_estimate": 667,
+      "competition_score": 50,
+      "rpm_estimate": 29.37,
+      "content_feasibility": 70,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 50,
+        "result_count": 0,
+        "big_sites": [],
+        "avg_content_depth": 0,
+        "top_domains": []
+      },
+      "opportunity_score": 36.22,
+      "grade": "D"
+    },
+    {
+      "keyword": "how to home insurance guide 2024",
+      "volume_estimate": 403,
+      "competition_score": 50,
+      "rpm_estimate": 44.04,
+      "content_feasibility": 85,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 50,
+        "result_count": 0,
+        "big_sites": [],
+        "avg_content_depth": 0,
+        "top_domains": []
+      },
+      "opportunity_score": 50.54,
+      "grade": "C"
+    },
+    {
+      "keyword": "best home insurance guide 2024",
+      "volume_estimate": 3451,
+      "competition_score": 50,
+      "rpm_estimate": 56.5,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 50,
+        "result_count": 0,
+        "big_sites": [],
+        "avg_content_depth": 0,
+        "top_domains": []
+      },
+      "opportunity_score": 47.38,
+      "grade": "C"
+    },
+    {
+      "keyword": "home insurance guide amazon",
+      "volume_estimate": 1773,
+      "competition_score": 50,
+      "rpm_estimate": 45.58,
+      "content_feasibility": 70,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 50,
+        "result_count": 0,
+        "big_sites": [],
+        "avg_content_depth": 0,
+        "top_domains": []
+      },
+      "opportunity_score": 44.51,
+      "grade": "C"
+    },
+    {
+      "keyword": "best home insurance guide forum",
+      "volume_estimate": 1212,
+      "competition_score": 50,
+      "rpm_estimate": 28.2,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 50,
+        "result_count": 0,
+        "big_sites": [],
+        "avg_content_depth": 0,
+        "top_domains": []
+      },
+      "opportunity_score": 36.64,
+      "grade": "D"
+    },
+    {
+      "keyword": "home insurance guide for beginners",
+      "volume_estimate": 2978,
+      "competition_score": 50,
+      "rpm_estimate": 39.56,
+      "content_feasibility": 70,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 50,
+        "result_count": 0,
+        "big_sites": [],
+        "avg_content_depth": 0,
+        "top_domains": []
+      },
+      "opportunity_score": 42.77,
+      "grade": "C"
+    },
+    {
+      "keyword": "why home insurance guide 2024",
+      "volume_estimate": 1824,
+      "competition_score": 50,
+      "rpm_estimate": 45.54,
+      "content_feasibility": 85,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 50,
+        "result_count": 0,
+        "big_sites": [],
+        "avg_content_depth": 0,
+        "top_domains": []
+      },
+      "opportunity_score": 54.09,
+      "grade": "C"
+    },
+    {
+      "keyword": "how to home insurance guide reddit",
+      "volume_estimate": 648,
+      "competition_score": 50,
+      "rpm_estimate": 36.35,
+      "content_feasibility": 85,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 50,
+        "result_count": 0,
+        "big_sites": [],
+        "avg_content_depth": 0,
+        "top_domains": []
+      },
+      "opportunity_score": 47.49,
+      "grade": "C"
+    },
+    {
+      "keyword": "how to home insurance guide amazon",
+      "volume_estimate": 857,
+      "competition_score": 50,
+      "rpm_estimate": 52.31,
+      "content_feasibility": 85,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 50,
+        "result_count": 0,
+        "big_sites": [],
+        "avg_content_depth": 0,
+        "top_domains": []
+      },
+      "opportunity_score": 54.97,
+      "grade": "C"
+    },
+    {
+      "keyword": "why home insurance guide forum",
+      "volume_estimate": 1878,
+      "competition_score": 50,
+      "rpm_estimate": 43.47,
+      "content_feasibility": 85,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 50,
+        "result_count": 0,
+        "big_sites": [],
+        "avg_content_depth": 0,
+        "top_domains": []
+      },
+      "opportunity_score": 53.08,
+      "grade": "C"
+    },
+    {
+      "keyword": "why home insurance guide",
+      "volume_estimate": 449,
+      "competition_score": 50,
+      "rpm_estimate": 48.75,
+      "content_feasibility": 85,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 50,
+        "result_count": 0,
+        "big_sites": [],
+        "avg_content_depth": 0,
+        "top_domains": []
+      },
+      "opportunity_score": 53.14,
+      "grade": "C"
+    },
+    {
+      "keyword": "home insurance guide 2024",
+      "volume_estimate": 2280,
+      "competition_score": 50,
+      "rpm_estimate": 57.42,
+      "content_feasibility": 70,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 50,
+        "result_count": 0,
+        "big_sites": [],
+        "avg_content_depth": 0,
+        "top_domains": []
+      },
+      "opportunity_score": 46.75,
+      "grade": "C"
+    },
+    {
+      "keyword": "how to home insurance guide for beginners",
+      "volume_estimate": 296,
+      "competition_score": 50,
+      "rpm_estimate": 55.15,
+      "content_feasibility": 85,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 50,
+        "result_count": 0,
+        "big_sites": [],
+        "avg_content_depth": 0,
+        "top_domains": []
+      },
+      "opportunity_score": 53.01,
+      "grade": "C"
+    },
+    {
+      "keyword": "why home insurance guide youtube",
+      "volume_estimate": 350,
+      "competition_score": 50,
+      "rpm_estimate": 43.57,
+      "content_feasibility": 85,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 50,
+        "result_count": 0,
+        "big_sites": [],
+        "avg_content_depth": 0,
+        "top_domains": []
+      },
+      "opportunity_score": 50.04,
+      "grade": "C"
+    },
+    {
+      "keyword": "how to home insurance guide 2025",
+      "volume_estimate": 730,
+      "competition_score": 50,
+      "rpm_estimate": 46.94,
+      "content_feasibility": 85,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 50,
+        "result_count": 0,
+        "big_sites": [],
+        "avg_content_depth": 0,
+        "top_domains": []
+      },
+      "opportunity_score": 53.11,
+      "grade": "C"
+    },
+    {
+      "keyword": "best home insurance guide",
+      "volume_estimate": 1411,
+      "competition_score": 50,
+      "rpm_estimate": 57.8,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 50,
+        "result_count": 0,
+        "big_sites": [],
+        "avg_content_depth": 0,
+        "top_domains": []
+      },
+      "opportunity_score": 46.02,
+      "grade": "C"
+    },
+    {
+      "keyword": "best home insurance guide 2025",
+      "volume_estimate": 3723,
+      "competition_score": 50,
+      "rpm_estimate": 36.26,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 50,
+        "result_count": 0,
+        "big_sites": [],
+        "avg_content_depth": 0,
+        "top_domains": []
+      },
+      "opportunity_score": 41.73,
+      "grade": "C"
+    },
+    {
+      "keyword": "top home insurance guide 2024",
+      "volume_estimate": 2177,
+      "competition_score": 50,
+      "rpm_estimate": 41.14,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 50,
+        "result_count": 0,
+        "big_sites": [],
+        "avg_content_depth": 0,
+        "top_domains": []
+      },
+      "opportunity_score": 42.96,
+      "grade": "C"
+    }
+  ],
+  "top_opportunities": [],
+  "scored_clusters": [
+    {
+      "cluster": "home insurance",
+      "keyword_count": 40,
+      "total_volume_estimate": 74001,
+      "avg_competition": 50.0,
+      "avg_rpm": 43.14,
+      "avg_feasibility": 76.4,
+      "commercial_ratio": 0.4,
+      "cluster_score": 0.06,
+      "top_keywords": [
+        "top home insurance guide forum",
+        "best home insurance guide amazon",
+        "home insurance guide reddit",
+        "home insurance guide 2025",
+        "best home insurance guide 2025"
+      ],
+      "content_strategy": "Niche micro-content. Long-tail targeting, question-based articles, internal linking strategy."
+    }
+  ],
+  "summary": {
+    "avg_opportunity_score": 46.33,
+    "grade_a_count": 0,
+    "grade_b_count": 0,
+    "grade_c_count": 34
+  }
+}

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+/* Font loaded via <link preload> in BaseLayout.astro head */
 
 @tailwind base;
 @tailwind components;
@@ -21,6 +21,10 @@
     --color-border-light: #f1f5f9;
     --color-success: #10b981;
     --color-warning: #f59e0b;
+    /* Shorthand aliases for prose */
+    --accent: var(--color-primary);
+    --surface: var(--color-bg-alt);
+    --muted: var(--color-text-muted);
   }
 
   .dark {
@@ -39,6 +43,9 @@
     --color-border-light: #1e293b;
     --color-success: #34d399;
     --color-warning: #fbbf24;
+    --accent: var(--color-primary);
+    --surface: var(--color-bg-alt);
+    --muted: var(--color-text-muted);
   }
 
   html {
@@ -134,12 +141,14 @@
     @apply text-[var(--color-primary)] border-[var(--color-primary)] font-medium;
   }
 
-  /* Prose overrides (complements @tailwindcss/typography) */
+  /* ========== PROSE — World-Class Typography ========== */
   .prose {
     @apply max-w-none text-[var(--color-text)];
+    font-size: 1.0625rem;
   }
   .prose h2 {
-    @apply text-2xl font-bold text-[var(--color-text-heading)] mt-10 mb-4 pb-2 border-b border-[var(--color-border-light)];
+    @apply text-2xl font-bold text-[var(--color-text-heading)] mt-12 mb-4 pb-3;
+    border-bottom: 1px solid var(--color-border-light);
   }
   .prose h3 {
     @apply text-xl font-semibold text-[var(--color-text-heading)] mt-8 mb-3;
@@ -148,7 +157,8 @@
     @apply text-lg font-semibold text-[var(--color-text-heading)] mt-6 mb-2;
   }
   .prose p {
-    @apply mb-5 leading-[1.8];
+    @apply mb-5;
+    line-height: 1.8;
   }
   .prose a {
     @apply text-[var(--color-primary)] underline underline-offset-2 transition-all;
@@ -156,6 +166,7 @@
   }
   .prose a:hover {
     text-decoration-color: var(--color-primary);
+    opacity: 0.85;
   }
   .prose ul, .prose ol {
     @apply mb-5 pl-6;
@@ -163,7 +174,8 @@
   .prose ul { @apply list-[disc]; }
   .prose ol { @apply list-[decimal]; }
   .prose li {
-    @apply mb-2 leading-[1.7];
+    @apply mb-2;
+    line-height: 1.7;
   }
   .prose li::marker {
     color: var(--color-primary);
@@ -171,34 +183,250 @@
   .prose strong {
     @apply font-semibold text-[var(--color-text-heading)];
   }
+
+  /* Pull Quotes — styled blockquotes with accent border */
   .prose blockquote {
-    @apply border-l-4 border-[var(--color-primary)] pl-5 py-1 my-6 bg-[var(--color-bg-alt)] rounded-r-lg;
+    border-left: 4px solid var(--color-primary);
+    padding: 1.25rem 1.5rem;
+    margin: 2rem 0;
+    background: var(--color-bg-alt);
+    border-radius: 0 8px 8px 0;
+    font-style: italic;
+    font-size: 1.125rem;
+    line-height: 1.7;
   }
   .prose blockquote p {
-    @apply text-[var(--color-text-muted)] italic;
+    @apply text-[var(--color-text-muted)] mb-0;
+    font-style: italic;
   }
+
+  /* Callout Boxes */
+  .callout {
+    padding: 1rem 1.25rem;
+    border-radius: 8px;
+    margin: 1.5rem 0;
+    border-left: 4px solid;
+  }
+  .callout p { margin-bottom: 0.5rem; }
+  .callout p:last-child { margin-bottom: 0; }
+  .callout-tip {
+    background: rgba(34, 197, 94, 0.08);
+    border-color: #22c55e;
+  }
+  .callout-warning {
+    background: rgba(245, 158, 11, 0.08);
+    border-color: #f59e0b;
+  }
+  .callout-note {
+    background: rgba(59, 130, 246, 0.08);
+    border-color: #3b82f6;
+  }
+  .callout-important {
+    background: rgba(239, 68, 68, 0.08);
+    border-color: #ef4444;
+  }
+
+  /* Code blocks */
   .prose code {
     @apply bg-[var(--color-bg-alt)] px-1.5 py-0.5 rounded-md text-sm font-mono text-[var(--color-primary)];
   }
   .prose pre {
     @apply bg-[#0f172a] text-[#e2e8f0] p-5 rounded-xl overflow-x-auto my-6 border border-[var(--color-border)];
+    position: relative;
   }
   .prose pre code {
     @apply bg-transparent p-0 text-[#e2e8f0];
   }
+  /* Copy button for code blocks */
+  .prose pre .copy-btn {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    padding: 0.35rem 0.6rem;
+    font-size: 0.75rem;
+    background: rgba(255,255,255,0.1);
+    color: #94a3b8;
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s;
+    opacity: 0;
+  }
+  .prose pre:hover .copy-btn {
+    opacity: 1;
+  }
+  .prose pre .copy-btn:hover {
+    background: rgba(255,255,255,0.2);
+    color: #e2e8f0;
+  }
+
+  /* Images */
   .prose img {
     @apply rounded-xl max-w-full h-auto my-8 shadow-md;
+    loading: lazy;
   }
+  .prose figcaption {
+    @apply text-center text-sm text-[var(--color-text-muted)] mt-3 italic;
+  }
+
+  /* Data Tables */
   .prose table {
     @apply w-full border-collapse my-6;
+    font-size: 0.9375rem;
   }
-  .prose th {
-    @apply bg-[var(--color-bg-alt)] px-4 py-3 text-left text-sm font-semibold border border-[var(--color-border)];
+  .prose thead th {
+    @apply bg-[var(--color-bg-alt)] px-4 py-3 text-left text-sm font-semibold;
+    border-bottom: 2px solid var(--color-border);
   }
-  .prose td {
-    @apply px-4 py-3 text-sm border border-[var(--color-border)];
+  .prose tbody td {
+    @apply px-4 py-3 text-sm;
+    border-bottom: 1px solid var(--color-border);
   }
+  .prose tbody tr:last-child td {
+    border-bottom: none;
+  }
+  .prose tbody tr:nth-child(even) {
+    background: var(--color-bg-alt);
+  }
+  .prose tbody tr:hover {
+    background: var(--color-bg-alt);
+  }
+
   .prose hr {
     @apply my-8 border-[var(--color-border-light)];
+  }
+
+  /* ========== FAQ Accordion ========== */
+  .faq-item {
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    margin: 0.5rem 0;
+    overflow: hidden;
+    transition: border-color 0.2s;
+  }
+  .faq-item:hover {
+    border-color: var(--color-primary);
+  }
+  .faq-item.open {
+    border-color: var(--color-primary);
+  }
+  .faq-question {
+    padding: 1rem 1.25rem;
+    cursor: pointer;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    color: var(--color-text-heading);
+    transition: color 0.2s;
+  }
+  .faq-question:hover {
+    color: var(--color-primary);
+  }
+  .faq-question::after {
+    content: '+';
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: var(--color-text-muted);
+    transition: transform 0.3s;
+    flex-shrink: 0;
+  }
+  .faq-item.open .faq-question::after {
+    content: '−';
+    color: var(--color-primary);
+  }
+  .faq-answer {
+    padding: 0 1.25rem;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    color: var(--color-text-muted);
+    line-height: 1.7;
+  }
+  .faq-item.open .faq-answer {
+    padding: 0 1.25rem 1rem;
+    max-height: 500px;
+  }
+
+  /* ========== Newsletter CTA ========== */
+  .newsletter-cta {
+    background: linear-gradient(135deg, var(--color-primary) 0%, #7c3aed 100%);
+    border-radius: 1rem;
+    margin: 2rem 0;
+  }
+  .newsletter-cta h2 {
+    color: white;
+  }
+  .newsletter-cta p {
+    color: rgba(255,255,255,0.85);
+  }
+  .newsletter-cta input {
+    border: 2px solid rgba(255,255,255,0.3);
+    background: rgba(255,255,255,0.15);
+    color: white;
+    backdrop-filter: blur(4px);
+  }
+  .newsletter-cta input::placeholder {
+    color: rgba(255,255,255,0.6);
+  }
+  .newsletter-cta input:focus {
+    border-color: white;
+    outline: none;
+  }
+  .newsletter-cta button {
+    background: white;
+    color: var(--color-primary);
+    font-weight: 700;
+    border: none;
+  }
+  .newsletter-cta button:hover {
+    background: rgba(255,255,255,0.9);
+  }
+
+  /* ========== Search Bar ========== */
+  .search-bar {
+    position: relative;
+  }
+  .search-bar input {
+    width: 100%;
+    padding: 0.875rem 1rem 0.875rem 3rem;
+    border: 2px solid var(--color-border);
+    border-radius: 0.75rem;
+    background: var(--color-bg-card);
+    color: var(--color-text);
+    font-size: 1rem;
+    transition: border-color 0.2s, box-shadow 0.2s;
+  }
+  .search-bar input:focus {
+    border-color: var(--color-primary);
+    box-shadow: 0 0 0 3px var(--color-primary-light);
+    outline: none;
+  }
+  .search-bar svg {
+    position: absolute;
+    left: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--color-text-muted);
+    pointer-events: none;
+  }
+
+  /* ========== Category Grid ========== */
+  .category-card {
+    @apply p-5 rounded-xl border border-[var(--color-border)] hover:border-[var(--color-primary)] transition-all duration-200 cursor-pointer;
+    text-align: center;
+    &:hover h3 { color: var(--color-primary); }
+  }
+  .category-card:hover {
+    @apply shadow-md -translate-y-0.5;
+  }
+  .category-card h3 {
+    @apply font-semibold text-[var(--color-text-heading)] transition-colors;
+    font-size: 1rem;
+    margin: 0;
+  }
+  .category-card .count {
+    @apply text-sm text-[var(--color-text-muted)];
   }
 }

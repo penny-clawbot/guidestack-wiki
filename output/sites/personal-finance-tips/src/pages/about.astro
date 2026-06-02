@@ -1,0 +1,44 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import fs from 'node:fs';
+const siteConfig = JSON.parse(fs.readFileSync('site-config.json', 'utf-8'));
+const domain = siteConfig.domain || 'example.com';
+const siteUrl = `https://${domain}`;
+const breadcrumbs = [{ name: 'Home', url: '/' }, { name: 'About', url: '/about' }];
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "AboutPage",
+  "name": `About ${siteConfig.name}`,
+  "description": siteConfig.description,
+  "url": `${siteUrl}/about`,
+  "publisher": { "@type": "Organization", "name": siteConfig.name, "url": siteUrl }
+};
+---
+<BaseLayout title={`About - ${siteConfig.name}`} description={siteConfig.description} ogType="website" breadcrumbs={breadcrumbs} siteName={siteConfig.name} schema={schema}>
+  <article class="max-w-3xl mx-auto">
+    <nav aria-label="Breadcrumb" class="mb-6">
+      <ol class="flex items-center gap-1.5 text-sm text-[var(--color-text-muted)]">
+        <li><a href="/" class="hover:text-[var(--color-primary)]">Home</a></li>
+        <li><span class="mx-1">›</span></li>
+        <li class="text-[var(--color-text)] font-medium">About</li>
+      </ol>
+    </nav>
+    <h1 class="text-3xl sm:text-4xl font-extrabold text-[var(--color-text-heading)] mb-6">About {siteConfig.name}</h1>
+    <div class="prose prose-lg">
+      <p>{siteConfig.name} is your trusted resource for expert {siteConfig.niche} guides, tips, and strategies. Our mission is to provide comprehensive, well-researched content that helps you make informed decisions.</p>
+      <h2>Our Editorial Standards</h2>
+      <p>Every article on this site is written to meet the highest editorial standards:</p>
+      <ul>
+        <li><strong>Thorough research</strong> — We cite sources, include real data, and verify facts before publishing.</li>
+        <li><strong>Practical value</strong> — Each guide is designed to solve a real problem or answer a real question.</li>
+        <li><strong>Regular updates</strong> — We review and update our content to keep it current and accurate.</li>
+        <li><strong>Transparency</strong> — We clearly disclose affiliate relationships and never let partnerships influence our recommendations.</li>
+      </ul>
+      <h2>How We Make Money</h2>
+      <p>This site is supported through display advertising and affiliate links. When you click on a link and make a purchase, we may earn a commission at no additional cost to you. This revenue allows us to continue producing free, high-quality content.</p>
+      <p>Our editorial content is never influenced by advertisers or affiliate partners. Product recommendations are based solely on merit and relevance to our readers.</p>
+      <h2>Contact Us</h2>
+      <p>Have questions, feedback, or partnership inquiries? We'd love to hear from you at <a href="/contact">our contact page</a>.</p>
+    </div>
+  </article>
+</BaseLayout>

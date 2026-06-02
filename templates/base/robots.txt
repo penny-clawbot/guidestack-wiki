@@ -25,5 +25,10 @@ Allow: /
 User-agent: Twitterbot
 Allow: /
 
+# Agentics Extensions — Forward-compatibility for AI agent discovery
+Agentics-Manifest: /.well-known/agentics-manifest.json
+Agentics-Version: 1.0.0
+Agentics-Capabilities: content,search,sitemap
+
 # Sitemaps
 Sitemap: {{SITEMAP_URL}}

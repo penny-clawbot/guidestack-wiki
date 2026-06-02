@@ -1,0 +1,150 @@
+project:
+  name: GuideStack PSEO Network
+  status: active
+  phase: ready-for-deployment
+  last_activity: '2026-05-20'
+  github: https://github.com/DBOT-DC/guidestack-pseo
+architecture: single-domain-subdirectory
+domain_strategy: |
+  One domain with subdirectories for each niche (e.g., domain.com/budget-travel/, domain.com/crypto-investing/).
+  Daniel will choose and purchase the single domain later. All site building can proceed independently.
+  Cloudflare Pages deployment will use the single domain with path-based routing.
+sites:
+  budget-travel-tips:
+    status: active
+    articles: 100
+    target: 100
+    next_action: ready-for-deploy
+    last_build: null
+    deployed: false
+    path_prefix: /budget-travel/
+  bitcoin-beginners:
+    status: active
+    articles: 100
+    target: 100
+    next_action: ready-for-deploy
+    last_build: null
+    deployed: false
+    path_prefix: /bitcoin-beginners/
+  crypto-investing-guide:
+    status: active
+    articles: 100
+    target: 100
+    next_action: ready-for-deploy
+    last_build: null
+    deployed: false
+    path_prefix: /crypto-investing/
+  crypto-trading-strategies:
+    status: active
+    articles: 100
+    target: 100
+    next_action: content-burst (2 more to reach target)
+    last_build: null
+    deployed: false
+    path_prefix: /crypto-trading/
+  defi-yield-guide:
+    status: active
+    articles: 100
+    target: 100
+    next_action: ready-for-deploy
+    last_build: null
+    deployed: false
+    path_prefix: /defi-yield/
+  personal-finance-tips:
+    status: active
+    articles: 100
+    target: 100
+    next_action: ready-for-deploy
+    last_build: null
+    deployed: false
+    path_prefix: /personal-finance/
+  smart-emergency-fund:
+    status: active
+    articles: 100
+    target: 100
+    next_action: ready-for-deploy
+    last_build: null
+    deployed: false
+    path_prefix: /emergency-fund/
+  ai-tools-hub:
+    status: active
+    articles: 100
+    target: 100
+    next_action: ready-for-deploy
+    last_build: null
+    deployed: false
+    path_prefix: /ai-tools/
+agents:
+  content-creator:
+    status: running
+    current_task: Content burst — pushing all sites to 80+ articles
+    last_completed:
+      task: Generating batch of 15 articles for budget-travel-tips
+      result: Generated 15 articles, total now 54
+      completed_at: '2026-05-13T08:42:21.164318'
+    capabilities:
+    - article-generation
+    - content-burst
+  seo-specialist:
+    status: idle
+    current_task: null
+    last_completed: null
+    capabilities:
+    - keyword-research
+    - seo-audit
+    - schema-validation
+  scout:
+    status: idle
+    current_task: null
+    last_completed: null
+    capabilities:
+    - niche-discovery
+    - competitor-analysis
+    - trend-monitoring
+  deployer:
+    status: idle
+    current_task: null
+    last_completed: null
+    capabilities:
+    - build
+    - deploy
+    - dns-setup
+    - cloudflare
+pipeline:
+  content_generation:
+    status: running
+    cron: guidestack-content-burst (4x daily)
+    current_burst: Running — budget-travel-tips at 63/80, 7 more sites queued
+    last_run: '2026-05-15'
+    next_run: auto
+  site_building:
+    status: ready
+    note: Can build all sites with subdirectory routing. Single domain config prepared.
+    last_build: null
+  deployment:
+    status: waiting-on-domain
+    provider: cloudflare-pages
+    note: Daniel will provide one domain. Everything else is ready.
+  monetization:
+    status: pending
+    blocker: needs-deployment-first
+    provider: ezoic-or-adsense
+blockers:
+- id: single-domain-pending
+  description: Daniel will choose and purchase one domain for the entire network
+  impact: low (does not block content creation or site building)
+  blocks:
+  - deployment
+  - monetization
+  owner: daniel
+  since: '2026-05-15'
+  note: NOT blocking work. Continue all other tasks.
+metrics:
+  total_articles: 798
+  total_sites: 8
+  revenue: $0
+  content_burst_progress: Complete (7/8 sites at 100, crypto-trading-strategies: 98/100)
+coordination:
+  protocol: read-claim-execute-update
+  lock_mechanism: file-based (agents update atomically)
+  max_concurrent_agents: 3

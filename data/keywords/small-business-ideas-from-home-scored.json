@@ -1,0 +1,979 @@
+{
+  "niche": "small business ideas from home",
+  "timestamp": "2026-05-11 14:06:15",
+  "total_keywords": 41,
+  "opportunities_above_threshold": 0,
+  "score_threshold": 60,
+  "scored_keywords": [
+    {
+      "keyword": "top 10 small business ideas from home jan 10 top 10 small business ideas to do from home bridal consultant",
+      "volume_estimate": 1419,
+      "competition_score": 53.2,
+      "rpm_estimate": 15.58,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 53.2,
+        "result_count": 10,
+        "big_sites": 2,
+        "avg_content_depth": 160.5,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 30.68,
+      "grade": "D"
+    },
+    {
+      "keyword": "how to small business ideas from home for beginners",
+      "volume_estimate": 303,
+      "competition_score": 83.2,
+      "rpm_estimate": 5.94,
+      "content_feasibility": 85,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 83.2,
+        "result_count": 10,
+        "big_sites": 4,
+        "avg_content_depth": 161.9,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 19.29,
+      "grade": "F"
+    },
+    {
+      "keyword": "best small business ideas from home youtube",
+      "volume_estimate": 1739,
+      "competition_score": 95,
+      "rpm_estimate": 27.7,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 95,
+        "result_count": 10,
+        "big_sites": 9,
+        "avg_content_depth": 160.2,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 24.38,
+      "grade": "D"
+    },
+    {
+      "keyword": "top small business ideas from home reddit",
+      "volume_estimate": 1908,
+      "competition_score": 95,
+      "rpm_estimate": 15.75,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 95,
+        "result_count": 10,
+        "big_sites": 10,
+        "avg_content_depth": 158.6,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 19.5,
+      "grade": "F"
+    },
+    {
+      "keyword": "best small business ideas from home",
+      "volume_estimate": 1060,
+      "competition_score": 53.2,
+      "rpm_estimate": 25.37,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 53.2,
+        "result_count": 10,
+        "big_sites": 2,
+        "avg_content_depth": 159.1,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 34.35,
+      "grade": "D"
+    },
+    {
+      "keyword": "top small business ideas from home for beginners",
+      "volume_estimate": 1177,
+      "competition_score": 53.2,
+      "rpm_estimate": 10.85,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 53.2,
+        "result_count": 10,
+        "big_sites": 2,
+        "avg_content_depth": 161.2,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 28.41,
+      "grade": "D"
+    },
+    {
+      "keyword": "small business ideas from home 2025",
+      "volume_estimate": 191,
+      "competition_score": 52.9,
+      "rpm_estimate": 3.84,
+      "content_feasibility": 70,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 52.9,
+        "result_count": 10,
+        "big_sites": 2,
+        "avg_content_depth": 145.6,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 22.79,
+      "grade": "D"
+    },
+    {
+      "keyword": "why small business ideas from home youtube",
+      "volume_estimate": 676,
+      "competition_score": 95,
+      "rpm_estimate": 4.84,
+      "content_feasibility": 85,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 95,
+        "result_count": 10,
+        "big_sites": 8,
+        "avg_content_depth": 145.5,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 16.2,
+      "grade": "F"
+    },
+    {
+      "keyword": "why small business ideas from home 2025",
+      "volume_estimate": 328,
+      "competition_score": 38.2,
+      "rpm_estimate": 4.78,
+      "content_feasibility": 95,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 38.2,
+        "result_count": 10,
+        "big_sites": 1,
+        "avg_content_depth": 159.6,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 38.17,
+      "grade": "D"
+    },
+    {
+      "keyword": "why small business ideas from home amazon",
+      "volume_estimate": 777,
+      "competition_score": 95,
+      "rpm_estimate": 6.44,
+      "content_feasibility": 85,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 95,
+        "result_count": 10,
+        "big_sites": 5,
+        "avg_content_depth": 162.1,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 17.27,
+      "grade": "F"
+    },
+    {
+      "keyword": "top small business ideas from home forum",
+      "volume_estimate": 414,
+      "competition_score": 68.2,
+      "rpm_estimate": 10.14,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 68.2,
+        "result_count": 10,
+        "big_sites": 3,
+        "avg_content_depth": 160.3,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 22.33,
+      "grade": "D"
+    },
+    {
+      "keyword": "how to small business ideas from home forum",
+      "volume_estimate": 930,
+      "competition_score": 83.1,
+      "rpm_estimate": 6.76,
+      "content_feasibility": 85,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 83.1,
+        "result_count": 10,
+        "big_sites": 4,
+        "avg_content_depth": 156.1,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 21.81,
+      "grade": "D"
+    },
+    {
+      "keyword": "top small business ideas from home amazon",
+      "volume_estimate": 202,
+      "competition_score": 95,
+      "rpm_estimate": 11.18,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 95,
+        "result_count": 10,
+        "big_sites": 6,
+        "avg_content_depth": 162.2,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 14.17,
+      "grade": "F"
+    },
+    {
+      "keyword": "small business ideas from home reddit",
+      "volume_estimate": 632,
+      "competition_score": 95,
+      "rpm_estimate": 7.18,
+      "content_feasibility": 70,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 95,
+        "result_count": 10,
+        "big_sites": 10,
+        "avg_content_depth": 157.4,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 14.22,
+      "grade": "F"
+    },
+    {
+      "keyword": "small business ideas from home forum",
+      "volume_estimate": 509,
+      "competition_score": 53.1,
+      "rpm_estimate": 6.79,
+      "content_feasibility": 70,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 53.1,
+        "result_count": 10,
+        "big_sites": 2,
+        "avg_content_depth": 153.8,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 25.46,
+      "grade": "D"
+    },
+    {
+      "keyword": "best small business ideas from home forum",
+      "volume_estimate": 180,
+      "competition_score": 68.2,
+      "rpm_estimate": 14.1,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 68.2,
+        "result_count": 10,
+        "big_sites": 3,
+        "avg_content_depth": 160.6,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 22.73,
+      "grade": "D"
+    },
+    {
+      "keyword": "best small business ideas from home amazon",
+      "volume_estimate": 777,
+      "competition_score": 95,
+      "rpm_estimate": 17.5,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 95,
+        "result_count": 10,
+        "big_sites": 5,
+        "avg_content_depth": 161.0,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 18.87,
+      "grade": "F"
+    },
+    {
+      "keyword": "top small business ideas from home youtube",
+      "volume_estimate": 989,
+      "competition_score": 95,
+      "rpm_estimate": 9.1,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 95,
+        "result_count": 10,
+        "big_sites": 9,
+        "avg_content_depth": 158.3,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 15.71,
+      "grade": "F"
+    },
+    {
+      "keyword": "how to small business ideas from home 2024",
+      "volume_estimate": 493,
+      "competition_score": 53.2,
+      "rpm_estimate": 3.28,
+      "content_feasibility": 85,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 53.2,
+        "result_count": 10,
+        "big_sites": 2,
+        "avg_content_depth": 159.6,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 29.03,
+      "grade": "D"
+    },
+    {
+      "keyword": "why small business ideas from home reddit",
+      "volume_estimate": 499,
+      "competition_score": 95,
+      "rpm_estimate": 7.32,
+      "content_feasibility": 85,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 95,
+        "result_count": 10,
+        "big_sites": 10,
+        "avg_content_depth": 161.2,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 16.9,
+      "grade": "F"
+    },
+    {
+      "keyword": "best small business ideas from home reddit",
+      "volume_estimate": 227,
+      "competition_score": 95,
+      "rpm_estimate": 18.71,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 95,
+        "result_count": 10,
+        "big_sites": 10,
+        "avg_content_depth": 157.0,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 17.51,
+      "grade": "F"
+    },
+    {
+      "keyword": "why small business ideas from home 2024",
+      "volume_estimate": 301,
+      "competition_score": 38.2,
+      "rpm_estimate": 2.38,
+      "content_feasibility": 95,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 38.2,
+        "result_count": 10,
+        "big_sites": 1,
+        "avg_content_depth": 162.3,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 36.62,
+      "grade": "D"
+    },
+    {
+      "keyword": "how to small business ideas from home amazon",
+      "volume_estimate": 861,
+      "competition_score": 95,
+      "rpm_estimate": 4.74,
+      "content_feasibility": 85,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 95,
+        "result_count": 10,
+        "big_sites": 6,
+        "avg_content_depth": 162.7,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 16.59,
+      "grade": "F"
+    },
+    {
+      "keyword": "best small business ideas from home 2024",
+      "volume_estimate": 1339,
+      "competition_score": 53.1,
+      "rpm_estimate": 24.44,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 53.1,
+        "result_count": 10,
+        "big_sites": 2,
+        "avg_content_depth": 156.4,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 34.34,
+      "grade": "D"
+    },
+    {
+      "keyword": "small business ideas from home youtube",
+      "volume_estimate": 1132,
+      "competition_score": 95,
+      "rpm_estimate": 2.27,
+      "content_feasibility": 70,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 95,
+        "result_count": 10,
+        "big_sites": 8,
+        "avg_content_depth": 156.7,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 13.04,
+      "grade": "F"
+    },
+    {
+      "keyword": "top small business ideas from home",
+      "volume_estimate": 1705,
+      "competition_score": 68.2,
+      "rpm_estimate": 10.33,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 68.2,
+        "result_count": 10,
+        "big_sites": 3,
+        "avg_content_depth": 161.7,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 24.55,
+      "grade": "D"
+    },
+    {
+      "keyword": "how to small business ideas from home reddit",
+      "volume_estimate": 457,
+      "competition_score": 95,
+      "rpm_estimate": 4.66,
+      "content_feasibility": 85,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 95,
+        "result_count": 10,
+        "big_sites": 10,
+        "avg_content_depth": 156.0,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 15.39,
+      "grade": "F"
+    },
+    {
+      "keyword": "small business ideas from home 2024",
+      "volume_estimate": 557,
+      "competition_score": 53.1,
+      "rpm_estimate": 2.86,
+      "content_feasibility": 70,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 53.1,
+        "result_count": 10,
+        "big_sites": 2,
+        "avg_content_depth": 152.7,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 23.95,
+      "grade": "D"
+    },
+    {
+      "keyword": "small business ideas from home amazon",
+      "volume_estimate": 489,
+      "competition_score": 95,
+      "rpm_estimate": 7.64,
+      "content_feasibility": 70,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 95,
+        "result_count": 10,
+        "big_sites": 5,
+        "avg_content_depth": 159.6,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 14.02,
+      "grade": "F"
+    },
+    {
+      "keyword": "top small business ideas from home 2024",
+      "volume_estimate": 1256,
+      "competition_score": 53.1,
+      "rpm_estimate": 15.53,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 53.1,
+        "result_count": 10,
+        "big_sites": 2,
+        "avg_content_depth": 155.6,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 30.5,
+      "grade": "D"
+    },
+    {
+      "keyword": "why small business ideas from home for beginners",
+      "volume_estimate": 722,
+      "competition_score": 53.2,
+      "rpm_estimate": 4.98,
+      "content_feasibility": 85,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 53.2,
+        "result_count": 10,
+        "big_sites": 2,
+        "avg_content_depth": 159.5,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 30.6,
+      "grade": "D"
+    },
+    {
+      "keyword": "what is small business ideas from home",
+      "volume_estimate": 913,
+      "competition_score": 38.2,
+      "rpm_estimate": 4.32,
+      "content_feasibility": 95,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 38.2,
+        "result_count": 10,
+        "big_sites": 1,
+        "avg_content_depth": 158.9,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 40.01,
+      "grade": "C"
+    },
+    {
+      "keyword": "top small business ideas from home 2025",
+      "volume_estimate": 728,
+      "competition_score": 68.1,
+      "rpm_estimate": 15.79,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 68.1,
+        "result_count": 10,
+        "big_sites": 3,
+        "avg_content_depth": 153.9,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 25.58,
+      "grade": "D"
+    },
+    {
+      "keyword": "small business ideas from home for beginners",
+      "volume_estimate": 1002,
+      "competition_score": 68.2,
+      "rpm_estimate": 7.11,
+      "content_feasibility": 70,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 68.2,
+        "result_count": 10,
+        "big_sites": 3,
+        "avg_content_depth": 159.3,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 22.39,
+      "grade": "D"
+    },
+    {
+      "keyword": "how to small business ideas from home",
+      "volume_estimate": 156,
+      "competition_score": 38.2,
+      "rpm_estimate": 6.15,
+      "content_feasibility": 95,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 38.2,
+        "result_count": 10,
+        "big_sites": 1,
+        "avg_content_depth": 159.5,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 37.42,
+      "grade": "D"
+    },
+    {
+      "keyword": "how to small business ideas from home 2025",
+      "volume_estimate": 565,
+      "competition_score": 53.2,
+      "rpm_estimate": 5.11,
+      "content_feasibility": 85,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 53.2,
+        "result_count": 10,
+        "big_sites": 2,
+        "avg_content_depth": 158.3,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 30.22,
+      "grade": "D"
+    },
+    {
+      "keyword": "why small business ideas from home",
+      "volume_estimate": 478,
+      "competition_score": 53.1,
+      "rpm_estimate": 7.42,
+      "content_feasibility": 85,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 53.1,
+        "result_count": 10,
+        "big_sites": 2,
+        "avg_content_depth": 156.3,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 31.12,
+      "grade": "D"
+    },
+    {
+      "keyword": "best small business ideas from home for beginners",
+      "volume_estimate": 452,
+      "competition_score": 53.2,
+      "rpm_estimate": 16.14,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 53.2,
+        "result_count": 10,
+        "big_sites": 2,
+        "avg_content_depth": 160.8,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 29.18,
+      "grade": "D"
+    },
+    {
+      "keyword": "best small business ideas from home 2025",
+      "volume_estimate": 782,
+      "competition_score": 68.2,
+      "rpm_estimate": 19.23,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 68.2,
+        "result_count": 10,
+        "big_sites": 3,
+        "avg_content_depth": 158.9,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 27.11,
+      "grade": "D"
+    },
+    {
+      "keyword": "how to small business ideas from home youtube",
+      "volume_estimate": 643,
+      "competition_score": 95,
+      "rpm_estimate": 2.96,
+      "content_feasibility": 85,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 95,
+        "result_count": 10,
+        "big_sites": 9,
+        "avg_content_depth": 146.4,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 15.15,
+      "grade": "F"
+    },
+    {
+      "keyword": "why small business ideas from home forum",
+      "volume_estimate": 435,
+      "competition_score": 68.2,
+      "rpm_estimate": 5.69,
+      "content_feasibility": 85,
+      "commercial_intent": false,
+      "serp_analysis": {
+        "competition_score": 68.2,
+        "result_count": 10,
+        "big_sites": 3,
+        "avg_content_depth": 158.6,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 24.93,
+      "grade": "D"
+    }
+  ],
+  "top_opportunities": [],
+  "scored_clusters": [
+    {
+      "cluster": "small business",
+      "keyword_count": 41,
+      "total_volume_estimate": 30403,
+      "avg_competition": 71.0,
+      "avg_rpm": 9.83,
+      "avg_feasibility": 77.2,
+      "commercial_ratio": 0.41,
+      "cluster_score": 0.0,
+      "top_keywords": [
+        "top small business ideas from home reddit",
+        "best small business ideas from home youtube",
+        "top small business ideas from home",
+        "top 10 small business ideas from home jan 10 top 10 small business ideas to do from home bridal consultant",
+        "best small business ideas from home 2024"
+      ],
+      "content_strategy": "Authority-building approach. Guest posts, PR, expert quotes, original data/reports."
+    }
+  ],
+  "summary": {
+    "avg_opportunity_score": 24.21,
+    "grade_a_count": 0,
+    "grade_b_count": 0,
+    "grade_c_count": 1
+  }
+}

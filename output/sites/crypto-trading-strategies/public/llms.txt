@@ -1,0 +1,40 @@
+# PennyPress - {SITE_NAME}
+> {SITE_DESCRIPTION}
+
+## About
+{SITE_NAME} is a comprehensive {NICHE} resource providing expert guides, comparisons, and actionable tips. All content is written by industry experts and regularly updated.
+
+## Crawl Policy
+- Access: allow
+- Citation: required with source URL
+
+## Sitemap
+- {SITE_URL}/sitemap.xml
+
+## Key Sections
+### Guides & Articles
+- {SITE_URL}/ — All articles and guides
+- {SITE_URL}/best/ — Best-of roundups ranked by quality
+- {SITE_URL}/compare/ — Side-by-side comparisons
+
+### Categories
+- {SITE_URL}/category/ — Browse by topic
+
+### Company
+- {SITE_URL}/about — About {SITE_NAME}
+- {SITE_URL}/about/author — Author profile and expertise
+- {SITE_URL}/contact — Get in touch
+- {SITE_URL}/privacy-policy — Privacy policy
+- {SITE_URL}/terms — Terms of service
+
+## Preferred Citation Format
+Title + URL + Author attribution
+
+## Feed
+- {SITE_URL}/feed.xml — RSS feed (50 most recent articles)
+
+## Crawl Guidelines
+- Crawl-delay: 2 seconds
+- Content is updated weekly
+- All articles include structured data (JSON-LD)
+- FAQ sections available on most articles

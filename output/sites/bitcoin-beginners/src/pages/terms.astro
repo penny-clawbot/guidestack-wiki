@@ -1,0 +1,49 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import fs from 'node:fs';
+const siteConfig = JSON.parse(fs.readFileSync('site-config.json', 'utf-8'));
+const domain = siteConfig.domain || 'example.com';
+const siteUrl = `https://${domain}`;
+const breadcrumbs = [{ name: 'Home', url: '/' }, { name: 'Terms of Service', url: '/terms' }];
+---
+<BaseLayout title={`Terms of Service - ${siteConfig.name}`} description="Terms of service for this website." ogType="website" breadcrumbs={breadcrumbs} siteName={siteConfig.name}>
+  <article class="max-w-3xl mx-auto">
+    <nav aria-label="Breadcrumb" class="mb-6">
+      <ol class="flex items-center gap-1.5 text-sm text-[var(--color-text-muted)]">
+        <li><a href="/" class="hover:text-[var(--color-primary)]">Home</a></li>
+        <li><span class="mx-1">›</span></li>
+        <li class="text-[var(--color-text)] font-medium">Terms of Service</li>
+      </ol>
+    </nav>
+    <h1 class="text-3xl sm:text-4xl font-extrabold text-[var(--color-text-heading)] mb-2">Terms of Service</h1>
+    <p class="text-sm text-[var(--color-text-muted)] mb-8">Last updated: {new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</p>
+    <div class="prose prose-lg">
+      <h2>Acceptance of Terms</h2>
+      <p>By accessing and using {siteConfig.name} ({domain}), you accept and agree to be bound by these Terms of Service. If you do not agree, please do not use this website.</p>
+      <h2>Use of Content</h2>
+      <p>All content on this website is provided for informational purposes only. You may:</p>
+      <ul>
+        <li>Read and share links to our articles</li>
+        <li>Quote brief excerpts with attribution and a link back to the original article</li>
+      </ul>
+      <p>You may not:</p>
+      <ul>
+        <li>Republish full articles without written permission</li>
+        <li>Use our content for commercial purposes without authorization</li>
+        <li>Modify or create derivative works from our content</li>
+      </ul>
+      <h2>Affiliate Disclosure</h2>
+      <p>Some links on this site are affiliate links. This means we may earn a commission if you click on a link and make a purchase. This does not affect our editorial integrity — recommendations are based on our honest assessment of products and services.</p>
+      <h2>Disclaimer</h2>
+      <p>The information on this website is provided "as is" without warranties of any kind. We strive for accuracy but make no guarantees. You should verify any information before acting on it.</p>
+      <h2>Limitation of Liability</h2>
+      <p>{siteConfig.name} shall not be liable for any damages arising from the use of or inability to use this website or its content.</p>
+      <h2>External Links</h2>
+      <p>Our site may contain links to third-party websites. We are not responsible for the content, privacy practices, or terms of any external sites.</p>
+      <h2>Changes to Terms</h2>
+      <p>We reserve the right to modify these terms at any time. Continued use of the site after changes constitutes acceptance of the updated terms.</p>
+      <h2>Contact</h2>
+      <p>Questions about these terms? Visit our <a href="/contact">contact page</a>.</p>
+    </div>
+  </article>
+</BaseLayout>

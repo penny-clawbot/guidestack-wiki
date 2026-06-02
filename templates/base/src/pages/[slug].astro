@@ -1,8 +1,10 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import CrossSiteLinks from '../components/CrossSiteLinks.astro';
+import MidArticleCTA from '../components/MidArticleCTA.astro';
 import fs from 'node:fs';
 import path from 'node:path';
-import { marked } from 'marked';
+import { marked, resetHeadingCounter } from '../utils/marked-config';
 
 const cd = 'src/content/articles';
 
@@ -16,8 +18,9 @@ function parseFile(file: string) {
     if (m) fm[m[1]] = m[2];
   });
   if (typeof fm.tags === 'string') fm.tags = fm.tags.split(',').map((t: string) => t.trim());
-  const htmlContent = marked.parse(fmMatch[2], { gfm: true, breaks: true }) as string;
-  return { title: fm.title || '', description: fm.description || '', date: fm.date || '', category: fm.category || 'general', tags: fm.tags || [], content: htmlContent, readingTime: fm.readingTime || '' };
+  resetHeadingCounter();
+  const htmlContent = marked.parse(fmMatch[2]) as string;
+  return { title: fm.title || '', description: fm.description || '', date: fm.date || '', category: fm.category || 'general', tags: fm.tags || [], content: htmlContent, readingTime: fm.readingTime || '', rawBody: fmMatch[2] };
 }
 
 export function getStaticPaths() {
@@ -48,25 +51,36 @@ if (!article) return Astro.redirect('/');
 
 const siteConfig = JSON.parse(fs.readFileSync('site-config.json', 'utf-8'));
 
+// Load affiliate links
+let affiliateLinks: Array<{keyword: string; url: string; title: string}> = [];
+const affiliatePath = 'src/data/affiliates.json';
+if (fs.existsSync(affiliatePath)) {
+  try { affiliateLinks = JSON.parse(fs.readFileSync(affiliatePath, 'utf-8')).links || []; } catch {}
+}
+
+const domain = siteConfig.domain || 'example.com';
+const siteUrl = `https://${domain}`;
+
 // Get all articles for related posts
-const allArticles: Array<{title: string; slug: string; category: string; description: string}> = [];
+const allArticles: Array<{title: string; slug: string; category: string; description: string; readingTime: string; date: string}> = [];
 if (fs.existsSync(cd)) {
   for (const file of fs.readdirSync(cd).filter((f: string) => f.endsWith('.md'))) {
     const s = file.replace(/\.md$/, '').replace(/^\d{4}-\d{2}-\d{2}-(ai-)?/, '');
     if (s !== slug) {
       const a = parseFile(file);
-      if (a) allArticles.push({ title: a.title, slug: s, category: a.category, description: a.description });
+      if (a) allArticles.push({ title: a.title, slug: s, category: a.category, description: a.description, readingTime: a.readingTime, date: a.date });
     }
   }
 }
 
-// Related: same category first, then random
+// Related: same category first, then recent
 const sameCategory = allArticles.filter(a => a.category === article.category);
 const otherCategory = allArticles.filter(a => a.category !== article.category);
 const related = [...sameCategory.slice(0, 4), ...otherCategory.slice(0, 4)].slice(0, 5);
 
 const formattedDate = article.date ? new Date(article.date + 'T00:00:00').toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }) : '';
 const catLabel = article.category.replace(/-/g, ' ').replace(/\b\w/g, (l: string) => l.toUpperCase());
+const wordCount = (article.rawBody || '').split(/\s+/).filter(Boolean).length;
 
 const breadcrumbs = [
   { name: 'Home', url: '/' },
@@ -74,18 +88,16 @@ const breadcrumbs = [
   { name: article.title, url: `/${slug}` }
 ];
 
-// Auto-extract FAQ sections from article content for schema
-const faqRegex = /<h2[^>]*>(.*?)<\/h2>\s*<p>(.*?)<\/p>/g;
-const faqItems: Array<{question: string; answer: string}> = [];
+// ========== FAQ Auto-Extraction ==========
 const contentStr = article.content as string;
+const faqItems: Array<{question: string; answer: string}> = [];
 
-// Look for FAQ patterns: "## Frequently Asked Questions" or "## FAQ" followed by Q&A pairs
-const faqSectionRegex = /<(?:h2|h3)[^>]*>(?:.*?(?:FAQ|Frequently Asked Questions|Common Questions|Questions).*?)<\/(?:h2|h3)>([\s\S]*?)(?=<h[23][^>]*>(?!.*?(?:answer|respond|reply))<\/article|$)/i;
+// Match FAQ section headers
+const faqSectionRegex = /<(?:h2|h3)[^>]*>(?:.*?(?:FAQ|Frequently Asked Questions|Common Questions|Questions(?:\s+&|\s+and)?\s+Answers?).*?)<\/(?:h2|h3)>([\s\S]*?)(?=<h[23][^>]*>(?!.*?(?:answer|respond|reply))<\/article|$)/i;
 const faqMatch = contentStr.match(faqSectionRegex);
 
 if (faqMatch) {
   const faqContent = faqMatch[1];
-  // Extract question-answer pairs
   const qaRegex = /<(?:h3|h4)[^>]*>(.*?)<\/(?:h3|h4)>\s*([\s\S]*?)(?=<(?:h3|h4)[^>]*>|$)/g;
   let qaMatch;
   while ((qaMatch = qaRegex.exec(faqContent)) !== null) {
@@ -97,65 +109,144 @@ if (faqMatch) {
   }
 }
 
-// Build enhanced schema with FAQ if found
+// ========== Callout Box Conversion ==========
+// Convert markdown callout patterns: > [!TIP], > [!WARNING], > [!NOTE], > [!IMPORTANT]
+let enhancedContent = contentStr.replace(
+  /<blockquote><p>\[!(TIP|WARNING|NOTE|IMPORTANT)\]\s*(.*?)<\/p><\/blockquote>/gi,
+  (_, type, text) => `<div class="callout callout-${type.toLowerCase()}"><p>${text}</p></div>`
+);
+
+// Smart internal linking: title phrases + category keywords + entity mentions
+const linkableArticles = allArticles.slice(0, 20);
+let linkCount = 0;
+const MAX_LINKS = 5;
+for (const ra of linkableArticles) {
+  if (linkCount >= MAX_LINKS) break;
+  const titleWords = ra.title.split(' ').filter(w => w.length > 4).slice(0, 3);
+  if (titleWords.length >= 2) {
+    const phrase = titleWords.join(' ');
+    const escaped = phrase.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    if (enhancedContent.toLowerCase().includes(phrase.toLowerCase()) && !enhancedContent.includes(`/${ra.slug}"`)) {
+      const regex = new RegExp(`(${escaped})`, 'i');
+      if ((enhancedContent.match(regex) || []).length === 1) {
+        enhancedContent = enhancedContent.replace(regex, `<a href="/${ra.slug}">$1</a>`);
+        linkCount++; continue;
+      }
+    }
+  }
+  if (ra.category === article.category) {
+    const catKeywords = ra.title.split(' ').filter(w => w.length > 5 && !['which','their','about','other','these','those','being','where','should'].includes(w.toLowerCase()));
+    for (const kw of catKeywords.slice(0, 2)) {
+      if (linkCount >= MAX_LINKS) break;
+      const escaped = kw.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+      const regex = new RegExp(`(?<![\w/])(${escaped})(?![\w"])`, 'g');
+      const matches = enhancedContent.match(regex);
+      if (matches && matches.length === 1 && !enhancedContent.includes(`/${ra.slug}"`)) {
+        enhancedContent = enhancedContent.replace(regex, `<a href="/${ra.slug}">$1</a>`);
+        linkCount++; break;
+      }
+    }
+  }
+}
+
+// Affiliate link injection (conservative: max 3 per article)
+let affCount = 0;
+const MAX_AFF = 3;
+for (const aff of affiliateLinks) {
+  if (affCount >= MAX_AFF) break;
+  const kw = aff.keyword;
+  const escaped = kw.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const regex = new RegExp(`(?<![\\w/])(${escaped})(?![\\w"](?:<|/a))`, 'i');
+  if (enhancedContent.match(regex) && !enhancedContent.includes(aff.url)) {
+    enhancedContent = enhancedContent.replace(regex, `<a href="${aff.url}" target="_blank" rel="noopener sponsored" title="${aff.title}">$1</a>`);
+    affCount++;
+  }
+}
+
+// Mid-article CTA: insert marker after 3rd H2
+const CTA_MARKER = '<!--CTA_MARKER-->';
+const h2Matches = [...enhancedContent.matchAll(/<h2[^>]*>/g)];
+if (h2Matches.length >= 3) {
+  const insertPos = h2Matches[2].index + h2Matches[2][0].length;
+  const afterH2 = enhancedContent.slice(insertPos);
+  const nextSection = afterH2.search(/<h[23][^>]*>/);
+  const endPos = nextSection > -1 ? insertPos + nextSection : insertPos + 500;
+  enhancedContent = enhancedContent.slice(0, endPos) + CTA_MARKER + enhancedContent.slice(endPos);
+}
+const contentParts = enhancedContent.split(CTA_MARKER);
+
+// ========== Enhanced Article Schema ==========
 const today = new Date().toISOString().split('T')[0];
+const ogImageUrl = `data:image/svg+xml,${encodeURIComponent(`<svg xmlns='http://www.w3.org/2000/svg' width='1200' height='630'><defs><linearGradient id='g' x1='0%25' y1='0%25' x2='100%25' y2='100%25'><stop offset='0%25' style='stop-color:%232563eb'/><stop offset='100%25' style='stop-color:%237c3aed'/></linearGradient></defs><rect width='1200' height='630' fill='url(%23g)'/><text x='600' y='280' text-anchor='middle' fill='white' font-family='system-ui,sans-serif' font-size='48' font-weight='bold'>${article.title.length > 60 ? article.title.substring(0, 57) + '...' : article.title}</text><text x='600' y='360' text-anchor='middle' fill='rgba(255,255,255,0.8)' font-family='system-ui,sans-serif' font-size='24'>${siteConfig.name}</text></svg>`)}`;
+
+const breadcrumbsSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": breadcrumbs.map((crumb: any, idx: number) => ({
+    "@type": "ListItem",
+    "position": idx + 1,
+    "name": crumb.name,
+    "item": `${siteUrl}${crumb.url}`
+  }))
+};
+
 const schemaObj: Record<string, any> = {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "BlogPosting",
   "headline": article.title,
   "description": article.description,
+  "inLanguage": "en-US",
+  "url": `${siteUrl}/${slug}`,
   "datePublished": article.date,
   "dateModified": today,
   "author": {
     "@type": "Organization",
     "name": siteConfig.author || siteConfig.name,
-    "url": siteConfig.domain ? `https://${siteConfig.domain}` : undefined
+    "url": siteUrl,
+    ...(siteConfig.social ? { "sameAs": Object.values(siteConfig.social) } : {})
   },
   "publisher": {
     "@type": "Organization",
     "name": siteConfig.name,
     "logo": {
       "@type": "ImageObject",
-      "url": `https://${siteConfig.domain || 'example.com'}/logo.png`
+      "url": `${siteUrl}/logo.png`
     }
   },
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": `/${slug}`
+    "@id": `${siteUrl}/${slug}`
+  },
+  "image": ogImageUrl,
+  "wordCount": wordCount,
+  "articleSection": article.category,
+  "keywords": article.tags && article.tags.length > 0 ? article.tags.join(", ") : undefined,
+  "articleBody": (article.rawBody || '').substring(0, 500),
+  "about": {
+    "@type": "Thing",
+    "name": catLabel,
+    "description": article.description
   }
 };
 
-// Add FAQ schema if FAQ items found
+// Build FAQPage schema if FAQs found (separate from Article schema)
+let faqSchema = null;
 if (faqItems.length > 0) {
-  schemaObj.mainEntity = faqItems.slice(0, 10).map(item => ({
-    "@type": "Question",
-    "name": item.question,
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": item.answer
-    }
-  }));
+  faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqItems.slice(0, 10).map(item => ({
+      "@type": "Question",
+      "name": item.question,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": item.answer
+      }
+    }))
+  };
 }
 
 const schema = schemaObj;
-
-// Auto-link related articles in content body
-const contentHtml = article.content as string;
-let enhancedContent = contentHtml;
-const linkableArticles = allArticles.slice(0, 15);
-for (const ra of linkableArticles) {
-  // Only link if the article title phrase appears in content (avoid over-linking)
-  const titleWords = ra.title.split(' ').filter(w => w.length > 4).slice(0, 3);
-  if (titleWords.length < 2) continue;
-  const phrase = titleWords.join(' ');
-  if (enhancedContent.toLowerCase().includes(phrase.toLowerCase()) && !enhancedContent.includes(`/${ra.slug}"`)) {
-    // Only add if not already linked
-    const regex = new RegExp(`(${phrase.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'i');
-    if ((enhancedContent.match(regex) || []).length <= 1) {
-      enhancedContent = enhancedContent.replace(regex, `<a href="/${ra.slug}">$1</a>`);
-    }
-  }
-}
 
 // Extract headings for TOC
 const headingRegex = /<h([2-3]) id="([^"]*)"[^>]*>(.*?)<\/h\1>/g;
@@ -170,7 +261,20 @@ while ((match = headingRegex.exec(article.content)) !== null) {
 }
 ---
 
-<BaseLayout title={`${article.title} - ${siteConfig.name}`} description={article.description} ogType="article" publishedTime={article.date} author={siteConfig.author || siteConfig.name} categories={article.tags} schema={schema} breadcrumbs={breadcrumbs} siteName={siteConfig.name}>
+<BaseLayout
+  title={`${article.title} - ${siteConfig.name}`}
+  description={article.description}
+  ogType="article"
+  publishedTime={article.date}
+  modifiedTime={today}
+  author={siteConfig.author || siteConfig.name}
+  categories={article.tags}
+  articleSection={article.category}
+  schema={schema}
+  extraSchemas={faqSchema ? [faqSchema, breadcrumbsSchema] : [breadcrumbsSchema]}
+  breadcrumbs={breadcrumbs}
+  siteName={siteConfig.name}
+>
   <div class="grid grid-cols-1 lg:grid-cols-12 gap-10">
     <!-- Main article -->
     <article class="lg:col-span-8 max-w-none">
@@ -199,12 +303,16 @@ while ((match = headingRegex.exec(article.content)) !== null) {
         <p class="text-lg text-[var(--color-text-muted)] leading-relaxed mb-5">{article.description}</p>
         <div class="flex items-center gap-4 text-sm text-[var(--color-text-muted)]">
           <div class="flex items-center gap-2">
-            <div class="w-8 h-8 rounded-full bg-gradient-to-br from-[var(--color-primary)] to-[var(--color-accent)] flex items-center justify-center text-white text-xs font-bold">PP</div>
+            <div class="w-8 h-8 rounded-full bg-gradient-to-br from-[var(--color-primary)] to-[var(--color-accent)] flex items-center justify-center text-white text-xs font-bold">
+              {(siteConfig.author || siteConfig.name).split(' ').map((w: string) => w[0]).join('').substring(0, 2)}
+            </div>
             <span class="font-medium text-[var(--color-text)]">{siteConfig.author || siteConfig.name}</span>
+            <span class="text-xs text-[var(--color-text-muted)] hidden sm:inline">· {siteConfig.niche ? `${siteConfig.niche.charAt(0).toUpperCase() + siteConfig.niche.slice(1)} Expert` : 'Editorial Team'}</span>
           </div>
           <span>·</span>
-          <time datetime={article.date}>{formattedDate}</time>
+          <span class="text-xs opacity-70">Published {formattedDate}</span>
           {article.readingTime && <><span>·</span><span>{article.readingTime} read</span></>}
+          {!article.readingTime && <><span>·</span><span>{Math.max(1, Math.ceil(wordCount / 200))} min read</span></>}
           <span>·</span>
           <span class="text-xs opacity-70">Updated {new Date().toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}</span>
         </div>
@@ -215,8 +323,38 @@ while ((match = headingRegex.exec(article.content)) !== null) {
         <span>Advertisement</span>
       </div>
 
-      <!-- Article body -->
-      <div class="prose prose-lg max-w-none" set:html={enhancedContent} />
+      <!-- Article body with enhanced rendering -->
+      {contentParts.length > 1 ? (
+        <div>
+          <div class="prose prose-lg max-w-none" set:html={contentParts[0]} />
+          <MidArticleCTA niche={siteConfig.niche || catLabel} />
+          <div class="prose prose-lg max-w-none" set:html={contentParts[1]} />
+        </div>
+      ) : (
+        <div class="prose prose-lg max-w-none" set:html={enhancedContent} />
+      )}
+
+      <!-- FAQ Section (auto-extracted from content) -->
+      {faqItems.length > 0 && (
+        <section class="mt-12 pt-8 border-t border-[var(--color-border)]">
+          <h2 class="text-2xl font-bold text-[var(--color-text-heading)] mb-6 flex items-center gap-2">
+            <svg class="w-5 h-5 text-[var(--color-primary)]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+            Frequently Asked Questions
+          </h2>
+          <div class="space-y-2">
+            {faqItems.map(item => (
+              <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                  <span>{item.question}</span>
+                </button>
+                <div class="faq-answer">
+                  <p>{item.answer}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
 
       <!-- Bottom ad -->
       <div class="ad-slot mt-10">
@@ -238,17 +376,31 @@ while ((match = headingRegex.exec(article.content)) !== null) {
       <!-- Related articles -->
       {related.length > 0 && (
         <section class="mt-12 pt-8 border-t border-[var(--color-border)]">
-          <h3 class="text-xl font-bold text-[var(--color-text-heading)] mb-6">Continue Reading</h3>
+          <h3 class="text-xl font-bold text-[var(--color-text-heading)] mb-6">📖 Continue Reading</h3>
           <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
             {related.slice(0, 4).map(r => (
               <a href={`/${r.slug}`} class="card group p-4">
                 <span class="badge-primary text-xs mb-2">{r.category.replace(/-/g, ' ')}</span>
                 <h4 class="font-semibold text-sm text-[var(--color-text-heading)] group-hover:text-[var(--color-primary)] transition-colors line-clamp-2">{r.title}</h4>
+                <p class="text-xs text-[var(--color-text-muted)] mt-2 line-clamp-2">{r.description}</p>
               </a>
             ))}
           </div>
         </section>
       )}
+
+      <!-- Newsletter CTA -->
+      <section class="newsletter-cta mt-12">
+        <div class="max-w-2xl mx-auto text-center py-12 px-4">
+          <h2 class="text-2xl font-bold mb-3">🚀 Get Expert {siteConfig.niche || catLabel} Guides Weekly</h2>
+          <p class="mb-6">Join 2,000+ readers. Free tips, tools, and strategies delivered every Friday.</p>
+          <form class="flex gap-2 max-w-md mx-auto" onsubmit="event.preventDefault(); this.querySelector('button').textContent='✓ Subscribed!';">
+            <input type="email" placeholder="your@email.com" required class="flex-1 px-4 py-3 rounded-lg" />
+            <button type="submit" class="px-6 py-3 rounded-lg font-semibold">Subscribe</button>
+          </form>
+          <p class="text-xs mt-3 opacity-70">No spam. Unsubscribe anytime.</p>
+        </div>
+      </section>
     </article>
 
     <!-- Sidebar -->
@@ -290,10 +442,13 @@ while ((match = headingRegex.exec(article.content)) !== null) {
           </ul>
         </div>
 
-        <!-- Newsletter -->
+        <!-- Cross-site links -->
+        <CrossSiteLinks currentSiteNiche={siteConfig.niche || ''} currentSiteKeywords={siteConfig.keywords || []} />
+
+        <!-- Sidebar Newsletter -->
         <div class="bg-gradient-to-br from-[var(--color-primary)]/5 to-[var(--color-accent)]/5 border border-[var(--color-primary)]/20 rounded-2xl p-5">
           <h3 class="font-semibold text-sm text-[var(--color-text-heading)] mb-2">📬 Stay in the Loop</h3>
-          <p class="text-xs text-[var(--color-text-muted)] mb-3">Get the latest travel tips delivered weekly.</p>
+          <p class="text-xs text-[var(--color-text-muted)] mb-3">Get the latest {siteConfig.niche || ''} tips delivered weekly.</p>
           <form class="space-y-2" onsubmit="event.preventDefault(); this.querySelector('button').textContent='✓ Done!';">
             <input type="email" placeholder="your@email.com" required
               class="w-full px-3 py-2 text-sm border border-[var(--color-border)] rounded-lg bg-[var(--color-bg)] focus:outline-none focus:ring-2 focus:ring-[var(--color-primary)]" />

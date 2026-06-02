@@ -1,0 +1,979 @@
+{
+  "niche": "best index funds for beginners",
+  "timestamp": "2026-05-11 14:06:37",
+  "total_keywords": 41,
+  "opportunities_above_threshold": 0,
+  "score_threshold": 60,
+  "scored_keywords": [
+    {
+      "keyword": "how to best index funds for beginners amazon",
+      "volume_estimate": 665,
+      "competition_score": 68.1,
+      "rpm_estimate": 15.15,
+      "content_feasibility": 85,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 68.1,
+        "result_count": 10,
+        "big_sites": 3,
+        "avg_content_depth": 154.3,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 30.57,
+      "grade": "D"
+    },
+    {
+      "keyword": "best best index funds for beginners amazon",
+      "volume_estimate": 1257,
+      "competition_score": 53.1,
+      "rpm_estimate": 26.02,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 53.1,
+        "result_count": 10,
+        "big_sites": 2,
+        "avg_content_depth": 155.9,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 34.91,
+      "grade": "D"
+    },
+    {
+      "keyword": "best best index funds for beginners for beginners",
+      "volume_estimate": 1835,
+      "competition_score": 53.2,
+      "rpm_estimate": 15.47,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 53.2,
+        "result_count": 10,
+        "big_sites": 2,
+        "avg_content_depth": 159.2,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 31.02,
+      "grade": "D"
+    },
+    {
+      "keyword": "best best index funds for beginners youtube",
+      "volume_estimate": 175,
+      "competition_score": 95,
+      "rpm_estimate": 13.84,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 95,
+        "result_count": 10,
+        "big_sites": 6,
+        "avg_content_depth": 153.9,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 15.07,
+      "grade": "F"
+    },
+    {
+      "keyword": "best index funds for beginners youtube",
+      "volume_estimate": 1072,
+      "competition_score": 95,
+      "rpm_estimate": 18.53,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 95,
+        "result_count": 10,
+        "big_sites": 8,
+        "avg_content_depth": 147.2,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 19.79,
+      "grade": "F"
+    },
+    {
+      "keyword": "best best index funds for beginners 2025",
+      "volume_estimate": 1332,
+      "competition_score": 38.1,
+      "rpm_estimate": 21.66,
+      "content_feasibility": 80,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 38.1,
+        "result_count": 10,
+        "big_sites": 1,
+        "avg_content_depth": 156.7,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 42.7,
+      "grade": "C"
+    },
+    {
+      "keyword": "top best index funds for beginners 2024",
+      "volume_estimate": 1301,
+      "competition_score": 53.1,
+      "rpm_estimate": 16.86,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 53.1,
+        "result_count": 10,
+        "big_sites": 2,
+        "avg_content_depth": 153.8,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 31.11,
+      "grade": "D"
+    },
+    {
+      "keyword": "how to best index funds for beginners youtube",
+      "volume_estimate": 1256,
+      "competition_score": 95,
+      "rpm_estimate": 18.32,
+      "content_feasibility": 85,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 95,
+        "result_count": 10,
+        "big_sites": 7,
+        "avg_content_depth": 152.1,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 24.22,
+      "grade": "D"
+    },
+    {
+      "keyword": "how to best index funds for beginners reddit",
+      "volume_estimate": 972,
+      "competition_score": 95,
+      "rpm_estimate": 27.51,
+      "content_feasibility": 85,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 95,
+        "result_count": 10,
+        "big_sites": 10,
+        "avg_content_depth": 155.7,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 28.43,
+      "grade": "D"
+    },
+    {
+      "keyword": "why best index funds for beginners amazon",
+      "volume_estimate": 215,
+      "competition_score": 68.0,
+      "rpm_estimate": 23.59,
+      "content_feasibility": 85,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 68.0,
+        "result_count": 10,
+        "big_sites": 3,
+        "avg_content_depth": 151.0,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 32.83,
+      "grade": "D"
+    },
+    {
+      "keyword": "best best index funds for beginners forum",
+      "volume_estimate": 1032,
+      "competition_score": 38.1,
+      "rpm_estimate": 20.89,
+      "content_feasibility": 80,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 38.1,
+        "result_count": 10,
+        "big_sites": 1,
+        "avg_content_depth": 156.3,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 41.89,
+      "grade": "C"
+    },
+    {
+      "keyword": "why best index funds for beginners youtube",
+      "volume_estimate": 440,
+      "competition_score": 95,
+      "rpm_estimate": 14.89,
+      "content_feasibility": 85,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 95,
+        "result_count": 10,
+        "big_sites": 7,
+        "avg_content_depth": 154.4,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 20.53,
+      "grade": "D"
+    },
+    {
+      "keyword": "best index funds for beginners reddit",
+      "volume_estimate": 136,
+      "competition_score": 95,
+      "rpm_estimate": 15.86,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 95,
+        "result_count": 10,
+        "big_sites": 10,
+        "avg_content_depth": 157.9,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 15.54,
+      "grade": "F"
+    },
+    {
+      "keyword": "best index funds for beginners 2025",
+      "volume_estimate": 1487,
+      "competition_score": 38.1,
+      "rpm_estimate": 16.23,
+      "content_feasibility": 80,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 38.1,
+        "result_count": 10,
+        "big_sites": 1,
+        "avg_content_depth": 156.5,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 40.29,
+      "grade": "C"
+    },
+    {
+      "keyword": "best best index funds for beginners reddit",
+      "volume_estimate": 1869,
+      "competition_score": 95,
+      "rpm_estimate": 28.74,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 95,
+        "result_count": 10,
+        "big_sites": 10,
+        "avg_content_depth": 159.0,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 24.92,
+      "grade": "D"
+    },
+    {
+      "keyword": "top best index funds for beginners 2025",
+      "volume_estimate": 1092,
+      "competition_score": 53.1,
+      "rpm_estimate": 13.19,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 53.1,
+        "result_count": 10,
+        "big_sites": 2,
+        "avg_content_depth": 155.2,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 29.31,
+      "grade": "D"
+    },
+    {
+      "keyword": "how to best index funds for beginners 2025",
+      "volume_estimate": 244,
+      "competition_score": 38.2,
+      "rpm_estimate": 20.57,
+      "content_feasibility": 95,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 38.2,
+        "result_count": 10,
+        "big_sites": 1,
+        "avg_content_depth": 158.4,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 46.56,
+      "grade": "C"
+    },
+    {
+      "keyword": "why best index funds for beginners for beginners",
+      "volume_estimate": 871,
+      "competition_score": 53.1,
+      "rpm_estimate": 25.72,
+      "content_feasibility": 85,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 53.1,
+        "result_count": 10,
+        "big_sites": 2,
+        "avg_content_depth": 153.8,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 41.56,
+      "grade": "C"
+    },
+    {
+      "keyword": "how to best index funds for beginners forum",
+      "volume_estimate": 1075,
+      "competition_score": 38.1,
+      "rpm_estimate": 28.16,
+      "content_feasibility": 95,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 38.1,
+        "result_count": 10,
+        "big_sites": 1,
+        "avg_content_depth": 155.6,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 53.97,
+      "grade": "C"
+    },
+    {
+      "keyword": "top best index funds for beginners youtube",
+      "volume_estimate": 1553,
+      "competition_score": 95,
+      "rpm_estimate": 28.57,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 95,
+        "result_count": 10,
+        "big_sites": 8,
+        "avg_content_depth": 152.3,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 24.57,
+      "grade": "D"
+    },
+    {
+      "keyword": "best index funds for beginners in 2025 that actually make money mar 1 in today",
+      "volume_estimate": 848,
+      "competition_score": 53.1,
+      "rpm_estimate": 18.66,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 53.1,
+        "result_count": 10,
+        "big_sites": 2,
+        "avg_content_depth": 156.8,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 31.22,
+      "grade": "D"
+    },
+    {
+      "keyword": "how to best index funds for beginners",
+      "volume_estimate": 767,
+      "competition_score": 38.1,
+      "rpm_estimate": 29.14,
+      "content_feasibility": 95,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 38.1,
+        "result_count": 10,
+        "big_sites": 1,
+        "avg_content_depth": 155.5,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 53.84,
+      "grade": "C"
+    },
+    {
+      "keyword": "best best index funds for beginners",
+      "volume_estimate": 523,
+      "competition_score": 53.2,
+      "rpm_estimate": 29.24,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 53.2,
+        "result_count": 10,
+        "big_sites": 2,
+        "avg_content_depth": 158.9,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 34.9,
+      "grade": "D"
+    },
+    {
+      "keyword": "why best index funds for beginners reddit",
+      "volume_estimate": 1278,
+      "competition_score": 95,
+      "rpm_estimate": 10.49,
+      "content_feasibility": 85,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 95,
+        "result_count": 10,
+        "big_sites": 10,
+        "avg_content_depth": 153.6,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 20.25,
+      "grade": "D"
+    },
+    {
+      "keyword": "best best index funds for beginners 2024",
+      "volume_estimate": 1229,
+      "competition_score": 53.2,
+      "rpm_estimate": 13.45,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 53.2,
+        "result_count": 10,
+        "big_sites": 2,
+        "avg_content_depth": 161.5,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 29.57,
+      "grade": "D"
+    },
+    {
+      "keyword": "best index funds for beginners 2024",
+      "volume_estimate": 527,
+      "competition_score": 53.0,
+      "rpm_estimate": 23.25,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 53.0,
+        "result_count": 10,
+        "big_sites": 2,
+        "avg_content_depth": 149.6,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 32.45,
+      "grade": "D"
+    },
+    {
+      "keyword": "best index funds for beginners amazon",
+      "volume_estimate": 1813,
+      "competition_score": 68.0,
+      "rpm_estimate": 13.18,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 68.0,
+        "result_count": 10,
+        "big_sites": 3,
+        "avg_content_depth": 147.9,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 25.9,
+      "grade": "D"
+    },
+    {
+      "keyword": "why best index funds for beginners 2024",
+      "volume_estimate": 554,
+      "competition_score": 68.2,
+      "rpm_estimate": 21.26,
+      "content_feasibility": 85,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 68.2,
+        "result_count": 10,
+        "big_sites": 3,
+        "avg_content_depth": 160.0,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 33.32,
+      "grade": "D"
+    },
+    {
+      "keyword": "top best index funds for beginners forum",
+      "volume_estimate": 1287,
+      "competition_score": 53.2,
+      "rpm_estimate": 26.58,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 53.2,
+        "result_count": 10,
+        "big_sites": 2,
+        "avg_content_depth": 160.1,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 35.15,
+      "grade": "D"
+    },
+    {
+      "keyword": "what is best index funds for beginners",
+      "volume_estimate": 571,
+      "competition_score": 53.1,
+      "rpm_estimate": 23.95,
+      "content_feasibility": 85,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 53.1,
+        "result_count": 10,
+        "big_sites": 2,
+        "avg_content_depth": 157.2,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 39.88,
+      "grade": "D"
+    },
+    {
+      "keyword": "why best index funds for beginners",
+      "volume_estimate": 1354,
+      "competition_score": 53.1,
+      "rpm_estimate": 24.33,
+      "content_feasibility": 85,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 53.1,
+        "result_count": 10,
+        "big_sites": 2,
+        "avg_content_depth": 155.1,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 41.67,
+      "grade": "C"
+    },
+    {
+      "keyword": "best index funds for beginners for beginners",
+      "volume_estimate": 1495,
+      "competition_score": 53.2,
+      "rpm_estimate": 20.62,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 53.2,
+        "result_count": 10,
+        "big_sites": 2,
+        "avg_content_depth": 161.0,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 32.88,
+      "grade": "D"
+    },
+    {
+      "keyword": "top best index funds for beginners",
+      "volume_estimate": 348,
+      "competition_score": 53.2,
+      "rpm_estimate": 16.98,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 53.2,
+        "result_count": 10,
+        "big_sites": 2,
+        "avg_content_depth": 158.2,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 29.14,
+      "grade": "D"
+    },
+    {
+      "keyword": "top best index funds for beginners reddit",
+      "volume_estimate": 1809,
+      "competition_score": 95,
+      "rpm_estimate": 23.69,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 95,
+        "result_count": 10,
+        "big_sites": 10,
+        "avg_content_depth": 159.9,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 22.75,
+      "grade": "D"
+    },
+    {
+      "keyword": "best index funds for beginners forum",
+      "volume_estimate": 821,
+      "competition_score": 53.1,
+      "rpm_estimate": 18.43,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 53.1,
+        "result_count": 10,
+        "big_sites": 2,
+        "avg_content_depth": 155.6,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 31.07,
+      "grade": "D"
+    },
+    {
+      "keyword": "how to best index funds for beginners 2024",
+      "volume_estimate": 767,
+      "competition_score": 53.1,
+      "rpm_estimate": 21.12,
+      "content_feasibility": 85,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 53.1,
+        "result_count": 10,
+        "big_sites": 2,
+        "avg_content_depth": 153.7,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 38.98,
+      "grade": "D"
+    },
+    {
+      "keyword": "how to best index funds for beginners for beginners",
+      "volume_estimate": 386,
+      "competition_score": 53.1,
+      "rpm_estimate": 23.92,
+      "content_feasibility": 85,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 53.1,
+        "result_count": 10,
+        "big_sites": 2,
+        "avg_content_depth": 156.5,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 39.14,
+      "grade": "D"
+    },
+    {
+      "keyword": "why best index funds for beginners forum",
+      "volume_estimate": 1263,
+      "competition_score": 38.2,
+      "rpm_estimate": 22.28,
+      "content_feasibility": 95,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 38.2,
+        "result_count": 10,
+        "big_sites": 1,
+        "avg_content_depth": 161.0,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 50.92,
+      "grade": "C"
+    },
+    {
+      "keyword": "top best index funds for beginners amazon",
+      "volume_estimate": 1053,
+      "competition_score": 67.8,
+      "rpm_estimate": 16.77,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 67.8,
+        "result_count": 10,
+        "big_sites": 3,
+        "avg_content_depth": 139.6,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 26.64,
+      "grade": "D"
+    },
+    {
+      "keyword": "top best index funds for beginners for beginners",
+      "volume_estimate": 828,
+      "competition_score": 53.2,
+      "rpm_estimate": 28.53,
+      "content_feasibility": 70,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 53.2,
+        "result_count": 10,
+        "big_sites": 2,
+        "avg_content_depth": 160.3,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 35.3,
+      "grade": "D"
+    },
+    {
+      "keyword": "why best index funds for beginners 2025",
+      "volume_estimate": 378,
+      "competition_score": 68.1,
+      "rpm_estimate": 13.57,
+      "content_feasibility": 85,
+      "commercial_intent": true,
+      "serp_analysis": {
+        "competition_score": 68.1,
+        "result_count": 10,
+        "big_sites": 3,
+        "avg_content_depth": 157.4,
+        "top_domains": [
+          "https:",
+          "https:",
+          "https:",
+          "https:",
+          "https:"
+        ]
+      },
+      "opportunity_score": 28.73,
+      "grade": "D"
+    }
+  ],
+  "top_opportunities": [],
+  "scored_clusters": [
+    {
+      "cluster": "for beginners",
+      "keyword_count": 41,
+      "total_volume_estimate": 39778,
+      "avg_competition": 63.0,
+      "avg_rpm": 20.71,
+      "avg_feasibility": 77.9,
+      "commercial_ratio": 1.0,
+      "cluster_score": 0.01,
+      "top_keywords": [
+        "best best index funds for beginners reddit",
+        "best best index funds for beginners for beginners",
+        "best index funds for beginners amazon",
+        "top best index funds for beginners reddit",
+        "top best index funds for beginners youtube"
+      ],
+      "content_strategy": "Product-focused content with affiliate integrations. Comparison articles, best-of lists, buying guides."
+    }
+  ],
+  "summary": {
+    "avg_opportunity_score": 32.77,
+    "grade_a_count": 0,
+    "grade_b_count": 0,
+    "grade_c_count": 9
+  }
+}
