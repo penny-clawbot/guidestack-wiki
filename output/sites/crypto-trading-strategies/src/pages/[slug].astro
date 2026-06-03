@@ -286,11 +286,9 @@ while ((match = headingRegex.exec(article.content)) !== null) {
         <p class="text-lg text-[var(--color-text-muted)] leading-relaxed mb-5">{article.description}</p>
         <div class="flex items-center gap-4 text-sm text-[var(--color-text-muted)]">
           <div class="flex items-center gap-2">
-            <div class="w-8 h-8 rounded-full bg-gradient-to-br from-[var(--color-primary)] to-[var(--color-accent)] flex items-center justify-center text-white text-xs font-bold">
-              {(siteConfig.author || siteConfig.name).split(' ').map((w: string) => w[0]).join('').substring(0, 2)}
-            </div>
-            <span class="font-medium text-[var(--color-text)]">{siteConfig.author || siteConfig.name}</span>
-            <span class="text-xs text-[var(--color-text-muted)] hidden sm:inline">· {siteConfig.niche ? `${siteConfig.niche.charAt(0).toUpperCase() + siteConfig.niche.slice(1)} Expert` : 'Editorial Team'}</span>
+            <div class="w-8 h-8 rounded-full bg-gradient-to-br from-[var(--color-primary)] to-[var(--color-accent)] flex items-center justify-center text-white text-xs font-bold">DP</div>
+            <span class="font-medium text-[var(--color-text)]">Daniel Park</span>
+            <span class="text-xs text-[var(--color-text-muted)] hidden sm:inline">· CMT Level II Candidate</span>
           </div>
           <span>·</span>
           <span class="text-xs opacity-70">Published {formattedDate}</span>
