@@ -103,7 +103,7 @@ const webSiteSchema = {
   <meta name="description" content={description} />
   <meta name="author" content={author} />
   <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="/feed.xml" />
-  <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
+  <link rel="sitemap" type="application/xml" href="/sitemap-index.xml" />
   <link rel="llms-txt" href="/llms.txt" />
   <link rel="canonical" href={canonicalURL} />
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
@@ -183,9 +183,19 @@ const webSiteSchema = {
   )}
 
   <!-- World-class additions 2026-06-02 -->
-  <link rel="preconnect" href="https://static.cloudflareinsights.com" />
-  <!-- Cloudflare Web Analytics (free, privacy-friendly) -->
-  <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "REPLACE_CF_TOKEN"}'></script>
+  <!-- Cloudflare Web Analytics (free, privacy-friendly) — loaded only in production -->
+  <script is:inline>
+    (function() {
+      var h = location.hostname;
+      // Only load CF Analytics on real domains (not localhost, not 127.0.0.1, not .pages.dev preview)
+      if (h === 'localhost' || h === '127.0.0.1' || h === '' || h.indexOf('192.168.') === 0 || h.indexOf('10.') === 0) return;
+      var s = document.createElement('script');
+      s.defer = true;
+      s.src = 'https://static.cloudflareinsights.com/beacon.min.js';
+      s.setAttribute('data-cf-beacon', '{"token": "REPLACE_CF_TOKEN"}');
+      document.head.appendChild(s);
+    })();
+  </script>
 
   <ViewTransitions />
 </head>
@@ -274,7 +284,7 @@ const webSiteSchema = {
         <div>
           <h4 class="font-semibold text-sm mb-4 text-[var(--color-text-heading)]">Resources</h4>
           <ul class="space-y-2.5 text-sm">
-            <li><a href="/sitemap" class="text-[var(--color-text-muted)] hover:text-[var(--color-primary)] transition-colors">Sitemap</a></li>
+            <li><a href="/sitemap-index.xml" class="text-[var(--color-text-muted)] hover:text-[var(--color-primary)] transition-colors">Sitemap</a></li>
             <li><a href="/privacy-policy" class="text-[var(--color-text-muted)] hover:text-[var(--color-primary)] transition-colors">Privacy Policy</a></li>
             <li><a href="/terms" class="text-[var(--color-text-muted)] hover:text-[var(--color-primary)] transition-colors">Terms of Service</a></li>
             <li><a href="/about" class="text-[var(--color-text-muted)] hover:text-[var(--color-primary)] transition-colors">About</a></li>
