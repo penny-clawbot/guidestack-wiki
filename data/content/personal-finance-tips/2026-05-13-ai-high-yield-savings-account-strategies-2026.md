@@ -18,6 +18,10 @@ This guide gives you a clear, step‑by‑step plan to open, fund, and optimize 
 
 ## Step‑by‑Step Instructions
 
+
+![Hero image for high yield savings account strategies 2026](https://picsum.photos/seed/high-yield-savings-account-strategies-2026-hero/1200/630)
+
+
 ### 1. Clarify Your Savings Goal and Time‑Horizon  
 - **Define the purpose** (e.g., emergency fund, vacation, upcoming tuition).  
 - **Set a target amount** (e.g., $10 000 for a three‑month emergency cushion).  
@@ -126,6 +130,10 @@ However, managing several accounts can become cumbersome; a **single, high‑rat
 ---
 
 ## Tips for Maximizing Your HYSA in 2026
+
+
+![Illustration for high yield savings account strategies 2026](https://picsum.photos/seed/high-yield-savings-account-strategies-2026-mid/1200/630)
+
 
 - **Start early**: Even a $1 000 deposit at 5.25 % APY yields **$52.50** in interest after one year; the sooner you deposit, the more compounding works in your favor.  
 - **Take advantage of sign‑up bonuses**: Some banks offer **$100‑$200 cash bonuses** for depositing a specified amount within 30 days (check Bankrate’s “Best Savings Bonuses” list for Jan 2026).  

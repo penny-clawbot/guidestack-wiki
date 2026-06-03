@@ -13,6 +13,10 @@ Bitcoin has transformed from a niche digital experiment into a multi-trillion do
 
 ## The Birth of Bitcoin: 2009
 
+
+![Hero image for 2026 05 10 bitcoin price history from pennies to thousands](https://picsum.photos/seed/2026-05-10-bitcoin-price-history-from-pennies-to-thousands-hero/1200/630)
+
+
 Bitcoin's story begins on October 31, 2009, when an individual or group operating under the pseudonym Satoshi Nakamoto published a whitepaper titled "Bitcoin: A Peer-to-Peer Electronic Cash System." This document outlined a revolutionary concept—a decentralized digital currency that could function without banks, governments, or other intermediaries. The Bitcoin network officially launched on January 3, 2009, when Nakamoto mined the genesis block, establishing the first-ever blockchain.
 
 During these early days, Bitcoin had no real market price. The first recorded transaction involving Bitcoin occurred on May 22, 2010, when Laszlo Hanyecz paid 10,000 BTC for two pizzas in Jacksonville, Florida. At the time, those 10,000 Bitcoin were worth approximately $41, making each Bitcoin worth just $0.0041. This famous transaction, now celebrated annually as Bitcoin Pizza Day, represents Bitcoin's first real-world valuation—less than half a cent per coin.
@@ -28,6 +32,10 @@ The first major crash came swiftly and brutally. Between June and November 2011,
 Despite this dramatic crash, Bitcoin's price stabilized around $4 to $5 by the end of 2011, demonstrating remarkable resilience for a young asset. The 2011 bubble taught early investors valuable lessons about cryptocurrency volatility and the importance of security in the crypto ecosystem.
 
 ## 2013: The Year of the Double Peak
+
+
+![Illustration for 2026 05 10 bitcoin price history from pennies to thousands](https://picsum.photos/seed/2026-05-10-bitcoin-price-history-from-pennies-to-thousands-mid/1200/630)
+
 
 2013 proved to be a pivotal year for Bitcoin, marked by dramatic price swings and increased mainstream recognition. The year began with Bitcoin trading around $13, but by March 2013, the price had surged to approximately $100—a gain of nearly 670% in just three months. This rally was fueled by growing acceptance of Bitcoin among merchants and investors, as well as increased media coverage.
 
@@ -113,7 +121,7 @@ The fourth Bitcoin halving occurred in April 2024, reducing block rewards from 6
 
 ## 2025-2026: The $100,000 Era and Beyond
 
-Bitcoin's achievement of $100,000 in late 2024 represented a pivotal moment in cryptocurrency history, validating decades of development and adoption. The milestone was reached through a combination of ETF inflows, institutional adoption, and growing recognition of Bitcoin as a legitimate store of value asset competing with gold.
+Bitcoin's achievement of $100,000 in late 2026 represented a pivotal moment in cryptocurrency history, validating decades of development and adoption. The milestone was reached through a combination of ETF inflows, institutional adoption, and growing recognition of Bitcoin as a legitimate store of value asset competing with gold.
 
 Looking ahead to 2025 and 2026, several factors suggest continued strength. The institutional infrastructure built through ETF products and custody solutions has created sustainable pathways for capital allocation. Corporate treasury adoption continues to grow, with more companies following MicroStrategy's lead in holding Bitcoin reserves. Nation-state adoption, though still nascent, represents a potentially massive source of future demand.
 

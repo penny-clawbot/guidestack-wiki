@@ -17,6 +17,10 @@ This guide will walk you through practical steps to replenish your emergency fun
 
 ## Understanding Why You Needed Your Emergency Fund
 
+
+![Hero image for 2026 05 12 rebuilding your emergency fund after a major withdrawal](https://picsum.photos/seed/2026-05-12-rebuilding-your-emergency-fund-after-a-major-withdrawal-hero/1200/630)
+
+
 Before diving into the rebuilding process, take a moment to reflect on why you needed to use those funds. This isn't about self-blame—it's about gaining valuable insights that will inform your rebuilding strategy and future financial planning.
 
 Did your emergency stem from a job loss, an unexpected medical bill, a major home repair, or perhaps a combination of factors? According to a 2023 Federal Reserve survey, approximately 37% of adults would struggle to cover a $400 emergency without borrowing money or selling something. If you had savings to draw from, you were actually in a better position than many Americans.
@@ -36,6 +40,10 @@ Be honest with yourself about discretionary spending. That daily coffee habit or
 If your expenses currently exceed your income, you'll need to look for areas to trim before you can meaningfully rebuild. Consider temporary measures like pausing contributions to discretionary savings accounts, negotiating bills, or finding ways to reduce utility costs.
 
 ## Set a Realistic Rebuilding Timeline
+
+
+![Illustration for 2026 05 12 rebuilding your emergency fund after a major withdrawal](https://picsum.photos/seed/2026-05-12-rebuilding-your-emergency-fund-after-a-major-withdrawal-mid/1200/630)
+
 
 Once you understand your monthly rebuilding capacity, establish a target date for reaching your goal. This timeline should be ambitious enough to motivate action but realistic enough to be achievable without causing financial strain.
 

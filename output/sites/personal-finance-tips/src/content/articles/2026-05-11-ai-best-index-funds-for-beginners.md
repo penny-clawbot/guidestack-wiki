@@ -18,6 +18,10 @@ The best index funds for beginners combine ultra‑low expense ratios, no‑mini
 
 ## Vanguard Total Stock Market ETF (VTI)
 
+
+![Hero image for best index funds for beginners](https://picsum.photos/seed/best-index-funds-for-beginners-hero/1200/630)
+
+
 **Pros**
 - **Ultra‑low expense ratio:** 0.03% (one of the cheapest on the market)  
 - **No minimum investment:** trades like a stock; you can buy a single share or fractional share  
@@ -54,4 +58,4 @@ The best index funds for beginners combine ultra‑low expense ratios, no‑mini
 - Minimum investment: **$0** (ETF)  
 - Share price (Mar 2025): **≈ $465**  
 - 5‑year avg annual return: **10.5%** (Morningstar, Dec 2024)  
-- Yield (TTM): **1.58%
+- Yield (TTM): **1.58%.

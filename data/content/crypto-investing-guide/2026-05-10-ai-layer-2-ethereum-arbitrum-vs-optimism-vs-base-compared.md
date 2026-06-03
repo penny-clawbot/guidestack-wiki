@@ -18,6 +18,10 @@ The right choice depends on what you actually do on-chain: whether you're swappi
 
 ## At a Glance
 
+
+![Hero image for layer 2 ethereum arbitrum vs optimism vs base compared](https://picsum.photos/seed/layer-2-ethereum-arbitrum-vs-optimism-vs-base-compared-hero/1200/630)
+
+
 **Arbitrum** is the largest Layer 2 by total value locked (~$10+ billion as of late 2023), built on optimistic rollups with near-perfect Ethereum Virtual Machine (EVM) compatibility. It offers the deepest DeFi liquidity and the widest ecosystem support, making it the default choice for most users. The trade-off is slightly higher fees than competitors and occasional network congestion during peak activity.
 
 **Optimism** pioneered the optimistic rollup approach and continues pushing innovation through its Superchain vision—a interconnected network of L2 chains sharing security and infrastructure. It powers Base and has strong institutional backing, but its smaller ecosystem and token-only governance (versus ARB's broader token holder participation) make it more of a platform play than a consumer-facing network.
@@ -42,6 +46,10 @@ The right choice depends on what you actually do on-chain: whether you're swappi
 | **Max TVL Protocols** | 50+ | 30+ | 20+ |
 
 ## Arbitrum: The Market Leader
+
+
+![Illustration for layer 2 ethereum arbitrum vs optimism vs base compared](https://picsum.photos/seed/layer-2-ethereum-arbitrum-vs-optimism-vs-base-compared-mid/1200/630)
+
 
 Arbitrum dominates Layer 2 by nearly every metric that matters to users. Its $10+ billion in TVL represents roughly half of all Ethereum Layer 2 deposits. This isn't accidental—Offchain Labs built something that just works, with near-perfect EVM compatibility meaning every Ethereum tool, wallet, and smart contract works seamlessly without modification.
 
@@ -167,7 +175,7 @@ For most users making this decision, **Arbitrum remains the default choice**. Th
 
 **Optimism is the right choice** primarily if you're building infrastructure for the OP Stack ecosystem, actively participating in governance, or explicitly betting on the Superchain thesis. For pure user experience and DeFi functionality, Optimism trails Arbitrum in most measurable categories.
 
-The Layer 2 landscape continues evolving rapidly. Base's growth trajectory suggests the gap between it and established players may narrow significantly in 2024–2025. Arbitrum's governance and decentralization roadmaps could address current concerns about sequencer centralization. Optimism's cross-chain infrastructure could become genuinely valuable as the Superchain materializes.
+The Layer 2 landscape continues evolving rapidly. Base's growth trajectory suggests the gap between it and established players may narrow significantly in 2026–2025. Arbitrum's governance and decentralization roadmaps could address current concerns about sequencer centralization. Optimism's cross-chain infrastructure could become genuinely valuable as the Superchain materializes.
 
 For now, Arbitrum earns the top recommendation for most users—but Base specifically for fee-sensitive high-frequency use cases, and Optimism for infrastructure builders and governance-focused participants.
 
@@ -186,4 +194,3 @@ Begin by researching thoroughly, starting with a small investment you can afford
 ### What are the risks of Layer 2 Ethereum: Arbitrum vs Optimism?
 
 Key risks include market volatility, regulatory changes, security threats, and potential scams. Diversification and proper risk management are essential for mitigating these risks.
-

@@ -16,6 +16,10 @@ Beginners in cryptocurrency trading consistently lose money because they repeat 
 
 ## 1. Ignoring risk management  
 
+
+![Hero image for crypto trading mistakes beginners make](https://picsum.photos/seed/crypto-trading-mistakes-beginners-make-hero/1200/630)
+
+
 **Ignoring risk management is the leading cause of account blow‑ups.**  
 - A CFTC report (2022) shows that 68 % of retail traders using >10× leverage lost their entire margin within six months.  
 - Most beginners fail to set stop‑loss or take‑profit orders, leaving trades exposed to sudden market swings.  
@@ -37,4 +41,4 @@ Beginners in cryptocurrency trading consistently lose money because they repeat 
 - **Set a maximum allocation**: limit meme‑coin exposure to ≤5 % of your portfolio, even if you decide to speculate.  
 - **Use reputable sources**: rely on data from CoinGecko, CoinMarketCap, and official project channels instead of viral TikTok posts.  
 
-## 3. Overtrading and excessive leverage
+## 3. Overtrading and excessive leverage.

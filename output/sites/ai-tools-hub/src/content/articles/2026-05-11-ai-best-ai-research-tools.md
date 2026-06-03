@@ -16,6 +16,10 @@ The top AI research tools include OpenAI's ChatGPT Plus (pro tier at $20/month, 
 
 ## 1. ChatGPT Plus
 
+
+![Hero image for best ai research tools](https://picsum.photos/seed/best-ai-research-tools-hero/1200/630)
+
+
 **Price:** $20/month | **Rating:** 4.5/5 (G2), 4.3/5 (Capterra)
 
 ChatGPT Plus powered by GPT-4o delivers exceptional research capabilities with real-time web browsing, document analysis, and multi-modal inputs. The Advanced Data Analysis feature handles statistical computations and visualization creation directly within conversations.
@@ -53,6 +57,10 @@ Anthropic's Claude 3.5 Sonnet excels at deep analytical research with a 200K tok
 **Specific Details:** Benchmarks show Claude 3.5 Sonnet achieves 92.1% on MMLU benchmarks. The "Projects" feature enables organized research workspaces. Academic users report 35% improvement in literature synthesis efficiency.
 
 ## 3. Perplexity AI
+
+
+![Illustration for best ai research tools](https://picsum.photos/seed/best-ai-research-tools-mid/1200/630)
+
 
 **Price:** $20/month (Pro) | **Rating:** 4.4/5 (App Store), 4.3/5 (Product Hunt)
 

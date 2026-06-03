@@ -20,6 +20,10 @@ Whether travel insurance is "worth it" depends heavily on your specific situatio
 
 ## What exactly does travel insurance cover?
 
+
+![Hero image for travel insurance is it worth the money](https://picsum.photos/seed/travel-insurance-is-it-worth-the-money-hero/1200/630)
+
+
 Travel insurance typically encompasses several categories of coverage, though the exact provisions vary significantly between policies.
 
 **Medical coverage** is often the most critical component. This includes emergency medical treatment, hospital stays, and medical evacuation if you're injured or become ill abroad. Many travelers don't realize that their domestic health insurance provides little to no coverage outside their home country—in some countries, a single hospital stay can cost tens of thousands of dollars.
@@ -32,7 +36,7 @@ Travel insurance typically encompasses several categories of coverage, though th
 
 **Emergency assistance services** provide 24/7 access to multilingual coordinators who can help you find medical facilities, arrange emergency transportation, or provide translation services.
 
-To understand which coverage types matter most for your trip, check our [LINK: travel insurance coverage types guide].
+To understand which coverage types matter most for your trip, check our.
 
 ---
 
@@ -48,11 +52,15 @@ Some insurers offer **annual multi-trip policies** for frequent travelers, typic
 
 Keep in mind that the cheapest policy isn't always the best value. A $50 policy with $50,000 medical coverage and a $500 deductible may cost you more in actual benefits than a $150 policy with $250,000 coverage and no deductible.
 
-Compare your options systematically using our [LINK: travel insurance comparison worksheet].
+Compare your options systematically using our.
 
 ---
 
 ## What are the main types of travel insurance?
+
+
+![Illustration for travel insurance is it worth the money](https://picsum.photos/seed/travel-insurance-is-it-worth-the-money-mid/1200/630)
+
 
 Travel insurance policies generally fall into several distinct categories, each serving different needs.
 
@@ -66,7 +74,7 @@ Travel insurance policies generally fall into several distinct categories, each 
 
 **Single-trip vs. multi-trip** refers to the duration scope. Single-trip policies cover one specific journey, while multi-trip (or annual) policies cover unlimited trips within a year, with each trip typically limited to 30-90 days.
 
-For help selecting the right policy type for your situation, see our [LINK: choosing travel insurance policy type guide].
+For help selecting the right policy type for your situation, see our.
 
 ---
 
@@ -84,7 +92,7 @@ Many premium credit cards—including the Chase Sapphire Preferred, Capital One 
 
 The bottom line: credit card travel insurance provides a useful baseline but shouldn't be assumed to be comprehensive. Carefully review your specific card's guide to benefits, and consider supplementing with a standalone policy for high-value trips or destinations with significant health risks.
 
-Our [LINK: credit card travel insurance comparison] provides detailed breakdowns of major card issuers' protections.
+Our provides detailed breakdowns of major card issuers' protections.
 
 ---
 
@@ -102,7 +110,7 @@ Travel insurance isn't always the right choice. Skipping coverage makes sense in
 
 **High trip frequency** changes the math. If you're traveling constantly, insuring every single trip becomes expensive. Some experienced travelers self-insure by setting aside a dedicated travel emergency fund equal to the premiums they'd otherwise pay.
 
-However, even in these scenarios, consider maintaining at least emergency evacuation coverage through a membership organization like [LINK: Global Rescue]. Medical evacuation can cost $100,000 or more and is rarely covered by basic policies or insurance.
+However, even in these scenarios, consider maintaining at least emergency evacuation coverage through a membership organization like. Medical evacuation can cost $100,000 or more and is rarely covered by basic policies or insurance.
 
 ---
 
@@ -118,7 +126,7 @@ These terms sound similar but refer to fundamentally different services.
 
 **Important caveat**: Some travel assistance memberships (like those offered by AAA or specialty providers) are marketed alongside insurance-like language but don't actually provide reimbursement. Always verify exactly what's covered and whether financial payment is included.
 
-For a detailed comparison of services, see our [LINK: travel insurance vs travel assistance article].
+For a detailed comparison of services, see our.
 
 ---
 
@@ -151,5 +159,4 @@ The most effective strategies include booking during off-peak seasons, using pri
 
 ### Is Travel Insurance: Is It Worth the Money? worth the cost?
 
-Most travelers find that proper budgeting makes Travel Insurance: Is It Worth the Money? highly worthwhile. According to a 2025 travel survey, 78% of budget-conscious travelers reported high satisfaction when planning trips under $1000.
-
+Most travelers find that proper budgeting makes Travel Insurance: Is It Worth the Money? highly worthwhile. Most people who plan carefully find this approach delivers strong results$1000.

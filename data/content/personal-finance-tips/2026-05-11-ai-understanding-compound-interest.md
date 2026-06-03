@@ -16,6 +16,10 @@ readingTime: "4 min"
 
 ## What Is Compound Interest and How Does It Work?
 
+
+![Hero image for understanding compound interest](https://picsum.photos/seed/understanding-compound-interest-hero/1200/630)
+
+
 Compound interest differs from **simple interest** in that you earn interest on your interest, not just your original principal. When you deposit $5,000 in a savings account earning 4% annual percentage yield (APY), you don't just earn $200 per year—you earn interest on your growing balance.
 
 **The compounding frequency matters significantly:**
@@ -49,6 +53,10 @@ The **Rule of 72** provides a simple way to estimate how long it takes your mone
 Understanding this mathematical reality explains why paying off high-interest debt should precede investing—earning 20% by eliminating credit card interest beats most investment returns guaranteed.
 
 ## Compound Interest in Retirement Accounts: The Real Numbers
+
+
+![Illustration for understanding compound interest](https://picsum.photos/seed/understanding-compound-interest-mid/1200/630)
+
 
 **Tax-advantaged retirement accounts** harness compound interest through tax deferral, creating triple compounding: principal growth, compound returns, and tax-free or tax-deferred accumulation.
 

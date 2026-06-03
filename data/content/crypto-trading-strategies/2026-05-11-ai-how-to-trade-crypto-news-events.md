@@ -18,6 +18,10 @@ Trading cryptocurrency based on news events is one of the most effective strateg
 
 ## 1. Understanding News Impact on Crypto Markets
 
+
+![Hero image for how to trade crypto news events](https://picsum.photos/seed/how-to-trade-crypto-news-events-hero/1200/630)
+
+
 Crypto markets react to news faster and more dramatically than traditional financial markets. According to a 2023 study by the **University of Texas**, Bitcoin prices can move 3-8% within minutes of major announcements, compared to 0.5-1% for S&P 500 stocks. This heightened volatility creates both opportunities and risks.
 
 **Key factors that determine news impact:**
@@ -53,13 +57,17 @@ Celebrity tweets, minor partnership announcements, and community votes typically
 
 ## 3. Timing Strategies: Before vs. After News
 
+
+![Illustration for how to trade crypto news events](https://picsum.photos/seed/how-to-trade-crypto-news-events-mid/1200/630)
+
+
 **Pre-news trading** involves anticipating market direction based on expected announcements. This approach carries higher risk but offers better entry prices. According to **Skew Analytics**, successful pre-news traders focus on:
 
 - **Options market positioning** — Unusual call/put ratios signal market expectations
 - **Funding rate anomalies** — Negative funding rates often precede positive announcements
 - **Positioning data** — CFTC commitments of traders reports show institutional positioning
 
-**Post-news trading** involves reacting after announcements are public. This is safer but requires fast execution. Studies show that by the time major news is on mainstream financial news (CNBC, Bloomberg), 60-70% of the price movement has already occurred (**Kensho**, 2022).
+**Post-news trading** involves reacting after announcements are public. This is safer but requires fast execution. Evidence suggests that by the time major news is on mainstream financial news (CNBC, Bloomberg), 60-70% of the price movement has already occurred (**Kensho**, 2022).
 
 **Recommended strategy for beginners:** Use post-news trading with confirmation filters:
 

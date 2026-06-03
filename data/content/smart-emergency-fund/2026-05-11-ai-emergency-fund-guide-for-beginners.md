@@ -18,6 +18,10 @@ An emergency fund is a readily accessible cash reserve that covers unexpected ex
 
 ## What Is an Emergency Fund and Why Do You Need One?
 
+
+![Hero image for emergency fund guide for beginners](https://picsum.photos/seed/emergency-fund-guide-for-beginners-hero/1200/630)
+
+
 An emergency fund is money set aside **separately from your regular checking or savings** to pay for unforeseen events—such as medical bills, car repairs, or job loss. Unlike investments, it should be **liquid**, meaning you can withdraw it quickly without penalty.
 
 - **Financial cushion**: A 2022 Federal Reserve study found that households with at least three months of expenses saved avoided **70% more high‑interest debt** compared to those with no reserve (Federal Reserve, 2022).  
@@ -56,6 +60,10 @@ Include:
 ---
 
 ## Building Your Emergency Fund: Step‑by‑Step Strategies
+
+
+![Illustration for emergency fund guide for beginners](https://picsum.photos/seed/emergency-fund-guide-for-beginners-mid/1200/630)
+
 
 ### 1. Set a Clear Savings Goal and Timeline  
 - Define the target amount (e.g., $12,000) and a realistic deadline (e.g., 18 months).  

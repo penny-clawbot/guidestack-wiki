@@ -17,6 +17,10 @@ This guide breaks down everything you need to know about Bitcoin mining in plain
 
 ## Understanding the Fundamentals of Bitcoin Mining
 
+
+![Hero image for 2026 05 10 what is bitcoin mining and how does it work](https://picsum.photos/seed/2026-05-10-what-is-bitcoin-mining-and-how-does-it-work-hero/1200/630)
+
+
 Bitcoin mining is the process by which new transactions are verified and added to Bitcoin's public ledger, known as the blockchain. But here's what makes it unique: instead of relying on a central authority like a bank or payment processor, Bitcoin uses a distributed network of computers to validate transactions.
 
 When someone sends Bitcoin to another person, that transaction doesn't immediately appear in the blockchain. Instead, it sits in a pool of unverified transactions waiting to be packaged into a block. Bitcoin miners compete to solve complex mathematical puzzles—the first one to find the correct solution gets to add the next block to the chain and receives newly minted bitcoins as a reward.
@@ -72,6 +76,10 @@ Here's how the halving schedule has played out:
 This programmatic halving creates artificial scarcity, which is why Bitcoin's price has historically risen significantly in the months and years following each halving event.
 
 ## Essential Mining Hardware and Software
+
+
+![Illustration for 2026 05 10 what is bitcoin mining and how does it work](https://picsum.photos/seed/2026-05-10-what-is-bitcoin-mining-and-how-does-it-work-mid/1200/630)
+
 
 If you're considering entering the mining space—or simply want to understand the technology better—you need to know about the hardware and software that powers modern Bitcoin mining.
 
@@ -209,4 +217,3 @@ Bitcoin operates on a decentralized blockchain network using proof-of-work conse
 ### Is Bitcoin Mining and How Does It a good investment?
 
 Investment decisions depend on individual circumstances. Bitcoin has shown significant long-term growth since its inception, but remains highly volatile. Most financial advisors recommend allocating no more than 5-10% of a portfolio to cryptocurrencies.
-

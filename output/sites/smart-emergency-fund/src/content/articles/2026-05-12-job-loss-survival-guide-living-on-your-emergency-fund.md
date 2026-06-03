@@ -15,6 +15,10 @@ This is where your emergency fund transforms from a number on a spreadsheet into
 
 ## What Is an Emergency Fund and Why It Becomes Your Lifeline
 
+
+![Hero image for 2026 05 12 job loss survival guide living on your emergency fund](https://picsum.photos/seed/2026-05-12-job-loss-survival-guide-living-on-your-emergency-fund-hero/1200/630)
+
+
 An emergency fund serves as a financial buffer between your regular income and unexpected life events. Most financial advisors recommend maintaining three to six months' worth of living expenses in accessible savings accounts. This fund exists specifically for situations exactly like sudden unemployment—circumstances beyond your control that interrupt your income flow.
 
 The Federal Reserve's 2023 Economic Well-Being report revealed that only 63% of adults could cover a $400 emergency using savings alone. That means nearly four in ten Americans would need to borrow money or sell assets for a relatively minor unexpected expense. When facing complete job loss, having a fully-funded emergency fund isn't just smart—it's potentially life-changing.
@@ -58,6 +62,10 @@ Divide your total emergency fund balance by your essential monthly burn rate. If
 **Pro tip:** Use a spreadsheet or budget tracking app to monitor your actual spending weekly. People consistently underestimate their burn rate by 15-25%, which means their timeline may be significantly shorter than expected.
 
 ## Stretching Your Emergency Fund: Strategic Reduction of Expenses
+
+
+![Illustration for 2026 05 12 job loss survival guide living on your emergency fund](https://picsum.photos/seed/2026-05-12-job-loss-survival-guide-living-on-your-emergency-fund-mid/1200/630)
+
 
 Six months sounds like a long time until you realize how quickly costs accumulate. Extending your emergency fund's lifespan requires deliberate action on multiple fronts simultaneously.
 

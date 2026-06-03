@@ -20,6 +20,10 @@ This guide breaks down the most costly budget travel mistakes travelers make, wi
 
 ## 1. Booking Flights at the Wrong Time (And the Wrong Days)
 
+
+![Hero image for budget travel mistakes that cost you money](https://picsum.photos/seed/budget-travel-mistakes-that-cost-you-money-hero/1200/630)
+
+
 Timing your flight purchase isn't just about snagging a deal—it's about understanding how airline pricing algorithms actually work. Most travelers spend hours hunting for "the perfect moment" to book, only to discover they paid 40% more than necessary.
 
 **The worst days to book flights**: Avoid booking on weekends. Data from CheapAir shows that flights booked on Sundays cost an average of 15% more than those booked on Tuesdays and Wednesdays. Airlines know that leisure travelers—less price-sensitive than business travelers—typically browse and book on Saturday and Sunday.
@@ -29,8 +33,6 @@ Timing your flight purchase isn't just about snagging a deal—it's about unders
 **The day you fly matters more than you think**: Flying on Tuesdays and Wednesdays is consistently cheaper than Friday, Saturday, and Monday. A round-trip domestic flight on a Tuesday can save you $50-150 compared to the same route on a Friday. If your schedule has any flexibility, this single change can add significant savings.
 
 **Pro tip**: Set up price alerts on Google Flights or Skyscanner for your target routes, but don't obsess over checking them daily. Check once per week, and when you see a price drop of 10% or more from the current average, book it.
-
-[LINK: best-days-to-book-flights]
 
 ## 2. Ignoring the True Cost of Low-Cost Carriers
 
@@ -55,6 +57,10 @@ On a four-person family trip, these add-ons can easily transform a "$200 round-t
 
 ## 3. Paying Foreign Transaction Fees and Bad Exchange Rates
 
+
+![Illustration for budget travel mistakes that cost you money](https://picsum.photos/seed/budget-travel-mistakes-that-cost-you-money-mid/1200/630)
+
+
 Currency conversion might seem like a minor detail, but for travelers spending money over a week or two abroad, poor exchange choices can silently drain $50-300 from your budget. Most travelers never calculate how much they're losing.
 
 **The credit card fee trap**: Many credit cards charge 1-3% foreign transaction fees on every purchase abroad. On a $3,000 trip spending total, that's $30-90 in fees you didn't need to pay. Even worse, some debit cards charge both transaction fees AND ATM withdrawal fees, sometimes totaling 5% or more per withdrawal.
@@ -76,8 +82,6 @@ Travel insurance is the budget traveler's most controversial expense. Half of tr
 **The credit card insurance trap**: Many premium credit cards advertise travel insurance benefits, but these are often secondary coverage—they pay only what your primary health insurance doesn't cover. This distinction matters when you're facing a $30,000 hospital bill and your primary insurance covers nothing abroad.
 
 **Budget-friendly insurance options**: World Nomads offers comprehensive coverage for adventure travelers. SafetyWing provides pay-as-you-go coverage similar to a subscription service. For US travelers, Seven Corners often provides the best value-to-coverage ratio. Expect to pay 4-8% of your total trip cost for adequate coverage.
-
-[LINK: travel-insurance-guide]
 
 ## 5. Choosing "Cheap" Accommodations in Expensive Locations
 
@@ -131,5 +135,4 @@ The most effective strategies include booking during off-peak seasons, using pri
 
 ### Is Budget Travel Mistakes That Cost You Money worth the cost?
 
-Most travelers find that proper budgeting makes Budget Travel Mistakes That Cost You Money highly worthwhile. According to a 2025 travel survey, 78% of budget-conscious travelers reported high satisfaction when planning trips under $1000.
-
+Most travelers find that proper budgeting makes Budget Travel Mistakes That Cost You Money highly worthwhile. Most people who plan carefully find this approach delivers strong results$1000.

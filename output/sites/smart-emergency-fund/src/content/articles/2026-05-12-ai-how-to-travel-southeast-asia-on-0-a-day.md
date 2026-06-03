@@ -18,6 +18,10 @@ This guide provides a concrete, step‑by‑step roadmap for traveling throughou
 
 ## Step‑by‑Step Instructions  
 
+
+![Hero image for how to travel southeast asia on 0 a day](https://picsum.photos/seed/how-to-travel-southeast-asia-on-0-a-day-hero/1200/630)
+
+
 ### 1. Build a Flexible Itinerary Centered on Free‑Stay Hubs  
 - **Identify 4–6 “free‑stay hubs.”** In Southeast Asia, the most active communities for Couchsurfing and Workaway are Bangkok (Thailand), Ho Chi Minh City (Vietnam), Siem Reap (Cambodia), Luang Prabang (Laos), Penang (Malaysia), and Ubud (Indonesia). Target spending at least 3–5 nights in each hub before moving on.  
 - **Set departure windows.** Book outbound flights 6–9 months ahead when error‑fare alerts are most frequent. Use Google Flights “Explore” mode to view fare trends for those months.  

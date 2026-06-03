@@ -18,6 +18,10 @@ Blockchain is a distributed digital ledger that records transactions across mult
 
 ## How Blockchain Technology Actually Works
 
+
+![Hero image for what is blockchain complete beginner explanation](https://picsum.photos/seed/what-is-blockchain-complete-beginner-explanation-hero/1200/630)
+
+
 Blockchain operates through a network of **decentralized nodes** (computers) that validate and record transactions. When someone initiates a transaction, it gets broadcast to a peer-to-peer network of computers (nodes) scattered globally. These nodes use consensus algorithms—such as **Proof of Work (PoW)** or **Proof of Stake (PoS)**—to verify the transaction's legitimacy.
 
 Once verified, the transaction combines with other transactions to form a new block of data. This block receives a unique cryptographic hash and gets added to the existing chain in a sequential, chronological order. The entire process typically takes **10 minutes for Bitcoin** and can process approximately **7 transactions per second (TPS)**, while newer blockchains like **Solana** claim to handle over **65,000 TPS** under ideal conditions.
@@ -47,6 +51,10 @@ Public blockchains like Bitcoin and Ethereum allow anyone to view transaction hi
 ---
 
 ## Real-World Applications Beyond Cryptocurrency
+
+
+![Illustration for what is blockchain complete beginner explanation](https://picsum.photos/seed/what-is-blockchain-complete-beginner-explanation-mid/1200/630)
+
 
 ### Supply Chain Management
 

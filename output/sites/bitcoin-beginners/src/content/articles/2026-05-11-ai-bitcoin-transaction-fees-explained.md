@@ -16,6 +16,10 @@ Bitcoin transaction fees are paid to miners to prioritize your transaction on th
 
 ## How Bitcoin Transaction Fees Work
 
+
+![Hero image for bitcoin transaction fees explained](https://picsum.photos/seed/bitcoin-transaction-fees-explained-hero/1200/630)
+
+
 Bitcoin fees operate on a market-based system where users bid for limited block space. Each block can only hold approximately 1-4 MB of data, and miners prioritize transactions with the highest fees. When you send bitcoin, your wallet estimates a fee based on current network conditions.
 
 **Pros:**
@@ -53,6 +57,10 @@ Transaction size measured in virtual bytes (vbytes) is the primary factor determ
 - Off-peak fees: $1-5 for standard confirmation within 1-2 hours
 
 ## Types of Fee Estimation Modes
+
+
+![Illustration for bitcoin transaction fees explained](https://picsum.photos/seed/bitcoin-transaction-fees-explained-mid/1200/630)
+
 
 Most wallets offer three fee modes: economy, standard, and priority. Economy mode targets confirmation within 1-4 blocks with lower fees, standard mode targets 1-2 blocks, and priority mode targets the next block. Your wallet automatically adjusts based on your selected preference.
 
@@ -189,8 +197,8 @@ Bitcoin fees historically spike during bull markets, ETF approvals, and major on
 - Requires ongoing monitoring
 
 **Specific Details:**
-- 2024 average fee: $8.50
-- 2024 peak fee: $85 (March)
+- 2026 average fee: $8.50
+- 2026 peak fee: $85 (March)
 - Typical bull market spike: 10-20x average
 - Mempool visualization sites: mempool.space, blockchain.com
 

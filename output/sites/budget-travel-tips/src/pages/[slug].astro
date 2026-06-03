@@ -273,14 +273,14 @@ while ((match = headingRegex.exec(article.content)) !== null) {
       </nav>
 
       <!-- Article header -->
-      <header class="mb-10">
+      <header transition:name="article-header" class="mb-10">
         <div class="flex flex-wrap gap-2 mb-4">
           <span class="badge-primary">{catLabel}</span>
           {article.tags.slice(0, 3).map((tag: string) => (
             <span class="badge bg-[var(--color-bg-alt)] text-[var(--color-text-muted)]">{tag}</span>
           ))}
         </div>
-        <h1 class="text-3xl sm:text-4xl lg:text-[2.75rem] font-extrabold text-[var(--color-text-heading)] leading-tight mb-5">
+        <h1 transition:name="article-title" class="text-3xl sm:text-4xl lg:text-[2.75rem] font-extrabold text-[var(--color-text-heading)] leading-tight mb-5">
           {article.title}
         </h1>
         <p class="text-lg text-[var(--color-text-muted)] leading-relaxed mb-5">{article.description}</p>
@@ -438,6 +438,52 @@ while ((match = headingRegex.exec(article.content)) !== null) {
           </a>
         )}
       </nav>
+
+      <!-- Network: Other sites in the network -->
+      <section class="mt-12 pt-8 border-t border-[var(--color-border)]">
+        <h3 class="text-lg font-bold text-[var(--color-text-heading)] mb-4 flex items-center gap-2">
+          <svg class="w-4 h-4 text-[var(--color-primary)]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"/></svg>
+          Explore more guides
+        </h3>
+        <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
+          <a href="/ai-tools/" class="card group p-3 flex flex-col items-start gap-1.5 hover:border-[var(--color-primary)]">
+            <span class="text-xl" aria-hidden="true">🤖</span>
+            <span class="text-sm font-semibold text-[var(--color-text-heading)] group-hover:text-[var(--color-primary)]">AI Tools Hub</span>
+            <span class="text-xs text-[var(--color-text-muted)]">Best AI tools</span>
+          </a>
+          <a href="/bitcoin-beginners/" class="card group p-3 flex flex-col items-start gap-1.5 hover:border-[var(--color-primary)]">
+            <span class="text-xl" aria-hidden="true">₿</span>
+            <span class="text-sm font-semibold text-[var(--color-text-heading)] group-hover:text-[var(--color-primary)]">Bitcoin 101</span>
+            <span class="text-xs text-[var(--color-text-muted)]">Bitcoin basics</span>
+          </a>
+          <a href="/crypto-investing/" class="card group p-3 flex flex-col items-start gap-1.5 hover:border-[var(--color-primary)]">
+            <span class="text-xl" aria-hidden="true">💰</span>
+            <span class="text-sm font-semibold text-[var(--color-text-heading)] group-hover:text-[var(--color-primary)]">Crypto Investing</span>
+            <span class="text-xs text-[var(--color-text-muted)]">Investment strategies</span>
+          </a>
+          <a href="/crypto-trading/" class="card group p-3 flex flex-col items-start gap-1.5 hover:border-[var(--color-primary)]">
+            <span class="text-xl" aria-hidden="true">📊</span>
+            <span class="text-sm font-semibold text-[var(--color-text-heading)] group-hover:text-[var(--color-primary)]">Crypto Trading</span>
+            <span class="text-xs text-[var(--color-text-muted)]">Trading strategies</span>
+          </a>
+          <a href="/defi-yield/" class="card group p-3 flex flex-col items-start gap-1.5 hover:border-[var(--color-primary)]">
+            <span class="text-xl" aria-hidden="true">🏦</span>
+            <span class="text-sm font-semibold text-[var(--color-text-heading)] group-hover:text-[var(--color-primary)]">DeFi Yield</span>
+            <span class="text-xs text-[var(--color-text-muted)]">DeFi yield farming</span>
+          </a>
+          <a href="/personal-finance/" class="card group p-3 flex flex-col items-start gap-1.5 hover:border-[var(--color-primary)]">
+            <span class="text-xl" aria-hidden="true">💵</span>
+            <span class="text-sm font-semibold text-[var(--color-text-heading)] group-hover:text-[var(--color-primary)]">Personal Finance</span>
+            <span class="text-xs text-[var(--color-text-muted)]">Money management</span>
+          </a>
+          <a href="/emergency-fund/" class="card group p-3 flex flex-col items-start gap-1.5 hover:border-[var(--color-primary)]">
+            <span class="text-xl" aria-hidden="true">🛡️</span>
+            <span class="text-sm font-semibold text-[var(--color-text-heading)] group-hover:text-[var(--color-primary)]">Emergency Fund</span>
+            <span class="text-xs text-[var(--color-text-muted)]">Build your safety net</span>
+          </a>
+        </div>
+      </section>
+
     </article>
 
     <!-- Sidebar -->

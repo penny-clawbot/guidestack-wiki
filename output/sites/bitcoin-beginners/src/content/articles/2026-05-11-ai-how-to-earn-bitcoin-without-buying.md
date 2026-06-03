@@ -16,6 +16,10 @@ Earning bitcoin without purchasing it is possible through various methods includ
 
 ## What Are the Main Ways to Earn Bitcoin Without Buying?
 
+
+![Hero image for how to earn bitcoin without buying](https://picsum.photos/seed/how-to-earn-bitcoin-without-buying-hero/1200/630)
+
+
 **The primary methods include: microtasks and faucets, cashback programs, content creation platforms, affiliate marketing, bitcoin lending, and participating in airdrops or bounties.**
 
 - **Microtask platforms** like Bituro, Cointiply, and Coinbucks pay small amounts of bitcoin for completing surveys, watching ads, or testing apps.
@@ -39,6 +43,10 @@ Mining requires specialized hardware called ASICs (Application-Specific Integrat
 The Bitcoin Energy Consumption Index estimates mining consumes approximately 127 terawatt-hours annually, making individual mining increasingly unprofitable for average users.
 
 ## How Can I Earn Bitcoin Through Microtasks and Faucets?
+
+
+![Illustration for how to earn bitcoin without buying](https://picsum.photos/seed/how-to-earn-bitcoin-without-buying-mid/1200/630)
+
 
 **Bitcoin faucets and microtask platforms pay small amounts (satoshis, or 1/100,000,000 of a bitcoin) for completing simple online tasks like watching ads, solving captchas, or taking surveys.**
 

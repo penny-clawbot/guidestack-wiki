@@ -18,6 +18,10 @@ In this article we compare the two concepts using real‑world APYs, fee structu
 
 ## Feature Comparison
 
+
+![Hero image for emergency fund vs savings account](https://picsum.photos/seed/emergency-fund-vs-savings-account-hero/1200/630)
+
+
 ### Definition of an Emergency Fund
 - **What it is:** A dedicated pool of liquid cash that covers 3–6 months of living expenses in case of job loss, medical bills, or major home repairs.  
 - **Purpose:** To prevent you from having to sell investments, take on high‑interest debt, or dip into retirement accounts during a crisis.  
@@ -79,4 +83,4 @@ In this article we compare the two concepts using real‑world APYs, fee structu
 ### How large should an emergency fund be?
 The standard recommendation is **3–6 months of living expenses**.  
 - **Example:** If your monthly net income is **$4,500**, aim for **$13,500–$27,000**.  
-- **Adjustments:** Freelancers, gig workers, or seasonal
+- **Adjustments:** Freelancers, gig workers, or seasonal.

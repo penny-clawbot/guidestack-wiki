@@ -16,6 +16,10 @@ Bitcoin wallets are software applications or hardware devices that store your pr
 
 ## Step-by-Step Instructions
 
+
+![Hero image for bitcoin wallet types explained](https://picsum.photos/seed/bitcoin-wallet-types-explained-hero/1200/630)
+
+
 ### Step 1: Understand the Fundamental Categories
 
 Bitcoin wallets split into two primary categories based on key management: **hot wallets** and **cold wallets**. Hot wallets connect to the internet for easy access but face higher security risks. Cold wallets remain offline, providing superior security at the cost of convenience. In 2024, over 95% of stolen bitcoin resulted from compromised hot wallet storage on exchanges.
@@ -93,6 +97,10 @@ Multi-signature (multisig) wallets require multiple private keys to authorize tr
 Beginners should avoid web wallets for storage. Exchange wallets (Coinbase, Kraken) serve as temporary transit points, not permanent homes. Standard practice: purchase bitcoin on exchange, move to personal wallet within 24 hours. By late 2023, centralized exchange hacks had stolen $760 million cumulative since 2012. Your most secure setup: hardware wallet purchased directly from manufacturer, private keys never digitized.
 
 ## Tips Section
+
+
+![Illustration for bitcoin wallet types explained](https://picsum.photos/seed/bitcoin-wallet-types-explained-mid/1200/630)
+
 
 **Diversify Your Storage Approach**
 

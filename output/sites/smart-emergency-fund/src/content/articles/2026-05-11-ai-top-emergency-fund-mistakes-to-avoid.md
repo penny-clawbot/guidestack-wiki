@@ -18,6 +18,10 @@ The most damaging emergency‑fund errors are failing to build any reserve, unde
 
 ## 1. Not Building an Emergency Fund at All
 
+
+![Hero image for top emergency fund mistakes to avoid](https://picsum.photos/seed/top-emergency-fund-mistakes-to-avoid-hero/1200/630)
+
+
 - **Cons**  
   - **Financial vulnerability**: 40 % of U.S. adults cannot cover a $400 unexpected expense (Federal Reserve, 2023).  
   - **Debt reliance**: 62 % of those without savings rely on credit cards for emergencies, incurring an average interest rate of 19.3 % (Bankrate, 2023).  
@@ -47,6 +51,10 @@ The most damaging emergency‑fund errors are failing to build any reserve, unde
 ---
 
 ## 3. Keeping the Emergency Fund in Illiquid Assets (Stocks, Real Estate)
+
+
+![Illustration for top emergency fund mistakes to avoid](https://picsum.photos/seed/top-emergency-fund-mistakes-to-avoid-mid/1200/630)
+
 
 - **Pros**  
   - Potential for higher returns; can diversify overall portfolio.  
@@ -174,4 +182,4 @@ You should perform a **full review at least once a year**, or immediately after 
 
 ### Should I keep my emergency fund in cash or investments?
 
-The **cash bucket** (e.g., high‑yield savings account) should cover **3–6 months of expenses
+The **cash bucket** (e.g., high‑yield savings account) should cover **3–6 months of expenses.

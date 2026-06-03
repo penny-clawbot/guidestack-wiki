@@ -1,5 +1,6 @@
 ---
 import '../styles/global.css';
+import { ViewTransitions } from 'astro:transitions';
 
 export interface Props {
   title: string;
@@ -186,6 +187,7 @@ const webSiteSchema = {
   <!-- Cloudflare Web Analytics (free, privacy-friendly) -->
   <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "REPLACE_CF_TOKEN"}'></script>
 
+  <ViewTransitions />
 </head>
 <body class="min-h-screen flex flex-col">
   <a href="#main" class="skip-link">Skip to content</a>
@@ -199,7 +201,7 @@ const webSiteSchema = {
         <!-- Logo -->
         <a href="/" class="flex items-center gap-2 group">
           <span class="text-2xl">📰</span>
-          <span class="text-lg font-bold text-[var(--color-text-heading)] group-hover:text-[var(--color-primary)] transition-colors">{displayTitle}</span>
+          <span transition:name="site-name" class="text-lg font-bold text-[var(--color-text-heading)] group-hover:text-[var(--color-primary)] transition-colors">{displayTitle}</span>
         </a>
 
         <!-- Desktop nav -->
@@ -252,7 +254,7 @@ const webSiteSchema = {
         <div class="md:col-span-1">
           <a href="/" class="flex items-center gap-2 mb-3">
             <span class="text-xl">📰</span>
-            <span class="text-lg font-bold text-[var(--color-text-heading)]">{displayTitle}</span>
+            <span transition:name="site-name" class="text-lg font-bold text-[var(--color-text-heading)]">{displayTitle}</span>
           </a>
           <p class="text-sm text-[var(--color-text-muted)] leading-relaxed">{description}</p>
           <p class="text-xs text-[var(--color-text-muted)] mt-3 opacity-70">Affiliate Disclosure: Some links on this site are affiliate links. We may earn a commission at no extra cost to you.</p>

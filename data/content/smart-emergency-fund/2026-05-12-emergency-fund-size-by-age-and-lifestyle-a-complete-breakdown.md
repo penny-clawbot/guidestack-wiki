@@ -21,6 +21,10 @@ This comprehensive guide breaks down emergency fund targets by age group and lif
 
 ## Why Emergency Funds Are Non-Negotiable
 
+
+![Hero image for 2026 05 12 emergency fund size by age and lifestyle a complete breakdown](https://picsum.photos/seed/2026-05-12-emergency-fund-size-by-age-and-lifestyle-a-complete-breakdown-hero/1200/630)
+
+
 Before diving into specific numbers, let's establish why emergency funds matter more than almost any other financial goal.
 
 An emergency fund serves three critical functions. First, it provides **financial insulation** during unexpected disruptions—job loss, medical emergencies, urgent home repairs. Second, it **prevents debt spirals** by allowing you to handle crises with cash rather than credit. Third, it delivers **psychological peace of mind** that transforms your relationship with money.
@@ -51,6 +55,10 @@ But here's the catch: these baseline numbers don't account for your age, career 
 ---
 
 ## Emergency Fund Guidelines by Age
+
+
+![Illustration for 2026 05 12 emergency fund size by age and lifestyle a complete breakdown](https://picsum.photos/seed/2026-05-12-emergency-fund-size-by-age-and-lifestyle-a-complete-breakdown-mid/1200/630)
+
 
 ### Your 20s: Building Foundations ($5,000-$15,000)
 

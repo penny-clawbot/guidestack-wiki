@@ -18,6 +18,10 @@ Building multiple income streams means spreading revenue across **active work**,
 
 ## 1. Leverage Your Skills for Active Income  
 
+
+![Hero image for how to build multiple income streams](https://picsum.photos/seed/how-to-build-multiple-income-streams-hero/1200/630)
+
+
 Active income comes from time traded for money—freelancing, consulting, or part‑time work. According to the **2023 Upwork Freelance Forward Report**, 60 % of freelancers earned more than $25,000 annually, with the average hourly rate for skilled freelancers at **$28** (Upwork, 2023). The U.S. **Bureau of Labor Statistics** projects that by 2026, **1 in 4** workers will have some form of freelance engagement (BLS, 2023).  
 
 **How to start:**  
@@ -45,6 +49,10 @@ If you invest $10,000 in a dividend ETF yielding 2 %, you’ll earn **$200 per
 
 ## 3. Launch Scalable Digital Products  
 
+
+![Illustration for how to build multiple income streams](https://picsum.photos/seed/how-to-build-multiple-income-streams-mid/1200/630)
+
+
 Digital products (courses, e‑books, print‑on‑demand) can generate **recurring revenue** with little marginal cost after creation. The global **online‑course market** is projected to hit **$375 billion by 2026**, growing at a 12 % CAGR (Grand View Research, 2022). Average conversion rates for digital courses hover around **2.5 %** (Thinkific, 2023), and creators who price courses between **$99–$299** often see **$5,000–$30,000** in first‑year sales (Forbes, 2023).  
 
 **How to develop a digital product:**  
@@ -66,4 +74,4 @@ Diversification reduces risk and smooths cash flow. According to a **2022 Gallup
 - **Use CRM software** to track client leads and follow‑ups, ensuring no opportunity slips through.  
 - **Outsource low‑value tasks** (e.g., bookkeeping, content editing) to virtual assistants, freeing up time for product creation or client acquisition.  
 
-By systematizing processes, you can maintain multiple streams **without burning out**, scaling each over 12–24 months until they collectively replace or exceed a full
+By systematizing processes, you can maintain multiple streams **without burning out**, scaling each over 12–24 months until they collectively replace or exceed a full.

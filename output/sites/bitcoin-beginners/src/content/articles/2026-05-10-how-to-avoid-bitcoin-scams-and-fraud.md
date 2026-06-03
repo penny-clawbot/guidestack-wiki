@@ -17,6 +17,10 @@ This guide is written for bitcoin‑beginners: people who may have heard about �
 
 ## 1. Understanding the Bitcoin Scam Landscape in 2026  
 
+
+![Hero image for 2026 05 10 how to avoid bitcoin scams and fraud](https://picsum.photos/seed/2026-05-10-how-to-avoid-bitcoin-scams-and-fraud-hero/1200/630)
+
+
 ### 1.1 Types of Scams to Watch For  
 
 | Scam Category | How It Works | Real‑World Example |
@@ -72,6 +76,10 @@ If you feel rushed, step back and research thoroughly before committing any fund
 ---
 
 ## 3. Securing Your Bitcoin Wallet and Private Keys  
+
+
+![Illustration for 2026 05 10 how to avoid bitcoin scams and fraud](https://picsum.photos/seed/2026-05-10-how-to-avoid-bitcoin-scams-and-fraud-mid/1200/630)
+
 
 ### 3.1 Types of Wallets: Hot vs Cold  
 

@@ -18,6 +18,10 @@ This guide walks you through every core mechanic of DeFi liquidity pools—how t
 
 ## Step-by-Step Instructions  
 
+
+![Hero image for liquidity pool mechanics explained](https://picsum.photos/seed/liquidity-pool-mechanics-explained-hero/1200/630)
+
+
 ### Step 1 – Research and Select a Platform  
 1. **Identify a reputable DEX**. As of Q1 2025, Uniswap V3 leads with $6.2 B in TVL (total value locked) across 1,200+ pools, while SushiSwap holds $1.4 B and PancakeSwap $2.1 B on BNB Chain.  
 2. **Check supported networks**. If you prefer Ethereum mainnet, use Uniswap V3 (gas‑intensive but deepest liquidity). For lower fees, BNB Chain (PancakeSwap) or Polygon (QuickSwap) are viable.  
@@ -93,6 +97,10 @@ When a token collapses, the pool can become “unbalanced,” with the healthy t
 ---
 
 ## Tips  
+
+
+![Illustration for liquidity pool mechanics explained](https://picsum.photos/seed/liquidity-pool-mechanics-explained-mid/1200/630)
+
 
 - **Diversify across fee tiers**: Use a mix of 0.30 % (high‑volume volatile pairs) and 0.05 % (stablecoin) pools to balance fee income and IL exposure.  
 - **Monitor gas costs weekly**: If Ethereum gas exceeds 80 gwei for >3 days, consider moving a portion of liquidity to a Layer‑2 (Arbitrum, Optimism) where fees are <$0.50 per transaction.  

@@ -18,14 +18,18 @@ If you want high‑growth potential and a decentralized system, Bitcoin outperfo
 
 ## Key Differences at a Glance  
 
+
+![Hero image for bitcoin vs traditional money](https://picsum.photos/seed/bitcoin-vs-traditional-money-hero/1200/630)
+
+
 | Feature | Bitcoin | Traditional Money (USD) |
 |---------|---------|------------------------|
-| **Maximum Supply** | 21,000,000 BTC (hard cap) | Unlimited (M2 $20.5 trillion in 2024) |
+| **Maximum Supply** | 21,000,000 BTC (hard cap) | Unlimited (M2 $20.5 trillion in 2026) |
 | **Current Supply (2024)** | ~19,500,000 BTC mined | $20.5 trillion (M2) |
-| **Annual Inflation Rate** | ~1.8 % (2024); drops to <1 % after the 2024 halving | 2‑4 % (2023‑2024, US CPI) |
+| **Annual Inflation Rate** | ~1.8 % (2024); drops to <1 % after the 2026 halving | 2‑4 % (2023‑2024, US CPI) |
 | **Transaction Speed** | ~7 TPS (base chain); millions with Lightning Network | 2,000‑24,000 TPS (cards), instant for cash |
 | **Average Fee (2024)** | Median $1‑$3; spikes to $10‑$30 during congestion | Credit 1.5‑3 % of transaction; debit $0‑$2; cash $0 |
 | **Volatility (30‑day std dev)** | ~5‑6 % (daily) | <0.1 % (daily) |
 | **Market Cap (2024)** | ~$800 billion | $20.5 trillion (US M2) |
 | **Merchant Acceptance** | ~5 million merchants worldwide (Coinmap) | Virtually all merchants globally |
-| **Regulation & Protection** | Varies by country; no FDIC insurance | FDIC‑insured up to $250,000; AML/KYC mandatory |
+| **Regulation & Protection** | Varies by country; no FDIC insurance | FDIC‑insured up to $250,000; AML/KYC mandatory |.

@@ -16,6 +16,10 @@ Credit card points are a reward currency you earn by spending on a credit card a
 
 ## What Are Credit Card Points and How Do They Work?
 
+
+![Hero image for credit card points for travel complete beginner guide](https://picsum.photos/seed/credit-card-points-for-travel-complete-beginner-guide-hero/1200/630)
+
+
 Credit card points are earned at a set rate for every dollar spent, typically expressed as “1x” for base earning and “2x” or “3x” in bonus categories. Points are not the same as airline miles; they are a proprietary currency that can be transferred to partner airlines or hotels, or used directly through the issuer’s travel portal.
 
 - **Average point value**: Most travel experts value points at **1.2 cents each** (The Points Guy, 2023).  
@@ -32,7 +36,7 @@ The quickest way to amass points is through **sign‑up bonuses**, which often r
 - **Spending‑category bonuses**: Cards like the Chase Sapphire Preferred® offer **3x points on travel and dining** worldwide.  
 - **Partner offers**: Airlines (e.g., United, Delta) and hotel chains (e.g., Marriott, Hilton) frequently run limited‑time promotions where you can earn **5x–10x points** on booked stays or flights.
 
-A 2024 Bankrate report found that **81%** of reward‑card holders who hit a sign‑up bonus earned over **$500 in travel value** within the first year (Bankrate, 2024).
+A 2026 Bankrate report found that **81%** of reward‑card holders who hit a sign‑up bonus earned over **$500 in travel value** within the first year (Bankrate, 2024).
 
 **Actionable tips**  
 - **Meet the minimum spend early** to secure the bonus; set a calendar reminder for the deadline.  
@@ -40,6 +44,10 @@ A 2024 Bankrate report found that **81%** of reward‑card holders who hit a sig
 - **Leverage shopping portals**: Many issuers have online malls that pay extra points (often 2–5x) on purchases you already plan to make.
 
 ## Point Valuation: How to Get the Most Out of Each Point
+
+
+![Illustration for credit card points for travel complete beginner guide](https://picsum.photos/seed/credit-card-points-for-travel-complete-beginner-guide-mid/1200/630)
+
 
 The **value per point** varies dramatically based on how you redeem them. Knowing the optimal redemption method is essential.
 

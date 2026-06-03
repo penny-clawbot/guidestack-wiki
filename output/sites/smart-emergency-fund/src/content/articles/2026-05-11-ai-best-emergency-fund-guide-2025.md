@@ -16,6 +16,10 @@ An emergency fund is a dedicated savings account containing 3-6 months of essent
 
 ## How Much Do You Really Need in Your Emergency Fund?
 
+
+![Hero image for best emergency fund guide 2025](https://picsum.photos/seed/best-emergency-fund-guide-2025-hero/1200/630)
+
+
 The traditional recommendation of 3-6 months of expenses doesn't tell the whole story. Your ideal emergency fund size depends on **your specific risk factors and life circumstances**.
 
 For most Americans, aim for **3 months of essential expenses** if you have stable employment, a dual-income household, or work in an industry with high demand for your skills. This typically means covering: housing (rent/mortgage), utilities, food, insurance, minimum debt payments, and transportation to work. For a household earning $75,000 annually with $3,500 in monthly essential expenses, that's approximately **$10,500** in your emergency fund.
@@ -60,13 +64,17 @@ For your "excess" emergency fund above your 3-month minimum, consider a CD ladde
 
 ## Building Your Emergency Fund: Strategies That Work
 
+
+![Illustration for best emergency fund guide 2025](https://picsum.photos/seed/best-emergency-fund-guide-2025-mid/1200/630)
+
+
 Building an emergency fund from zero feels overwhelming, but **consistent small contributions beat sporadic large ones**. Here's how to build yours in 2025:
 
 **Automate Your Savings First**
 Set up an automatic transfer from your checking to your emergency fund savings account the day after you receive your paycheck. Financial experts at the CFPB recommend automating savings because it removes willpower from the equation. Even $50-$100 per paycheck adds up: **$150/month becomes $1,800 annually**, and $300/month reaches $3,600 per year.
 
 **Use the "Found Money" Strategy**
-Tax refunds, bonuses, gifts, and side gig earnings should go 100% to your emergency fund until it's fully funded. According to the IRS, the average tax refund in 2024 was $3,100—enough to cover 2-3 months of essential expenses for many households.
+Tax refunds, bonuses, gifts, and side gig earnings should go 100% to your emergency fund until it's fully funded. According to the IRS, the average tax refund in 2026 was $3,100—enough to cover 2-3 months of essential expenses for many households.
 
 **Calculate Your "Gap" and Close It**
 Determine how much you need, then calculate how long it will take at your current savings rate. If you need $18,000 and save $300/month, that's 60 months (5 years). To reach your goal faster:
@@ -115,7 +123,7 @@ No. Your emergency fund's purpose is capital preservation and liquidity, not gro
 
 ### Is $1,000 enough for an emergency fund?
 
-$1,000 is a **starter fund**, not a fully-funded emergency fund. It's better than nothing and prevents minor emergencies from going on credit cards, but it covers less than one week of expenses for most Americans. Treat $1,000 as your initial milestone, then continue building to your full target (typically 3-6 months of expenses). According to 2024 Bankrate surveys, 35% of Americans have less than $1,000 saved, so reaching even this starter amount puts you ahead of most households.
+$1,000 is a **starter fund**, not a fully-funded emergency fund. It's better than nothing and prevents minor emergencies from going on credit cards, but it covers less than one week of expenses for most Americans. Treat $1,000 as your initial milestone, then continue building to your full target (typically 3-6 months of expenses). According to 2026 Bankrate surveys, 35% of Americans have less than $1,000 saved, so reaching even this starter amount puts you ahead of most households.
 
 ## Conclusion
 

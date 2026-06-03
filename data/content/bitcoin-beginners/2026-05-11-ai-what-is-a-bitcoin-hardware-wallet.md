@@ -18,6 +18,10 @@ A Bitcoin hardware wallet is a dedicated physical device that stores your privat
 
 ## Step-by-Step Instructions
 
+
+![Hero image for what is a bitcoin hardware wallet](https://picsum.photos/seed/what-is-a-bitcoin-hardware-wallet-hero/1200/630)
+
+
 ### 1. Choose the Right Device for Your Needs
 
 - **Security level**: Most hardware wallets use a Secure Element (SE) chip certified to Common Criteria EAL5+ or higher. For example, the **Ledger Nano X** and **BitBox02** both incorporate an SE, while the **Trezor Model T** relies on an open‑source firmware with a custom secure chip.
@@ -34,7 +38,7 @@ A Bitcoin hardware wallet is a dedicated physical device that stores your privat
 
 - **Buy directly** from the manufacturer’s website (e.g., shop.ledger.com, shop.trezor.io, shiftcrypto.ch) or an authorized reseller.  
 - **Avoid second‑hand devices** because a tampered device may have a pre‑installed keylogger or malicious firmware.  
-- **Shipping time**: Most vendors ship within 1‑3 business days; international orders may take 5‑7 days. As of 2024, Ledger reports an average delivery time of 2.5 days to the United States.
+- **Shipping time**: Most vendors ship within 1‑3 business days; international orders may take 5‑7 days. As of 2026, Ledger reports an average delivery time of 2.5 days to the United States.
 
 ### 3. Verify Device Authenticity
 
@@ -72,10 +76,14 @@ A Bitcoin hardware wallet is a dedicated physical device that stores your privat
 
 - In the companion app, click **“Receive”**. The device will generate a **P2PKH**, **P2SH‑WPKH**, or **P2WPKH** address, depending on your preference.  
 - **Verify the address on the hardware wallet’s screen** to prevent clipboard‑malware attacks.  
-- **Copy the address** and use it for deposits. As of 2024, the average Bitcoin transaction fee is around **$2‑$5** (median, according to blockchain.com).
+- **Copy the address** and use it for deposits. As of 2026, the average Bitcoin transaction fee is around **$2‑$5** (median, according to blockchain.com).
 
 ### 9. Conduct a Small Test Transaction
 
 - Send a **tiny amount (e.g., 0.001 BTC)** to your new address.  
 - Confirm the transaction on the device’s screen, then approve it in the companion app.  
-- **Check
+-
+
+---
+
+*This guide is part of our comprehensive coverage of what is a bitcoin hardware wallet. For more in-depth analysis, explore our related articles or subscribe for updates.*

@@ -18,6 +18,10 @@ This comprehensive guide breaks down everything you need to know about investing
 
 ## Understanding Real Estate as an Investment
 
+
+![Hero image for real estate vs stocks where to invest your money](https://picsum.photos/seed/real-estate-vs-stocks-where-to-invest-your-money-hero/1200/630)
+
+
 Real estate investment involves purchasing property—residential, commercial, or industrial—with the expectation of generating returns through appreciation, rental income, or both. Unlike stocks, real estate is a tangible asset you can physically see, touch, and utilize.
 
 ### Types of Real Estate Investments
@@ -66,6 +70,10 @@ Stocks build wealth through two main pathways:
 
 ## Feature-by-Feature Comparison
 
+
+![Illustration for real estate vs stocks where to invest your money](https://picsum.photos/seed/real-estate-vs-stocks-where-to-invest-your-money-mid/1200/630)
+
+
 The following table provides a detailed comparison across critical investment factors:
 
 | Feature | Real Estate | Stocks |
@@ -96,7 +104,7 @@ The illiquidity of real estate can be both a curse and a blessing. It prevents p
 
 Comparing historical returns requires nuance. Let's examine what $10,000 invested 30 years ago would look like in each asset class:
 
-**Stocks (S&P 500 index fund):** $10,000 invested in 1994 would be worth approximately $170,000 in 2024, assuming reinvested dividends and 10% average annual returns.
+**Stocks (S&P 500 index fund):** $10,000 invested in 1994 would be worth approximately $170,000 in 2026, assuming reinvested dividends and 10% average annual returns.
 
 **Real Estate (median U.S. home):** The median home price in 1994 was approximately $130,000. That same home might sell for $400,000+ today, representing roughly 3% annual appreciation. However, the calculation becomes more complex when factoring in rental income, expenses, and leverage through mortgage financing.
 
@@ -289,4 +297,3 @@ Financial experts generally recommend investing only what you can afford to lose
 ### When is the best time to invest in Real Estate vs Stocks: Where to Invest Your Money?
 
 Rather than trying to time the market, consistent investment through dollar-cost averaging has historically produced better returns. Focus on your long-term strategy rather than short-term price movements.
-

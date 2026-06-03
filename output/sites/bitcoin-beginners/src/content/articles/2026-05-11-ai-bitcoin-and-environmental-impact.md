@@ -16,6 +16,10 @@ Bitcoin’s carbon footprint is large in absolute terms (≈ 150 TWh / y
 
 ## Why Bitcoin’s Footprint Matters
 
+
+![Hero image for bitcoin and environmental impact](https://picsum.photos/seed/bitcoin-and-environmental-impact-hero/1200/630)
+
+
 - **Energy consumption** – The Bitcoin network draws about **150 TWh per year** (Cambridge Centre for Alternative Finance, 2023), roughly the same electricity demand as the Netherlands.
 - **Carbon emissions** – At an average grid intensity of **0.45 kg CO₂ / kWh**, this translates to **≈ 65 million metric tons of CO₂** annually—similar to the total emissions of a mid‑size country such as Chile.
 - **E‑waste** – Rapid hardware turnover creates **≈ 30 kilotonnes of e‑waste per year** (University of Cambridge, 2023), mainly from retired ASIC miners.
@@ -46,6 +50,10 @@ These numbers illustrate that while Bitcoin is energy‑intensive, a sizable and
 
 ## Frequently Asked Questions
 
+
+![Illustration for bitcoin and environmental impact](https://picsum.photos/seed/bitcoin-and-environmental-impact-mid/1200/630)
+
+
 ### How much electricity does Bitcoin consume in a year?
 
 Bitcoin’s network consumes about **150 TWh per year** (2023 data). That’s roughly **150 billion kilowatt‑hours**, enough to power about **14 million U.S. homes** for a year.
@@ -56,4 +64,4 @@ Approximately **58 %** of Bitcoin mining runs on renewable sources, especially
 
 ### What is the carbon footprint of a single Bitcoin transaction?
 
-A single Bitcoin transaction uses roughly **1
+A single Bitcoin transaction uses roughly **1.

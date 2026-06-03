@@ -18,10 +18,14 @@ This guide walks HR and recruiting professionals through selecting, implementing
 
 ## Step-by-Step Instructions  
 
+
+![Hero image for ai tools for hr and recruiting](https://picsum.photos/seed/ai-tools-for-hr-and-recruiting-hero/1200/630)
+
+
 ### Step 1: Define Objectives and Key Performance Indicators (KPIs)  
 - **Set clear goals** (e.g., reduce time‑to‑hire from 45 days to ≤ 30 days, cut cost‑per‑hire by 20 %).  
 - **Choose primary KPIs** such as **candidate screening time**, **offer acceptance rate**, **hiring manager satisfaction**, and **turnover within 90 days**.  
-- **Reference industry benchmarks**: A 2024 Gartner survey reports that high‑performing HR teams using AI achieve a **15 % reduction** in time‑to‑fill and a **12 % increase** in quality‑of‑hire.  
+- **Reference industry benchmarks**: A 2026 Gartner survey reports that high‑performing HR teams using AI achieve a **15 % reduction** in time‑to‑fill and a **12 % increase** in quality‑of‑hire.  
 
 ### Step 2: Audit Current Processes  
 - **Map the end‑to‑end recruiting workflow** (sourcing → screening → interviewing → offer → onboarding).  
@@ -29,7 +33,7 @@ This guide walks HR and recruiting professionals through selecting, implementing
 - **Document manual handoffs** and data silos that AI can automate (e.g., HRIS ↔ ATS integration).  
 
 ### Step 3: Identify High‑Impact AI Use Cases  
-| Use Case | Typical ROI (2024 data) | Implementation Complexity |
+| Use Case | Typical ROI (2026 data) | Implementation Complexity |
 |----------|------------------------|---------------------------|
 | **Resume Parsing & Scoring** | 30‑45 % faster screening (SHRM AI Survey 2023) | Low‑Medium |
 | **Candidate Matching & Ranking** | 20‑25 % increase in qualified‑candidate hits | Medium |
@@ -84,4 +88,4 @@ Pick the vendor with the highest **reference‑adjusted score** for your primary
 
 **Key metric targets for 2026** (based on industry data):  
 
-- **Time‑to‑hire** ≤ 28 days (↓ 30
+- **Time‑to‑hire** ≤ 28 days (↓ 30.

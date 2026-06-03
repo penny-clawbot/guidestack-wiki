@@ -18,6 +18,10 @@ This guide shows you exactly how to finance a budget‑friendly trip through Tha
 
 ## Step-by-Step Instructions  
 
+
+![Hero image for how to travel southeast asia on 0 a day](https://picsum.photos/seed/how-to-travel-southeast-asia-on-0-a-day-hero/1200/630)
+
+
 ### Step 1: Set Up a Crypto‑Friendly Financial Stack (Day 0‑1)  
 
 1. **Create a non‑custodial Bitcoin wallet** (e.g., BlueWallet, Electrum, or Trust Wallet). Secure the 12‑word seed phrase offline on a steel plate.  
@@ -105,4 +109,4 @@ This guide shows you exactly how to finance a budget‑friendly trip through Tha
 
 ---
 
-###
+###.

@@ -22,6 +22,10 @@ The Lightning Network isn't just an upgrade to Bitcoin. It's a fundamentally dif
 
 ## What Exactly Is the Lightning Network?
 
+
+![Hero image for bitcoin lightning network fast cheap payments explained](https://picsum.photos/seed/bitcoin-lightning-network-fast-cheap-payments-explained-hero/1200/630)
+
+
 The Lightning Network is a "layer 2" payment protocol built on top of Bitcoin's blockchain. Think of it like adding an express lane to a highway—the main chain remains the secure foundation, but Lightning handles everyday transactions instantly and cheaply.
 
 Here's the core problem it solves: Bitcoin's main network processes roughly 7 transactions per second. Visa processes around 65,000. When you buy that coffee and pay with Bitcoin on-chain, you're competing with everyone else for block space. During busy periods, you either pay high fees to prioritize your transaction or you wait.
@@ -52,6 +56,10 @@ The difference is stark. Lightning transactions typically cost 0.001 to 1 satosh
 This isn't theoretical. I've been using Lightning for 18 months now. Last week I paid for a month of a VPN service with Bitcoin in seconds—$3.50 total, fees were 0.1 satoshi (less than a tenth of a cent). The same transaction on-chain would have cost more than the actual purchase price.
 
 ## How Lightning Actually Works (Without the Jargon)
+
+
+![Illustration for bitcoin lightning network fast cheap payments explained](https://picsum.photos/seed/bitcoin-lightning-network-fast-cheap-payments-explained-mid/1200/630)
+
 
 Most explanations of Lightning get bogged down in technical complexity. Let me cut through it.
 
@@ -176,12 +184,6 @@ I still buy my coffee with Lightning now. Takes three seconds. Costs half a sato
 
 *Ready to explore more Bitcoin infrastructure? Check out these resources:*
 
-[LINK: Bitcoin Wallets: A Complete Guide to Self-Custody]
-
-[LINK: Understanding Bitcoin Mining and Network Security]
-
-[LINK: Layer 2 Crypto Solutions: Beyond Lightning]
-
 ## Frequently Asked Questions
 
 ### Is Bitcoin Lightning Network: Fast, Cheap Payments safe?
@@ -195,4 +197,3 @@ Begin by researching thoroughly, starting with a small investment you can afford
 ### What are the risks of Bitcoin Lightning Network: Fast, Cheap Payments?
 
 Key risks include market volatility, regulatory changes, security threats, and potential scams. Diversification and proper risk management are essential for mitigating these risks.
-

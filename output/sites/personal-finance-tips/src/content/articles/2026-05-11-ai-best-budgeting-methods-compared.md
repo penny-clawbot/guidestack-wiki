@@ -16,6 +16,10 @@ This guide compares four proven budgeting systems—Zero-Based, 50/30/20, Envelo
 
 ## Step-by-Step Instructions
 
+
+![Hero image for best budgeting methods compared](https://picsum.photos/seed/best-budgeting-methods-compared-hero/1200/630)
+
+
 ### Step 1: Calculate Your Monthly Take-Home Income
 Before choosing a budgeting method, determine your exact monthly income. Include your net pay (after taxes, insurance, and retirement contributions), side gig earnings, and any regular passive income. If your income varies, use the average from the last three months.
 
@@ -139,6 +143,10 @@ Both work effectively—choose based on your psychology. Apps (Mint, YNAB, Perso
 Financial advisors recommend 3-6 months of expenses in emergency savings before focusing on other goals. In practice, target at least 15-20% of your income for retirement (including employer 401k match) and an additional 5-10% for short-term goals like vacations or a new car. If you're starting from zero, even $100/month counts—consistency beats perfection. According to Fidelity's 2023 research, people who save 15% of their income starting at age 25 are on track to retire comfortably.
 
 ## Tips
+
+
+![Illustration for best budgeting methods compared](https://picsum.photos/seed/best-budgeting-methods-compared-mid/1200/630)
+
 
 **Start smaller than you think necessary.** If you're new to budgeting, trying to track 20 categories will lead to burnout within two weeks. Begin with five categories: Housing, Groceries, Transportation, Debt Payments, and Savings. Add categories as the habit solidifies.
 

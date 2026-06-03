@@ -16,6 +16,10 @@ DeFi (decentralized finance) delivers financial services through permissionless,
 
 ## Market Size and User Adoption
 
+
+![Hero image for defi vs cefi comparison](https://picsum.photos/seed/defi-vs-cefi-comparison-hero/1200/630)
+
+
 - **Total Value Locked (TVL) in DeFi** peaked at **$252 B** in early 2022, fell to **$80 B** by early 2024, and recovered to **≈$100 B** by mid‑2024 (Source: DeFiLlama, June 2024).  
 - **CeFi assets under management (AUM)** across the top five platforms (Binance Earn, Coinbase Earn, Kraken Staking, Bitfinex Lending, and Nexo) reached **≈$130 B** in 2023 (Source: CoinGecko, Q4 2023).  
 - **Unique DeFi users**—measured by interacting addresses—hit **≈4.5 million** in 2023 (Source: Dune Analytics, Dec 2023).  
@@ -32,6 +36,10 @@ The CeFi market remains larger in absolute AUM, but DeFi’s user growth is acce
 
 ## Yield, Risk, and Insurance
 
+
+![Illustration for defi vs cefi comparison](https://picsum.photos/seed/defi-vs-cefi-comparison-mid/1200/630)
+
+
 | Metric | DeFi (avg, 2024) | CeFi (avg, 2024) |
 |--------|-------------------|-------------------|
 | **Stablecoin APY** (e.g., USDC, USDT) | 3 %–12 % (Aave V3: ~4 %–5 %) | 5 %–15 % (Binance Earn Flexible: ~8 %–10 %) |
@@ -45,4 +53,4 @@ The CeFi market remains larger in absolute AUM, but DeFi’s user growth is acce
 ## Transparency, Regulation, and Governance
 
 - **DeFi transparency**: Protocol code is open‑source; all transactions are verifiable on‑chain. Audits by firms like **Trail of Bits** and **Consensys Diligence** are common, and many projects publish **real‑time dashboards** for TVL and revenue.  
-- **CeFi transparency**: Internal ledgers are not publicly auditable; users rely on third‑party audits and periodic **reserve attestations** (e
+- **CeFi transparency**: Internal ledgers are not publicly auditable; users rely on third‑party audits and periodic **reserve attestations** (e.

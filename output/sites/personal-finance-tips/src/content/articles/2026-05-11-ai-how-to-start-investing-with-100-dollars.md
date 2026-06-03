@@ -16,9 +16,13 @@ You can begin investing with just $100 by using a micro‑investing platform tha
 
 ## 1. Pick a Micro‑Investing Platform That Supports $100 Starters
 
+
+![Hero image for how to start investing with 100 dollars](https://picsum.photos/seed/how-to-start-investing-with-100-dollars-hero/1200/630)
+
+
 Micro‑investing apps are designed to let you start with tiny amounts and still get a diversified portfolio. Below are three popular options with **real‑world specifics**:
 
-- **Acorns** – Charges $3/month for accounts under $5 M (as of 2024). The service automatically rounds up purchases and invests the spare change, turning everyday spending into a $100 initial deposit if you set a one‑time “Invest Now” button.
+- **Acorns** – Charges $3/month for accounts under $5 M (as of 2026). The service automatically rounds up purchases and invests the spare change, turning everyday spending into a $100 initial deposit if you set a one‑time “Invest Now” button.
 - **Robinhood** – No account minimums, no commissions for stocks, ETFs, options, and crypto. You can buy **fractional shares** of any S&P 500 component for as little as $1, making a $100 investment easy.
 - **M1 Finance** – Offers a “pie‑based” portfolio builder with zero trading fees. You can allocate $100 across 10–20 slices of ETFs (e.g., VTI, VXUS) and the platform will automatically rebalance for you.
 
@@ -47,6 +51,10 @@ Fractional ownership lets you purchase a *slice* of a high‑priced stock or ETF
 
 ## 3. Build a Simple, Low‑Cost Index Portfolio
 
+
+![Illustration for how to start investing with 100 dollars](https://picsum.photos/seed/how-to-start-investing-with-100-dollars-mid/1200/630)
+
+
 A $100 investment can be spread across a handful of ETFs that together give you broad market exposure. A classic “three‑fund portfolio” can be replicated with micro‑investing apps:
 
 - **U.S. Total Market:** VTI (expense ratio **0.03%**)
@@ -72,4 +80,4 @@ Automation turns a single $100 deposit into a habit. Most platforms allow **recu
 
 **Key metrics to watch:**
 - **Total return** vs. benchmark (e.g., S&P 500).
-- **Expense ratio** – keep it under
+- **Expense ratio** – keep it under.

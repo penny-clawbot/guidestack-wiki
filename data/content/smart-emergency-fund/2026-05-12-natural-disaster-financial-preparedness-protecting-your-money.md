@@ -17,6 +17,10 @@ This guide will walk you through everything you need to know about natural disas
 
 ## Why Natural Disasters Threaten Your Financial Security
 
+
+![Hero image for 2026 05 12 natural disaster financial preparedness protecting your money](https://picsum.photos/seed/2026-05-12-natural-disaster-financial-preparedness-protecting-your-money-hero/1200/630)
+
+
 Natural disasters create financial chaos in multiple simultaneous ways. Understanding these threats is the first step toward protecting yourself.
 
 ### Immediate Financial Impacts
@@ -56,6 +60,10 @@ Avoid keeping your entire emergency fund in checking accounts where it might be 
 Beyond your bank account, consider keeping several hundred dollars in small bills in secure, waterproof containers at different locations. Store some cash at home in a fireproof safe, some at a trusted relative's house in a different geographic area, and consider keeping a small amount in your emergency go-bag. This ensures you have access to cash even if local ATMs and banks are inaccessible.
 
 ## Essential Documents: Creating Your Financial Lifeline
+
+
+![Illustration for 2026 05 12 natural disaster financial preparedness protecting your money](https://picsum.photos/seed/2026-05-12-natural-disaster-financial-preparedness-protecting-your-money-mid/1200/630)
+
 
 When disaster destroys paperwork, the inconvenience goes far beyond filing cabinet damage. Birth certificates, property deeds, insurance policies, and financial account records can take months and hundreds of dollars to replace—time and money you won't have in the immediate aftermath of a disaster.
 

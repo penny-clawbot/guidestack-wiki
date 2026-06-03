@@ -16,6 +16,10 @@ This guide gives you a concrete, 6‑step plan to consistently set aside at leas
 
 ## Step-by-Step Instructions  
 
+
+![Hero image for how to save money every month](https://picsum.photos/seed/how-to-save-money-every-month-hero/1200/630)
+
+
 ### Step 1: Know Your Exact Take‑Home Pay and Fixed Expenses  
 1. **Calculate net income** – Use your most recent pay stub (e.g., $4,500/month after taxes). Include all income streams (freelance, side gigs).  
 2. **List fixed costs** – Rent/mortgage, utilities, insurance, loan payments, and subscriptions. For a typical U.S. household, these consume 50‑60 % of net income (Federal Reserve, 2023).  
@@ -56,4 +60,4 @@ This guide gives you a concrete, 6‑step plan to consistently set aside at leas
 ## Frequently Asked Questions  
 
 ### How much should I aim to save each month?  
-A practical target is **20 % of your net income** (the “savings rate” recommended by the 50/30/20 rule). For a $4,500 net income, that
+A practical target is **20 % of your net income** (the “savings rate” recommended by the 50/30/20 rule). For a $4,500 net income, that.

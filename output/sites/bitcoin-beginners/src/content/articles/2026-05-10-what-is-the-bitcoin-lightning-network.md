@@ -15,6 +15,10 @@ The Bitcoin network is renowned for its security and decentralization, but as th
 
 ## 1. The Bitcoin Scalability Challenge  
 
+
+![Hero image for 2026 05 10 what is the bitcoin lightning network](https://picsum.photos/seed/2026-05-10-what-is-the-bitcoin-lightning-network-hero/1200/630)
+
+
 Bitcoin was created to be a peer‑to‑peer electronic cash system, but its base protocol processes only about **7 transactions per second (TPS)**. On‑chain settlement occurs roughly every 10 minutes, and each transaction competes for block space, driving fees up when demand is high.
 
 - **Average on‑chain fee (2024)**: ~$1.5–$3 per transaction; spikes to $20–$50 during market rallies.  
@@ -42,6 +46,10 @@ Think of the Bitcoin blockchain as a big ledger that records large, infrequent s
 ---
 
 ## 3. How the Lightning Network Works  
+
+
+![Illustration for 2026 05 10 what is the bitcoin lightning network](https://picsum.photos/seed/2026-05-10-what-is-the-bitcoin-lightning-network-mid/1200/630)
+
 
 ### 3.1 Opening a Channel  
 
@@ -270,4 +278,3 @@ Bitcoin operates on a decentralized blockchain network using proof-of-work conse
 ### Is the Bitcoin Lightning Network: Complete Beginner's a good investment?
 
 Investment decisions depend on individual circumstances. Bitcoin has shown significant long-term growth since its inception, but remains highly volatile. Most financial advisors recommend allocating no more than 5-10% of a portfolio to cryptocurrencies.
-

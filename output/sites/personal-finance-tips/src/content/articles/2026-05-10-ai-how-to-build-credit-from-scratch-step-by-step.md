@@ -22,6 +22,10 @@ This guide assumes you have a steady income and a bank account, but no prior cre
 
 ## What You'll Need Before You Start
 
+
+![Hero image for how to build credit from scratch step by step](https://picsum.photos/seed/how-to-build-credit-from-scratch-step-by-step-hero/1200/630)
+
+
 Before diving into credit building, gather these essentials:
 
 - **Government-issued ID**: Driver's license, passport, or state ID
@@ -47,6 +51,10 @@ If no credit file exists, the report will say something like "no credit file fou
 ---
 
 ## Step 2: Become an Authorized User on a Family Member's Card
+
+
+![Illustration for how to build credit from scratch step by step](https://picsum.photos/seed/how-to-build-credit-from-scratch-step-by-step-mid/1200/630)
+
 
 The fastest, easiest way to establish credit is piggybacking on someone else's established credit history. When a friend or family member adds you as an authorized user to their credit card account, their payment history and credit limit typically transfer to your credit profile.
 
@@ -341,5 +349,4 @@ The most effective strategies include booking during off-peak seasons, using pri
 
 ### Is Build Credit from Scratch: Step by Step worth the cost?
 
-Most travelers find that proper budgeting makes Build Credit from Scratch: Step by Step highly worthwhile. According to a 2025 travel survey, 78% of budget-conscious travelers reported high satisfaction when planning trips under $1000.
-
+Most travelers find that proper budgeting makes Build Credit from Scratch: Step by Step highly worthwhile. Most people who plan carefully find this approach delivers strong results$1000.

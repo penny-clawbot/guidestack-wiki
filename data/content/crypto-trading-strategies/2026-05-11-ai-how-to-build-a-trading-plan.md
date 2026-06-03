@@ -18,6 +18,10 @@ This guide walks you through a 12‑step framework to create a data‑driven, ri
 
 ## Step-by-Step Instructions  
 
+
+![Hero image for how to build a trading plan](https://picsum.photos/seed/how-to-build-a-trading-plan-hero/1200/630)
+
+
 ### **1. Define Your Trading Purpose**  
 Write a single sentence that explains why you trade. Example: “I trade cryptocurrencies to generate supplemental income while learning systematic strategies.” A clear purpose anchors every subsequent decision and filters out impulsive trades that don’t align with your objective.
 
@@ -108,4 +112,4 @@ Execute your plan in a sandbox (e.g., Binance Testnet).
 Review your plan **at least once a month**. If your account grows by **>20 %** or market conditions change dramatically (e.g., a 30 % drop in Bitcoin volatility), update risk limits and position sizing accordingly.
 
 ### **What is the minimum amount of capital needed to start?**  
-A realistic minimum is **$1,000**. With a **1 % risk per trade**, you can afford $10 risk per trade, allowing proper position sizing without over
+A realistic minimum is **$1,000**. With a **1 % risk per trade**, you can afford $10 risk per trade, allowing proper position sizing without over.

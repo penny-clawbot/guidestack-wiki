@@ -18,6 +18,10 @@ An emergency fund should cover **3–6 months of essential living expenses**, bu
 
 ## What is an emergency fund and why do I need one?
 
+
+![Hero image for how much emergency fund do i really need](https://picsum.photos/seed/how-much-emergency-fund-do-i-really-need-hero/1200/630)
+
+
 An emergency fund is a dedicated pool of liquid savings used only for **unexpected, essential expenses**—job loss, medical bills, or urgent home/auto repairs.  
 You need it because a 2022 Federal Reserve study found that **39 % of U.S. adults could not cover a $400 emergency without borrowing** (Federal Reserve, *Report on the Economic Well‑Being of U.S. Households*, 2022).  
 Borrowing in a crisis often means high‑interest credit‑card debt, which can erode financial stability for years.  
@@ -39,6 +43,10 @@ To translate months into dollars, multiply your monthly *essential* expenses (se
 ---
 
 ## How do I calculate my monthly essential expenses?
+
+
+![Illustration for how much emergency fund do i really need](https://picsum.photos/seed/how-much-emergency-fund-do-i-really-need-mid/1200/630)
+
 
 Essential expenses are the costs you must cover to maintain basic living standards: **housing, utilities, food, transportation, insurance, health care, minimum debt payments, and essential personal items**.  
 
@@ -147,4 +155,4 @@ A single adult with stable employment should target **3–4 months** of essentia
 Families typically need **6 months** because children increase both cost and vulnerability. For a household spending $5,800 per month, a full emergency fund is **$34,800**.
 
 ### Is $1,000 enough for an emergency fund?
-$1,000 covers only minor unexpected costs. It won’t sustain you through a
+$1,000 covers only minor unexpected costs. It won’t sustain you through a.

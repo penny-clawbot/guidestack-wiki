@@ -16,6 +16,10 @@ readingTime: "4 min"
 
 ## Feature Comparison
 
+
+![Hero image for best defi education resources](https://picsum.photos/seed/best-defi-education-resources-hero/1200/630)
+
+
 ### 1. Crypto Zoo
 - **Cost:** $199/year or $399 lifetime
 - **Content:** 50+ video modules, 15+ hour curriculum
@@ -76,6 +80,10 @@ readingTime: "4 min"
 | Whiteboard Crypto | Free | ★★☆☆☆ | Absolute beginners | Yes |
 
 ## Frequently Asked Questions
+
+
+![Illustration for best defi education resources](https://picsum.photos/seed/best-defi-education-resources-mid/1200/630)
+
 
 ### Is free DeFi education enough to become profitable?
 

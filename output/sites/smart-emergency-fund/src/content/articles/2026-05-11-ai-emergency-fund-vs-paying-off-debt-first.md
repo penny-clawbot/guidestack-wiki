@@ -18,6 +18,10 @@ readingTime: "9 min"
 
 ## Why the Decision Matters
 
+
+![Hero image for emergency fund vs paying off debt first](https://picsum.photos/seed/emergency-fund-vs-paying-off-debt-first-hero/1200/630)
+
+
 Financial experts often cite two cornerstone goals: **financial security** (having cash for unexpected crises) and **wealth building** (eliminating high‑interest liabilities). Both are essential, but they can conflict when cash is limited. Choosing the wrong priority can cost you thousands in interest, derail your budget when an emergency strikes, or leave you stuck in a debt‑repayment spiral.
 
 **Key statistics that illustrate the stakes:**
@@ -63,6 +67,10 @@ Once a high‑interest balance is gone, the minimum payment disappears. For a $5
 ---
 
 ## The Case for Building an Emergency Fund First
+
+
+![Illustration for emergency fund vs paying off debt first](https://picsum.photos/seed/emergency-fund-vs-paying-off-debt-first-mid/1200/630)
+
 
 ### 1. Avoiding the “Debt‑Cycle” Trap
 
@@ -128,7 +136,7 @@ Many financial coaches recommend a **“starter‑fund + aggressive payoff”** 
 
 Federal loans often carry rates between 3.73 % (2023‑24) and 6.8 % (older). With such low rates, the **opportunity cost** of locking cash into a HYSA (≈ 0.05 %) outweighs the interest saved by early payoff. **Recommendation:** Build a full emergency fund first, then consider extra student‑loan payments.
 
-### 2. **Mortgages (Rate ≈ 6–7 % in 2024)**
+### 2. **Mortgages (Rate ≈ 6–7 % in 2026)**
 
 Mortgage interest is **tax‑deductible** (if you itemize), effectively lowering the after‑tax cost. For a 6 % mortgage, the after‑tax rate for a 22 % bracket is 4.68 %. Investing the difference in a diversified index fund (historical 7 % real return) can be more rewarding long‑term. **Recommendation:** Maintain a 3‑month cash reserve, then focus extra payments on higher‑rate debt (e.g., credit cards).
 
@@ -174,6 +182,6 @@ Without any cash buffer, many workers resort to credit‑card borrowing, which c
 
 ---
 
-## Final Verdict
+---
 
-**For the majority of
+*This guide is part of our comprehensive coverage of emergency fund vs paying off debt first. For more in-depth analysis, explore our related articles or subscribe for updates.*

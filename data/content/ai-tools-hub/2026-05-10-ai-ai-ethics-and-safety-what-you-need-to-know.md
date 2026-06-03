@@ -22,6 +22,10 @@ Whether you're a developer building machine learning models, a business leader i
 
 ## Why AI Ethics Matters More Than Ever
 
+
+![Hero image for ai ethics and safety what you need to know](https://picsum.photos/seed/ai-ethics-and-safety-what-you-need-to-know-hero/1200/630)
+
+
 AI systems don't operate in a vacuum. They're built by humans, trained on data created by humans, and deployed in societies shaped by human bias. This means AI doesn't introduce ethical problems from nowhere—it amplifies and automates existing ones, often at unprecedented scale.
 
 Consider the COMPAS recidivism algorithm, used in American courtrooms to predict whether defendants would reoffend. ProPublica's investigative journalism revealed that this system was nearly twice as likely to falsely flag Black defendants as future criminals compared to white defendants, while simultaneously doing the opposite for white defendants. The algorithm wasn't programmed with conscious racist intent—it was trained on historical criminal justice data that already reflected systemic biases. But the result was the same: real people received longer sentences based on flawed predictions.
@@ -39,8 +43,6 @@ The applications of AI are expanding into increasingly consequential domains. Mo
 - **Content moderation**: AI decides what speech is acceptable on social platforms
 
 Each of these applications carries direct implications for individual rights, opportunities, and wellbeing. When AI systems err in these domains, the consequences aren't inconveniences—they're discrimination, injustice, and harm distributed across entire populations.
-
-[LINK: ai-regulation-guide]
 
 ---
 
@@ -95,11 +97,13 @@ Accountability mechanisms include:
 
 The European Union's proposed AI Act establishes a risk-based framework requiring different levels of accountability based on application severity. High-risk AI systems—including those used in employment, credit, education, and law enforcement—face mandatory conformity assessments, documentation requirements, and human oversight provisions.
 
-[LINK: responsible-ai-tools]
-
 ---
 
 ## Current Safety Challenges and Emerging Risks
+
+
+![Illustration for ai ethics and safety what you need to know](https://picsum.photos/seed/ai-ethics-and-safety-what-you-need-to-know-mid/1200/630)
+
 
 Understanding ethical principles is necessary but insufficient. Practitioners must also grapple with concrete challenges and emerging risks that make AI safety an ongoing concern rather than a solved problem.
 
@@ -143,7 +147,7 @@ The regulatory environment for AI is evolving rapidly. Organizations deploying A
 
 ### The EU AI Act
 
-The European Union's AI Act, expected to take full effect in 2024-2025, establishes the world's first comprehensive AI regulation. It uses a risk-based approach:
+The European Union's AI Act, expected to take full effect in 2026-2025, establishes the world's first comprehensive AI regulation. It uses a risk-based approach:
 
 | Risk Level | Examples | Requirements |
 |------------|----------|---------------|
@@ -207,7 +211,7 @@ Technical practices significantly influence whether systems are ethical:
 
 Deployment isn't the end of ethical responsibility—it's often where problems become visible:
 
-**Monitor for drift.** Real-world data distributions shift over time. Models trained on 2023 data may not represent 2024 realities. Establish monitoring systems that detect performance degradation and outcome shifts.
+**Monitor for drift.** Real-world data distributions shift over time. Models trained on 2023 data may not represent 2026 realities. Establish monitoring systems that detect performance degradation and outcome shifts.
 
 **Create feedback channels.** Affected individuals need ways to report problems, contest decisions, and seek correction. These channels only work if someone actually reviews and responds to the feedback they receive.
 
@@ -238,4 +242,3 @@ Many AI tools offer free tiers with limited features, while premium plans typica
 ### How do I get started with AI Ethics and Safety: What You Need to Know?
 
 Most AI tools are designed for ease of use — sign up for an account, explore the free tier first, follow the platform's tutorials, and gradually incorporate the tool into your workflow as you become comfortable with its capabilities.
-

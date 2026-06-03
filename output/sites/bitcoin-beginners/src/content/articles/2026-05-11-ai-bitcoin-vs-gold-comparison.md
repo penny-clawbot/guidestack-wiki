@@ -15,6 +15,10 @@ This guide compares Bitcoin and gold across six key criteria—scarcity, portabi
 
 ## Step‑by‑Step Instructions  
 
+
+![Hero image for bitcoin vs gold comparison](https://picsum.photos/seed/bitcoin-vs-gold-comparison-hero/1200/630)
+
+
 ### Step 1: Define Your Investment Goals  
 - **Identify the primary purpose**: Are you looking for a *store‑of‑value*, an *inflation hedge*, a *speculative growth engine*, or a *diversifier*?  
 - **Set time horizon**: Bitcoin’s price can swing 30‑70 % in a single year, while gold typically moves 10‑15 % annually. If you need stability, gold may be preferable; if you can tolerate volatility for higher upside, Bitcoin could be suitable.  
@@ -23,7 +27,7 @@ This guide compares Bitcoin and gold across six key criteria—scarcity, portabi
 ### Step 2: Evaluate Scarcity and Supply  
 - **Bitcoin**: Hard‑capped at **21 million BTC**. As of 2024‑12, roughly **19.6 million BTC** have been mined (≈93 % of total supply). The next *halving* (block reward reduction) occurs in **April 2024**, dropping the block reward from 6.25 BTC to **3.125 BTC**, tightening new issuance further.  
 - **Gold**: No fixed cap, but annual production is limited by geology. In 2023, global mining produced **≈3,600 tonnes** of gold (World Gold Council, 2024). Total above‑ground stocks are estimated at **≈197,000 tonnes**, growing at **≈1‑2 % per year**.  
-- **Action**: Write down the theoretical supply growth rate for each asset (Bitcoin ≈ 1.8 % in 2024, gold ≈ 1.5 %). Compare these rates against your inflation expectations.
+- **Action**: Write down the theoretical supply growth rate for each asset (Bitcoin ≈ 1.8 % in 2026, gold ≈ 1.5 %). Compare these rates against your inflation expectations.
 
 ### Step 3: Compare Portability and Transferability  
 - **Bitcoin**: Can be transferred anywhere with an internet connection in minutes (average confirmation time **≈10 minutes** for a high‑fee transaction). Large sums (e.g., $10 million) fit in a **24‑word seed phrase** or a hardware wallet.  

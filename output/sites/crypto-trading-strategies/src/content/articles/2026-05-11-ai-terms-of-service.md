@@ -16,6 +16,10 @@ Please read these terms of service carefully before using Crypto Trading Strateg
 
 ## Use of Our Website
 
+
+![Hero image for terms of service](https://picsum.photos/seed/terms-of-service-hero/1200/630)
+
+
 Crypto Trading Strategies provides crypto trading strategies content for informational purposes. You agree to use our website only for lawful purposes and in accordance with these terms.
 
 ## Content Disclaimer
@@ -26,6 +30,10 @@ Crypto Trading Strategies provides crypto trading strategies content for informa
 - Information about products, services, or strategies may change over time
 
 ## Intellectual Property
+
+
+![Illustration for terms of service](https://picsum.photos/seed/terms-of-service-mid/1200/630)
+
 
 All content on Crypto Trading Strategies, including text, graphics, logos, and code, is our intellectual property or used with permission. You may not reproduce, distribute, or create derivative works without our written permission.
 

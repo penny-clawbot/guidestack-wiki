@@ -18,6 +18,10 @@ The three most beginner‑friendly options are **Coinbase**, **Cash App**, and *
 
 ## 1. Coinbase – Best All‑Around for New Users  
 
+
+![Hero image for how to buy bitcoin for beginners](https://picsum.photos/seed/how-to-buy-bitcoin-for-beginners-hero/1200/630)
+
+
 **Pros**  
 - Instant verification (most users are up and running in <10 minutes)  
 - Regulated in the US, EU, and many other jurisdictions (FinCEN, FCA, etc.)  
@@ -63,6 +67,10 @@ The three most beginner‑friendly options are **Coinbase**, **Cash App**, and *
 ---
 
 ## 3. Kraken – Strong Security and European Focus  
+
+
+![Illustration for how to buy bitcoin for beginners](https://picsum.photos/seed/how-to-buy-bitcoin-for-beginners-mid/1200/630)
+
 
 **Pros**  
 - Regulated in the EU, Japan, and the US (FinCEN)  
@@ -111,4 +119,4 @@ The three most beginner‑friendly options are **Coinbase**, **Cash App**, and *
 ## 5. Gemini – Regulated & High Security for US Beginners  
 
 **Pros**  
-- Fully regulated by the NYDFS (New York) and SEC
+- Fully regulated by the NYDFS (New York) and SEC.

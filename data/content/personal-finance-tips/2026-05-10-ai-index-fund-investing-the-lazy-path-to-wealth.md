@@ -22,6 +22,10 @@ This article walks through everything you need to know about index fund investin
 
 ## What Exactly Is an Index Fund?
 
+
+![Hero image for index fund investing the lazy path to wealth](https://picsum.photos/seed/index-fund-investing-the-lazy-path-to-wealth-hero/1200/630)
+
+
 An index fund is an investment vehicle designed to match the performance of a specific market benchmark rather than attempting to outperform it. When you buy a fund tracking the S&P 500, you're purchasing a tiny slice of ownership in approximately 500 of the largest American companies—Apple, Microsoft, Amazon, and thousands of others. When Apple gains 2% and Microsoft gains 1.5% while Johnson & Johnson drops 0.5%, your fund's value moves roughly in line with the weighted average of all these movements.
 
 The magic happens in the structure. Traditional actively managed funds employ teams of analysts, portfolio managers, and traders constantly researching companies, analyzing financial statements, meeting with executives, and making buy/sell decisions. This labor costs money—significant money. Index funds eliminate this entire apparatus. A computer algorithm simply purchases stocks in proportion to their representation in the target index. No research department. No star portfolio manager. No active trading.
@@ -52,6 +56,10 @@ Beyond expense ratios, index funds also avoid the hidden costs that drag on acti
 ---
 
 ## Why Professional Managers Can't Keep Up
+
+
+![Illustration for index fund investing the lazy path to wealth](https://picsum.photos/seed/index-fund-investing-the-lazy-path-to-wealth-mid/1200/630)
+
 
 The investment industry spends billions of dollars annually trying to prove it deserves the fees it charges. The evidence consistently suggests it doesn't. For the 15-year period ending December 2022, approximately 90% of large-cap actively managed funds failed to beat their benchmark index. Similar figures hold across most asset classes and time periods studied.
 
@@ -85,7 +93,7 @@ Your allocation between stocks and bonds determines your portfolio's risk level 
 - **Total International Stock Market Index Fund** (e.g., VXUS, FTIHX, SWISX): Captures growth outside the U.S., which historically provides diversification benefits
 - **Total Bond Market Index Fund** (e.g., BND, FXNAX, SWAGX): Reduces volatility and provides stability during market downturns
 
-A typical starting allocation for a younger investor might be 70% U.S. stocks, 20% international stocks, and 10% bonds. Someone closer to retirement might shift toward 50% stocks, 20% international, and 30% bonds. [LINK: asset allocation]
+A typical starting allocation for a younger investor might be 70% U.S. stocks, 20% international stocks, and 10% bonds. Someone closer to retirement might shift toward 50% stocks, 20% international, and 30% bonds.
 
 ### Step 2: Select Your Specific Funds
 
@@ -101,7 +109,7 @@ The differences between these options are genuinely negligible. Choose whichever
 
 ### Step 3: Automate Your Contributions
 
-This is where the "lazy" in lazy investing becomes powerful. Set up automatic contributions from your checking account to your brokerage on a regular schedule—monthly is standard. This approach enforces [LINK: dollar-cost averaging] discipline automatically, purchasing more shares when prices are low and fewer when prices are high, smoothing out the volatility that tempts emotional decisions.
+This is where the "lazy" in lazy investing becomes powerful. Set up automatic contributions from your checking account to your brokerage on a regular schedule—monthly is standard. This approach enforces discipline automatically, purchasing more shares when prices are low and fewer when prices are high, smoothing out the volatility that tempts emotional decisions.
 
 When markets drop—as they inevitably do—the automatic contribution keeps buying. The automated investor becomes naturally contrarian simply by maintaining their schedule. This single habit eliminates the biggest risk in investing: the temptation to sell at the worst moment after panic sets in.
 
@@ -176,8 +184,6 @@ The lazy path isn't actually lazy—it requires consistency, discipline, and the
 
 Start today. Start small if you must. But start. Your future self will thank you for every dollar that begins compounding sooner rather than later.
 
-[LINK: compound interest]
-
 *Remember: the best time to plant a tree was twenty years ago. The second-best time is today.*
 
 ## Frequently Asked Questions
@@ -193,4 +199,3 @@ Financial experts generally recommend investing only what you can afford to lose
 ### When is the best time to invest in Index Fund Investing: The Lazy Path to Wealth?
 
 Rather than trying to time the market, consistent investment through dollar-cost averaging has historically produced better returns. Focus on your long-term strategy rather than short-term price movements.
-

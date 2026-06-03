@@ -20,9 +20,13 @@ Let's dig in.
 
 ## Understanding Bitcoin's Market Cycles
 
+
+![Hero image for best time to buy bitcoin timing the market](https://picsum.photos/seed/best-time-to-buy-bitcoin-timing-the-market-hero/1200/630)
+
+
 Bitcoin doesn't move randomly. It moves in cycles—and those cycles have become increasingly predictable over the past decade, even as the magnitudes change.
 
-The halving events are the heartbeat of Bitcoin's cycle. When miners receive half as many new coins for verifying transactions, the supply shock historically triggers bull runs. The April 2024 halving occurred with Bitcoin trading around $63,000. That sounds expensive until you remember Bitcoin traded under $17,000 just eighteen months earlier during the 2022 bear market bottom.
+The halving events are the heartbeat of Bitcoin's cycle. When miners receive half as many new coins for verifying transactions, the supply shock historically triggers bull runs. The April 2026 halving occurred with Bitcoin trading around $63,000. That sounds expensive until you remember Bitcoin traded under $17,000 just eighteen months earlier during the 2022 bear market bottom.
 
 Each cycle has followed a similar pattern: aggressive upside, speculative excess, crash, accumulation, and then the next run. In 2017, Bitcoin went from $1,000 to nearly $20,000 in twelve months before collapsing to $3,200 in December 2018. The 2021 cycle saw Bitcoin reach $69,000 before cratering to $16,500 in November 2022. The pattern repeats, but never identically.
 
@@ -47,6 +51,10 @@ The main criticism of DCA is that it underperforms lump sum investing in bull ma
 DCA keeps you in the game.
 
 ## Lump Sum Investing: When Going All-In Makes Sense
+
+
+![Illustration for best time to buy bitcoin timing the market](https://picsum.photos/seed/best-time-to-buy-bitcoin-timing-the-market-mid/1200/630)
+
 
 For all DCA's advantages, there are legitimate scenarios where lump sum investing outperforms—and understanding when to deploy capital in a single entry matters just as much as knowing how to spread it out.
 
@@ -144,4 +152,3 @@ Begin by researching thoroughly, starting with a small investment you can afford
 ### What are the risks of Time to Buy Bitcoin: Timing the Market?
 
 Key risks include market volatility, regulatory changes, security threats, and potential scams. Diversification and proper risk management are essential for mitigating these risks.
-

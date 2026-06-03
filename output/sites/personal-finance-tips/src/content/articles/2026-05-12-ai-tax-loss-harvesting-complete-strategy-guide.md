@@ -16,6 +16,10 @@ Tax‑loss harvesting is a technique that lets investors sell assets at a loss t
 
 ## What Is Tax‑Loss Harvesting and How Does It Work?  
 
+
+![Hero image for tax loss harvesting complete strategy guide](https://picsum.photos/seed/tax-loss-harvesting-complete-strategy-guide-hero/1200/630)
+
+
 Tax‑loss harvesting (TLH) is the practice of selling a security that has declined in value to generate a capital loss that can be used to offset capital gains elsewhere in the portfolio. The loss reduces taxable income in the year the sale occurs. If the harvested loss exceeds gains, up to **$3,000** of the excess can be deducted against ordinary income, and any remaining loss can be carried forward to future years (IRS, 2023).  
 
 **How it works in practice:**  
@@ -43,6 +47,10 @@ Tax‑loss harvesting (TLH) is the practice of selling a security that has decli
 **Actionable tip:** Run a quick “tax impact” report in your brokerage platform each quarter to spot unrealized losses larger than **$5,000**; many platforms flag these automatically.  
 
 ## Key Rules and Limits: Wash‑Sale Rule, Holding Period, and IRS Guidelines  
+
+
+![Illustration for tax loss harvesting complete strategy guide](https://picsum.photos/seed/tax-loss-harvesting-complete-strategy-guide-mid/1200/630)
+
 
 ### The Wash‑Sale Rule  
 
@@ -138,4 +146,4 @@ Losses realized inside an IRA or 401(k) cannot be deducted on your tax return; t
 
 ### How does the wash‑sale rule affect tax‑loss harvesting?  
 
-The wash‑sale rule disallows a loss if you buy a “substantially identical”
+The wash‑sale rule disallows a loss if you buy a “substantially identical”.

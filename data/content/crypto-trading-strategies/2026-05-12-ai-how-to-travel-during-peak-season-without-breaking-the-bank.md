@@ -16,6 +16,10 @@ This guide shows you exactly how to enjoy popular destinations during high‑dem
 
 ## Step-by-Step Instructions  
 
+
+![Hero image for how to travel during peak season without breaking the bank](https://picsum.photos/seed/how-to-travel-during-peak-season-without-breaking-the-bank-hero/1200/630)
+
+
 ### Step 1: Set a Realistic Budget and Timeline  
 1. **Calculate a daily allowance** – Multiply the number of travel days by a target daily spend (e.g., $120 per person). Include accommodation, food, transport, and activities.  
 2. **Allocate percentages** – Use the 50/30/20 rule adapted for travel: 50 % for fixed costs (flights, lodging), 30 % for variable costs (food, entertainment), 20 % for contingency.  
@@ -66,6 +70,8 @@ This guide shows you exactly how to enjoy popular destinations during high‑dem
 - **Rebook if you find a lower price** – Most airlines allow free rebooking within 24 hours of the original booking if a cheaper fare appears (check airline policy).  
 - **Finalize your budget spreadsheet** – Add the final flight and accommodation totals, then distribute the remaining contingency evenly across daily spending categories.  
 
-## Frequently Asked Questions  
+## Frequently Asked Questions
 
-### What is the ideal booking window for flights during peak season?
+---
+
+*This guide is part of our comprehensive coverage of how to travel during peak season without breaking the bank. For more in-depth analysis, explore our related articles or subscribe for updates.*

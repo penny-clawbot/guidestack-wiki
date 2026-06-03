@@ -15,6 +15,10 @@ By the end of this article, you'll have a clear understanding of decentralized f
 
 ## Understanding the Basics: What is DeFi?
 
+
+![Hero image for 2026 05 10 what is defi explained simply](https://picsum.photos/seed/2026-05-10-what-is-defi-explained-simply-hero/1200/630)
+
+
 DeFi stands for decentralized finance. At its core, DeFi is a blockchain-based financial system that operates without traditional intermediaries like banks, brokers, or insurance companies. Instead of relying on centralized institutions to facilitate financial transactions, DeFi uses smart contracts — self-executing code on the blockchain — to automate and verify exchanges.
 
 Think of it this way: when you use a traditional bank to send money abroad, the bank acts as a middleman. It verifies your transaction, charges fees, and can take days to complete. With DeFi, you bypass that middleman entirely. The smart contract handles the verification, executes the transfer, and does so in minutes or seconds, often with lower fees.
@@ -44,6 +48,10 @@ Let's say you want to earn interest on your Ethereum holdings. In the traditiona
 Here's how it works: when you supply your assets to Aave, they become available for borrowers. The smart contract manages the entire process — tracking deposits, calculating interest, and distributing rewards automatically. You maintain control of your funds and can withdraw them at any time (subject to liquidity availability).
 
 ## Key DeFi Concepts You Need to Know
+
+
+![Illustration for 2026 05 10 what is defi explained simply](https://picsum.photos/seed/2026-05-10-what-is-defi-explained-simply-mid/1200/630)
+
 
 Before diving deeper into yield farming, familiarize yourself with these essential DeFi concepts:
 
@@ -188,4 +196,3 @@ Safety in DeFi requires using audited protocols, verifying smart contract addres
 ### What are the yields for DeFi Explained Simply: A Beginner's Guide?
 
 DeFi yields vary significantly based on market conditions, protocol risk, and lock-up periods. As of 2026, stablecoin yields typically range from 3-8% APY, while riskier protocols may offer 10-30% APY with higher risk.
-

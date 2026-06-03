@@ -16,6 +16,10 @@ An emergency fund for job loss protection is a dedicated savings account contain
 
 ## Why You Need an Emergency Fund for Job Loss
 
+
+![Hero image for emergency fund for job loss protection](https://picsum.photos/seed/emergency-fund-for-job-loss-protection-hero/1200/630)
+
+
 **Job loss can happen to anyone.** The Bureau of Labor Statistics reports that the average duration of unemployment in 2023 was 21.5 weeks (approximately 5 months), with workers over 55 experiencing longer stretches averaging 27 weeks. This means nearly half a year without regular income, making an emergency fund not optional but essential for most workers.
 
 **The financial consequences without protection are severe.** Research from the Federal Reserve's 2022 Economic Well-Being of U.S. Households report found that 46% of adults cannot cover an unexpected $1,000 expense from savings. When job loss occurs without an emergency fund, families face difficult choices: maxing out credit cards at 24%+ APR (according to Federal Reserve data), draining retirement accounts with 10% early withdrawal penalties, or facing eviction and utility shutoffs. A study by Princeton University economist Atif Mian found that areas with lower savings rates experienced sharper economic contractions during recessions, demonstrating the protective effect of liquid savings.
@@ -53,6 +57,10 @@ Consider 3-4 months may suffice if you have:
 - Substantial home equity or other liquid assets
 
 ## Where to Keep Your Emergency Fund
+
+
+![Illustration for emergency fund for job loss protection](https://picsum.photos/seed/emergency-fund-for-job-loss-protection-mid/1200/630)
+
 
 **Your emergency fund must be liquid, safe, and accessible.** The Securities and Exchange Commission warns against investing emergency funds in the stock market because a job loss during a market downturn could force you to sell investments at a loss. Your emergency fund belongs in secure, easily accessible accounts with the following options ranked by suitability:
 

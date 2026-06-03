@@ -12,9 +12,13 @@ readingTime: "6 min"
 
 # Understanding 401k and Retirement: Your Complete Guide
 
-401k plans remain the most effective tax-advantaged retirement vehicle for most Americans, with employers matching an average of 4.5% of your salary and the 2024 contribution limit set at $23,000. The best strategy combines maximizing employer matches, prioritizing Roth options when income allows, and maintaining a diversified portfolio appropriate for your age and risk tolerance.
+401k plans remain the most effective tax-advantaged retirement vehicle for most Americans, with employers matching an average of 4.5% of your salary and the 2026 contribution limit set at $23,000. The best strategy combines maximizing employer matches, prioritizing Roth options when income allows, and maintaining a diversified portfolio appropriate for your age and risk tolerance.
 
 ## 1. What Is a 401k and How Does It Work
+
+
+![Hero image for understanding 401k and retirement](https://picsum.photos/seed/understanding-401k-and-retirement-hero/1200/630)
+
 
 A 401k is an employer-sponsored retirement savings plan that allows workers to save and invest a portion of their paycheck before taxes are taken out. Money grows tax-deferred, meaning you pay no income tax on earnings until withdrawal in retirement. In 2024, employees under 50 can contribute up to **$23,000 annually**, while those 50 and older can make additional **$7,500 catch-up contributions**.
 
@@ -46,6 +50,10 @@ A 401k is an employer-sponsored retirement savings plan that allows workers to s
 
 ## 3. Understanding Your Employer Match
 
+
+![Illustration for understanding 401k and retirement](https://picsum.photos/seed/understanding-401k-and-retirement-mid/1200/630)
+
+
 Employer matching is essentially free money added to your retirement account. According to Fidelity's 2023 analysis, only **59% of employees** maximize their full employer match. Most employers match 50% of contributions up to 6% of your salary, meaning if you earn $60,000 and contribute 6% ($3,600), your employer adds $1,800.
 
 **Pros:**
@@ -58,7 +66,7 @@ Employer matching is essentially free money added to your retirement account. Ac
 
 ## 4. Investment Options Within Your 401k
 
-Most 401k plans offer between **15-25 investment choices** ranging from target-date funds to individual stocks. Target-date funds have grown to manage **$1.3 trillion in assets** according to Morningstar's 2024 report, making them the most popular option for hands-off investors. Index funds typically have the lowest expense ratios at **0.03-0.10%**, while actively managed funds average **0.60-1.00%**.
+Most 401k plans offer between **15-25 investment choices** ranging from target-date funds to individual stocks. Target-date funds have grown to manage **$1.3 trillion in assets** according to Morningstar's 2026 report, making them the most popular option for hands-off investors. Index funds typically have the lowest expense ratios at **0.03-0.10%**, while actively managed funds average **0.60-1.00%**.
 
 **Pros:**
 - Diversification across stocks, bonds, and real estate
@@ -131,7 +139,7 @@ Direct rollovers to an IRA or new employer's 401k avoid the **20% mandatory with
 
 ## 10. Catch-Up Contributions After Age 50
 
-Workers 50 and older can contribute an additional **$7,500 in 2024** above the standard $23,000 limit. Those 60-63 can add **$11,250 total catch-up** under SECURE Act 2.0 provisions. IRS data shows workers 50+ average **$10,800 annual contributions**, but only **23%** are maximizing catch-up limits.
+Workers 50 and older can contribute an additional **$7,500 in 2026** above the standard $23,000 limit. Those 60-63 can add **$11,250 total catch-up** under SECURE Act 2.0 provisions. IRS data shows workers 50+ average **$10,800 annual contributions**, but only **23%** are maximizing catch-up limits.
 
 **Pros:**
 - Significant acceleration of retirement savings
@@ -145,7 +153,7 @@ Workers 50 and older can contribute an additional **$7,500 in 2024** above the s
 
 ### How much should I contribute to my 401k?
 
-Financial experts recommend contributing at minimum enough to receive your full employer match, which alone produces an effective **50-100% immediate return**. Ideally, aim for **15-20% of your salary** including employer contributions. The IRS's 2024 limit of $23,000 for those under 50 is a ceiling, not a target—contribute the maximum if your budget allows.
+Financial experts recommend contributing at minimum enough to receive your full employer match, which alone produces an effective **50-100% immediate return**. Ideally, aim for **15-20% of your salary** including employer contributions. The IRS's 2026 limit of $23,000 for those under 50 is a ceiling, not a target—contribute the maximum if your budget allows.
 
 ### When should I withdraw from my 401k?
 
@@ -153,4 +161,4 @@ Delay withdrawals as long as possible to maximize tax-deferred growth. The **age
 
 ### Can I have both a 401k and an IRA?
 
-Yes, you can contribute to both, but income limits apply to deducting Traditional IRA contributions if you have a 401k. The 2024 limit for IRA deductions phases out for single filers earning over **$77,000** and married filers over **$123,000**. Roth IRA contributions are completely disallowed above **$161,000** (single) and **$240,000** (married). A non-deductible Traditional IRA remains an option regardless of income, and backdoor Roth conversions are legal for high earners.
+Yes, you can contribute to both, but income limits apply to deducting Traditional IRA contributions if you have a 401k. The 2026 limit for IRA deductions phases out for single filers earning over **$77,000** and married filers over **$123,000**. Roth IRA contributions are completely disallowed above **$161,000** (single) and **$240,000** (married). A non-deductible Traditional IRA remains an option regardless of income, and backdoor Roth conversions are legal for high earners.

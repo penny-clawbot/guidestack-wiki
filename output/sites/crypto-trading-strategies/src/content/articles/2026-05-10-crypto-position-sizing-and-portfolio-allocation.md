@@ -17,6 +17,10 @@ Whether you're running a long-term portfolio or actively trading altcoins, the p
 
 ## Understanding Position Sizing and Portfolio Allocation in Crypto
 
+
+![Hero image for 2026 05 10 crypto position sizing and portfolio allocation](https://picsum.photos/seed/2026-05-10-crypto-position-sizing-and-portfolio-allocation-hero/1200/630)
+
+
 Before we get into calculations and strategies, let's clarify exactly what we're talking about, because these terms often get conflated.
 
 **Position sizing** refers to determining how much capital to allocate to any single trade or holding. It answers the question: "Given my total portfolio and my risk parameters, how much should I put into this specific asset?"
@@ -52,6 +56,10 @@ Crypto assets vary dramatically in volatility. A 5% stop loss on Bitcoin might b
 More conservative traders apply a volatility multiplier, reducing position size for high-volatility assets. If Bitcoin has a 3% daily volatility and a new DeFi token has 15% daily volatility, the altcoin position might be sized at one-fifth the Bitcoin position for equivalent risk exposure.
 
 ## Calculating Position Sizes: Formulas and Practical Examples
+
+
+![Illustration for 2026 05 10 crypto position sizing and portfolio allocation](https://picsum.photos/seed/2026-05-10-crypto-position-sizing-and-portfolio-allocation-mid/1200/630)
+
 
 Let's move from principles to practical calculation methods you can implement immediately.
 
@@ -224,4 +232,3 @@ Begin by researching thoroughly, starting with a small investment you can afford
 ### What are the risks of Crypto Position Sizing and Portfolio Allocation:?
 
 Key risks include market volatility, regulatory changes, security threats, and potential scams. Diversification and proper risk management are essential for mitigating these risks.
-

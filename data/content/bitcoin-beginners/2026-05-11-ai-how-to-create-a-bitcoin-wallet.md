@@ -18,6 +18,10 @@ The fastest way to get a secure Bitcoin wallet is to use a hardware wallet like 
 
 ## Ledger Nano S (Hardware Wallet)
 
+
+![Hero image for how to create a bitcoin wallet](https://picsum.photos/seed/how-to-create-a-bitcoin-wallet-hero/1200/630)
+
+
 **Pros**  
 - Offline private‑key storage (highest security)  
 - Supports >1,000 cryptocurrencies, including all Bitcoin forks  

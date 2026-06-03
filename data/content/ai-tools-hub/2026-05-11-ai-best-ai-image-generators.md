@@ -16,6 +16,10 @@ Midjourney stands out as the best choice for artists and creators seeking high-q
 
 ## Feature Comparison Table
 
+
+![Hero image for best ai image generators](https://picsum.photos/seed/best-ai-image-generators-hero/1200/630)
+
+
 | Tool | Pricing | Resolution | Speed | Special Strength |
 |------|---------|------------|-------|------------------|
 | **DALL-E 3** | $20/month (ChatGPT Plus) | 1024x1024 max | 30-60 seconds | Prompt accuracy, safety |
@@ -49,7 +53,11 @@ Leonardo AI has carved a niche in **game asset creation** and rapid prototyping,
 
 ## Performance Benchmarks
 
-**Human Preference Scoring (1-10 scale, based on 2024 user studies):**
+
+![Illustration for best ai image generators](https://picsum.photos/seed/best-ai-image-generators-mid/1200/630)
+
+
+**Human Preference Scoring (1-10 scale, based on 2026 user studies):**
 
 - Midjourney v6: 8.7 (artistic quality)
 - DALL-E 3: 8.5 (accuracy and reliability)

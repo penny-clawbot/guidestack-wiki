@@ -16,6 +16,10 @@ Building an emergency fund is the most important financial step you can take to 
 
 ## Step-by-Step Instructions
 
+
+![Hero image for how to build an emergency fund from zero](https://picsum.photos/seed/how-to-build-an-emergency-fund-from-zero-hero/1200/630)
+
+
 ### Step 1: Calculate Your Actual Monthly Surplus
 
 Before you can build anything, you need to know exactly how much money you have available to save each month. This is not a guess—you need real numbers.
@@ -46,7 +50,7 @@ Start with the $1,000 starter goal first—it only takes 30 days using the syste
 
 Your emergency fund must be separate from your regular checking account to prevent accidental spending. By the end of Day 7, open a high-yield savings account specifically for your emergency fund.
 
-Look for accounts offering at least 4.00% APY (annual percentage yield) as of 2024-2025. Major online banks like Marcus by Goldman Sachs, Ally Bank, Discover, and SoFi regularly offer rates above 4.5%. Traditional banks often offer less than 0.5%.
+Look for accounts offering at least 4.00% APY (annual percentage yield) as of 2026-2025. Major online banks like Marcus by Goldman Sachs, Ally Bank, Discover, and SoFi regularly offer rates above 4.5%. Traditional banks often offer less than 0.5%.
 
 This matters enormously over time. If you save $10,000 over 5 years, a 4.5% APQ account earns approximately $1,240 in interest while a 0.5% account earns only $138. Choose wisely on Day 7.
 
@@ -174,7 +178,7 @@ Consider this period as temporary. You are investing 6-12 months of concentrated
 
 ### Should I use credit cards as a backup emergency fund instead?
 
-No. Credit cards are not an emergency fund—they are emergency debt. According to Federal Reserve data, the average credit card interest rate in 2024 exceeds 21%. Using a credit card for a $2,000 emergency costs you $2,000 plus $420+ in interest (if you only make minimum payments over 2 years).
+No. Credit cards are not an emergency fund—they are emergency debt. According to Federal Reserve data, the average credit card interest rate in 2026 exceeds 21%. Using a credit card for a $2,000 emergency costs you $2,000 plus $420+ in interest (if you only make minimum payments over 2 years).
 
 An emergency fund costs you nothing to use. You pay back exactly what you withdrew—no interest, no fees, no debt.
 
@@ -191,6 +195,10 @@ Do not keep your emergency fund in stocks, bonds, or crypto. Market downturns of
 Do not keep it in a CD that locks your money for months or years. Emergencies are unpredictable. You need immediate access to your funds.
 
 ## Tips Section
+
+
+![Illustration for how to build an emergency fund from zero](https://picsum.photos/seed/how-to-build-an-emergency-fund-from-zero-mid/1200/630)
+
 
 **Start with smaller denominations.** Instead of setting a vague goal like "build an emergency fund," commit to saving $50 this week and $100 next week. Breaking the goal into tiny, immediate tasks eliminates overwhelm.
 

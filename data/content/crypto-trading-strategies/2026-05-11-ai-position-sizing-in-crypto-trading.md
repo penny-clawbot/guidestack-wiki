@@ -16,6 +16,10 @@ readingTime: "7 min"
 
 ## Feature Comparison of Position Sizing Methods
 
+
+![Hero image for position sizing in crypto trading](https://picsum.photos/seed/position-sizing-in-crypto-trading-hero/1200/630)
+
+
 ### Fixed Percentage Method
 
 The fixed percentage method allocates a set portion of total capital to each trade, commonly ranging from 1% to 5%.
@@ -132,6 +136,10 @@ Allocates positions inversely proportional to asset volatility, ensuring equal r
 | Risk Parity | 9-15% | 6-10% | High | Long-term investors |
 
 ## Frequently Asked Questions
+
+
+![Illustration for position sizing in crypto trading](https://picsum.photos/seed/position-sizing-in-crypto-trading-mid/1200/630)
+
 
 ### How do I determine my optimal position size if I'm trading multiple cryptocurrencies?
 

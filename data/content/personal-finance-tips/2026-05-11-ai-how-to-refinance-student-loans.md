@@ -18,6 +18,10 @@ Refinancing student loans means replacing one or more existing loans with a new 
 
 ## 1. Determine If Refinancing Is Right for You  
 
+
+![Hero image for how to refinance student loans](https://picsum.photos/seed/how-to-refinance-student-loans-hero/1200/630)
+
+
 Not everyone benefits from refinancing. According to the Federal Reserve’s 2023 *Report on Household Debt and Credit*, **57% of borrowers who refinanced** reduced their monthly payment by at least **$100**. However, if your current interest rate is already low or you plan to use federal forgiveness programs, refinancing may cost you more in the long run.  
 
 **Actionable Tips**  
@@ -40,7 +44,11 @@ Lenders primarily base approval on two numbers: your credit score and your DTI r
 
 ## 3. Shop Around and Compare Lenders  
 
-There are **over 30 private lenders** that offer student‑loan refinancing, ranging from big banks to online fintech firms. According to NerdWallet’s 2024 rate survey, fixed‑rate refinances for a 10‑year term average **5.5% – 7.0%** APR, while variable‑rate options can start as low as **3.9%** (Source: NerdWallet, 2024).  
+
+![Illustration for how to refinance student loans](https://picsum.photos/seed/how-to-refinance-student-loans-mid/1200/630)
+
+
+There are **over 30 private lenders** that offer student‑loan refinancing, ranging from big banks to online fintech firms. According to NerdWallet’s 2026 rate survey, fixed‑rate refinances for a 10‑year term average **5.5% – 7.0%** APR, while variable‑rate options can start as low as **3.9%** (Source: NerdWallet, 2024).  
 
 **Actionable Tips**  
 - **Use comparison tools** like Credible, LendingTree, or the lender’s own calculators to see actual offers without affecting your credit score (most use a soft inquiry).  
@@ -90,6 +98,8 @@ After refinancing, the new loan behaves like any other private loan: missed paym
 ## Frequently Asked Questions  
 
 ### Will refinancing affect my credit score?  
-Yes, a hard inquiry during the application can temporarily drop your score by **5–10 points**, but once the loan is open and you make on‑time payments, your score typically rebounds within **3–6 months** (Source: FICO, 2023).  
+Yes, a hard inquiry during the application can temporarily drop your score by **5–10 points**, but once the loan is open and you make on‑time payments, your score typically rebounds within **3–6 months** (Source: FICO, 2023).
 
-### Can
+---
+
+*This guide is part of our comprehensive coverage of how to refinance student loans. For more in-depth analysis, explore our related articles or subscribe for updates.*

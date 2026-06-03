@@ -20,6 +20,10 @@ Traveling the world doesn't have to drain your bank account. With careful planni
 
 ## Prerequisites Before You Begin
 
+
+![Hero image for how to plan a budget trip step by step](https://picsum.photos/seed/how-to-plan-a-budget-trip-step-by-step-hero/1200/630)
+
+
 Before diving into the planning process, ensure you have these essentials in place:
 
 - **A target departure date** (or flexible date range)
@@ -53,6 +57,10 @@ For daily spending limits, use this formula:
 ---
 
 ## Step 2: Choose Your Destination Based on Cost-of-Living
+
+
+![Illustration for how to plan a budget trip step by step](https://picsum.photos/seed/how-to-plan-a-budget-trip-step-by-step-mid/1200/630)
+
 
 Your destination choice dramatically impacts how far your money travels. **Countries with lower costs of living offer 3-5x the experiences for the same budget** compared to premium destinations.
 
@@ -288,5 +296,4 @@ The most effective strategies include booking during off-peak seasons, using pri
 
 ### Is Plan a Budget Trip Step by Step worth the cost?
 
-Most travelers find that proper budgeting makes Plan a Budget Trip Step by Step highly worthwhile. According to a 2025 travel survey, 78% of budget-conscious travelers reported high satisfaction when planning trips under $1000.
-
+Most travelers find that proper budgeting makes Plan a Budget Trip Step by Step highly worthwhile. Most people who plan carefully find this approach delivers strong results$1000.

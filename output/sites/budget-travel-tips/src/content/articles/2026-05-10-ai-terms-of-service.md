@@ -16,6 +16,10 @@ Please read these terms of service carefully before using Budget Travel. By acce
 
 ## Use of Our Website
 
+
+![Hero image for terms of service](https://picsum.photos/seed/terms-of-service-hero/1200/630)
+
+
 Budget Travel provides budget travel content for informational purposes. You agree to use our website only for lawful purposes and in accordance with these terms.
 
 ## Content Disclaimer
@@ -26,6 +30,10 @@ Budget Travel provides budget travel content for informational purposes. You agr
 - Information about products, services, or strategies may change over time
 
 ## Intellectual Property
+
+
+![Illustration for terms of service](https://picsum.photos/seed/terms-of-service-mid/1200/630)
+
 
 All content on Budget Travel, including text, graphics, logos, and code, is our intellectual property or used with permission. You may not reproduce, distribute, or create derivative works without our written permission.
 
@@ -69,5 +77,4 @@ The most effective strategies include booking during off-peak seasons, using pri
 
 ### Is Terms of Service worth the cost?
 
-Most travelers find that proper budgeting makes Terms of Service highly worthwhile. According to a 2025 travel survey, 78% of budget-conscious travelers reported high satisfaction when planning trips under $1000.
-
+Most travelers find that proper budgeting makes Terms of Service highly worthwhile. Most people who plan carefully find this approach delivers strong results$1000.

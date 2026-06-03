@@ -16,6 +16,10 @@ Real yield protocols generate actual revenue that sustains farmer returns, while
 
 ## 1. GMX — Perpetual Trading Fee Revenue
 
+
+![Hero image for real yield vs inflationary yield defi](https://picsum.photos/seed/real-yield-vs-inflationary-yield-defi-hero/1200/630)
+
+
 **Real Yield Source:** GMX distributes 70% of trading fees directly to GLP holders. The protocol generated $47.2 million in fees during Q3 2023, with single-day distributions exceeding $800,000 on high-volatility days.
 
 - **Pros:** Sustainable 18-25% APY from actual trading volume, no token emission dependency, multi-chain deployment on Arbitrum and Avalanche
@@ -32,6 +36,10 @@ Real yield protocols generate actual revenue that sustains farmer returns, while
 **Details:** Gains Network processed $2.1 billion in trading volume across 2023, distributing $18.7 million in vault profits. DAI vault depositors earned 28.4% APY in October 2023, sourced entirely from trading losses and fees.
 
 ## 3. Lyra — Options Premium Revenue
+
+
+![Illustration for real yield vs inflationary yield defi](https://picsum.photos/seed/real-yield-vs-inflationary-yield-defi-mid/1200/630)
+
 
 **Pros:** Actual premium revenue from options sellers, liquidity provider yields of 15-40%, institutional-grade audit trail
 

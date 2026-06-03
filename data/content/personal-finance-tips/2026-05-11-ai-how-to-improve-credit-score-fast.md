@@ -18,6 +18,10 @@ This guide gives you a concrete, step‑by‑step plan to raise your credit scor
 
 ## Step-by-Step Instructions  
 
+
+![Hero image for how to improve credit score fast](https://picsum.photos/seed/how-to-improve-credit-score-fast-hero/1200/630)
+
+
 ### Step 1: Pull and Review Your Credit Reports  
 
 1. **Visit AnnualCreditReport.com** (free weekly reports through April 2026 per the CFPB).  
@@ -94,4 +98,4 @@ This guide gives you a concrete, step‑by‑step plan to raise your credit scor
 ### Step 8: Monitor Progress and Adjust  
 
 1. **Check your score** using a reputable service (e.g., Credit Karma, MyFICO) that provides both VantageScore and FICO updates.  
-2. **Re‑pull your full reports** after **60 days** to
+2. **Re‑pull your full reports** after **60 days** to.

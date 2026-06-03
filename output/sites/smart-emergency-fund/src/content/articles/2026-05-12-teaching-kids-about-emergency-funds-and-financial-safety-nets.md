@@ -15,6 +15,10 @@ In a world where a sudden car breakdown or unexpected medical bill can derail a 
 
 ## Why Emergency Funds Matter for Kids
 
+
+![Hero image for 2026 05 12 teaching kids about emergency funds and financial safety nets](https://picsum.photos/seed/2026-05-12-teaching-kids-about-emergency-funds-and-financial-safety-nets-hero/1200/630)
+
+
 Even before kids have a paycheck, they encounter small crises—a lost lunchbox, a broken toy, or an unplanned school field trip fee. An emergency fund isn’t just a reserve for adults; it’s a mindset that says, “We plan for the unexpected.” 
 
 - **Research insight:** The Federal Reserve reports that 39% of U.S. adults would struggle to cover a $400 emergency without borrowing. This statistic underscores the danger of lacking a safety net—and the value of learning about it early.  
@@ -43,6 +47,10 @@ Tailoring lessons to developmental stages keeps the concept from feeling overwhe
 ---
 
 ## Practical Steps to Teach Kids About Emergency Funds
+
+
+![Illustration for 2026 05 12 teaching kids about emergency funds and financial safety nets](https://picsum.photos/seed/2026-05-12-teaching-kids-about-emergency-funds-and-financial-safety-nets-mid/1200/630)
+
 
 1. **Set a Clear “Emergency” Definition**  
    Define what qualifies as an emergency for your family (e.g., medical bills, unexpected school fees, urgent home repairs). Write it down and keep it visible so kids can reference it.
@@ -105,4 +113,4 @@ Teaching kids about emergency funds is more than a lesson in saving—it’s a r
 
 **Ready to start?** Grab a jar, set a modest goal, and let your child watch their emergency fund grow. The habit they build today will become the financial shield they carry into adulthood.
 
----
+---.

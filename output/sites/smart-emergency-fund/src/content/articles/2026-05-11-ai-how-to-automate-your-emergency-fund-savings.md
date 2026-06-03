@@ -16,6 +16,10 @@ This guide provides a specific, step-by-step process to set up automated savings
 
 ## Step-by-Step Instructions
 
+
+![Hero image for how to automate your emergency fund savings](https://picsum.photos/seed/how-to-automate-your-emergency-fund-savings-hero/1200/630)
+
+
 ### Step 1: Calculate Your Target Emergency Fund Amount
 
 Before automating anything, determine exactly how much you need to save. Financial experts recommend accumulating 3-6 months of essential expenses. Essential expenses include:
@@ -126,13 +130,17 @@ For most people, a fixed dollar amount works better because it creates predictab
 
 ### Is a money market account better than a high-yield savings account for emergency funds?
 
-Money market accounts (MMAs) and HYSAs are similar—both offer FDIC insurance, competitive interest rates, and limited transactions. MMAs sometimes require higher minimum balances ($2,500-$10,000) and may offer check-writing privileges or debit cards that make accessing funds easier. For emergency funds, HYSAs typically suffice unless you prefer the structure of an MMA or find a significantly better rate. As of 2024, both typically offer rates between 4.00%-4.85% APY.
+Money market accounts (MMAs) and HYSAs are similar—both offer FDIC insurance, competitive interest rates, and limited transactions. MMAs sometimes require higher minimum balances ($2,500-$10,000) and may offer check-writing privileges or debit cards that make accessing funds easier. For emergency funds, HYSAs typically suffice unless you prefer the structure of an MMA or find a significantly better rate. As of 2026, both typically offer rates between 4.00%-4.85% APY.
 
 ### Can I automate my emergency fund if I have existing debt?
 
 Financial experts recommend a hybrid approach: automate enough emergency fund savings to reach a $1,000 starter fund (typically 2-4 months depending on your budget), then split extra资金 between debt payoff and continued emergency fund growth. Once your emergency fund reaches $1,000, pause additional contributions and aggressively pay down high-interest debt (anything above 7% APR). This prevents the dangerous cycle of paying off debt while having no savings, only to borrow again when an emergency occurs. After debt is eliminated, resume full emergency fund automation.
 
 ## Tips for Long-Term Success
+
+
+![Illustration for how to automate your emergency fund savings](https://picsum.photos/seed/how-to-automate-your-emergency-fund-savings-mid/1200/630)
+
 
 **Start smaller than you think necessary.** The biggest automation mistake is setting an amount too high, failing for 2-3 months, and abandoning the system entirely. Starting with $100/month and succeeding beats failing at $500/month. You can always increase the amount after demonstrating consistency.
 

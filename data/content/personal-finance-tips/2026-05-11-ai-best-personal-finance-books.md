@@ -16,6 +16,10 @@ This guide walks you through selecting, purchasing, and applying the most impact
 
 ## Step-by-Step Instructions
 
+
+![Hero image for best personal finance books](https://picsum.photos/seed/best-personal-finance-books-hero/1200/630)
+
+
 ### Step 1: Assess Your Current Financial Situation  
 1. **Gather data** – List all income sources, monthly expenses, debt balances, and emergency‑fund size. As of Q4 2023, the average U.S. household carries $96,000 in debt (Federal Reserve).  
 2. **Calculate net worth** – Subtract total liabilities from total assets. Use a simple spreadsheet or apps like Personal Capital.  
@@ -78,6 +82,10 @@ Not necessarily. Classic works such as *The Richest Man in Babylon* (1926) remai
 Track **behavioral changes** (e.g., increased savings rate, reduced debt balance) and **knowledge gains** (e.g., score on a financial literacy quiz). For example, after reading *Your Money or Your Life*, a participant reported a **15% increase** in monthly savings within two months, translating to an extra $2,400 saved annually.  
 
 ## Tips
+
+
+![Illustration for best personal finance books](https://picsum.photos/seed/best-personal-finance-books-mid/1200/630)
+
 
 - **Use the “Two‑Day Rule”**: After reading a chapter, spend two days applying the suggested action before moving on. This reinforces habit formation.  
 - **Leverage free resources**: Many authors offer workbooks, podcasts, or companion websites (e.g., *The Total Money Makeover* includes a free budgeting toolkit at daveramsey.com).  

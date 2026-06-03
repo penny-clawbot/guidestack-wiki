@@ -18,6 +18,10 @@ If you need a rapid visual snapshot of Bitcoin’s most important dates, a **tim
 
 ## Feature Comparison
 
+
+![Hero image for bitcoin history and timeline](https://picsum.photos/seed/bitcoin-history-and-timeline-hero/1200/630)
+
+
 | Aspect | Bitcoin History (Narrative) | Bitcoin Timeline (List) |
 |--------|----------------------------|--------------------------|
 | **Typical reading time** | 20‑30 minutes for a full narrative (≈1,800 words) | 5‑10 minutes for a concise list (≈300 words) |
@@ -35,4 +39,4 @@ If you need a rapid visual snapshot of Bitcoin’s most important dates, a **tim
 - **Bitcoin Pizza Day**: 22 May 2010 – 10 000 BTC spent at ≈$0.003 each → $41 value.  
 - **First halving**: 28 Nov 2012 – block reward drops from 50 BTC to 25 BTC.  
 - **2017 bull run peak**: $19 497 (13 Dec 2017) – market cap ≈$327 billion.  
-- **2020 COVID crash low**: $4 814 (12 Mar 2020) – a 63
+- **2020 COVID crash low**: $4 814 (12 Mar 2020) – a 63.

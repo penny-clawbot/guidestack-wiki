@@ -20,6 +20,10 @@ This handbook consolidates everything you need to transform expensive travel dre
 
 ## The Mindset Shift: Thinking Like a Budget Traveler
 
+
+![Hero image for the definitive budget travel handbook](https://picsum.photos/seed/the-definitive-budget-travel-handbook-hero/1200/630)
+
+
 **Budget travel isn't about deprivation—it's about intentionality.** The most memorable experiences often cost nothing at all: watching a sunset over ancient ruins, sharing stories with locals over street food, or discovering hidden beaches that luxury resorts charge premium prices to access.
 
 ### Defining Your Travel Budget Framework
@@ -36,7 +40,7 @@ Before any purchase, ask: *What alternative experiences does this money unlock?*
 
 ## Mastering Flight and Transportation Savings
 
-Transportation typically consumes 30-40% of travel budgets, making it the highest-impact area for savings. [LINK: flight-deals-guide]
+Transportation typically consumes 30-40% of travel budgets, making it the highest-impact area for savings.
 
 ### Strategic Booking Techniques
 
@@ -59,7 +63,11 @@ Buses offer exceptional value in Southeast Asia, Latin America, and Eastern Euro
 
 ## Finding Accommodation That Maximizes Value
 
-Accommodation decisions significantly impact both your budget and travel experience quality. [LINK: hostel-living-guide]
+
+![Illustration for the definitive budget travel handbook](https://picsum.photos/seed/the-definitive-budget-travel-handbook-mid/1200/630)
+
+
+Accommodation decisions significantly impact both your budget and travel experience quality.
 
 ### The Spectrum of Budget Options
 
@@ -77,7 +85,7 @@ Direct communication with property owners often unlocks better rates than bookin
 
 ## Eating Strategically: Local Cuisine Without Tourist Prices
 
-Food spending varies more dramatically between travelers than any other category. Your approach here determines whether you'll feel restricted or liberated by your budget. [LINK: street-food-guide]
+Food spending varies more dramatically between travelers than any other category. Your approach here determines whether you'll feel restricted or liberated by your budget.
 
 ### Understanding the Local Dining Economy
 
@@ -111,7 +119,7 @@ Parks, beaches, hiking trails, and public gardens provide world-class experience
 
 ## Financial Tools and Systems for Smart Spending
 
-Effective budget travel requires managing money across multiple currencies while avoiding excessive fees. [LINK: travel-finance-guide]
+Effective budget travel requires managing money across multiple currencies while avoiding excessive fees.
 
 ### Optimal Banking Setup
 

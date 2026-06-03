@@ -15,6 +15,10 @@ In this comprehensive guide, we'll break down exactly what impermanent loss is, 
 
 ## What Is Impermanent Loss?
 
+
+![Hero image for 2026 05 10 impermanent loss explained comprehensive guide with examples](https://picsum.photos/seed/2026-05-10-impermanent-loss-explained-comprehensive-guide-with-examples-hero/1200/630)
+
+
 Impermanent loss (sometimes abbreviated as IL) refers to the temporary reduction in the value of your liquidity pool position compared to simply holding the same assets in your wallet. It occurs when the price of assets in an automated market maker (AMM) liquidity pool diverges from when you originally deposited them.
 
 The term "impermanent" is somewhat of a misnomer. While the loss only becomes permanent when you withdraw your liquidity, in practice, many liquidity providers experience this value discrepancy for extended periods—or indefinitely if they fail to recognize the dynamic. This is why some in the DeFi community prefer the term "divergence loss" or "temporary loss," though impermanent loss remains the standard terminology.
@@ -79,6 +83,10 @@ This means when one asset doubles, you lose 5.72% compared to simply holding. Tr
 The pattern reveals an uncomfortable truth: asymmetric price movements result in losses that grow exponentially. This explains why liquidity pools with high volatility assets—common in DeFi—can experience significant impermanent loss even during bull markets.
 
 ## Real-World Examples of Impermanent Loss
+
+
+![Illustration for 2026 05 10 impermanent loss explained comprehensive guide with examples](https://picsum.photos/seed/2026-05-10-impermanent-loss-explained-comprehensive-guide-with-examples-mid/1200/630)
+
 
 Theoretical calculations only tell half the story. Let's walk through practical examples that demonstrate how impermanent loss impacts real DeFi participants.
 
@@ -283,4 +291,3 @@ Safety in DeFi requires using audited protocols, verifying smart contract addres
 ### What are the yields for Impermanent Loss Explained: The Complete Guide?
 
 DeFi yields vary significantly based on market conditions, protocol risk, and lock-up periods. As of 2026, stablecoin yields typically range from 3-8% APY, while riskier protocols may offer 10-30% APY with higher risk.
-

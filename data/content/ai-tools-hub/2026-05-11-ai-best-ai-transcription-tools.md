@@ -16,6 +16,10 @@ readingTime: "5 min"
 
 ## Feature Comparison
 
+
+![Hero image for best ai transcription tools](https://picsum.photos/seed/best-ai-transcription-tools-hero/1200/630)
+
+
 ### Pricing and Plans
 
 | Tool | Free Tier | Starter Plan | Pro/Enterprise |
@@ -120,6 +124,10 @@ Whisper offers open-source transcription with **86-90% accuracy** across 100+ la
 - Available on Hugging Face, GitHub
 
 ## Frequently Asked Questions
+
+
+![Illustration for best ai transcription tools](https://picsum.photos/seed/best-ai-transcription-tools-mid/1200/630)
+
 
 ### What accuracy can I expect from AI transcription tools?
 

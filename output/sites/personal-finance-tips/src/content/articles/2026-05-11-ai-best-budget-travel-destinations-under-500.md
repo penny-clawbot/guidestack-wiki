@@ -16,6 +16,10 @@ The most affordable destinations where you can travel comfortably for under $500
 
 ## 1. Vietnam
 
+
+![Hero image for best budget travel destinations under 500](https://picsum.photos/seed/best-budget-travel-destinations-under-500-hero/1200/630)
+
+
 You can travel through Vietnam for **$25-40 per day**, making it one of the world's cheapest and most rewarding destinations. Accommodation in hostels averages $8-12, while local meals cost $2-5, and domestic flights under $50 (Lonely Planet, 2024). The country offers stunning landscapes from Ha Long Bay to ancient Hoi An, with backpacker routes well-established in the north and south.
 
 Vietnam's budget travel infrastructure is exceptional: overnight buses cost $10-15 between major cities, and the $30-50 sleeper trains connect Hanoi to Ho Chi Minh City. Beer costs under $1 at local bars, while fresh pho noodles bowls are $1.50-3. Street food tours in Hanoi or Da Nang provide authentic experiences for $15-25. For $500, you can fly into Hanoi, spend 3-4 days exploring the north (Ha Long Bay day trip: $50-80), take the overnight train south, visit Hue and Hoi An (3 days), then end in Ho Chi Minh City—typically 10-12 days total. Vaccination costs run $50-100 depending on your needs, and visa fees are $25 for most nationalities.
@@ -27,6 +31,10 @@ Mexico offers excellent value at **$50-70 per day**, with regions like Oaxaca, G
 Budget travelers should avoid resort areas and head to colonial cities where colonial architecture, indigenous markets, and cenote swimming cost $3-5. Oaxaca's Monte Albán ruins are $5 entry, while Frida Kahlo's Casa Azul is $8. You can fly into Mexico City ($200-350 roundtrip from US), spend 3 days exploring museums and neighborhoods ($15-25 daily for food), take a $20 bus to Puebla, then continue to Oaxaca ($15-25 bus fare) for 5-7 days total within your $500 budget. Mexican beer runs $1.50-3 at local cantinas, and cooking classes average $40-60.
 
 ## 3. Bulgaria
+
+
+![Illustration for best budget travel destinations under 500](https://picsum.photos/seed/best-budget-travel-destinations-under-500-mid/1200/630)
+
 
 Bulgaria averages **$40-60 daily**, making it Eastern Europe's best-kept budget secret with EU infrastructure and medieval history. Sofia hostel beds cost $12-20, while beach towns like Varna and Burgas offer summer accommodation from $15-25 (Hostelworld, 2024). Traditional meal deals at local taverns run $5-8, and wine costs $3-5 per bottle.
 
@@ -68,4 +76,6 @@ Angkor temples are Cambodia's highlight—sunrise viewing included in pass cost,
 
 Use flight comparison tools like Google Flights, Skyscanner, or Scott's Cheap Flights for error fares. Book 6-8 weeks ahead, fly midweek, and consider budget carriers like Spirit, Ryanair, or AirAsia. Setting price alerts for specific routes typically saves $100-300 on international flights.
 
-### What's the best time to visit for lowest prices?
+---
+
+*This guide is part of our comprehensive coverage of best budget travel destinations under 500. For more in-depth analysis, explore our related articles or subscribe for updates.*

@@ -16,7 +16,11 @@ readingTime: "6 min"
 
 ## Why Emergency Funds Belong in High Yield Savings Accounts
 
-Emergency funds require **liquidity, safety, and modest growth**—exactly what HYSAs deliver. A 2024 Federal Reserve study found that 37% of Americans cannot cover a $400 emergency without borrowing, underscoring the need for accessible, interest-bearing savings. High yield savings accounts differ from traditional savings accounts by offering **10 to 20 times the national average APY**. While traditional banks average 0.45% APY, HYSAs currently deliver 4.50%–5.25% APY.
+
+![Hero image for best high yield savings accounts for emergency funds 2025](https://picsum.photos/seed/best-high-yield-savings-accounts-for-emergency-funds-2025-hero/1200/630)
+
+
+Emergency funds require **liquidity, safety, and modest growth**—exactly what HYSAs deliver. A 2026 Federal Reserve study found that 37% of Americans cannot cover a $400 emergency without borrowing, underscoring the need for accessible, interest-bearing savings. High yield savings accounts differ from traditional savings accounts by offering **10 to 20 times the national average APY**. While traditional banks average 0.45% APY, HYSAs currently deliver 4.50%–5.25% APY.
 
 The core advantages include **FDIC insurance up to $250,000 per depositor**, same-day or next-day fund transfers, no market volatility risk, and competitive yields. Unlike certificates of deposit (CDs), HYSAs allow **unlimited withdrawals** without penalties, making them ideal for unexpected expenses. For emergency funds, this flexibility outweighs marginally higher CD rates, which lock funds for fixed terms.
 
@@ -74,6 +78,10 @@ The core advantages include **FDIC insurance up to $250,000 per depositor**, sam
 
 ## How to Choose the Right HYSA for Your Emergency Fund
 
+
+![Illustration for best high yield savings accounts for emergency funds 2025](https://picsum.photos/seed/best-high-yield-savings-accounts-for-emergency-funds-2025-mid/1200/630)
+
+
 When evaluating HYSAs for emergency funds, prioritize these **five criteria**:
 
 1. **Current APY vs. future rates** — Some banks advertise teaser rates that drop after initial periods. Look for banks with **consistent competitive APYs** tied to the federal funds rate. NerdWallet's rate tracking shows Vio Bank has maintained above-market rates for 18 consecutive months.
@@ -94,7 +102,7 @@ When evaluating HYSAs for emergency funds, prioritize these **five criteria**:
 
 ## Strategies for Maximizing Your Emergency Fund in 2025
 
-**Automate deposits** to ensure consistent growth. Setting up **bi-weekly or monthly automatic transfers** removes the temptation to spend emergency funds on non-emergencies. According to a 2024 Bankrate survey, households with automated savings contributions build emergency funds **2.3x faster** than those relying on manual transfers.
+**Automate deposits** to ensure consistent growth. Setting up **bi-weekly or monthly automatic transfers** removes the temptation to spend emergency funds on non-emergencies. According to a 2026 Bankrate survey, households with automated savings contributions build emergency funds **2.3x faster** than those relying on manual transfers.
 
 **Tier your emergency fund** if savings exceed $250,000 (FDIC coverage limit). Split excess funds between a HYSA and a **short-term Treasury bill or CD ladder** for additional yield while maintaining liquidity. U.S. Treasury bills currently yield approximately 5.10% for 4-week terms, according to TreasuryDirect.gov.
 
@@ -112,7 +120,7 @@ When evaluating HYSAs for emergency funds, prioritize these **five criteria**:
 
 ### How much should I keep in my emergency fund savings account?
 
-**Most financial experts recommend three to six months of living expenses in your emergency fund.** A 2024 Consumer Financial Protection Bureau (CFPB) study found that three months provides adequate coverage for 70% of unexpected job losses. Those with variable incomes, health concerns, or single-income households should aim for six months.
+**Most financial experts recommend three to six months of living expenses in your emergency fund.** A 2026 Consumer Financial Protection Bureau (CFPB) study found that three months provides adequate coverage for 70% of unexpected job losses. Those with variable incomes, health concerns, or single-income households should aim for six months.
 
 ### Can I lose money in a high yield savings account?
 

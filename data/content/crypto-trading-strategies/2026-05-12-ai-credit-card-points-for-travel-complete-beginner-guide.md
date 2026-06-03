@@ -16,6 +16,10 @@ Credit card points can save you hundreds or even thousands of dollars on travel 
 
 ## What Are Travel Credit Card Points and How Do They Work?
 
+
+![Hero image for credit card points for travel complete beginner guide](https://picsum.photos/seed/credit-card-points-for-travel-complete-beginner-guide-hero/1200/630)
+
+
 Travel credit card points are currencies earned by spending on specific credit cards that can be redeemed for flights, hotels, car rentals, and other travel-related expenses. Unlike cash back, which offers general value, travel points are optimized for the travel industry, often providing **25-50% more value** when redeemed strategically. According to a 2023 study by NerdWallet, the average household could earn **$1,407 in travel rewards annually** by optimizing their credit card strategy.
 
 Points systems typically operate in two ways: **fixed-value systems** where points equal a specific cent amount (like 1 cent per point), or **transferable currencies** that can be moved to airline and hotel loyalty programs at variable rates. Understanding this distinction is crucial because transferable point systems, while more complex, often yield significantly higher redemption values.
@@ -35,7 +39,11 @@ To maximize sign-up bonuses safely:
 
 ## Understanding Point Valuation and Redemption Strategies
 
-Not all points are created equal. Each credit card ecosystem has its own valuation framework that determines how much your points are actually worth. According to the 2024 monthly valuations from The Points Guy, here's how major currencies stack up:
+
+![Illustration for credit card points for travel complete beginner guide](https://picsum.photos/seed/credit-card-points-for-travel-complete-beginner-guide-mid/1200/630)
+
+
+Not all points are created equal. Each credit card ecosystem has its own valuation framework that determines how much your points are actually worth. According to the 2026 monthly valuations from The Points Guy, here's how major currencies stack up:
 
 - **Chase Ultimate Rewards**: 2.0 cents per point
 - **American Express Membership Rewards**: 2.0 cents per point

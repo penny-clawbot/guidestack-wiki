@@ -16,6 +16,10 @@ A financial plan is a comprehensive roadmap that helps you manage your money, ac
 
 ## Step-by-Step Instructions
 
+
+![Hero image for how to create a financial plan](https://picsum.photos/seed/how-to-create-a-financial-plan-hero/1200/630)
+
+
 ### Step 1: Calculate Your Net Worth (Day 1)
 
 Your net worth is the foundation of your financial plan. **List every asset and liability you own**.
@@ -74,7 +78,7 @@ Insurance is the safety net that prevents financial catastrophe. **Audit your co
 
 - **Term life insurance**: 10-12× annual income (e.g., $60,000 income = $600,000-$720,000 policy). A 30-year-old non-smoker pays approximately $25/month for $500,000 coverage.
 - **Disability insurance**: Replace 60-70% of income. Short-term should cover 3-6 months; long-term should extend to age 65.
-- **Health insurance**: Maximize HSA contributions ($3,850 individual / $7,750 family in 2024) for triple tax advantages.
+- **Health insurance**: Maximize HSA contributions ($3,850 individual / $7,750 family in 2026) for triple tax advantages.
 - **Auto insurance**: Ensure liability coverage equals your net worth. Minimum coverage averages $1,500/year; comprehensive coverage on a $15,000 car costs approximately $1,200/year.
 
 ### Step 7: Invest for Retirement (Month 2-3)
@@ -82,7 +86,7 @@ Insurance is the safety net that prevents financial catastrophe. **Audit your co
 Time in the market beats timing the market. **Maximize tax-advantaged accounts in this order**:
 
 1. **Employer 401(k)**: Contribute enough to capture 100% employer match (e.g., $6,000 if you earn $60,000 and employer matches 50% up to 6%). Free money equals 50-100% instant return.
-2. **IRA/Roth IRA**: Contribute $6,500/year ($541/month) in 2024. Roth is optimal if you expect higher tax rates in retirement.
+2. **IRA/Roth IRA**: Contribute $6,500/year ($541/month) in 2026. Roth is optimal if you expect higher tax rates in retirement.
 3. ** HSA**: If enrolled in high-deductible health plan, max contributions for medical expense flexibility.
 4. **Taxable brokerage**: After maxing tax-advantaged accounts, invest in low-cost index funds (Vanguard Total Stock Market: VTSAX, expense ratio 0.04%).
 
@@ -117,7 +121,11 @@ Consider a fee-only fiduciary financial advisor if your financial situation is c
 
 ## Tips
 
+
+![Illustration for how to create a financial plan](https://picsum.photos/seed/how-to-create-a-financial-plan-mid/1200/630)
+
+
 - **Automate everything**: Set up automatic transfers on payday (typically the 1st and 15th) so money moves to savings before you can spend it. This "pay yourself first" approach increases savings rates by 20% according to research from the Brookings Institution.
 - **Use the 1% rule**: Any time you receive a raise, increase savings/investments by 1%. A $60,000 salary increase of 3% ($1,800/year or $150/month) directed entirely to retirement will grow to $265,000 by retirement at 7% returns.
 - **Negotiate bills annually**: Call service providers (internet, insurance, subscriptions) every 12 months to negotiate lower rates. The average savings is $15-50/month per service.
-- **Track your credit score quarterly**: Free services like Credit Karma
+- **Track your credit score quarterly**: Free services like Credit Karma.

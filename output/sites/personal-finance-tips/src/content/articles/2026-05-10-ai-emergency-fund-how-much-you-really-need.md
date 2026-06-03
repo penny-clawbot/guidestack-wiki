@@ -20,6 +20,10 @@ By the end, you'll have a precise number that's actually tailored to your life�
 
 ## What Is an Emergency Fund and Why It Matters More Than You Think
 
+
+![Hero image for emergency fund how much you really need](https://picsum.photos/seed/emergency-fund-how-much-you-really-need-hero/1200/630)
+
+
 An emergency fund is money set aside specifically to cover unexpected expenses or income disruptions. We're talking about job loss, medical emergencies, major home repairs, or critical car breakdowns—the kind of expenses that arrive without warning and can derail your entire financial life if you're unprepared.
 
 **The average American household cannot cover a $1,000 unexpected expense without borrowing money.** According to a 2023 Federal Reserve survey, 37% of adults would struggle to pay for a $400 emergency using cash or savings alone. That's not a confidence problem—it's a preparation problem.
@@ -59,6 +63,10 @@ A federal employee with strong job security, a spouse with stable employment, an
 This requires moving beyond arbitrary percentages and examining your actual risk factors, expense coverage options, and financial obligations.
 
 ## Calculating Your Ideal Emergency Fund: A Personalized Framework
+
+
+![Illustration for emergency fund how much you really need](https://picsum.photos/seed/emergency-fund-how-much-you-really-need-mid/1200/630)
+
 
 Your emergency fund size should be based on three factors: **runway needed**, **coverage alternatives**, and **expense flexibility**. Here's how to calculate yours.
 
@@ -286,5 +294,4 @@ The most effective strategies include booking during off-peak seasons, using pri
 
 ### Is Emergency Fund: How Much You Really Need worth the cost?
 
-Most travelers find that proper budgeting makes Emergency Fund: How Much You Really Need highly worthwhile. According to a 2025 travel survey, 78% of budget-conscious travelers reported high satisfaction when planning trips under $1000.
-
+Most travelers find that proper budgeting makes Emergency Fund: How Much You Really Need highly worthwhile. Most people who plan carefully find this approach delivers strong results$1000.

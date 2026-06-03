@@ -16,6 +16,10 @@ Layer 2 (L2) scaling solutions slash Ethereum transaction fees by up to 90 %
 
 ## 1. Arbitrum: Dominant Optimistic Rollup with Massive TVL and Incentive Programs
 
+
+![Hero image for layer 2 defi opportunities](https://picsum.photos/seed/layer-2-defi-opportunities-hero/1200/630)
+
+
 Arbitrum One is the leading optimistic rollup by TVL, hosting **$7.5 B** of assets as of March 2024 (DeFiLlama). Its low‑cost environment enables strategies such as:
 
 - **Liquidity provision on Uniswap V3‑style pools** with median gas costs of **~$0.02** per swap, compared with ~$3–$5 on Ethereum mainnet.
@@ -36,10 +40,14 @@ Optimism’s March 2023 “Bedrock” upgrade cut transaction costs by **~40�
 
 ## 3. zkSync Era and StarkNet: Zero‑Knowledge Rollups and Emerging Yield Opportunities
 
+
+![Illustration for layer 2 defi opportunities](https://picsum.photos/seed/layer-2-defi-opportunities-mid/1200/630)
+
+
 Zero‑knowledge (ZK) rollups provide **instant finality** and **cryptographic proofs** that eliminate the need for a fraud‑proof window, offering enhanced security assumptions. As of early 2024:
 
 - **zkSync Era** has **≈$1 B** TVL and supports **≈1.2 M** daily transactions (zkSync Blog, Feb 2024). Popular protocols include **Mute.io**, which offers **yield farms with APRs up to 30 %** for early LP participants (Mute.io, Jan 2024), and **Zi** – a lending platform with interest rates averaging **5‑12 %** for stable‑coin deposits.
-- **StarkNet** holds **≈$800 M** TVL (L2Beat, Jan 2024) and powers **dYdX (StarkNet version)** and ** Argent** wallet integrations. The **StarkNet token (STRK)** is expected to launch liquidity‑mining programs later in 2024, potentially delivering **20‑40 %** APYs in the first months (StarkWare, Jan 2024).
+- **StarkNet** holds **≈$800 M** TVL (L2Beat, Jan 2024) and powers **dYdX (StarkNet version)** and ** Argent** wallet integrations. The **StarkNet token (STRK)** is expected to launch liquidity‑mining programs later in 2026, potentially delivering **20‑40 %** APYs in the first months (StarkWare, Jan 2024).
 
 **Why ZK rollups matter:** With **sub‑$0.01** transaction fees and **≈2‑second** finality, ZK rollups enable strategies like **flash‑loan arbitrage** and **real‑time rebalancing** that were previously too costly on L1.
 
@@ -57,4 +65,4 @@ Polygon’s suite includes both **Polygon zkEVM** (a ZK‑rollup) and **Polygon 
 L2 yield farming carries **smart‑contract risk, impermanent loss, and bridge risk** (if you move assets across chains). However, because L2s inherit Ethereum’s security and use battle‑tested rollup code, the **overall risk is comparable to mainnet DeFi** when using reputable protocols (L2Beat, 2024).
 
 ### 2. How do I move assets from Ethereum mainnet to an L2?
-Use an official bridge such as the **Arbitrum Bridge**, **Optimism Gateway**, **zkSync Bridge**, or **Polygon zkEVM Bridge**. Transactions typically take **1‑10
+Use an official bridge such as the **Arbitrum Bridge**, **Optimism Gateway**, **zkSync Bridge**, or **Polygon zkEVM Bridge**. Transactions typically take **1‑10.

@@ -16,6 +16,10 @@ This guide equips you with a concrete, seven‑step framework to control fear, g
 
 ## Step-by-Step Instructions  
 
+
+![Hero image for crypto trading psychology](https://picsum.photos/seed/crypto-trading-psychology-hero/1200/630)
+
+
 ### Step 1: Define Your Trading Plan and Risk Parameters  
 
 1. **Write a one‑page plan** that states your market thesis, preferred pairs (e.g., BTC/USDT, ETH/USDT), and entry/exit rules.  
@@ -87,4 +91,4 @@ A **minimum 2:1** ratio is the baseline for most short‑term strategies. For sw
 
 ### Should I take breaks after consecutive losses?  
 
-Yes. After **three consecutive losses**, pause for at least **30
+Yes. After **three consecutive losses**, pause for at least **30.

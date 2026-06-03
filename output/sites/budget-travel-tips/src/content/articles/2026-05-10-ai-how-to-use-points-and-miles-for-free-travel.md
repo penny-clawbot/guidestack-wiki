@@ -20,6 +20,10 @@ This guide will walk you through everything you need to know to start traveling 
 
 ## Understanding Points and Miles: The Basics
 
+
+![Hero image for how to use points and miles for free travel](https://picsum.photos/seed/how-to-use-points-and-miles-for-free-travel-hero/1200/630)
+
+
 Before diving into strategies, you need to understand the fundamental difference between points and miles and how they're valued.
 
 ### What Are Credit Card Points?
@@ -76,6 +80,10 @@ Using airline and credit card shopping portals doesn't cost you anything extra�
 A family spending $500 monthly on groceries, gas, and regular shopping could accumulate 20,000+ extra points per year without changing their behavior—just by using the right card and clicking through portals.
 
 ## Redeeming Points for Maximum Value
+
+
+![Illustration for how to use points and miles for free travel](https://picsum.photos/seed/how-to-use-points-and-miles-for-free-travel-mid/1200/630)
+
 
 Earning points is only half the battle. Knowing how to redeem them for maximum value separates beginners from expert points maximizers.
 
@@ -180,10 +188,6 @@ The road to free travel isn't about luck or gaming the system—it's about under
 
 Now go start planning your first award booking. Your next vacation might cost less than your monthly coffee budget.
 
-[LINK: credit-card-travel-rewards-guide]  
-[LINK: best-hotel-points-programs]  
-[LINK: airline-miles-masterclass]
-
 ## Frequently Asked Questions
 
 ### What is the best budget for Use Points and Miles for Free Travel?
@@ -196,5 +200,4 @@ The most effective strategies include booking during off-peak seasons, using pri
 
 ### Is Use Points and Miles for Free Travel worth the cost?
 
-Most travelers find that proper budgeting makes Use Points and Miles for Free Travel highly worthwhile. According to a 2025 travel survey, 78% of budget-conscious travelers reported high satisfaction when planning trips under $1000.
-
+Most travelers find that proper budgeting makes Use Points and Miles for Free Travel highly worthwhile. Most people who plan carefully find this approach delivers strong results$1000.

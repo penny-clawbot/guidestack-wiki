@@ -17,6 +17,10 @@ Whether you're newlyweds merging finances or seasoned partners revisiting your s
 
 ## Why Emergency Funds Matter More for Couples
 
+
+![Hero image for 2026 05 12 emergency fund strategies for couples joint vs separate savings](https://picsum.photos/seed/2026-05-12-emergency-fund-strategies-for-couples-joint-vs-separate-savings-hero/1200/630)
+
+
 Before diving into joint versus separate, let's establish why emergency funds are non-negotiable for couples in the first place.
 
 An emergency fund serves as your financial shock absorber—protecting you from unexpected car repairs, sudden medical bills, or job losses that could derail your entire household. For couples, the stakes are even higher. When one partner faces a crisis, it impacts both incomes, shared expenses, and long-term goals.
@@ -52,6 +56,10 @@ A joint emergency fund often works best when:
 **Example:** Sarah and Mike combined their emergency funds after marriage. When Sarah's company restructured and she faced three months of unemployment, they accessed their joint $25,000 fund immediately—no arguments, no stress about whose money it was. The fund protected their household while Sarah found a new position.
 
 ## The Case for Separate Emergency Funds
+
+
+![Illustration for 2026 05 12 emergency fund strategies for couples joint vs separate savings](https://picsum.photos/seed/2026-05-12-emergency-fund-strategies-for-couples-joint-vs-separate-savings-mid/1200/630)
+
 
 Here's where many financial experts will surprise you: maintaining individual emergency funds isn't selfish—it's often strategic.
 
