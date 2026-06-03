@@ -268,7 +268,7 @@ while ((match = headingRegex.exec(article.content)) !== null) {
           <li><span class="mx-1">›</span></li>
           <li><a href={`/category/${article.category}`} class="hover:text-[var(--color-primary)] transition-colors">{catLabel}</a></li>
           <li><span class="mx-1">›</span></li>
-          <li class="text-[var(--color-text)] font-medium truncate max-w-[200px]">{article.title}</li>
+          <li class="text-[var(--color-text)] font-medium line-clamp-1 break-words" style="max-width:60vw">{article.title}</li>
         </ol>
       </nav>
 

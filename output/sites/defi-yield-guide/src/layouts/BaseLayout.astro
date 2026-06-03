@@ -205,9 +205,13 @@ const webSiteSchema = {
         <!-- Desktop nav -->
         <div class="hidden md:flex items-center gap-1">
           <a href="/" class="px-3 py-2 text-sm font-medium rounded-lg hover:bg-[var(--color-bg-alt)] transition-colors">Home</a>
-          {navItems.map(cat => (
-            <a href={`/category/${cat}`} class="px-3 py-2 text-sm font-medium rounded-lg hover:bg-[var(--color-bg-alt)] transition-colors">{cat.replace(/-/g, ' ').replace(/\b\w/g, (l: string) => l.toUpperCase())}</a>
-          ))}
+          {navItems.slice(0, 5).map(cat => {
+            const words = cat.replace(/-/g, ' ').split(' ');
+            const display = words.length > 2 ? words.slice(0, 2).join(' ') : cat.replace(/-/g, ' ');
+            return (
+              <a href={`/category/${cat}`} class="px-3 py-2 text-sm font-medium rounded-lg hover:bg-[var(--color-bg-alt)] transition-colors truncate max-w-[140px]" title={cat.replace(/-/g, ' ')}>{display.replace(/\b\w/g, (l: string) => l.toUpperCase())}</a>
+            );
+          })}
         </div>
 
         <!-- Right side -->
@@ -256,9 +260,13 @@ const webSiteSchema = {
         <div>
           <h4 class="font-semibold text-sm mb-4 text-[var(--color-text-heading)]">Categories</h4>
           <ul class="space-y-2.5 text-sm">
-            {navItems.map(cat => (
-              <li><a href={`/category/${cat}`} class="text-[var(--color-text-muted)] hover:text-[var(--color-primary)] transition-colors">{cat.replace(/-/g, ' ').replace(/\b\w/g, (l: string) => l.toUpperCase())}</a></li>
-            ))}
+            {navItems.slice(0, 6).map(cat => {
+            const words = cat.replace(/-/g, " ").split(" ");
+            const display = words.length > 2 ? words.slice(0, 2).join(" ") : cat.replace(/-/g, " ");
+            return (
+              <li><a href={`/category/${cat}`} class="text-[var(--color-text-muted)] hover:text-[var(--color-primary)] transition-colors truncate inline-block max-w-[180px]" title={cat.replace(/-/g, " ")}>{display.replace(/\b\w/g, (l: string) => l.toUpperCase())}</a></li>
+            );
+          })}
           </ul>
         </div>
         <div>
