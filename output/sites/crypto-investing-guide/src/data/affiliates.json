@@ -7,5 +7,6 @@
     {"keyword": "Expedia", "url": "https://www.expedia.com/?aff=REPLACE_AFF", "title": "Book on Expedia"},
     {"keyword": "Kayak", "url": "https://www.kayak.com/?ref=REPLACE_REF", "title": "Search on Kayak"}
   ],
-  "_note": "Replace REPLACE_* values with actual affiliate IDs."
+  "_note": "Replace REPLACE_* values with actual affiliate IDs.",
+  "_warning": "REPLACE_REF / REPLACE_AID / REPLACE_TAG / REPLACE_AFF must be replaced with real affiliate IDs before deploy or affiliate clicks will not earn commission."
 }

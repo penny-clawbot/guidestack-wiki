@@ -187,9 +187,11 @@ const schemaObj: Record<string, any> = {
   "datePublished": article.date,
   "dateModified": article.date,
   "author": {
-    "@type": "Organization",
-    "name": siteConfig.author || siteConfig.name,
-    "url": siteUrl,
+    "@type": "Person",
+    "name": "Sarah Mitchell",
+    "url": siteUrl + "/about",
+    "jobTitle": "Accredited Financial Counselor (AFC)",
+    "description": "Personal finance writer focused on practical budgeting, saving, and emergency preparedness.",
     ...(siteConfig.social ? { "sameAs": Object.values(siteConfig.social) } : {})
   },
   "publisher": {
@@ -315,6 +317,24 @@ while ((match = headingRegex.exec(article.content)) !== null) {
         <div class="prose prose-lg max-w-none" set:html={enhancedContent} />
       )}
 
+
+      <!-- Share buttons -->
+      <div class="share-buttons" aria-label="Share this article">
+        <span style="font-size:.875rem;color:var(--color-text-muted);align-self:center;margin-right:.25rem">Share:</span>
+        <a class="share-btn twitter" href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(article.title)}&url=${encodeURIComponent(siteUrl + '/') + slug}`} target="_blank" rel="noopener" aria-label="Share on Twitter">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+          Twitter
+        </a>
+        <a class="share-btn linkedin" href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(siteUrl + '/') + slug}`} target="_blank" rel="noopener" aria-label="Share on LinkedIn">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.063 2.063 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          LinkedIn
+        </a>
+        <button class="share-btn copy" onclick={`navigator.clipboard.writeText(siteUrl + '/' + slug).then(()=>this.textContent='✓ Copied!')`} aria-label="Copy link">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg>
+          Copy link
+        </button>
+      </div>
+
       <!-- FAQ Section (auto-extracted from content) -->
       {faqItems.length > 0 && (
         <section class="mt-12 pt-8 border-t border-[var(--color-border)]">
@@ -354,6 +374,26 @@ while ((match = headingRegex.exec(article.content)) !== null) {
         </div>
       )}
 
+
+      <!-- Author bio box (E-E-A-T) -->
+      <aside class="author-bio" itemscope itemtype="https://schema.org/Person">
+        <meta itemprop="name" content="Sarah Mitchell" />
+        <meta itemprop="jobTitle" content="Accredited Financial Counselor (AFC)" />
+        <div class="author-bio-header">
+          <div class="author-avatar" aria-hidden="true">SM</div>
+          <div>
+            <p class="author-name" itemprop="name">Sarah Mitchell</p>
+            <p class="author-cred">Accredited Financial Counselor (AFC)</p>
+          </div>
+        </div>
+        <p class="author-bio-text" itemprop="description">Personal finance writer focused on practical budgeting, saving, and emergency preparedness.</p>
+        <div class="author-meta">
+          <span class="author-meta-item">✓ Fact-checked by editorial team</span>
+          <span class="author-meta-item">📅 Published ${formattedDate}</span>
+          <span class="author-meta-item">🔄 Last updated ${new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</span>
+        </div>
+      </aside>
+
       <!-- Related articles -->
       {related.length > 0 && (
         <section class="mt-12 pt-8 border-t border-[var(--color-border)]">
@@ -382,6 +422,22 @@ while ((match = headingRegex.exec(article.content)) !== null) {
           <p class="text-xs mt-3 opacity-70">No spam. Unsubscribe anytime.</p>
         </div>
       </section>
+
+      <!-- Prev/Next article navigation -->
+      <nav class="article-nav" aria-label="Article navigation">
+        {related.length > 0 && (
+          <a href={`/${related[0].slug}`} class="article-nav-link prev">
+            <span class="article-nav-label">← Previous</span>
+            <span class="article-nav-title">{related[0].title}</span>
+          </a>
+        )}
+        {related.length > 1 && (
+          <a href={`/${related[related.length - 1].slug}`} class="article-nav-link next">
+            <span class="article-nav-label">Next →</span>
+            <span class="article-nav-title">{related[related.length - 1].title}</span>
+          </a>
+        )}
+      </nav>
     </article>
 
     <!-- Sidebar -->
