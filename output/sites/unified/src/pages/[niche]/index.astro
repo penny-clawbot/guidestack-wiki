@@ -13,7 +13,7 @@ function load(): Art[] {
     const c = fs.readFileSync(path.join(cd,f),'utf-8');
     const fm: Record<string,any> = {}; const m = c.match(/^---\n([\s\S]*?)\n---/);
     if (m) { m[1].split('\n').forEach((l:string)=>{const x=l.match(/^(\w+):\s*["']?(.+?)["']?\s*$/);if(x)fm[x[1]]=x[2]}); if(typeof fm.tags==='string')fm.tags=fm.tags.split(',').map((t:string)=>t.trim()); }
-    a.push({title:fm.title||f,description:fm.description||'',slug:f.replace(/\.md$/,'').replace(/^\d{4}-\d{2}-\d{2}-(ai-)?/,''),date:fm.date||'',category:fm.category||'general',readingTime:fm.readingTime||'',tags:fm.tags||[],niche:fm.niche||'general'});
+    a.push({title:fm.title||f,description:fm.description||'',slug:f.replace(/\.md$/,'').replace(/^\w+-\d{4}-\d{2}-\d{2}-(ai-)?/,''),date:fm.date||'',category:fm.category||'general',readingTime:fm.readingTime||'',tags:fm.tags||[],niche:f.match(/^([^-]+-[^-]+)-/)?.[1]||fm.niche||'general'});
   }
   return a;
 }
