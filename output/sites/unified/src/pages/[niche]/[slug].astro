@@ -8,7 +8,7 @@ const siteConfig = JSON.parse(fs.readFileSync('site-config.json','utf-8'));
 const niches = siteConfig.niches || [];
 const ARTICLES_DIR = 'src/content/articles';
 
-function slugify(f:string) { return f.replace(/\.md$/,'').replace(/^\d{4}-\d{2}-\d{2}-(ai-)?/,''); }
+function slugify(f:string) { return f.replace(/\.md$/,'').replace(/^([^-]+-){2}\d{4}-\d{2}-\d{2}-(ai-)?/,''); }
 function parse(file:string) {
   const raw = fs.readFileSync(path.join(ARTICLES_DIR,file),'utf-8');
   const m = raw.match(/^---\n([\s\S]*?)\n---\n([\s\S]*)$/);
@@ -26,8 +26,10 @@ export function getStaticPaths() {
   for (const f of fs.readdirSync(dir).filter((x:string)=>x.endsWith('.md'))) {
     const c = fs.readFileSync(path.join(dir,f),'utf-8');
     const nm = c.match(/^niche:\s*["']?(.+?)["']?\s*$/m);
-    const sl = f.replace(/\.md$/,'').replace(/^\d{4}-\d{2}-\d{2}-(ai-)?/,'');
-    paths.push({params:{niche:nm?.[1]||'general',slug:sl},props:{file:f}});
+    const sl = f.replace(/\.md$/,'').replace(/^([^-]+-){2}\d{4}-\d{2}-\d{2}-(ai-)?/,'');
+    // Prefix slug with niche to avoid collisions across niches
+    const nicheSlug = sl;  // Niche is already in URL path, not in slug
+    paths.push({params:{niche:nm?.[1]||'general',slug:nicheSlug},props:{file:f}});
   }
   return paths;
 }
@@ -44,7 +46,7 @@ const schema = {"@context":"https://schema.org","@type":"BlogPosting","headline"
 const breadcrumbs = [{name:'Home',url:'/'},{name:nc?.name||article.niche,url:`/${article.niche}`},{name:article.title,url:`/${article.niche}/${s}`}];
 
 const allRelated: any[] = [];
-if (fs.existsSync(ARTICLES_DIR)) { for (const f of fs.readdirSync(ARTICLES_DIR).filter((x:string)=>x.endsWith('.md'))) { if (slugify(f)!==s||f!==file) { const c2=fs.readFileSync(path.join(ARTICLES_DIR,f),'utf-8'); const nm2=c2.match(/^niche:\s*["']?(.+?)["']?\s*$/m); const cm=c2.match(/category:\s*["'](.+?)["']/); const tm=c2.match(/title:\s*["'](.+?)["']/); const dm=c2.match(/description:\s*["'](.+?)["']/); allRelated.push({title:tm?.[1]||'',slug:slugify(f),niche:nm2?.[1]||'general',category:cm?.[1]||'general',description:dm?.[1]||''}); }}}
+if (fs.existsSync(ARTICLES_DIR)) { for (const f of fs.readdirSync(ARTICLES_DIR).filter((x:string)=>x.endsWith('.md'))) { if (f !== file) { const c2=fs.readFileSync(path.join(ARTICLES_DIR,f),'utf-8'); const nm2=c2.match(/^niche:\s*["']?(.+?)["']?\s*$/m); const sl2=f.replace(/\.md$/,'').replace(/^([^-]+-){2}\d{4}-\d{2}-\d{2}-(ai-)?/,''); const nicheSlug=sl2; const cm=c2.match(/category:\s*["'](.+?)["']/); const tm=c2.match(/title:\s*["'](.+?)["']/); const dm=c2.match(/description:\s*["'](.+?)["']/); allRelated.push({title:tm?.[1]||'',slug:nicheSlug,niche:nm2?.[1]||'general',category:cm?.[1]||'general',description:dm?.[1]||''}); }}}
 const related = [...allRelated.filter(r=>r.category===article.category&&r.niche===article.niche).slice(0,3),...allRelated.filter(r=>r.niche===article.niche).slice(0,2)].slice(0,5);
 
 const headRE = /<h([2-3]) id="([^"]*)"[^>]*>(.*?)<\/h\1>/g;
