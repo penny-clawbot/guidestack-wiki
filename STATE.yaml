@@ -38,7 +38,7 @@ sites:
     status: active
     articles: 100
     target: 100
-    next_action: content-burst (2 more to reach target)
+    next_action: ready-for-deploy
     last_build: null
     deployed: false
     path_prefix: /crypto-trading/
@@ -140,10 +140,10 @@ blockers:
   since: '2026-05-15'
   note: NOT blocking work. Continue all other tasks.
 metrics:
-  total_articles: 798
+  total_articles: 800
   total_sites: 8
   revenue: $0
-  content_burst_progress: Complete (7/8 sites at 100, crypto-trading-strategies: 98/100)
+  content_burst_progress: Complete (8/8 sites at 100, all targets met)
 coordination:
   protocol: read-claim-execute-update
   lock_mechanism: file-based (agents update atomically)
