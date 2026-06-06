@@ -8,7 +8,6 @@ tags:
   - how-to-teach-kids-about-money
 draft: false
 readingTime: "5 min"
-niche: "personal-finance"
 ---
 
 # How to Teach Kids About Money: A Complete Guide for Parents
@@ -17,6 +16,10 @@ Teaching children financial literacy is one of the most important investments pa
 
 ## Why Start Financial Education Early?
 
+
+![Hero image for how to teach kids about money](https://picsum.photos/seed/how-to-teach-kids-about-money-hero/1200/630)
+
+
 Financial habits form by age 7 according to a University of Cambridge study, making ages 3-7 the optimal window for introducing basic money concepts. Children who receive early financial education demonstrate better money management skills as teenagers and adults. The Consumer Financial Protection Bureau recommends starting with simple concepts like sorting coins and understanding that items cost money. Children ages 3-5 can grasp the concept of exchanging money for goods, while ages 6-10 can learn to save and make spending decisions.
 
 ## How Much Should You Give as an Allowance?
@@ -24,6 +27,10 @@ Financial habits form by age 7 according to a University of Cambridge study, mak
 The average weekly allowance in the United States ranges from $5-$10 for elementary-age children, according to a 2023 report from the American Institute of CPAs. The "3-jar system" allocates money into save, spend, and give categories, teaching balanced money management. Financial experts recommend tying allowances to age—approximately $1 per year of age weekly—to establish consistent expectations. Some parents link allowances to household chores to teach the connection between work and compensation.
 
 ## What Age-Appropriate Money Lessons Should You Teach?
+
+
+![Illustration for how to teach kids about money](https://picsum.photos/seed/how-to-teach-kids-about-money-mid/1200/630)
+
 
 Children ages 3-5 should learn coin recognition, basic counting, and that items have costs. Ages 6-8 can understand saving for goals, comparing prices, and distinguishing needs from wants. Ages 9-12 should learn budgeting basics, understanding bank accounts, and tracking spending. Teenagers should manage larger financial decisions including part-time job income, car insurance costs, and college savings contributions. The National Endowment for Financial Education provides age-specific curriculum guides for each developmental stage.
 

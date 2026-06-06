@@ -5,7 +5,6 @@ date: "2026-05-10"
 description: "Bitcoin, the world’s first decentralized cryptocurrency, is built on a set of rules called the consensus rules. Occasionally, the community decides that those r"
 category: "bitcoin-beginners"
 tags: ["bitcoin", "beginners", "bitcoin"]
-niche: "bitcoin-beginners"
 ---
 
 # Bitcoin Forks Explained: Hard Forks vs Soft Forks — What Every Beginner Must Know
@@ -17,6 +16,10 @@ In this article, we’ll walk you through the basics of Bitcoin forks, explain t
 ---
 
 ## 1. What Is a Fork?
+
+
+![Hero image for 2026 05 10 bitcoin forks hard forks vs soft forks explained](https://picsum.photos/seed/2026-05-10-bitcoin-forks-hard-forks-vs-soft-forks-explained-hero/1200/630)
+
 
 A fork is simply a **change in the protocol’s software** that creates a divergence in the blockchain’s history. Think of it like a fork in the road: from a certain point onward, travelers can go left or right, and each path leads to a different destination. In Bitcoin, that divergence can be temporary (if the network quickly reaches consensus) or permanent (if two incompatible versions of the software keep operating side‑by‑side).
 
@@ -58,6 +61,10 @@ Because a hard fork creates a *new* coin, anyone holding Bitcoin at the moment o
 ---
 
 ## 3. Soft Fork: Definition and Mechanics
+
+
+![Illustration for 2026 05 10 bitcoin forks hard forks vs soft forks explained](https://picsum.photos/seed/2026-05-10-bitcoin-forks-hard-forks-vs-soft-forks-explained-mid/1200/630)
+
 
 A **soft fork** tightens the consensus rules without breaking compatibility with older nodes. The new version of the software adds stricter constraints, but it *still* accepts blocks that follow the old, less restrictive rules. This means most of the network can stay on one chain while only the miners need to upgrade to enforce the new rules.
 
@@ -283,4 +290,3 @@ Bitcoin operates on a decentralized blockchain network using proof-of-work conse
 ### Is Bitcoin Forks Explained: Hard Forks vs a good investment?
 
 Investment decisions depend on individual circumstances. Bitcoin has shown significant long-term growth since its inception, but remains highly volatile. Most financial advisors recommend allocating no more than 5-10% of a portfolio to cryptocurrencies.
-

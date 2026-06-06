@@ -8,7 +8,6 @@ tags:
   - when-to-buy-altcoins-timing-and-strategy-guide
 draft: false
 readingTime: "9 min"
-niche: "crypto-investing"
 ---
 
 # # When To Buy Altcoins: Timing And Strategy Guide
@@ -20,6 +19,10 @@ Altcoin investing separates the tourists from the residents. Tourists show up du
 This guide gives you the frameworks I actually use. No wishy-washy "do your own research" platitudes. Specific timing signals, concrete examples, and battle-tested strategies from someone who's watched three full cycles unfold.
 
 ## The Market Cycle Blueprint: Why Timing Exists in Altcoins
+
+
+![Hero image for when to buy altcoins timing and strategy guide](https://picsum.photos/seed/when-to-buy-altcoins-timing-and-strategy-guide-hero/1200/630)
+
 
 Crypto moves in cycles. Not perfectly, but predictably enough that you can position yourself before the crowd catches on.
 
@@ -33,7 +36,7 @@ Here's the historical data:
 
 If you're buying altcoins during Bitcoin's bear market bottom—typically 12-18 months *before* the halving—you're positioning yourself for the next leg up. The痛苦 is real. Ethereum dropped 93% from its 2018 peak. Solana fell 95% in 2022. But those lows set up the next cycle's gains.
 
-**The signal I watch:** When Bitcoin's dominance begins declining after a new cycle high, altcoins typically begin their strongest runs. Bitcoin dominance peaked around 73% in January 2021, then dropped to 40% by May 2021. That's when altseason ignited. [LINK: bitcoin-dominance-chart-analysis]
+**The signal I watch:** When Bitcoin's dominance begins declining after a new cycle high, altcoins typically begin their strongest runs. Bitcoin dominance peaked around 73% in January 2021, then dropped to 40% by May 2021. That's when altseason ignited.
 
 ### Reading the Cycle Clock
 
@@ -59,11 +62,15 @@ Charts matter for altcoins, but different signals than Bitcoin. Altcoins move fa
 
 **Volume confirmation.** A breakout means nothing without volume. When altcoins start breaking out on 2-3x average volume, institutional money is moving. In November 2020, DeFi tokens started breaking out with massive volume spikes weeks before the December 2020-February 2021 DeFi summer 2.0 rally. The volume was the tell.
 
-**Relative Strength vs Bitcoin.** When an altcoin starts outperforming Bitcoin consistently, pay attention. In April 2021, MATIC was making higher highs while Bitcoin made lower highs. That divergence preceded a 10x rally in three weeks. [LINK: altcoin-outperformance-signals]
+**Relative Strength vs Bitcoin.** When an altcoin starts outperforming Bitcoin consistently, pay attention. In April 2021, MATIC was making higher highs while Bitcoin made lower highs. That divergence preceded a 10x rally in three weeks.
 
 The practical approach: use weekly charts for cycle timing, daily charts for entry refinement. Ignore the noise on 4-hour and below—altcoin pump-and-dumps are designed to trap scalpers.
 
 ## Fundamental Triggers: What Actually Moves Altcoins
+
+
+![Illustration for when to buy altcoins timing and strategy guide](https://picsum.photos/seed/when-to-buy-altcoins-timing-and-strategy-guide-mid/1200/630)
+
 
 Price follows value, eventually. In altcoins, that value gets priced in during specific catalyst windows.
 
@@ -73,7 +80,7 @@ The play: buy the rumor, sell the news—but give yourself a buffer. The rally o
 
 **Exchange listings.** Being listed on Binance, Coinbase, or Kraken opens new buying pools. The pattern: rumor → pump → listing day dump → second pump on real volume. SHIB exploded when Coinbase listed it in October 2021. But the smart money had been positioning for weeks before the announcement.
 
-**Token unlock schedules and vesting releases.** This cuts both ways. Massive token unlocks create sell pressure—Sui had predictable dumps around its 2023-2024 unlock dates. But if an unlock is already priced in and the protocol shows strong metrics, post-unlock can be a buying opportunity.
+**Token unlock schedules and vesting releases.** This cuts both ways. Massive token unlocks create sell pressure—Sui had predictable dumps around its 2023-2026 unlock dates. But if an unlock is already priced in and the protocol shows strong metrics, post-unlock can be a buying opportunity.
 
 **TVL (Total Value Locked) growth for DeFi.** This is the altcoin equivalent of revenue for a startup. When a DeFi protocol's TVL grows 3-5x while token price stagnates, the divergence often resolves upward. In 2021, Uniswap's V3 launch drove TVL from $3 billion to $10 billion. The UNI token lagged for three months, then doubled.
 
@@ -116,7 +123,7 @@ Knowing when *not* to buy is half the battle.
 
 **Funding rates极度不正常.** When perpetual futures funding rates go deeply negative (indicating heavy shorting), market makers are screaming that the rally is overextended. Conversely, extremely high positive funding rates indicate reckless long leverage that will get liquidated. Check funding rates on Binance and Bybit before entering large positions.
 
-**Tokenomics flooding.** If a project has massive upcoming unlocks, vesting cliffs ending, or inflation schedules that mint millions of new tokens monthly, the math is against you. Check the token unlock calendar before buying. [LINK: altcoin-tokenomics-guide]
+**Tokenomics flooding.** If a project has massive upcoming unlocks, vesting cliffs ending, or inflation schedules that mint millions of new tokens monthly, the math is against you. Check the token unlock calendar before buying.
 
 The bottom line: if the buy feels easy and comfortable, you're probably buying at the wrong time. Discomfort and conviction are your friends in altcoin investing.
 
@@ -157,7 +164,7 @@ The frameworks in this guide won't make you rich overnight. They'll keep you ali
 
 Timing matters. But consistency and conviction matter more.
 
-Start with the cycle position. Build positions during discomfort. Take profits during euphoria. Repeat. [LINK: crypto-bear-market-survival-guide]
+Start with the cycle position. Build positions during discomfort. Take profits during euphoria. Repeat.
 
 That's how altcoin investing actually works.
 
@@ -174,4 +181,3 @@ Begin by researching thoroughly, starting with a small investment you can afford
 ### What are the risks of When to Buy Altcoins: Timing and Strategy Guide?
 
 Key risks include market volatility, regulatory changes, security threats, and potential scams. Diversification and proper risk management are essential for mitigating these risks.
-

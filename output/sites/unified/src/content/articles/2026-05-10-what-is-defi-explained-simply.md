@@ -5,7 +5,6 @@ date: "2026-05-10"
 description: "You've probably heard the buzz about DeFi — the acronym that's been floating around crypto circles and mainstream finance news alike. But what does it actually "
 category: "decentralized finance yield farming DeFi guide"
 tags: ["decentralized finance yield farming DeFi guide", "what"]
-niche: "defi-yield"
 ---
 
 # What is DeFi Explained Simply: A Beginner's Guide to Decentralized Finance
@@ -15,6 +14,10 @@ You've probably heard the buzz about DeFi — the acronym that's been floating a
 By the end of this article, you'll have a clear understanding of decentralized finance, how it works, and why it's capturing the attention of investors, developers, and financial institutions worldwide. Whether you're curious about yield farming or just want to grasp the basics, we've got you covered.
 
 ## Understanding the Basics: What is DeFi?
+
+
+![Hero image for 2026 05 10 what is defi explained simply](https://picsum.photos/seed/2026-05-10-what-is-defi-explained-simply-hero/1200/630)
+
 
 DeFi stands for decentralized finance. At its core, DeFi is a blockchain-based financial system that operates without traditional intermediaries like banks, brokers, or insurance companies. Instead of relying on centralized institutions to facilitate financial transactions, DeFi uses smart contracts — self-executing code on the blockchain — to automate and verify exchanges.
 
@@ -45,6 +48,10 @@ Let's say you want to earn interest on your Ethereum holdings. In the traditiona
 Here's how it works: when you supply your assets to Aave, they become available for borrowers. The smart contract manages the entire process — tracking deposits, calculating interest, and distributing rewards automatically. You maintain control of your funds and can withdraw them at any time (subject to liquidity availability).
 
 ## Key DeFi Concepts You Need to Know
+
+
+![Illustration for 2026 05 10 what is defi explained simply](https://picsum.photos/seed/2026-05-10-what-is-defi-explained-simply-mid/1200/630)
+
 
 Before diving deeper into yield farming, familiarize yourself with these essential DeFi concepts:
 
@@ -189,4 +196,3 @@ Safety in DeFi requires using audited protocols, verifying smart contract addres
 ### What are the yields for DeFi Explained Simply: A Beginner's Guide?
 
 DeFi yields vary significantly based on market conditions, protocol risk, and lock-up periods. As of 2026, stablecoin yields typically range from 3-8% APY, while riskier protocols may offer 10-30% APY with higher risk.
-

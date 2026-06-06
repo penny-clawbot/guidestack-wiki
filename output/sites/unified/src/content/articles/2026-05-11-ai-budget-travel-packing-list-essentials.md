@@ -8,7 +8,6 @@ tags:
   - budget-travel-packing-list-essentials
 draft: false
 readingTime: "3 min"
-niche: "budget-travel"
 ---
 
 # Budget Travel Packing List Essentials: Ultralight vs Standard vs Maximalist
@@ -18,6 +17,10 @@ niche: "budget-travel"
 ---
 
 ## How the Three Packing Strategies Stack Up
+
+
+![Hero image for budget travel packing list essentials](https://picsum.photos/seed/budget-travel-packing-list-essentials-hero/1200/630)
+
 
 | Strategy | Typical Total Weight | Average Pack Cost* | Typical Airline Fees (U.S. domestic) | Recommended For |
 |----------|----------------------|--------------------|--------------------------------------|-----------------|
@@ -69,4 +72,4 @@ niche: "budget-travel"
 
 **Essential Items (≈ 35 items)**  
 - **Clothing**: 5 quick‑dry shirts, 3 pairs of pants, 2 dresses (for warmer climates), 2 fleece layers, 1 insulated coat, 1 down jacket, rain gear (≈ 4 kg).  
-- **Footwear**: Hiking boots (≈
+- **Footwear**: Hiking boots (≈.

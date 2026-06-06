@@ -8,7 +8,6 @@ tags:
   - what-is-bitcoin-explained-simply
 draft: false
 readingTime: "4 min"
-niche: "bitcoin-beginners"
 ---
 
 # What is Bitcoin: A Simple Explanation
@@ -16,6 +15,10 @@ niche: "bitcoin-beginners"
 Bitcoin is a digital currency created in 2009 that allows people to send and receive money without banks or governments controlling it. It works on a decentralized computer network where transactions are recorded on a public ledger called the blockchain, making it transparent and secure. With a maximum supply of 21 million coins, Bitcoin is often called "digital gold" because it serves as a store of value and a payment system.
 
 ## How Bitcoin Works: The Basics
+
+
+![Hero image for what is bitcoin explained simply](https://picsum.photos/seed/what-is-bitcoin-explained-simply-hero/1200/630)
+
 
 Bitcoin operates on a technology called **blockchain**, which is a shared digital ledger that records every transaction publicly. When you send Bitcoin to someone, the transaction gets grouped with other transactions into a "block" and added to the chain permanently. This process is verified by thousands of computers worldwide called **nodes**, eliminating the need for a central authority.
 
@@ -31,7 +34,11 @@ Bitcoin's fixed supply contrasts sharply with fiat currencies—central banks ca
 
 ## Bitcoin Mining: How New Coins Are Created
 
-New bitcoins are created through a process called **mining**, where powerful computers solve complex mathematical problems to validate transactions and secure the network. This process requires massive amounts of electricity—global Bitcoin mining consumed an estimated **127 terawatt-hours per year** as of 2024, comparable to some mid-sized countries' energy consumption.
+
+![Illustration for what is bitcoin explained simply](https://picsum.photos/seed/what-is-bitcoin-explained-simply-mid/1200/630)
+
+
+New bitcoins are created through a process called **mining**, where powerful computers solve complex mathematical problems to validate transactions and secure the network. This process requires massive amounts of electricity—global Bitcoin mining consumed an estimated **127 terawatt-hours per year** as of 2026, comparable to some mid-sized countries' energy consumption.
 
 Mining serves two purposes: creating new coins and securing the network against attacks. The difficulty of mining adjusts every 2,016 blocks (approximately every two weeks) to ensure a consistent block time of 10 minutes. Approximately **900 new bitcoins** are created daily through mining, with miners receiving both block rewards and transaction fees.
 
@@ -41,7 +48,7 @@ The block reward started at 50 BTC when Bitcoin launched and halves approximatel
 
 You can purchase Bitcoin on **exchanges** like Coinbase, Binance, or Kraken using traditional currencies. Most exchanges require identity verification to comply with anti-money laundering regulations. After buying Bitcoin, you receive a **private key**—a 256-bit number that proves ownership of your funds. Never share your private key with anyone.
 
-Storing Bitcoin safely requires a **wallet**, which comes in two types: hot wallets (connected to the internet for convenience) and cold wallets (offline storage for security). Hardware wallets like Ledger and Trezor cost $50-$250 and are considered the safest option for holding significant amounts. As of 2024, over 4,000 cryptocurrencies exist, but Bitcoin remains the largest by market capitalization at approximately **$1.2 trillion**.
+Storing Bitcoin safely requires a **wallet**, which comes in two types: hot wallets (connected to the internet for convenience) and cold wallets (offline storage for security). Hardware wallets like Ledger and Trezor cost $50-$250 and are considered the safest option for holding significant amounts. As of 2026, over 4,000 cryptocurrencies exist, but Bitcoin remains the largest by market capitalization at approximately **$1.2 trillion**.
 
 ## Frequently Asked Questions
 

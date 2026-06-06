@@ -8,7 +8,6 @@ tags:
   - how-to-spot-defi-rug-pulls
 draft: false
 readingTime: "4 min"
-niche: "defi-yield"
 ---
 
 # How to Spot DeFi Rug Pulls: A Practical Guide
@@ -16,6 +15,10 @@ niche: "defi-yield"
 Rug pulls are scams where developers secretly drain a protocol’s liquidity or token reserves, leaving investors with worthless assets. You can spot them early by examining **liquidity locks, audit reports, token distribution, and transparent governance**—and by using on‑chain analytics tools. Following these steps dramatically reduces the chance of falling victim to a rug pull, according to recent DeFi security studies.
 
 ## Understanding Rug Pulls: Definitions and Impact
+
+
+![Hero image for how to spot defi rug pulls](https://picsum.photos/seed/how-to-spot-defi-rug-pulls-hero/1200/630)
+
 
 A rug pull typically occurs in decentralized exchanges (DEXs) or yield farms when the project team removes enough liquidity to make the token worthless, or when they mint massive new tokens and dump them on the market. According to **Chainalysis’ 2023 DeFi Crime Report**, rug pulls accounted for **45% of all DeFi‑related scams in 2022**, siphoning **≈ $284 million** from investors. The same report notes that **over 70%** of these scams were executed within the first 30 days of launch, highlighting the need for rapid due diligence.
 
@@ -39,6 +42,10 @@ A rug pull typically occurs in decentralized exchanges (DEXs) or yield farms whe
 - **Use Dune Analytics** to pull live holder data and compare against historical snapshots.
 
 ## Audits and Smart Contract Verification
+
+
+![Illustration for how to spot defi rug pulls](https://picsum.photos/seed/how-to-spot-defi-rug-pulls-mid/1200/630)
+
 
 ### Audit Coverage
 - **Fully audited projects** (i.e., all contract code reviewed) represent only **≈ 14 %** of DeFi launches in 2022 (CertiK, 2023).  
@@ -97,4 +104,4 @@ A rug pull typically occurs in decentralized exchanges (DEXs) or yield farms whe
 
 #### Actionable Steps
 - **Join the official Discord/Telegram** and observe the quality of Q&A for at least a week.
-- **Search for the contract address** on Twitter and Reddit; read comments
+- **Search for the contract address** on Twitter and Reddit; read comments.

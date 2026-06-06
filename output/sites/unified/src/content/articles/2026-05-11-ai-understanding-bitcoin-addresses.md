@@ -8,7 +8,6 @@ tags:
   - understanding-bitcoin-addresses
 draft: false
 readingTime: "2 min"
-niche: "bitcoin-beginners"
 ---
 
 # Understanding Bitcoin Addresses  
@@ -18,6 +17,10 @@ The most practical Bitcoin address formats for typical users are **Legacy (P2PKH
 ---
 
 ## 1. Legacy (P2PKH) Address  
+
+
+![Hero image for understanding bitcoin addresses](https://picsum.photos/seed/understanding-bitcoin-addresses-hero/1200/630)
+
 
 **Pros**  
 - Universal compatibility with all Bitcoin software since 2009.  
@@ -53,6 +56,10 @@ P2SH addresses constitute roughly **31 %** of all Bitcoin addresses as of Q4�
 
 ## 3. Native SegWit (P2WPKH) Address  
 
+
+![Illustration for understanding bitcoin addresses](https://picsum.photos/seed/understanding-bitcoin-addresses-mid/1200/630)
+
+
 **Pros**  
 - Reduces transaction weight by ~ 40 % → fees drop to **0.00008 BTC** (≈ $2.70).  
 - Faster SPV verification and better compatibility with modern hardware wallets.  
@@ -78,7 +85,7 @@ Addresses begin with `bc1q` and are defined by BIP‑84. On 2025‑01‑25 the m
 - Requires **BIP‑341** & **BIP‑342** compliance.  
 
 **Details & Data**  
-Taproot addresses start with `bc1p`. A typical 1‑input, 1‑output P2TR transaction is **~ 110 bytes**, costing **≈ $1.90** at 10 sats/vB. According to a 2024 analysis by Bitcoin Optech, Taproot adoption reached **≈ 12 %** of new outputs, with a projected growth to **30 %** by 2026.  
+Taproot addresses start with `bc1p`. A typical 1‑input, 1‑output P2TR transaction is **~ 110 bytes**, costing **≈ $1.90** at 10 sats/vB. According to a 2026 analysis by Bitcoin Optech, Taproot adoption reached **≈ 12 %** of new outputs, with a projected growth to **30 %** by 2026.  
 
 **Best for** Power users seeking maximum privacy and the ability to bundle complex scripts (e.g., Lightning Network‑ready channels).
 
@@ -95,4 +102,4 @@ Taproot addresses start with `bc1p`. A typical 1‑input, 1‑output P2TR transa
 - Requires coordination among signers.  
 
 **Details & Data**  
-Multi‑sig addresses (usually P2SH or P2WSH) can be created with tools like **Electrum** or **Casa**. A 2‑of‑3 P2WSH transaction
+Multi‑sig addresses (usually P2SH or P2WSH) can be created with tools like **Electrum** or **Casa**. A 2‑of‑3 P2WSH transaction.

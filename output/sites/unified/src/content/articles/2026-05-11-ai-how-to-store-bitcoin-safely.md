@@ -8,7 +8,6 @@ tags:
   - how-to-store-bitcoin-safely
 draft: false
 readingTime: "2 min"
-niche: "bitcoin-beginners"
 ---
 
 # How to Store Bitcoin Safely
@@ -16,6 +15,10 @@ niche: "bitcoin-beginners"
 The safest way to store Bitcoin is to keep your private keys in a **hardware wallet**, back up the seed phrase securely, and use **multi‑signature** (multisig) for large amounts. Leaving Bitcoin on exchanges is risky; a 2023 Chainalysis report estimates that $3.2 billion in Bitcoin was stolen from centralized platforms (Chainalysis, 2023). By combining cold storage, redundant backups, and multisig, you dramatically reduce the chance of loss or theft.
 
 ## Choose a Hardware Wallet for Cold Storage
+
+
+![Hero image for how to store bitcoin safely](https://picsum.photos/seed/how-to-store-bitcoin-safely-hero/1200/630)
+
 
 A **hardware wallet** generates and stores private keys on a dedicated, air‑gapped device, keeping them offline where malware cannot reach.
 
@@ -43,6 +46,10 @@ Only keep what you’re willing to lose in a hot wallet; the bulk of your Bitcoi
 
 ## Implement Multi‑Signature (Multisig) for Large Holdings
 
+
+![Illustration for how to store bitcoin safely](https://picsum.photos/seed/how-to-store-bitcoin-safely-mid/1200/630)
+
+
 **Multisig** requires multiple private keys to authorize a transaction, removing a single point of failure.
 
 - **Typical setups**: 2‑of‑3 (any two keys can spend), 3‑of‑5, or even 5‑of‑7 for high‑value assets.
@@ -50,4 +57,4 @@ Only keep what you’re willing to lose in a hot wallet; the bulk of your Bitcoi
 - **Benefits**:
   - If one key is compromised, funds remain safe.
   - Perfect for families, businesses, or anyone wanting distributed control.
-- **Cost**: Most providers charge a small monthly fee (e.g., $10–$20) or a percentage of assets under
+- **Cost**: Most providers charge a small monthly fee (e.g., $10–$20) or a percentage of assets under.

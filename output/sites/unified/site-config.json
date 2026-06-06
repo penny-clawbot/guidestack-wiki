@@ -1,1 +1,57 @@
-{"name":"PennyPress Guides","tagline":"Expert Guides for Everything","domain":"pennypress.com","description":"Your comprehensive resource for crypto, AI, finance, and travel guides.","author":"PennyPress","niches":[{"id":"crypto-investing","name":"Crypto Investing","emoji":"💰","description":"Master crypto investing with expert strategies"},{"id":"ai-tools","name":"AI Tools & Productivity","emoji":"🤖","description":"Discover the best AI tools to boost productivity"},{"id":"bitcoin-beginners","name":"Bitcoin for Beginners","emoji":"₿","description":"Start your Bitcoin journey"},{"id":"crypto-trading","name":"Crypto Trading","emoji":"📊","description":"Advanced trading strategies for crypto"},{"id":"defi-yield","name":"DeFi Yield Guide","emoji":"🏦","description":"Earn passive income with DeFi"},{"id":"personal-finance","name":"Personal Finance","emoji":"💵","description":"Take control of your finances"},{"id":"emergency-fund","name":"Emergency Fund Guide","emoji":"🛡️","description":"Build your emergency fund effectively"},{"id":"budget-travel","name":"Budget Travel Tips","emoji":"✈️","description":"Travel the world on a budget"}]}
+{
+  "name": "Guidestack",
+  "tagline": "Expert Guides for Everything",
+  "domain": "guidestack.wiki",
+  "description": "Your comprehensive resource for crypto, AI, finance, and travel guides.",
+  "author": "Guidestack",
+  "niches": [
+    {
+      "id": "crypto-investing",
+      "name": "Crypto Investing",
+      "emoji": "\ud83d\udcb0",
+      "description": "Master crypto investing with expert strategies"
+    },
+    {
+      "id": "ai-tools",
+      "name": "AI Tools & Productivity",
+      "emoji": "\ud83e\udd16",
+      "description": "Discover the best AI tools to boost productivity"
+    },
+    {
+      "id": "bitcoin-beginners",
+      "name": "Bitcoin for Beginners",
+      "emoji": "\u20bf",
+      "description": "Start your Bitcoin journey"
+    },
+    {
+      "id": "crypto-trading",
+      "name": "Crypto Trading",
+      "emoji": "\ud83d\udcca",
+      "description": "Advanced trading strategies for crypto"
+    },
+    {
+      "id": "defi-yield",
+      "name": "DeFi Yield Guide",
+      "emoji": "\ud83c\udfe6",
+      "description": "Earn passive income with DeFi"
+    },
+    {
+      "id": "personal-finance",
+      "name": "Personal Finance",
+      "emoji": "\ud83d\udcb5",
+      "description": "Take control of your finances"
+    },
+    {
+      "id": "emergency-fund",
+      "name": "Emergency Fund Guide",
+      "emoji": "\ud83d\udee1\ufe0f",
+      "description": "Build your emergency fund effectively"
+    },
+    {
+      "id": "budget-travel",
+      "name": "Budget Travel Tips",
+      "emoji": "\u2708\ufe0f",
+      "description": "Travel the world on a budget"
+    }
+  ]
+}

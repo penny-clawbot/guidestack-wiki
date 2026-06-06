@@ -8,7 +8,6 @@ tags:
   - how-to-travel-with-only-a-carry-on
 draft: false
 readingTime: "7 min"
-niche: "budget-travel"
 ---
 
 # How to Travel with Only a Carry-On: The Ultimate Guide for Stress-Free Travel
@@ -24,6 +23,10 @@ This guide will teach you everything you need to master the art of minimalist pa
 ---
 
 ## What You'll Need Before You Start
+
+
+![Hero image for how to travel with only a carry on](https://picsum.photos/seed/how-to-travel-with-only-a-carry-on-hero/1200/630)
+
 
 Before diving into the packing process, ensure you have these essentials:
 
@@ -52,6 +55,10 @@ Verify your chosen bag's dimensions before purchasing—the FAA mandates carry-o
 ---
 
 ## Step 2: Master the 3-1-1 Liquid Rule
+
+
+![Illustration for how to travel with only a carry on](https://picsum.photos/seed/how-to-travel-with-only-a-carry-on-mid/1200/630)
+
 
 The Transportation Security Administration's 3-1-1 rule is non-negotiable: all liquids must be in containers **3.4 ounces (100ml) or smaller**, placed in a **single quart-sized clear bag**, with **one bag per passenger**.
 
@@ -217,5 +224,4 @@ The most effective strategies include booking during off-peak seasons, using pri
 
 ### Is Travel with Only a Carry-On worth the cost?
 
-Most travelers find that proper budgeting makes Travel with Only a Carry-On highly worthwhile. According to a 2025 travel survey, 78% of budget-conscious travelers reported high satisfaction when planning trips under $1000.
-
+Most travelers find that proper budgeting makes Travel with Only a Carry-On highly worthwhile. Most people who plan carefully find this approach delivers strong results$1000.

@@ -6,7 +6,6 @@ category: "legal"
 tags: ["terms", "service"]
 draft: false
 readingTime: "3 min"
-niche: "emergency-fund"
 ---
 
 # Terms of Service
@@ -16,6 +15,10 @@ niche: "emergency-fund"
 Please read these terms of service carefully before using Emergency Fund. By accessing or using our website, you agree to be bound by these terms.
 
 ## Use of Our Website
+
+
+![Hero image for terms of service](https://picsum.photos/seed/terms-of-service-hero/1200/630)
+
 
 Emergency Fund provides emergency fund content for informational purposes. You agree to use our website only for lawful purposes and in accordance with these terms.
 
@@ -27,6 +30,10 @@ Emergency Fund provides emergency fund content for informational purposes. You a
 - Information about products, services, or strategies may change over time
 
 ## Intellectual Property
+
+
+![Illustration for terms of service](https://picsum.photos/seed/terms-of-service-mid/1200/630)
+
 
 All content on Emergency Fund, including text, graphics, logos, and code, is our intellectual property or used with permission. You may not reproduce, distribute, or create derivative works without our written permission.
 

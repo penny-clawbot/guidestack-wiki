@@ -8,7 +8,6 @@ tags:
   - investing-for-beginners-guide
 draft: false
 readingTime: "3 min"
-niche: "personal-finance"
 ---
 
 # Investing for Beginners: A Step‑by‑Step Guide  
@@ -16,6 +15,10 @@ niche: "personal-finance"
 Investing is the process of allocating money with the expectation of generating returns over time. For beginners, the most effective approach is to start early, diversify across low‑cost index funds, and keep fees minimal. This guide outlines the essential steps, key numbers, and actionable strategies you can use to begin investing confidently today.  
 
 ## 1. Understand the Basics: Why Start Early and How Compound Growth Works  
+
+
+![Hero image for investing for beginners guide](https://picsum.photos/seed/investing-for-beginners-guide-hero/1200/630)
+
 
 **Compound interest** is the engine behind long‑term wealth. When you reinvest earnings, your money grows on both the original principal and previously earned returns.  
 
@@ -28,7 +31,7 @@ Starting early matters because each year of growth multiplies your initial amoun
 
 Choosing the correct account determines how much you keep after taxes and how low your ongoing costs are.  
 
-| Account Type | 2024 Contribution Limit | Tax Benefit | Typical Fee Range |
+| Account Type | 2026 Contribution Limit | Tax Benefit | Typical Fee Range |
 |--------------|--------------------------|-------------|-------------------|
 | **401(k)** (Employer‑sponsored) | $23,000 (+ $7,500 catch‑up if ≥ 50) | Pre‑tax contributions reduce taxable income | 0.03%–0.80% (index funds) |
 | **Traditional IRA** | $7,000 (+ $1,000 catch‑up) | Tax‑deductible contributions, taxed on withdrawal | 0.03%–0.60% |
@@ -39,6 +42,10 @@ Choosing the correct account determines how much you keep after taxes and how lo
 - **Action step:** If your employer offers a **401(k) match**, always contribute at least enough to capture the full match—it’s an instant 50%–100% return on your money.  
 
 ## 3. Build a Diversified Portfolio: Asset Allocation, Index Funds, and ETFs  
+
+
+![Illustration for investing for beginners guide](https://picsum.photos/seed/investing-for-beginners-guide-mid/1200/630)
+
 
 Diversification reduces risk by spreading your money across many assets so that a poor performer in one area won’t devastate your entire portfolio.  
 
@@ -67,4 +74,4 @@ Historical performance shows a **60/40 stock/bond blend** returned roughly **8.5
 Even a well‑constructed portfolio needs periodic review to stay aligned with your goals and risk tolerance.  
 
 - **Rebalancing:** Review your allocation **once a year** or when an asset class drifts more than **5%** from its target. Selling the overweighted portion and buying the underweighted one restores balance without altering your overall strategy.  
-- **Risk tolerance:** If a market downturn causes you anxiety, consider shifting a small slice (
+- **Risk tolerance:** If a market downturn causes you anxiety, consider shifting a small slice (.

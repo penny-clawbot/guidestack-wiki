@@ -8,7 +8,6 @@ tags:
   - crypto-trading-mistakes-beginners-make
 draft: false
 readingTime: "1 min"
-niche: "crypto-trading"
 ---
 
 # crypto trading mistakes beginners make
@@ -16,6 +15,10 @@ niche: "crypto-trading"
 Beginners in cryptocurrency trading consistently lose money because they repeat a handful of avoidable errors. According to a 2023 Chainalysis study, 46 % of new traders reported losses due to insufficient research, while the U.S. Commodity Futures Trading Commission (CFTC) found that 68 % of retail accounts using leverage above 10× blow up within six months. This FAQ details the eight most common mistakes, the data behind them, and concrete steps to correct each one.
 
 ## 1. Ignoring risk management  
+
+
+![Hero image for crypto trading mistakes beginners make](https://picsum.photos/seed/crypto-trading-mistakes-beginners-make-hero/1200/630)
+
 
 **Ignoring risk management is the leading cause of account blow‑ups.**  
 - A CFTC report (2022) shows that 68 % of retail traders using >10× leverage lost their entire margin within six months.  
@@ -38,4 +41,4 @@ Beginners in cryptocurrency trading consistently lose money because they repeat 
 - **Set a maximum allocation**: limit meme‑coin exposure to ≤5 % of your portfolio, even if you decide to speculate.  
 - **Use reputable sources**: rely on data from CoinGecko, CoinMarketCap, and official project channels instead of viral TikTok posts.  
 
-## 3. Overtrading and excessive leverage
+## 3. Overtrading and excessive leverage.

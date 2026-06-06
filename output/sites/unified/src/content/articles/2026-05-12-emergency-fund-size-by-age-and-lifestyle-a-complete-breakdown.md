@@ -5,7 +5,6 @@ date: "2026-05-12"
 description: "Picture this: your car breaks down unexpectedly, the transmission gone. The repair will cost $3,200. Without an emergency fund, you're forced to put it on a cre"
 category: "emergency fund"
 tags: ["emergency fund", "emergency"]
-niche: "emergency-fund"
 ---
 
 # Emergency Fund Size by Age and Lifestyle: A Complete Breakdown
@@ -21,6 +20,10 @@ This comprehensive guide breaks down emergency fund targets by age group and lif
 ---
 
 ## Why Emergency Funds Are Non-Negotiable
+
+
+![Hero image for 2026 05 12 emergency fund size by age and lifestyle a complete breakdown](https://picsum.photos/seed/2026-05-12-emergency-fund-size-by-age-and-lifestyle-a-complete-breakdown-hero/1200/630)
+
 
 Before diving into specific numbers, let's establish why emergency funds matter more than almost any other financial goal.
 
@@ -52,6 +55,10 @@ But here's the catch: these baseline numbers don't account for your age, career 
 ---
 
 ## Emergency Fund Guidelines by Age
+
+
+![Illustration for 2026 05 12 emergency fund size by age and lifestyle a complete breakdown](https://picsum.photos/seed/2026-05-12-emergency-fund-size-by-age-and-lifestyle-a-complete-breakdown-mid/1200/630)
+
 
 ### Your 20s: Building Foundations ($5,000-$15,000)
 

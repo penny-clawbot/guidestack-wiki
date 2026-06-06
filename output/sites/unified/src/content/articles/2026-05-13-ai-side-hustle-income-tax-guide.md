@@ -8,7 +8,6 @@ tags:
   - side-hustle-income-tax-guide
 draft: false
 readingTime: "3 min"
-niche: "personal-finance"
 ---
 
 # Side Hustle Income Tax Guide
@@ -18,6 +17,10 @@ This guide answers the most common tax questions for side‑hustle earners in th
 ---
 
 ## 1. Do I have to report side‑hustle income on my tax return?
+
+
+![Hero image for side hustle income tax guide](https://picsum.photos/seed/side-hustle-income-tax-guide-hero/1200/630)
+
 
 **Yes.** You must report any side‑hustle earnings on a federal return if your net self‑employment profit is **$400 or more** in a taxable year, or if you receive a **Form 1099‑NEC** (for payments of $600 or more) or a **Form 1099‑K** (for third‑party network transactions). Even if you earn less than $400, you may still report the income to claim legitimate business deductions.
 
@@ -37,11 +40,15 @@ If your net earnings are below the $400 threshold, no SE tax is due, but you sti
 
 ## 3. What expenses can I deduct from my side‑hustle income?
 
+
+![Illustration for side hustle income tax guide](https://picsum.photos/seed/side-hustle-income-tax-guide-mid/1200/630)
+
+
 You may deduct **ordinary and necessary** business expenses that are directly related to your side hustle. Deductible items include:
 
 - **Supplies and materials** (e.g., raw materials, packaging)  
 - **Equipment and tools** (computers, software, machinery) – generally depreciated under § 179 or recovered over useful life  
-- **Mileage** – the 2023 standard mileage rate is **$0.655 per mile** (IRS Notice 2022‑44); for 2024 it rises to **$0.67 per mile**  
+- **Mileage** – the 2023 standard mileage rate is **$0.655 per mile** (IRS Notice 2022‑44); for 2026 it rises to **$0.67 per mile**  
 - **Marketing and advertising** (online ads, business cards)  
 - **Professional services** (freelance design, accounting)  
 - **Home‑office expenses** (if the simplified method is not used)  

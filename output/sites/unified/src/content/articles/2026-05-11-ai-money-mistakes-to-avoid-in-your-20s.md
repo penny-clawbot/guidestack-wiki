@@ -8,7 +8,6 @@ tags:
   - money-mistakes-to-avoid-in-your-20s
 draft: false
 readingTime: "2 min"
-niche: "personal-finance"
 ---
 
 # Money Mistakes to Avoid in Your 20s: A Comparison of the Costliest Errors  
@@ -18,6 +17,10 @@ If you carry high‑interest credit‑card debt, eliminating that should be your
 ---
 
 ## 1. The High‑Interest Debt Trap  
+
+
+![Hero image for money mistakes to avoid in your 20s](https://picsum.photos/seed/money-mistakes-to-avoid-in-your-20s-hero/1200/630)
+
 
 - **Average APR**: **20.24 %** (Federal Reserve G.19 report, 2023)  
 - **Typical balance**: **$5,800** (TransUnion, 2023)  
@@ -49,6 +52,10 @@ Starting **5 years earlier** translates to **≈ $400,000** more at retireme
 
 ## 3. Lifestyle Inflation  
 
+
+![Illustration for money mistakes to avoid in your 20s](https://picsum.photos/seed/money-mistakes-to-avoid-in-your-20s-mid/1200/630)
+
+
 - **Average U.S. rent increase (2020‑2023)**: **$150 – $300 / month** in many metros  
 - **Extra $250 / month** for a shinier apartment = **$3,000 / yr**  
 - **If invested at 7 % real for 10 years**: **≈ $41,800** in future value  
@@ -63,4 +70,4 @@ Lifestyle creep is subtle: a **$100 / month** “upgrade” in subscriptions
 ## 4. Neglecting an Emergency Fund  
 
 - **Typical unexpected expense**: **$2,000‑$5,000** (Federal Reserve, 2022)  
-- **Financing a $3,000 emergency on a 20 % APR card for 2 years**: **≈ $1,
+- **Financing a $3,000 emergency on a 20 % APR card for 2 years**: **≈ $1,.

@@ -5,7 +5,6 @@ date: "2026-05-12"
 description: "Every couple dreams of building a financial fortress together—but what happens when your idea of an emergency fund clashes with your partner's? One of you wants"
 category: "emergency fund"
 tags: ["emergency fund", "emergency"]
-niche: "emergency-fund"
 ---
 
 # Emergency Fund Strategies for Couples: Joint vs Separate Savings
@@ -17,6 +16,10 @@ According to a 2023 survey by Ramsey Solutions, **67% of couples admit to fighti
 Whether you're newlyweds merging finances or seasoned partners revisiting your strategy, this guide breaks down the pros, cons, and practical steps for building an emergency fund that actually works for both of you.
 
 ## Why Emergency Funds Matter More for Couples
+
+
+![Hero image for 2026 05 12 emergency fund strategies for couples joint vs separate savings](https://picsum.photos/seed/2026-05-12-emergency-fund-strategies-for-couples-joint-vs-separate-savings-hero/1200/630)
+
 
 Before diving into joint versus separate, let's establish why emergency funds are non-negotiable for couples in the first place.
 
@@ -53,6 +56,10 @@ A joint emergency fund often works best when:
 **Example:** Sarah and Mike combined their emergency funds after marriage. When Sarah's company restructured and she faced three months of unemployment, they accessed their joint $25,000 fund immediately—no arguments, no stress about whose money it was. The fund protected their household while Sarah found a new position.
 
 ## The Case for Separate Emergency Funds
+
+
+![Illustration for 2026 05 12 emergency fund strategies for couples joint vs separate savings](https://picsum.photos/seed/2026-05-12-emergency-fund-strategies-for-couples-joint-vs-separate-savings-mid/1200/630)
+
 
 Here's where many financial experts will surprise you: maintaining individual emergency funds isn't selfish—it's often strategic.
 

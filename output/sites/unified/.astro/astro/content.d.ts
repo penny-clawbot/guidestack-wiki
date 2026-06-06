@@ -3081,6 +3081,2708 @@ declare module 'astro:content' {
   collection: "articles";
   data: any
 } & { render(): Render[".md"] };
+"2026-05-15-ai-affordable-adventure-travel-activities.md": {
+	id: "2026-05-15-ai-affordable-adventure-travel-activities.md";
+  slug: "2026-05-15-ai-affordable-adventure-travel-activities";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-affordable-beach-destinations-caribbean.md": {
+	id: "2026-05-15-ai-affordable-beach-destinations-caribbean.md";
+  slug: "2026-05-15-ai-affordable-beach-destinations-caribbean";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-affordable-road-trip-routes-in-usa.md": {
+	id: "2026-05-15-ai-affordable-road-trip-routes-in-usa.md";
+  slug: "2026-05-15-ai-affordable-road-trip-routes-in-usa";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-ai-tools-for-financial-planning.md": {
+	id: "2026-05-15-ai-ai-tools-for-financial-planning.md";
+  slug: "2026-05-15-ai-ai-tools-for-financial-planning";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-ai-tools-for-legal-professionals.md": {
+	id: "2026-05-15-ai-ai-tools-for-legal-professionals.md";
+  slug: "2026-05-15-ai-ai-tools-for-legal-professionals";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-automated-emergency-fund-savings-strategies.md": {
+	id: "2026-05-15-ai-automated-emergency-fund-savings-strategies.md";
+  slug: "2026-05-15-ai-automated-emergency-fund-savings-strategies";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-best-ai-note-taking-apps.md": {
+	id: "2026-05-15-ai-best-ai-note-taking-apps.md";
+  slug: "2026-05-15-ai-best-ai-note-taking-apps";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-best-budget-airlines-for-international-travel.md": {
+	id: "2026-05-15-ai-best-budget-airlines-for-international-travel.md";
+  slug: "2026-05-15-ai-best-budget-airlines-for-international-travel";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-best-budget-travel-apps-2026.md": {
+	id: "2026-05-15-ai-best-budget-travel-apps-2026.md";
+  slug: "2026-05-15-ai-best-budget-travel-apps-2026";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-best-budget-travel-destinations-for-families.md": {
+	id: "2026-05-15-ai-best-budget-travel-destinations-for-families.md";
+  slug: "2026-05-15-ai-best-budget-travel-destinations-for-families";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-best-budget-travel-gear-essentials.md": {
+	id: "2026-05-15-ai-best-budget-travel-gear-essentials.md";
+  slug: "2026-05-15-ai-best-budget-travel-gear-essentials";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-best-cd-accounts-for-emergency-fund-ladder.md": {
+	id: "2026-05-15-ai-best-cd-accounts-for-emergency-fund-ladder.md";
+  slug: "2026-05-15-ai-best-cd-accounts-for-emergency-fund-ladder";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-best-checking-accounts-2026.md": {
+	id: "2026-05-15-ai-best-checking-accounts-2026.md";
+  slug: "2026-05-15-ai-best-checking-accounts-2026";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-best-checking-accounts-for-emergency-fund-parking.md": {
+	id: "2026-05-15-ai-best-checking-accounts-for-emergency-fund-parking.md";
+  slug: "2026-05-15-ai-best-checking-accounts-for-emergency-fund-parking";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-best-crypto-analytics-tools.md": {
+	id: "2026-05-15-ai-best-crypto-analytics-tools.md";
+  slug: "2026-05-15-ai-best-crypto-analytics-tools";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-best-crypto-books-for-investors.md": {
+	id: "2026-05-15-ai-best-crypto-books-for-investors.md";
+  slug: "2026-05-15-ai-best-crypto-books-for-investors";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-best-crypto-exchanges-for-beginners.md": {
+	id: "2026-05-15-ai-best-crypto-exchanges-for-beginners.md";
+  slug: "2026-05-15-ai-best-crypto-exchanges-for-beginners";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-best-crypto-trading-books.md": {
+	id: "2026-05-15-ai-best-crypto-trading-books.md";
+  slug: "2026-05-15-ai-best-crypto-trading-books";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-best-crypto-trading-communities.md": {
+	id: "2026-05-15-ai-best-crypto-trading-communities.md";
+  slug: "2026-05-15-ai-best-crypto-trading-communities";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-best-emergency-fund-calculators-and-tools.md": {
+	id: "2026-05-15-ai-best-emergency-fund-calculators-and-tools.md";
+  slug: "2026-05-15-ai-best-emergency-fund-calculators-and-tools";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-best-financial-podcasts-to-follow.md": {
+	id: "2026-05-15-ai-best-financial-podcasts-to-follow.md";
+  slug: "2026-05-15-ai-best-financial-podcasts-to-follow";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-best-high-yield-savings-accounts-for-emergency-funds-2026.md": {
+	id: "2026-05-15-ai-best-high-yield-savings-accounts-for-emergency-funds-2026.md";
+  slug: "2026-05-15-ai-best-high-yield-savings-accounts-for-emergency-funds-2026";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-best-hysa-for-emergency-funds-compared-2026.md": {
+	id: "2026-05-15-ai-best-hysa-for-emergency-funds-compared-2026.md";
+  slug: "2026-05-15-ai-best-hysa-for-emergency-funds-compared-2026";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-best-long-term-crypto-holds-2026.md": {
+	id: "2026-05-15-ai-best-long-term-crypto-holds-2026.md";
+  slug: "2026-05-15-ai-best-long-term-crypto-holds-2026";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-best-money-market-accounts-for-emergency-funds.md": {
+	id: "2026-05-15-ai-best-money-market-accounts-for-emergency-funds.md";
+  slug: "2026-05-15-ai-best-money-market-accounts-for-emergency-funds";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-best-places-to-keep-emergency-fund-accessible.md": {
+	id: "2026-05-15-ai-best-places-to-keep-emergency-fund-accessible.md";
+  slug: "2026-05-15-ai-best-places-to-keep-emergency-fund-accessible";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-best-savings-apps-for-emergency-fund-building.md": {
+	id: "2026-05-15-ai-best-savings-apps-for-emergency-fund-building.md";
+  slug: "2026-05-15-ai-best-savings-apps-for-emergency-fund-building";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-best-savings-strategies-for-irregular-income.md": {
+	id: "2026-05-15-ai-best-savings-strategies-for-irregular-income.md";
+  slug: "2026-05-15-ai-best-savings-strategies-for-irregular-income";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-best-travel-hacks-for-saving-money-2026.md": {
+	id: "2026-05-15-ai-best-travel-hacks-for-saving-money-2026.md";
+  slug: "2026-05-15-ai-best-travel-hacks-for-saving-money-2026";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-best-treasury-bills-for-emergency-fund-yields.md": {
+	id: "2026-05-15-ai-best-treasury-bills-for-emergency-fund-yields.md";
+  slug: "2026-05-15-ai-best-treasury-bills-for-emergency-fund-yields";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-best-ways-to-grow-emergency-fund-balance.md": {
+	id: "2026-05-15-ai-best-ways-to-grow-emergency-fund-balance.md";
+  slug: "2026-05-15-ai-best-ways-to-grow-emergency-fund-balance";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-bitcoin-debit-cards-compared.md": {
+	id: "2026-05-15-ai-bitcoin-debit-cards-compared.md";
+  slug: "2026-05-15-ai-bitcoin-debit-cards-compared";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-budget-friendly-national-parks-to-visit.md": {
+	id: "2026-05-15-ai-budget-friendly-national-parks-to-visit.md";
+  slug: "2026-05-15-ai-budget-friendly-national-parks-to-visit";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-budget-safari-tours-in-africa.md": {
+	id: "2026-05-15-ai-budget-safari-tours-in-africa.md";
+  slug: "2026-05-15-ai-budget-safari-tours-in-africa";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-budget-travel-for-digital-nomads.md": {
+	id: "2026-05-15-ai-budget-travel-for-digital-nomads.md";
+  slug: "2026-05-15-ai-budget-travel-for-digital-nomads";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-budget-travel-insurance-worth-it.md": {
+	id: "2026-05-15-ai-budget-travel-insurance-worth-it.md";
+  slug: "2026-05-15-ai-budget-travel-insurance-worth-it";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-budget-travel-mistakes-to-avoid.md": {
+	id: "2026-05-15-ai-budget-travel-mistakes-to-avoid.md";
+  slug: "2026-05-15-ai-budget-travel-mistakes-to-avoid";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-budget-travel-tips-for-solo-travelers.md": {
+	id: "2026-05-15-ai-budget-travel-tips-for-solo-travelers.md";
+  slug: "2026-05-15-ai-budget-travel-tips-for-solo-travelers";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-budget-travel-tips-for-students.md": {
+	id: "2026-05-15-ai-budget-travel-tips-for-students.md";
+  slug: "2026-05-15-ai-budget-travel-tips-for-students";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-central-bank-digital-currencies-vs-bitcoin.md": {
+	id: "2026-05-15-ai-central-bank-digital-currencies-vs-bitcoin.md";
+  slug: "2026-05-15-ai-central-bank-digital-currencies-vs-bitcoin";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-cheapest-cities-to-live-in-europe-2026.md": {
+	id: "2026-05-15-ai-cheapest-cities-to-live-in-europe-2026.md";
+  slug: "2026-05-15-ai-cheapest-cities-to-live-in-europe-2026";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-cheapest-time-to-fly-to-europe.md": {
+	id: "2026-05-15-ai-cheapest-time-to-fly-to-europe.md";
+  slug: "2026-05-15-ai-cheapest-time-to-fly-to-europe";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-cheapest-ways-to-travel-between-cities.md": {
+	id: "2026-05-15-ai-cheapest-ways-to-travel-between-cities.md";
+  slug: "2026-05-15-ai-cheapest-ways-to-travel-between-cities";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-crypto-etf-explained-for-beginners.md": {
+	id: "2026-05-15-ai-crypto-etf-explained-for-beginners.md";
+  slug: "2026-05-15-ai-crypto-etf-explained-for-beginners";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-crypto-investing-during-bear-markets.md": {
+	id: "2026-05-15-ai-crypto-investing-during-bear-markets.md";
+  slug: "2026-05-15-ai-crypto-investing-during-bear-markets";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-crypto-investing-for-retirement.md": {
+	id: "2026-05-15-ai-crypto-investing-for-retirement.md";
+  slug: "2026-05-15-ai-crypto-investing-for-retirement";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-crypto-investing-mistakes-to-avoid.md": {
+	id: "2026-05-15-ai-crypto-investing-mistakes-to-avoid.md";
+  slug: "2026-05-15-ai-crypto-investing-mistakes-to-avoid";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-crypto-investing-tax-implications.md": {
+	id: "2026-05-15-ai-crypto-investing-tax-implications.md";
+  slug: "2026-05-15-ai-crypto-investing-tax-implications";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-crypto-investing-vs-stock-market.md": {
+	id: "2026-05-15-ai-crypto-investing-vs-stock-market.md";
+  slug: "2026-05-15-ai-crypto-investing-vs-stock-market";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-crypto-investing-with-small-amounts.md": {
+	id: "2026-05-15-ai-crypto-investing-with-small-amounts.md";
+  slug: "2026-05-15-ai-crypto-investing-with-small-amounts";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-crypto-margin-trading-risks.md": {
+	id: "2026-05-15-ai-crypto-margin-trading-risks.md";
+  slug: "2026-05-15-ai-crypto-margin-trading-risks";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-defi-investing-opportunities-2026.md": {
+	id: "2026-05-15-ai-defi-investing-opportunities-2026.md";
+  slug: "2026-05-15-ai-defi-investing-opportunities-2026";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-emergency-fund-benchmarks-by-age-and-income.md": {
+	id: "2026-05-15-ai-emergency-fund-benchmarks-by-age-and-income.md";
+  slug: "2026-05-15-ai-emergency-fund-benchmarks-by-age-and-income";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-emergency-fund-for-homeowners-unexpected-repairs.md": {
+	id: "2026-05-15-ai-emergency-fund-for-homeowners-unexpected-repairs.md";
+  slug: "2026-05-15-ai-emergency-fund-for-homeowners-unexpected-repairs";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-emergency-fund-for-medical-expenses-and-health-crises.md": {
+	id: "2026-05-15-ai-emergency-fund-for-medical-expenses-and-health-crises.md";
+  slug: "2026-05-15-ai-emergency-fund-for-medical-expenses-and-health-crises";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-emergency-fund-for-new-parents-guide.md": {
+	id: "2026-05-15-ai-emergency-fund-for-new-parents-guide.md";
+  slug: "2026-05-15-ai-emergency-fund-for-new-parents-guide";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-emergency-fund-for-recent-graduates.md": {
+	id: "2026-05-15-ai-emergency-fund-for-recent-graduates.md";
+  slug: "2026-05-15-ai-emergency-fund-for-recent-graduates";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-emergency-fund-for-self-employed-and-freelancers.md": {
+	id: "2026-05-15-ai-emergency-fund-for-self-employed-and-freelancers.md";
+  slug: "2026-05-15-ai-emergency-fund-for-self-employed-and-freelancers";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-emergency-fund-for-small-business-owners.md": {
+	id: "2026-05-15-ai-emergency-fund-for-small-business-owners.md";
+  slug: "2026-05-15-ai-emergency-fund-for-small-business-owners";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-emergency-fund-milestones-and-benchmarks.md": {
+	id: "2026-05-15-ai-emergency-fund-milestones-and-benchmarks.md";
+  slug: "2026-05-15-ai-emergency-fund-milestones-and-benchmarks";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-emergency-fund-vs-credit-line-which-is-better.md": {
+	id: "2026-05-15-ai-emergency-fund-vs-credit-line-which-is-better.md";
+  slug: "2026-05-15-ai-emergency-fund-vs-credit-line-which-is-better";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-emergency-fund-vs-investing-which-comes-first.md": {
+	id: "2026-05-15-ai-emergency-fund-vs-investing-which-comes-first.md";
+  slug: "2026-05-15-ai-emergency-fund-vs-investing-which-comes-first";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-how-much-emergency-fund-do-you-really-need.md": {
+	id: "2026-05-15-ai-how-much-emergency-fund-do-you-really-need.md";
+  slug: "2026-05-15-ai-how-much-emergency-fund-do-you-really-need";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-how-to-automate-emergency-fund-contributions.md": {
+	id: "2026-05-15-ai-how-to-automate-emergency-fund-contributions.md";
+  slug: "2026-05-15-ai-how-to-automate-emergency-fund-contributions";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-how-to-backtest-crypto-strategies.md": {
+	id: "2026-05-15-ai-how-to-backtest-crypto-strategies.md";
+  slug: "2026-05-15-ai-how-to-backtest-crypto-strategies";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-how-to-build-3-month-emergency-fund-fast.md": {
+	id: "2026-05-15-ai-how-to-build-3-month-emergency-fund-fast.md";
+  slug: "2026-05-15-ai-how-to-build-3-month-emergency-fund-fast";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-how-to-build-a-crypto-portfolio.md": {
+	id: "2026-05-15-ai-how-to-build-a-crypto-portfolio.md";
+  slug: "2026-05-15-ai-how-to-build-a-crypto-portfolio";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-how-to-build-an-emergency-fund-fast.md": {
+	id: "2026-05-15-ai-how-to-build-an-emergency-fund-fast.md";
+  slug: "2026-05-15-ai-how-to-build-an-emergency-fund-fast";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-how-to-build-emergency-fund-fast-on-low-income.md": {
+	id: "2026-05-15-ai-how-to-build-emergency-fund-fast-on-low-income.md";
+  slug: "2026-05-15-ai-how-to-build-emergency-fund-fast-on-low-income";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-how-to-create-a-crypto-investment-plan.md": {
+	id: "2026-05-15-ai-how-to-create-a-crypto-investment-plan.md";
+  slug: "2026-05-15-ai-how-to-create-a-crypto-investment-plan";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-how-to-diversify-crypto-portfolio.md": {
+	id: "2026-05-15-ai-how-to-diversify-crypto-portfolio.md";
+  slug: "2026-05-15-ai-how-to-diversify-crypto-portfolio";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-how-to-find-cheap-accommodation-anywhere.md": {
+	id: "2026-05-15-ai-how-to-find-cheap-accommodation-anywhere.md";
+  slug: "2026-05-15-ai-how-to-find-cheap-accommodation-anywhere";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-how-to-find-hidden-gem-destinations.md": {
+	id: "2026-05-15-ai-how-to-find-hidden-gem-destinations.md";
+  slug: "2026-05-15-ai-how-to-find-hidden-gem-destinations";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-how-to-get-cheap-hotel-upgrades.md": {
+	id: "2026-05-15-ai-how-to-get-cheap-hotel-upgrades.md";
+  slug: "2026-05-15-ai-how-to-get-cheap-hotel-upgrades";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-how-to-handle-emergency-fund-during-job-loss.md": {
+	id: "2026-05-15-ai-how-to-handle-emergency-fund-during-job-loss.md";
+  slug: "2026-05-15-ai-how-to-handle-emergency-fund-during-job-loss";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-how-to-invest-in-crypto-safely.md": {
+	id: "2026-05-15-ai-how-to-invest-in-crypto-safely.md";
+  slug: "2026-05-15-ai-how-to-invest-in-crypto-safely";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-how-to-invest-in-layer-2-tokens.md": {
+	id: "2026-05-15-ai-how-to-invest-in-layer-2-tokens.md";
+  slug: "2026-05-15-ai-how-to-invest-in-layer-2-tokens";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-how-to-keep-emergency-fund-accessible-but-earning-interest.md": {
+	id: "2026-05-15-ai-how-to-keep-emergency-fund-accessible-but-earning-interest.md";
+  slug: "2026-05-15-ai-how-to-keep-emergency-fund-accessible-but-earning-interest";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-how-to-plan-a-budget-trip-to-mexico.md": {
+	id: "2026-05-15-ai-how-to-plan-a-budget-trip-to-mexico.md";
+  slug: "2026-05-15-ai-how-to-plan-a-budget-trip-to-mexico";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-how-to-prioritize-emergency-fund-vs-retirement.md": {
+	id: "2026-05-15-ai-how-to-prioritize-emergency-fund-vs-retirement.md";
+  slug: "2026-05-15-ai-how-to-prioritize-emergency-fund-vs-retirement";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-how-to-rebuild-emergency-fund-after-using-it.md": {
+	id: "2026-05-15-ai-how-to-rebuild-emergency-fund-after-using-it.md";
+  slug: "2026-05-15-ai-how-to-rebuild-emergency-fund-after-using-it";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-how-to-research-altcoins-before-investing.md": {
+	id: "2026-05-15-ai-how-to-research-altcoins-before-investing.md";
+  slug: "2026-05-15-ai-how-to-research-altcoins-before-investing";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-how-to-save-emergency-fund-while-supporting-family.md": {
+	id: "2026-05-15-ai-how-to-save-emergency-fund-while-supporting-family.md";
+  slug: "2026-05-15-ai-how-to-save-emergency-fund-while-supporting-family";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-how-to-save-for-emergency-fund-while-paying-debt.md": {
+	id: "2026-05-15-ai-how-to-save-for-emergency-fund-while-paying-debt.md";
+  slug: "2026-05-15-ai-how-to-save-for-emergency-fund-while-paying-debt";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-how-to-set-crypto-price-alerts.md": {
+	id: "2026-05-15-ai-how-to-set-crypto-price-alerts.md";
+  slug: "2026-05-15-ai-how-to-set-crypto-price-alerts";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-how-to-spot-crypto-bull-runs-early.md": {
+	id: "2026-05-15-ai-how-to-spot-crypto-bull-runs-early.md";
+  slug: "2026-05-15-ai-how-to-spot-crypto-bull-runs-early";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-how-to-start-crypto-trading-with-100.md": {
+	id: "2026-05-15-ai-how-to-start-crypto-trading-with-100.md";
+  slug: "2026-05-15-ai-how-to-start-crypto-trading-with-100";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-how-to-start-emergency-fund-from-zero.md": {
+	id: "2026-05-15-ai-how-to-start-emergency-fund-from-zero.md";
+  slug: "2026-05-15-ai-how-to-start-emergency-fund-from-zero";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-how-to-travel-full-time-on-a-budget.md": {
+	id: "2026-05-15-ai-how-to-travel-full-time-on-a-budget.md";
+  slug: "2026-05-15-ai-how-to-travel-full-time-on-a-budget";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-how-to-travel-japan-on-a-budget.md": {
+	id: "2026-05-15-ai-how-to-travel-japan-on-a-budget.md";
+  slug: "2026-05-15-ai-how-to-travel-japan-on-a-budget";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-how-to-use-airline-miles-effectively.md": {
+	id: "2026-05-15-ai-how-to-use-airline-miles-effectively.md";
+  slug: "2026-05-15-ai-how-to-use-airline-miles-effectively";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-how-to-use-credit-card-points-for-free-flights.md": {
+	id: "2026-05-15-ai-how-to-use-credit-card-points-for-free-flights.md";
+  slug: "2026-05-15-ai-how-to-use-credit-card-points-for-free-flights";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-institutional-crypto-investing-trends.md": {
+	id: "2026-05-15-ai-institutional-crypto-investing-trends.md";
+  slug: "2026-05-15-ai-institutional-crypto-investing-trends";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-off-season-travel-deals-and-tips.md": {
+	id: "2026-05-15-ai-off-season-travel-deals-and-tips.md";
+  slug: "2026-05-15-ai-off-season-travel-deals-and-tips";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-passive-income-with-crypto-staking.md": {
+	id: "2026-05-15-ai-passive-income-with-crypto-staking.md";
+  slug: "2026-05-15-ai-passive-income-with-crypto-staking";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-real-estate-investing-for-beginners.md": {
+	id: "2026-05-15-ai-real-estate-investing-for-beginners.md";
+  slug: "2026-05-15-ai-real-estate-investing-for-beginners";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-risk-management-in-crypto-investing.md": {
+	id: "2026-05-15-ai-risk-management-in-crypto-investing.md";
+  slug: "2026-05-15-ai-risk-management-in-crypto-investing";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-understanding-bitcoin-halving-impact.md": {
+	id: "2026-05-15-ai-understanding-bitcoin-halving-impact.md";
+  slug: "2026-05-15-ai-understanding-bitcoin-halving-impact";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-understanding-crypto-market-cap.md": {
+	id: "2026-05-15-ai-understanding-crypto-market-cap.md";
+  slug: "2026-05-15-ai-understanding-crypto-market-cap";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-understanding-crypto-market-cycles.md": {
+	id: "2026-05-15-ai-understanding-crypto-market-cycles.md";
+  slug: "2026-05-15-ai-understanding-crypto-market-cycles";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-understanding-crypto-on-chain-analysis.md": {
+	id: "2026-05-15-ai-understanding-crypto-on-chain-analysis.md";
+  slug: "2026-05-15-ai-understanding-crypto-on-chain-analysis";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-15-ai-understanding-crypto-tokenomics.md": {
+	id: "2026-05-15-ai-understanding-crypto-tokenomics.md";
+  slug: "2026-05-15-ai-understanding-crypto-tokenomics";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-affordable-beach-destinations-caribbean.md": {
+	id: "2026-05-16-ai-affordable-beach-destinations-caribbean.md";
+  slug: "2026-05-16-ai-affordable-beach-destinations-caribbean";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-affordable-honeymoon-destinations-under-3000.md": {
+	id: "2026-05-16-ai-affordable-honeymoon-destinations-under-3000.md";
+  slug: "2026-05-16-ai-affordable-honeymoon-destinations-under-3000";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-ai-tools-for-animation.md": {
+	id: "2026-05-16-ai-ai-tools-for-animation.md";
+  slug: "2026-05-16-ai-ai-tools-for-animation";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-ai-tools-for-app-development.md": {
+	id: "2026-05-16-ai-ai-tools-for-app-development.md";
+  slug: "2026-05-16-ai-ai-tools-for-app-development";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-ai-tools-for-business-intelligence.md": {
+	id: "2026-05-16-ai-ai-tools-for-business-intelligence.md";
+  slug: "2026-05-16-ai-ai-tools-for-business-intelligence";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-ai-tools-for-competitive-analysis.md": {
+	id: "2026-05-16-ai-ai-tools-for-competitive-analysis.md";
+  slug: "2026-05-16-ai-ai-tools-for-competitive-analysis";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-ai-tools-for-crypto-traders.md": {
+	id: "2026-05-16-ai-ai-tools-for-crypto-traders.md";
+  slug: "2026-05-16-ai-ai-tools-for-crypto-traders";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-ai-tools-for-customer-retention.md": {
+	id: "2026-05-16-ai-ai-tools-for-customer-retention.md";
+  slug: "2026-05-16-ai-ai-tools-for-customer-retention";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-ai-tools-for-cybersecurity.md": {
+	id: "2026-05-16-ai-ai-tools-for-cybersecurity.md";
+  slug: "2026-05-16-ai-ai-tools-for-cybersecurity";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-ai-tools-for-data-engineering.md": {
+	id: "2026-05-16-ai-ai-tools-for-data-engineering.md";
+  slug: "2026-05-16-ai-ai-tools-for-data-engineering";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-ai-tools-for-deep-learning.md": {
+	id: "2026-05-16-ai-ai-tools-for-deep-learning.md";
+  slug: "2026-05-16-ai-ai-tools-for-deep-learning";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-ai-tools-for-devops-automation.md": {
+	id: "2026-05-16-ai-ai-tools-for-devops-automation.md";
+  slug: "2026-05-16-ai-ai-tools-for-devops-automation";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-ai-tools-for-dropshippers.md": {
+	id: "2026-05-16-ai-ai-tools-for-dropshippers.md";
+  slug: "2026-05-16-ai-ai-tools-for-dropshippers";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-ai-tools-for-fitness-and-health-tracking.md": {
+	id: "2026-05-16-ai-ai-tools-for-fitness-and-health-tracking.md";
+  slug: "2026-05-16-ai-ai-tools-for-fitness-and-health-tracking";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-ai-tools-for-graphic-design.md": {
+	id: "2026-05-16-ai-ai-tools-for-graphic-design.md";
+  slug: "2026-05-16-ai-ai-tools-for-graphic-design";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-ai-tools-for-influencer-marketing.md": {
+	id: "2026-05-16-ai-ai-tools-for-influencer-marketing.md";
+  slug: "2026-05-16-ai-ai-tools-for-influencer-marketing";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-ai-tools-for-inventory-tracking.md": {
+	id: "2026-05-16-ai-ai-tools-for-inventory-tracking.md";
+  slug: "2026-05-16-ai-ai-tools-for-inventory-tracking";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-ai-tools-for-lawyers.md": {
+	id: "2026-05-16-ai-ai-tools-for-lawyers.md";
+  slug: "2026-05-16-ai-ai-tools-for-lawyers";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-ai-tools-for-lead-generation.md": {
+	id: "2026-05-16-ai-ai-tools-for-lead-generation.md";
+  slug: "2026-05-16-ai-ai-tools-for-lead-generation";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-ai-tools-for-mental-health-support.md": {
+	id: "2026-05-16-ai-ai-tools-for-mental-health-support.md";
+  slug: "2026-05-16-ai-ai-tools-for-mental-health-support";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-ai-tools-for-personal-shoppers.md": {
+	id: "2026-05-16-ai-ai-tools-for-personal-shoppers.md";
+  slug: "2026-05-16-ai-ai-tools-for-personal-shoppers";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-ai-tools-for-product-development.md": {
+	id: "2026-05-16-ai-ai-tools-for-product-development.md";
+  slug: "2026-05-16-ai-ai-tools-for-product-development";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-ai-tools-for-real-estate-agents.md": {
+	id: "2026-05-16-ai-ai-tools-for-real-estate-agents.md";
+  slug: "2026-05-16-ai-ai-tools-for-real-estate-agents";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-best-ai-interior-design-tools.md": {
+	id: "2026-05-16-ai-best-ai-interior-design-tools.md";
+  slug: "2026-05-16-ai-best-ai-interior-design-tools";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-best-ai-recipe-and-meal-planning-tools.md": {
+	id: "2026-05-16-ai-best-ai-recipe-and-meal-planning-tools.md";
+  slug: "2026-05-16-ai-best-ai-recipe-and-meal-planning-tools";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-best-ai-tools-for-accountants.md": {
+	id: "2026-05-16-ai-best-ai-tools-for-accountants.md";
+  slug: "2026-05-16-ai-best-ai-tools-for-accountants";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-best-ai-tools-for-affiliate-marketing.md": {
+	id: "2026-05-16-ai-best-ai-tools-for-affiliate-marketing.md";
+  slug: "2026-05-16-ai-best-ai-tools-for-affiliate-marketing";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-best-ai-tools-for-brand-monitoring.md": {
+	id: "2026-05-16-ai-best-ai-tools-for-brand-monitoring.md";
+  slug: "2026-05-16-ai-best-ai-tools-for-brand-monitoring";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-best-ai-tools-for-cloud-infrastructure.md": {
+	id: "2026-05-16-ai-best-ai-tools-for-cloud-infrastructure.md";
+  slug: "2026-05-16-ai-best-ai-tools-for-cloud-infrastructure";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-best-ai-tools-for-customer-support.md": {
+	id: "2026-05-16-ai-best-ai-tools-for-customer-support.md";
+  slug: "2026-05-16-ai-best-ai-tools-for-customer-support";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-best-ai-tools-for-doctors.md": {
+	id: "2026-05-16-ai-best-ai-tools-for-doctors.md";
+  slug: "2026-05-16-ai-best-ai-tools-for-doctors";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-best-ai-tools-for-email-automation.md": {
+	id: "2026-05-16-ai-best-ai-tools-for-email-automation.md";
+  slug: "2026-05-16-ai-best-ai-tools-for-email-automation";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-best-ai-tools-for-forex-trading.md": {
+	id: "2026-05-16-ai-best-ai-tools-for-forex-trading.md";
+  slug: "2026-05-16-ai-best-ai-tools-for-forex-trading";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-best-ai-tools-for-fraud-detection.md": {
+	id: "2026-05-16-ai-best-ai-tools-for-fraud-detection.md";
+  slug: "2026-05-16-ai-best-ai-tools-for-fraud-detection";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-best-ai-tools-for-game-development.md": {
+	id: "2026-05-16-ai-best-ai-tools-for-game-development.md";
+  slug: "2026-05-16-ai-best-ai-tools-for-game-development";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-best-ai-tools-for-machine-learning.md": {
+	id: "2026-05-16-ai-best-ai-tools-for-machine-learning.md";
+  slug: "2026-05-16-ai-best-ai-tools-for-machine-learning";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-best-ai-tools-for-market-research.md": {
+	id: "2026-05-16-ai-best-ai-tools-for-market-research.md";
+  slug: "2026-05-16-ai-best-ai-tools-for-market-research";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-best-ai-tools-for-natural-language-processing.md": {
+	id: "2026-05-16-ai-best-ai-tools-for-natural-language-processing.md";
+  slug: "2026-05-16-ai-best-ai-tools-for-natural-language-processing";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-best-ai-tools-for-qa-testing.md": {
+	id: "2026-05-16-ai-best-ai-tools-for-qa-testing.md";
+  slug: "2026-05-16-ai-best-ai-tools-for-qa-testing";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-best-ai-tools-for-sales-forecasting.md": {
+	id: "2026-05-16-ai-best-ai-tools-for-sales-forecasting.md";
+  slug: "2026-05-16-ai-best-ai-tools-for-sales-forecasting";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-best-ai-tools-for-stock-market-analysis.md": {
+	id: "2026-05-16-ai-best-ai-tools-for-stock-market-analysis.md";
+  slug: "2026-05-16-ai-best-ai-tools-for-stock-market-analysis";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-best-ai-tools-for-supply-chain-management.md": {
+	id: "2026-05-16-ai-best-ai-tools-for-supply-chain-management.md";
+  slug: "2026-05-16-ai-best-ai-tools-for-supply-chain-management";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-best-ai-tools-for-ux-design.md": {
+	id: "2026-05-16-ai-best-ai-tools-for-ux-design.md";
+  slug: "2026-05-16-ai-best-ai-tools-for-ux-design";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-best-ai-tools-for-video-production.md": {
+	id: "2026-05-16-ai-best-ai-tools-for-video-production.md";
+  slug: "2026-05-16-ai-best-ai-tools-for-video-production";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-best-ai-voice-over-tools.md": {
+	id: "2026-05-16-ai-best-ai-voice-over-tools.md";
+  slug: "2026-05-16-ai-best-ai-voice-over-tools";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-best-bank-accounts-for-teens.md": {
+	id: "2026-05-16-ai-best-bank-accounts-for-teens.md";
+  slug: "2026-05-16-ai-best-bank-accounts-for-teens";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-best-budget-hostels-in-europe.md": {
+	id: "2026-05-16-ai-best-budget-hostels-in-europe.md";
+  slug: "2026-05-16-ai-best-budget-hostels-in-europe";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-best-budget-travel-apps-2026.md": {
+	id: "2026-05-16-ai-best-budget-travel-apps-2026.md";
+  slug: "2026-05-16-ai-best-budget-travel-apps-2026";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-best-budget-travel-destinations-under-500.md": {
+	id: "2026-05-16-ai-best-budget-travel-destinations-under-500.md";
+  slug: "2026-05-16-ai-best-budget-travel-destinations-under-500";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-best-budgeting-apps-2026.md": {
+	id: "2026-05-16-ai-best-budgeting-apps-2026.md";
+  slug: "2026-05-16-ai-best-budgeting-apps-2026";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-best-budgeting-methods-compared.md": {
+	id: "2026-05-16-ai-best-budgeting-methods-compared.md";
+  slug: "2026-05-16-ai-best-budgeting-methods-compared";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-best-cashback-credit-cards-2026.md": {
+	id: "2026-05-16-ai-best-cashback-credit-cards-2026.md";
+  slug: "2026-05-16-ai-best-cashback-credit-cards-2026";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-best-credit-monitoring-services.md": {
+	id: "2026-05-16-ai-best-credit-monitoring-services.md";
+  slug: "2026-05-16-ai-best-credit-monitoring-services";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-best-crypto-exchanges-for-beginners.md": {
+	id: "2026-05-16-ai-best-crypto-exchanges-for-beginners.md";
+  slug: "2026-05-16-ai-best-crypto-exchanges-for-beginners";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-best-crypto-wallets-for-investors.md": {
+	id: "2026-05-16-ai-best-crypto-wallets-for-investors.md";
+  slug: "2026-05-16-ai-best-crypto-wallets-for-investors";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-best-cryptocurrencies-to-invest-in-2026.md": {
+	id: "2026-05-16-ai-best-cryptocurrencies-to-invest-in-2026.md";
+  slug: "2026-05-16-ai-best-cryptocurrencies-to-invest-in-2026";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-best-debt-payoff-methods-snowball-vs-avalanche.md": {
+	id: "2026-05-16-ai-best-debt-payoff-methods-snowball-vs-avalanche.md";
+  slug: "2026-05-16-ai-best-debt-payoff-methods-snowball-vs-avalanche";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-best-defi-analytics-platforms-compared.md": {
+	id: "2026-05-16-ai-best-defi-analytics-platforms-compared.md";
+  slug: "2026-05-16-ai-best-defi-analytics-platforms-compared";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-best-defi-auto-compound-tools.md": {
+	id: "2026-05-16-ai-best-defi-auto-compound-tools.md";
+  slug: "2026-05-16-ai-best-defi-auto-compound-tools";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-best-defi-compounding-strategies.md": {
+	id: "2026-05-16-ai-best-defi-compounding-strategies.md";
+  slug: "2026-05-16-ai-best-defi-compounding-strategies";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-best-defi-crypto-index-funds.md": {
+	id: "2026-05-16-ai-best-defi-crypto-index-funds.md";
+  slug: "2026-05-16-ai-best-defi-crypto-index-funds";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-best-defi-dashboards-and-trackers.md": {
+	id: "2026-05-16-ai-best-defi-dashboards-and-trackers.md";
+  slug: "2026-05-16-ai-best-defi-dashboards-and-trackers";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-best-defi-gas-optimization-tips.md": {
+	id: "2026-05-16-ai-best-defi-gas-optimization-tips.md";
+  slug: "2026-05-16-ai-best-defi-gas-optimization-tips";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-best-defi-insurance-coverage-options.md": {
+	id: "2026-05-16-ai-best-defi-insurance-coverage-options.md";
+  slug: "2026-05-16-ai-best-defi-insurance-coverage-options";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-best-defi-leverage-farming-strategies.md": {
+	id: "2026-05-16-ai-best-defi-leverage-farming-strategies.md";
+  slug: "2026-05-16-ai-best-defi-leverage-farming-strategies";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-best-defi-risk-management-tools.md": {
+	id: "2026-05-16-ai-best-defi-risk-management-tools.md";
+  slug: "2026-05-16-ai-best-defi-risk-management-tools";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-best-defi-savings-account-alternatives.md": {
+	id: "2026-05-16-ai-best-defi-savings-account-alternatives.md";
+  slug: "2026-05-16-ai-best-defi-savings-account-alternatives";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-best-defi-staking-rewards.md": {
+	id: "2026-05-16-ai-best-defi-staking-rewards.md";
+  slug: "2026-05-16-ai-best-defi-staking-rewards";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-best-defi-strategies-for-bear-markets.md": {
+	id: "2026-05-16-ai-best-defi-strategies-for-bear-markets.md";
+  slug: "2026-05-16-ai-best-defi-strategies-for-bear-markets";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-best-defi-sustainable-apy-range.md": {
+	id: "2026-05-16-ai-best-defi-sustainable-apy-range.md";
+  slug: "2026-05-16-ai-best-defi-sustainable-apy-range";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-best-defi-year-in-review-2025.md": {
+	id: "2026-05-16-ai-best-defi-year-in-review-2025.md";
+  slug: "2026-05-16-ai-best-defi-year-in-review-2025";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-best-defi-yield-farming-platforms-2026.md": {
+	id: "2026-05-16-ai-best-defi-yield-farming-platforms-2026.md";
+  slug: "2026-05-16-ai-best-defi-yield-farming-platforms-2026";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-best-defi-yield-hunting-strategies.md": {
+	id: "2026-05-16-ai-best-defi-yield-hunting-strategies.md";
+  slug: "2026-05-16-ai-best-defi-yield-hunting-strategies";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-best-defi-yield-optimizer-protocols.md": {
+	id: "2026-05-16-ai-best-defi-yield-optimizer-protocols.md";
+  slug: "2026-05-16-ai-best-defi-yield-optimizer-protocols";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-best-high-yield-savings-accounts.md": {
+	id: "2026-05-16-ai-best-high-yield-savings-accounts.md";
+  slug: "2026-05-16-ai-best-high-yield-savings-accounts";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-best-identity-theft-protection.md": {
+	id: "2026-05-16-ai-best-identity-theft-protection.md";
+  slug: "2026-05-16-ai-best-identity-theft-protection";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-best-index-funds-for-beginners.md": {
+	id: "2026-05-16-ai-best-index-funds-for-beginners.md";
+  slug: "2026-05-16-ai-best-index-funds-for-beginners";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-best-investment-apps-for-beginners.md": {
+	id: "2026-05-16-ai-best-investment-apps-for-beginners.md";
+  slug: "2026-05-16-ai-best-investment-apps-for-beginners";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-best-money-management-for-couples.md": {
+	id: "2026-05-16-ai-best-money-management-for-couples.md";
+  slug: "2026-05-16-ai-best-money-management-for-couples";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-best-money-saving-tips-2026.md": {
+	id: "2026-05-16-ai-best-money-saving-tips-2026.md";
+  slug: "2026-05-16-ai-best-money-saving-tips-2026";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-best-personal-finance-books.md": {
+	id: "2026-05-16-ai-best-personal-finance-books.md";
+  slug: "2026-05-16-ai-best-personal-finance-books";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-best-savings-bonds-for-beginners.md": {
+	id: "2026-05-16-ai-best-savings-bonds-for-beginners.md";
+  slug: "2026-05-16-ai-best-savings-bonds-for-beginners";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-best-side-hustles-for-passive-income.md": {
+	id: "2026-05-16-ai-best-side-hustles-for-passive-income.md";
+  slug: "2026-05-16-ai-best-side-hustles-for-passive-income";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-best-stablecoin-defi-strategies.md": {
+	id: "2026-05-16-ai-best-stablecoin-defi-strategies.md";
+  slug: "2026-05-16-ai-best-stablecoin-defi-strategies";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-best-ways-to-invest-1000-dollars.md": {
+	id: "2026-05-16-ai-best-ways-to-invest-1000-dollars.md";
+  slug: "2026-05-16-ai-best-ways-to-invest-1000-dollars";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-bitcoin-brain-wallet-risks.md": {
+	id: "2026-05-16-ai-bitcoin-brain-wallet-risks.md";
+  slug: "2026-05-16-ai-bitcoin-brain-wallet-risks";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-bitcoin-child-pays-for-parent-cpfp.md": {
+	id: "2026-05-16-ai-bitcoin-child-pays-for-parent-cpfp.md";
+  slug: "2026-05-16-ai-bitcoin-child-pays-for-parent-cpfp";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-bitcoin-coin-control-features.md": {
+	id: "2026-05-16-ai-bitcoin-coin-control-features.md";
+  slug: "2026-05-16-ai-bitcoin-coin-control-features";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-bitcoin-cold-storage-best-practices.md": {
+	id: "2026-05-16-ai-bitcoin-cold-storage-best-practices.md";
+  slug: "2026-05-16-ai-bitcoin-cold-storage-best-practices";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-bitcoin-fee-estimation-guide.md": {
+	id: "2026-05-16-ai-bitcoin-fee-estimation-guide.md";
+  slug: "2026-05-16-ai-bitcoin-fee-estimation-guide";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-bitcoin-history-and-timeline.md": {
+	id: "2026-05-16-ai-bitcoin-history-and-timeline.md";
+  slug: "2026-05-16-ai-bitcoin-history-and-timeline";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-bitcoin-key-generation-methods.md": {
+	id: "2026-05-16-ai-bitcoin-key-generation-methods.md";
+  slug: "2026-05-16-ai-bitcoin-key-generation-methods";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-bitcoin-lightning-network-channels.md": {
+	id: "2026-05-16-ai-bitcoin-lightning-network-channels.md";
+  slug: "2026-05-16-ai-bitcoin-lightning-network-channels";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-bitcoin-mixers-and-privacy.md": {
+	id: "2026-05-16-ai-bitcoin-mixers-and-privacy.md";
+  slug: "2026-05-16-ai-bitcoin-mixers-and-privacy";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-bitcoin-multisig-wallets-guide.md": {
+	id: "2026-05-16-ai-bitcoin-multisig-wallets-guide.md";
+  slug: "2026-05-16-ai-bitcoin-multisig-wallets-guide";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-bitcoin-paper-wallet-guide.md": {
+	id: "2026-05-16-ai-bitcoin-paper-wallet-guide.md";
+  slug: "2026-05-16-ai-bitcoin-paper-wallet-guide";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-bitcoin-private-keys-explained.md": {
+	id: "2026-05-16-ai-bitcoin-private-keys-explained.md";
+  slug: "2026-05-16-ai-bitcoin-private-keys-explained";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-bitcoin-raw-transaction-guide.md": {
+	id: "2026-05-16-ai-bitcoin-raw-transaction-guide.md";
+  slug: "2026-05-16-ai-bitcoin-raw-transaction-guide";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-bitcoin-refund-policies-explained.md": {
+	id: "2026-05-16-ai-bitcoin-refund-policies-explained.md";
+  slug: "2026-05-16-ai-bitcoin-refund-policies-explained";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-bitcoin-replace-by-fee-rbf.md": {
+	id: "2026-05-16-ai-bitcoin-replace-by-fee-rbf.md";
+  slug: "2026-05-16-ai-bitcoin-replace-by-fee-rbf";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-bitcoin-sign-message-verify.md": {
+	id: "2026-05-16-ai-bitcoin-sign-message-verify.md";
+  slug: "2026-05-16-ai-bitcoin-sign-message-verify";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-bitcoin-soft-fork-vs-hard-fork.md": {
+	id: "2026-05-16-ai-bitcoin-soft-fork-vs-hard-fork.md";
+  slug: "2026-05-16-ai-bitcoin-soft-fork-vs-hard-fork";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-bitcoin-transaction-fees-explained.md": {
+	id: "2026-05-16-ai-bitcoin-transaction-fees-explained.md";
+  slug: "2026-05-16-ai-bitcoin-transaction-fees-explained";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-bitcoin-vs-ethereum-differences.md": {
+	id: "2026-05-16-ai-bitcoin-vs-ethereum-differences.md";
+  slug: "2026-05-16-ai-bitcoin-vs-ethereum-differences";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-bitcoin-vs-ethereum-investment-comparison.md": {
+	id: "2026-05-16-ai-bitcoin-vs-ethereum-investment-comparison.md";
+  slug: "2026-05-16-ai-bitcoin-vs-ethereum-investment-comparison";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-bitcoin-vs-traditional-money.md": {
+	id: "2026-05-16-ai-bitcoin-vs-traditional-money.md";
+  slug: "2026-05-16-ai-bitcoin-vs-traditional-money";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-bitcoin-wallet-types-explained.md": {
+	id: "2026-05-16-ai-bitcoin-wallet-types-explained.md";
+  slug: "2026-05-16-ai-bitcoin-wallet-types-explained";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-bitcoin-witness-segwit-explained.md": {
+	id: "2026-05-16-ai-bitcoin-witness-segwit-explained.md";
+  slug: "2026-05-16-ai-bitcoin-witness-segwit-explained";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-bollinger-bands-crypto-strategy.md": {
+	id: "2026-05-16-ai-bollinger-bands-crypto-strategy.md";
+  slug: "2026-05-16-ai-bollinger-bands-crypto-strategy";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-budget-travel-packing-list-essentials.md": {
+	id: "2026-05-16-ai-budget-travel-packing-list-essentials.md";
+  slug: "2026-05-16-ai-budget-travel-packing-list-essentials";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-budget-travel-tips-for-solo-travelers.md": {
+	id: "2026-05-16-ai-budget-travel-tips-for-solo-travelers.md";
+  slug: "2026-05-16-ai-budget-travel-tips-for-solo-travelers";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-cheapest-countries-to-visit-in-2026.md": {
+	id: "2026-05-16-ai-cheapest-countries-to-visit-in-2026.md";
+  slug: "2026-05-16-ai-cheapest-countries-to-visit-in-2026";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-crypto-basis-trading-strategies.md": {
+	id: "2026-05-16-ai-crypto-basis-trading-strategies.md";
+  slug: "2026-05-16-ai-crypto-basis-trading-strategies";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-crypto-dca-vs-lump-sum.md": {
+	id: "2026-05-16-ai-crypto-dca-vs-lump-sum.md";
+  slug: "2026-05-16-ai-crypto-dca-vs-lump-sum";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-crypto-dollar-cost-averaging-strategy.md": {
+	id: "2026-05-16-ai-crypto-dollar-cost-averaging-strategy.md";
+  slug: "2026-05-16-ai-crypto-dollar-cost-averaging-strategy";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-crypto-etf-explained-for-beginners.md": {
+	id: "2026-05-16-ai-crypto-etf-explained-for-beginners.md";
+  slug: "2026-05-16-ai-crypto-etf-explained-for-beginners";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-crypto-funding-rate-arbitrage.md": {
+	id: "2026-05-16-ai-crypto-funding-rate-arbitrage.md";
+  slug: "2026-05-16-ai-crypto-funding-rate-arbitrage";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-crypto-grid-trading-bots.md": {
+	id: "2026-05-16-ai-crypto-grid-trading-bots.md";
+  slug: "2026-05-16-ai-crypto-grid-trading-bots";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-crypto-investing-mistakes-to-avoid.md": {
+	id: "2026-05-16-ai-crypto-investing-mistakes-to-avoid.md";
+  slug: "2026-05-16-ai-crypto-investing-mistakes-to-avoid";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-crypto-options-trading-for-beginners.md": {
+	id: "2026-05-16-ai-crypto-options-trading-for-beginners.md";
+  slug: "2026-05-16-ai-crypto-options-trading-for-beginners";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-crypto-perpetual-futures-guide.md": {
+	id: "2026-05-16-ai-crypto-perpetual-futures-guide.md";
+  slug: "2026-05-16-ai-crypto-perpetual-futures-guide";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-crypto-portfoliorebalancing-guide.md": {
+	id: "2026-05-16-ai-crypto-portfoliorebalancing-guide.md";
+  slug: "2026-05-16-ai-crypto-portfoliorebalancing-guide";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-crypto-tax-loss-harvesting.md": {
+	id: "2026-05-16-ai-crypto-tax-loss-harvesting.md";
+  slug: "2026-05-16-ai-crypto-tax-loss-harvesting";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-defi-6-vs-defi-farming-compared.md": {
+	id: "2026-05-16-ai-defi-6-vs-defi-farming-compared.md";
+  slug: "2026-05-16-ai-defi-6-vs-defi-farming-compared";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-defi-arbitrage-opportunities-2026.md": {
+	id: "2026-05-16-ai-defi-arbitrage-opportunities-2026.md";
+  slug: "2026-05-16-ai-defi-arbitrage-opportunities-2026";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-defi-cross-chain-bridges-compared.md": {
+	id: "2026-05-16-ai-defi-cross-chain-bridges-compared.md";
+  slug: "2026-05-16-ai-defi-cross-chain-bridges-compared";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-defi-farming-tax-reporting-guide.md": {
+	id: "2026-05-16-ai-defi-farming-tax-reporting-guide.md";
+  slug: "2026-05-16-ai-defi-farming-tax-reporting-guide";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-defi-hack-prevention-guide.md": {
+	id: "2026-05-16-ai-defi-hack-prevention-guide.md";
+  slug: "2026-05-16-ai-defi-hack-prevention-guide";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-defi-impermanent-loss-calculator-tools.md": {
+	id: "2026-05-16-ai-defi-impermanent-loss-calculator-tools.md";
+  slug: "2026-05-16-ai-defi-impermanent-loss-calculator-tools";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-defi-investing-opportunities-2026.md": {
+	id: "2026-05-16-ai-defi-investing-opportunities-2026.md";
+  slug: "2026-05-16-ai-defi-investing-opportunities-2026";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-defi-lending-vs-liquidity-mining.md": {
+	id: "2026-05-16-ai-defi-lending-vs-liquidity-mining.md";
+  slug: "2026-05-16-ai-defi-lending-vs-liquidity-mining";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-defi-liquidity-pools-explained.md": {
+	id: "2026-05-16-ai-defi-liquidity-pools-explained.md";
+  slug: "2026-05-16-ai-defi-liquidity-pools-explained";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-defi-liquidity-provision-for-beginners.md": {
+	id: "2026-05-16-ai-defi-liquidity-provision-for-beginners.md";
+  slug: "2026-05-16-ai-defi-liquidity-provision-for-beginners";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-defi-mining-vs-staking-comparison.md": {
+	id: "2026-05-16-ai-defi-mining-vs-staking-comparison.md";
+  slug: "2026-05-16-ai-defi-mining-vs-staking-comparison";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-defi-options-and-derivatives-explained.md": {
+	id: "2026-05-16-ai-defi-options-and-derivatives-explained.md";
+  slug: "2026-05-16-ai-defi-options-and-derivatives-explained";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-defi-portfolio-diversification-guide.md": {
+	id: "2026-05-16-ai-defi-portfolio-diversification-guide.md";
+  slug: "2026-05-16-ai-defi-portfolio-diversification-guide";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-defi-portfolio-rebalancing-guide.md": {
+	id: "2026-05-16-ai-defi-portfolio-rebalancing-guide.md";
+  slug: "2026-05-16-ai-defi-portfolio-rebalancing-guide";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-defi-profit-taking-strategies.md": {
+	id: "2026-05-16-ai-defi-profit-taking-strategies.md";
+  slug: "2026-05-16-ai-defi-profit-taking-strategies";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-defi-smart-contract-risk-assessment.md": {
+	id: "2026-05-16-ai-defi-smart-contract-risk-assessment.md";
+  slug: "2026-05-16-ai-defi-smart-contract-risk-assessment";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-defi-token-price-prediction-methods.md": {
+	id: "2026-05-16-ai-defi-token-price-prediction-methods.md";
+  slug: "2026-05-16-ai-defi-token-price-prediction-methods";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-elliott-wave-crypto-analysis.md": {
+	id: "2026-05-16-ai-elliott-wave-crypto-analysis.md";
+  slug: "2026-05-16-ai-elliott-wave-crypto-analysis";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-emergency-fund-how-much-to-save.md": {
+	id: "2026-05-16-ai-emergency-fund-how-much-to-save.md";
+  slug: "2026-05-16-ai-emergency-fund-how-much-to-save";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-financial-independence-retire-early-fire.md": {
+	id: "2026-05-16-ai-financial-independence-retire-early-fire.md";
+  slug: "2026-05-16-ai-financial-independence-retire-early-fire";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-how-bitcoin-mining-works.md": {
+	id: "2026-05-16-ai-how-bitcoin-mining-works.md";
+  slug: "2026-05-16-ai-how-bitcoin-mining-works";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-how-to-accept-bitcoin-payments.md": {
+	id: "2026-05-16-ai-how-to-accept-bitcoin-payments.md";
+  slug: "2026-05-16-ai-how-to-accept-bitcoin-payments";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-how-to-build-a-crypto-portfolio.md": {
+	id: "2026-05-16-ai-how-to-build-a-crypto-portfolio.md";
+  slug: "2026-05-16-ai-how-to-build-a-crypto-portfolio";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-how-to-build-multiple-income-streams.md": {
+	id: "2026-05-16-ai-how-to-build-multiple-income-streams.md";
+  slug: "2026-05-16-ai-how-to-build-multiple-income-streams";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-how-to-buy-bitcoin-for-beginners.md": {
+	id: "2026-05-16-ai-how-to-buy-bitcoin-for-beginners.md";
+  slug: "2026-05-16-ai-how-to-buy-bitcoin-for-beginners";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-how-to-calculate-defi-portfolio-value.md": {
+	id: "2026-05-16-ai-how-to-calculate-defi-portfolio-value.md";
+  slug: "2026-05-16-ai-how-to-calculate-defi-portfolio-value";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-how-to-calculate-net-apy-in-defi.md": {
+	id: "2026-05-16-ai-how-to-calculate-net-apy-in-defi.md";
+  slug: "2026-05-16-ai-how-to-calculate-net-apy-in-defi";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-how-to-create-a-budget-that-works.md": {
+	id: "2026-05-16-ai-how-to-create-a-budget-that-works.md";
+  slug: "2026-05-16-ai-how-to-create-a-budget-that-works";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-how-to-create-a-financial-plan.md": {
+	id: "2026-05-16-ai-how-to-create-a-financial-plan.md";
+  slug: "2026-05-16-ai-how-to-create-a-financial-plan";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-how-to-dispute-credit-report-errors.md": {
+	id: "2026-05-16-ai-how-to-dispute-credit-report-errors.md";
+  slug: "2026-05-16-ai-how-to-dispute-credit-report-errors";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-how-to-earn-btc-yield-on-defi.md": {
+	id: "2026-05-16-ai-how-to-earn-btc-yield-on-defi.md";
+  slug: "2026-05-16-ai-how-to-earn-btc-yield-on-defi";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-how-to-evaluate-defi-project-fundamentals.md": {
+	id: "2026-05-16-ai-how-to-evaluate-defi-project-fundamentals.md";
+  slug: "2026-05-16-ai-how-to-evaluate-defi-project-fundamentals";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-how-to-find-cheap-flights-last-minute.md": {
+	id: "2026-05-16-ai-how-to-find-cheap-flights-last-minute.md";
+  slug: "2026-05-16-ai-how-to-find-cheap-flights-last-minute";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-how-to-handle-debt-collectors.md": {
+	id: "2026-05-16-ai-how-to-handle-debt-collectors.md";
+  slug: "2026-05-16-ai-how-to-handle-debt-collectors";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-how-to-improve-credit-score-fast.md": {
+	id: "2026-05-16-ai-how-to-improve-credit-score-fast.md";
+  slug: "2026-05-16-ai-how-to-improve-credit-score-fast";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-how-to-invest-in-crypto-safely.md": {
+	id: "2026-05-16-ai-how-to-invest-in-crypto-safely.md";
+  slug: "2026-05-16-ai-how-to-invest-in-crypto-safely";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-how-to-negotiate-bills-down.md": {
+	id: "2026-05-16-ai-how-to-negotiate-bills-down.md";
+  slug: "2026-05-16-ai-how-to-negotiate-bills-down";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-how-to-negotiate-salary-effectively.md": {
+	id: "2026-05-16-ai-how-to-negotiate-salary-effectively.md";
+  slug: "2026-05-16-ai-how-to-negotiate-salary-effectively";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-how-to-pay-off-credit-card-debt-fast.md": {
+	id: "2026-05-16-ai-how-to-pay-off-credit-card-debt-fast.md";
+  slug: "2026-05-16-ai-how-to-pay-off-credit-card-debt-fast";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-how-to-provide-liquidity-on-curve.md": {
+	id: "2026-05-16-ai-how-to-provide-liquidity-on-curve.md";
+  slug: "2026-05-16-ai-how-to-provide-liquidity-on-curve";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-how-to-read-crypto-charts-for-beginners.md": {
+	id: "2026-05-16-ai-how-to-read-crypto-charts-for-beginners.md";
+  slug: "2026-05-16-ai-how-to-read-crypto-charts-for-beginners";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-how-to-read-your-credit-report.md": {
+	id: "2026-05-16-ai-how-to-read-your-credit-report.md";
+  slug: "2026-05-16-ai-how-to-read-your-credit-report";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-how-to-reduce-monthly-expenses.md": {
+	id: "2026-05-16-ai-how-to-reduce-monthly-expenses.md";
+  slug: "2026-05-16-ai-how-to-reduce-monthly-expenses";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-how-to-refinance-student-loans.md": {
+	id: "2026-05-16-ai-how-to-refinance-student-loans.md";
+  slug: "2026-05-16-ai-how-to-refinance-student-loans";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-how-to-save-money-every-month.md": {
+	id: "2026-05-16-ai-how-to-save-money-every-month.md";
+  slug: "2026-05-16-ai-how-to-save-money-every-month";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-how-to-spot-crypto-bull-runs-early.md": {
+	id: "2026-05-16-ai-how-to-spot-crypto-bull-runs-early.md";
+  slug: "2026-05-16-ai-how-to-spot-crypto-bull-runs-early";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-how-to-start-a-sole-proprietorship.md": {
+	id: "2026-05-16-ai-how-to-start-a-sole-proprietorship.md";
+  slug: "2026-05-16-ai-how-to-start-a-sole-proprietorship";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-how-to-start-defi-with-100-dollars.md": {
+	id: "2026-05-16-ai-how-to-start-defi-with-100-dollars.md";
+  slug: "2026-05-16-ai-how-to-start-defi-with-100-dollars";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-how-to-start-investing-in-crypto.md": {
+	id: "2026-05-16-ai-how-to-start-investing-in-crypto.md";
+  slug: "2026-05-16-ai-how-to-start-investing-in-crypto";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-how-to-start-investing-with-100-dollars.md": {
+	id: "2026-05-16-ai-how-to-start-investing-with-100-dollars.md";
+  slug: "2026-05-16-ai-how-to-start-investing-with-100-dollars";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-how-to-start-yield-farming.md": {
+	id: "2026-05-16-ai-how-to-start-yield-farming.md";
+  slug: "2026-05-16-ai-how-to-start-yield-farming";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-how-to-stop-living-paycheck-to-paycheck.md": {
+	id: "2026-05-16-ai-how-to-stop-living-paycheck-to-paycheck.md";
+  slug: "2026-05-16-ai-how-to-stop-living-paycheck-to-paycheck";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-how-to-store-bitcoin-safely.md": {
+	id: "2026-05-16-ai-how-to-store-bitcoin-safely.md";
+  slug: "2026-05-16-ai-how-to-store-bitcoin-safely";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-how-to-teach-kids-about-money.md": {
+	id: "2026-05-16-ai-how-to-teach-kids-about-money.md";
+  slug: "2026-05-16-ai-how-to-teach-kids-about-money";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-how-to-teach-teenagers-about-credit.md": {
+	id: "2026-05-16-ai-how-to-teach-teenagers-about-credit.md";
+  slug: "2026-05-16-ai-how-to-teach-teenagers-about-credit";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-how-to-track-defi-tvl-trends.md": {
+	id: "2026-05-16-ai-how-to-track-defi-tvl-trends.md";
+  slug: "2026-05-16-ai-how-to-track-defi-tvl-trends";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-how-to-travel-southeast-asia-on-30-a-day.md": {
+	id: "2026-05-16-ai-how-to-travel-southeast-asia-on-30-a-day.md";
+  slug: "2026-05-16-ai-how-to-travel-southeast-asia-on-30-a-day";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-how-to-use-1inch-aggregator.md": {
+	id: "2026-05-16-ai-how-to-use-1inch-aggregator.md";
+  slug: "2026-05-16-ai-how-to-use-1inch-aggregator";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-how-to-use-aave-flash-loans.md": {
+	id: "2026-05-16-ai-how-to-use-aave-flash-loans.md";
+  slug: "2026-05-16-ai-how-to-use-aave-flash-loans";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-how-to-use-aave-for-borrowing.md": {
+	id: "2026-05-16-ai-how-to-use-aave-for-borrowing.md";
+  slug: "2026-05-16-ai-how-to-use-aave-for-borrowing";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-how-to-use-balancer-lp.md": {
+	id: "2026-05-16-ai-how-to-use-balancer-lp.md";
+  slug: "2026-05-16-ai-how-to-use-balancer-lp";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-how-to-use-convex-finance-for-boosted-apy.md": {
+	id: "2026-05-16-ai-how-to-use-convex-finance-for-boosted-apy.md";
+  slug: "2026-05-16-ai-how-to-use-convex-finance-for-boosted-apy";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-how-to-use-credit-card-points-for-free-flights.md": {
+	id: "2026-05-16-ai-how-to-use-credit-card-points-for-free-flights.md";
+  slug: "2026-05-16-ai-how-to-use-credit-card-points-for-free-flights";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-how-to-use-curve-finance.md": {
+	id: "2026-05-16-ai-how-to-use-curve-finance.md";
+  slug: "2026-05-16-ai-how-to-use-curve-finance";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-how-to-use-makerdao-for-dai-generation.md": {
+	id: "2026-05-16-ai-how-to-use-makerdao-for-dai-generation.md";
+  slug: "2026-05-16-ai-how-to-use-makerdao-for-dai-generation";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-how-to-use-paraswap-swap-aggregation.md": {
+	id: "2026-05-16-ai-how-to-use-paraswap-swap-aggregation.md";
+  slug: "2026-05-16-ai-how-to-use-paraswap-swap-aggregation";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-how-to-use-sushiswap-farming.md": {
+	id: "2026-05-16-ai-how-to-use-sushiswap-farming.md";
+  slug: "2026-05-16-ai-how-to-use-sushiswap-farming";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-how-to-use-yearn-vault-strategies.md": {
+	id: "2026-05-16-ai-how-to-use-yearn-vault-strategies.md";
+  slug: "2026-05-16-ai-how-to-use-yearn-vault-strategies";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-ichimoku-cloud-crypto-trading.md": {
+	id: "2026-05-16-ai-ichimoku-cloud-crypto-trading.md";
+  slug: "2026-05-16-ai-ichimoku-cloud-crypto-trading";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-investing-for-beginners-guide.md": {
+	id: "2026-05-16-ai-investing-for-beginners-guide.md";
+  slug: "2026-05-16-ai-investing-for-beginners-guide";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-is-bitcoin-a-good-investment-2026.md": {
+	id: "2026-05-16-ai-is-bitcoin-a-good-investment-2026.md";
+  slug: "2026-05-16-ai-is-bitcoin-a-good-investment-2026";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-macd-crypto-trading-strategy.md": {
+	id: "2026-05-16-ai-macd-crypto-trading-strategy.md";
+  slug: "2026-05-16-ai-macd-crypto-trading-strategy";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-passive-income-with-crypto-staking.md": {
+	id: "2026-05-16-ai-passive-income-with-crypto-staking.md";
+  slug: "2026-05-16-ai-passive-income-with-crypto-staking";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-risk-management-in-crypto-investing.md": {
+	id: "2026-05-16-ai-risk-management-in-crypto-investing.md";
+  slug: "2026-05-16-ai-risk-management-in-crypto-investing";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-side-hustle-ideas-to-make-extra-money.md": {
+	id: "2026-05-16-ai-side-hustle-ideas-to-make-extra-money.md";
+  slug: "2026-05-16-ai-side-hustle-ideas-to-make-extra-money";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-supertrend-crypto-strategy.md": {
+	id: "2026-05-16-ai-supertrend-crypto-strategy.md";
+  slug: "2026-05-16-ai-supertrend-crypto-strategy";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-tax-saving-strategies-for-individuals.md": {
+	id: "2026-05-16-ai-tax-saving-strategies-for-individuals.md";
+  slug: "2026-05-16-ai-tax-saving-strategies-for-individuals";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-understanding-401k-and-retirement.md": {
+	id: "2026-05-16-ai-understanding-401k-and-retirement.md";
+  slug: "2026-05-16-ai-understanding-401k-and-retirement";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-understanding-bitcoin-halving.md": {
+	id: "2026-05-16-ai-understanding-bitcoin-halving.md";
+  slug: "2026-05-16-ai-understanding-bitcoin-halving";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-understanding-compound-interest.md": {
+	id: "2026-05-16-ai-understanding-compound-interest.md";
+  slug: "2026-05-16-ai-understanding-compound-interest";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-understanding-crypto-market-cap.md": {
+	id: "2026-05-16-ai-understanding-crypto-market-cap.md";
+  slug: "2026-05-16-ai-understanding-crypto-market-cap";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-understanding-crypto-market-cycles.md": {
+	id: "2026-05-16-ai-understanding-crypto-market-cycles.md";
+  slug: "2026-05-16-ai-understanding-crypto-market-cycles";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-vwap-crypto-trading-strategy.md": {
+	id: "2026-05-16-ai-vwap-crypto-trading-strategy.md";
+  slug: "2026-05-16-ai-vwap-crypto-trading-strategy";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-what-is-bitcoin-explained-simply.md": {
+	id: "2026-05-16-ai-what-is-bitcoin-explained-simply.md";
+  slug: "2026-05-16-ai-what-is-bitcoin-explained-simply";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-16-ai-what-is-defi-explained-simply.md": {
+	id: "2026-05-16-ai-what-is-defi-explained-simply.md";
+  slug: "2026-05-16-ai-what-is-defi-explained-simply";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-18-ai-affordable-honeymoon-destinations-under-3000.md": {
+	id: "2026-05-18-ai-affordable-honeymoon-destinations-under-3000.md";
+  slug: "2026-05-18-ai-affordable-honeymoon-destinations-under-3000";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-18-ai-automated-emergency-fund-savings-strategies.md": {
+	id: "2026-05-18-ai-automated-emergency-fund-savings-strategies.md";
+  slug: "2026-05-18-ai-automated-emergency-fund-savings-strategies";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-18-ai-best-banks-for-emergency-fund-savings.md": {
+	id: "2026-05-18-ai-best-banks-for-emergency-fund-savings.md";
+  slug: "2026-05-18-ai-best-banks-for-emergency-fund-savings";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-18-ai-best-budget-hostels-in-europe.md": {
+	id: "2026-05-18-ai-best-budget-hostels-in-europe.md";
+  slug: "2026-05-18-ai-best-budget-hostels-in-europe";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-18-ai-best-cd-accounts-for-emergency-fund-ladder.md": {
+	id: "2026-05-18-ai-best-cd-accounts-for-emergency-fund-ladder.md";
+  slug: "2026-05-18-ai-best-cd-accounts-for-emergency-fund-ladder";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-18-ai-best-checking-accounts-for-emergency-fund-parking.md": {
+	id: "2026-05-18-ai-best-checking-accounts-for-emergency-fund-parking.md";
+  slug: "2026-05-18-ai-best-checking-accounts-for-emergency-fund-parking";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-18-ai-best-crypto-trading-bots.md": {
+	id: "2026-05-18-ai-best-crypto-trading-bots.md";
+  slug: "2026-05-18-ai-best-crypto-trading-bots";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-18-ai-best-crypto-trading-indicators.md": {
+	id: "2026-05-18-ai-best-crypto-trading-indicators.md";
+  slug: "2026-05-18-ai-best-crypto-trading-indicators";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-18-ai-best-crypto-trading-platforms-2026.md": {
+	id: "2026-05-18-ai-best-crypto-trading-platforms-2026.md";
+  slug: "2026-05-18-ai-best-crypto-trading-platforms-2026";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-18-ai-best-crypto-trading-strategies-2026.md": {
+	id: "2026-05-18-ai-best-crypto-trading-strategies-2026.md";
+  slug: "2026-05-18-ai-best-crypto-trading-strategies-2026";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-18-ai-best-emergency-fund-calculators-and-tools.md": {
+	id: "2026-05-18-ai-best-emergency-fund-calculators-and-tools.md";
+  slug: "2026-05-18-ai-best-emergency-fund-calculators-and-tools";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-18-ai-best-high-yield-savings-accounts-for-emergency-funds-2026.md": {
+	id: "2026-05-18-ai-best-high-yield-savings-accounts-for-emergency-funds-2026.md";
+  slug: "2026-05-18-ai-best-high-yield-savings-accounts-for-emergency-funds-2026";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-18-ai-best-money-market-accounts-for-emergency-funds.md": {
+	id: "2026-05-18-ai-best-money-market-accounts-for-emergency-funds.md";
+  slug: "2026-05-18-ai-best-money-market-accounts-for-emergency-funds";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-18-ai-bitcoin-history-and-timeline.md": {
+	id: "2026-05-18-ai-bitcoin-history-and-timeline.md";
+  slug: "2026-05-18-ai-bitcoin-history-and-timeline";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-18-ai-bitcoin-security-best-practices.md": {
+	id: "2026-05-18-ai-bitcoin-security-best-practices.md";
+  slug: "2026-05-18-ai-bitcoin-security-best-practices";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-18-ai-bitcoin-transaction-fees-explained.md": {
+	id: "2026-05-18-ai-bitcoin-transaction-fees-explained.md";
+  slug: "2026-05-18-ai-bitcoin-transaction-fees-explained";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-18-ai-bitcoin-vs-ethereum-differences.md": {
+	id: "2026-05-18-ai-bitcoin-vs-ethereum-differences.md";
+  slug: "2026-05-18-ai-bitcoin-vs-ethereum-differences";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-18-ai-bitcoin-vs-traditional-money.md": {
+	id: "2026-05-18-ai-bitcoin-vs-traditional-money.md";
+  slug: "2026-05-18-ai-bitcoin-vs-traditional-money";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-18-ai-bitcoin-wallet-types-explained.md": {
+	id: "2026-05-18-ai-bitcoin-wallet-types-explained.md";
+  slug: "2026-05-18-ai-bitcoin-wallet-types-explained";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-18-ai-budget-travel-packing-list-essentials.md": {
+	id: "2026-05-18-ai-budget-travel-packing-list-essentials.md";
+  slug: "2026-05-18-ai-budget-travel-packing-list-essentials";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-18-ai-cheapest-countries-to-visit-in-2026.md": {
+	id: "2026-05-18-ai-cheapest-countries-to-visit-in-2026.md";
+  slug: "2026-05-18-ai-cheapest-countries-to-visit-in-2026";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-18-ai-crypto-day-trading-for-beginners.md": {
+	id: "2026-05-18-ai-crypto-day-trading-for-beginners.md";
+  slug: "2026-05-18-ai-crypto-day-trading-for-beginners";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-18-ai-crypto-scalping-strategies-explained.md": {
+	id: "2026-05-18-ai-crypto-scalping-strategies-explained.md";
+  slug: "2026-05-18-ai-crypto-scalping-strategies-explained";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-18-ai-crypto-swing-trading-guide.md": {
+	id: "2026-05-18-ai-crypto-swing-trading-guide.md";
+  slug: "2026-05-18-ai-crypto-swing-trading-guide";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-18-ai-emergency-fund-for-self-employed-and-freelancers.md": {
+	id: "2026-05-18-ai-emergency-fund-for-self-employed-and-freelancers.md";
+  slug: "2026-05-18-ai-emergency-fund-for-self-employed-and-freelancers";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-18-ai-emergency-fund-milestones-and-benchmarks.md": {
+	id: "2026-05-18-ai-emergency-fund-milestones-and-benchmarks.md";
+  slug: "2026-05-18-ai-emergency-fund-milestones-and-benchmarks";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-18-ai-emergency-fund-vs-credit-line-which-is-better.md": {
+	id: "2026-05-18-ai-emergency-fund-vs-credit-line-which-is-better.md";
+  slug: "2026-05-18-ai-emergency-fund-vs-credit-line-which-is-better";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-18-ai-emergency-fund-vs-investing-which-comes-first.md": {
+	id: "2026-05-18-ai-emergency-fund-vs-investing-which-comes-first.md";
+  slug: "2026-05-18-ai-emergency-fund-vs-investing-which-comes-first";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-18-ai-fibonacci-retracement-crypto.md": {
+	id: "2026-05-18-ai-fibonacci-retracement-crypto.md";
+  slug: "2026-05-18-ai-fibonacci-retracement-crypto";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-18-ai-how-bitcoin-mining-works.md": {
+	id: "2026-05-18-ai-how-bitcoin-mining-works.md";
+  slug: "2026-05-18-ai-how-bitcoin-mining-works";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-18-ai-how-much-emergency-fund-do-you-really-need.md": {
+	id: "2026-05-18-ai-how-much-emergency-fund-do-you-really-need.md";
+  slug: "2026-05-18-ai-how-much-emergency-fund-do-you-really-need";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-18-ai-how-to-accept-bitcoin-payments.md": {
+	id: "2026-05-18-ai-how-to-accept-bitcoin-payments.md";
+  slug: "2026-05-18-ai-how-to-accept-bitcoin-payments";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-18-ai-how-to-automate-emergency-fund-contributions.md": {
+	id: "2026-05-18-ai-how-to-automate-emergency-fund-contributions.md";
+  slug: "2026-05-18-ai-how-to-automate-emergency-fund-contributions";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-18-ai-how-to-build-emergency-fund-fast-on-low-income.md": {
+	id: "2026-05-18-ai-how-to-build-emergency-fund-fast-on-low-income.md";
+  slug: "2026-05-18-ai-how-to-build-emergency-fund-fast-on-low-income";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-18-ai-how-to-buy-bitcoin-for-beginners.md": {
+	id: "2026-05-18-ai-how-to-buy-bitcoin-for-beginners.md";
+  slug: "2026-05-18-ai-how-to-buy-bitcoin-for-beginners";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-18-ai-how-to-find-cheap-flights-last-minute.md": {
+	id: "2026-05-18-ai-how-to-find-cheap-flights-last-minute.md";
+  slug: "2026-05-18-ai-how-to-find-cheap-flights-last-minute";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-18-ai-how-to-keep-emergency-fund-accessible-but-earning-interest.md": {
+	id: "2026-05-18-ai-how-to-keep-emergency-fund-accessible-but-earning-interest.md";
+  slug: "2026-05-18-ai-how-to-keep-emergency-fund-accessible-but-earning-interest";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-18-ai-how-to-read-crypto-candlestick-charts.md": {
+	id: "2026-05-18-ai-how-to-read-crypto-candlestick-charts.md";
+  slug: "2026-05-18-ai-how-to-read-crypto-candlestick-charts";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-18-ai-how-to-rebuild-emergency-fund-after-using-it.md": {
+	id: "2026-05-18-ai-how-to-rebuild-emergency-fund-after-using-it.md";
+  slug: "2026-05-18-ai-how-to-rebuild-emergency-fund-after-using-it";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-18-ai-how-to-save-for-emergency-fund-while-paying-debt.md": {
+	id: "2026-05-18-ai-how-to-save-for-emergency-fund-while-paying-debt.md";
+  slug: "2026-05-18-ai-how-to-save-for-emergency-fund-while-paying-debt";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-18-ai-how-to-send-and-receive-bitcoin.md": {
+	id: "2026-05-18-ai-how-to-send-and-receive-bitcoin.md";
+  slug: "2026-05-18-ai-how-to-send-and-receive-bitcoin";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-18-ai-how-to-set-stop-losses-crypto.md": {
+	id: "2026-05-18-ai-how-to-set-stop-losses-crypto.md";
+  slug: "2026-05-18-ai-how-to-set-stop-losses-crypto";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-18-ai-how-to-store-bitcoin-safely.md": {
+	id: "2026-05-18-ai-how-to-store-bitcoin-safely.md";
+  slug: "2026-05-18-ai-how-to-store-bitcoin-safely";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-18-ai-how-to-travel-southeast-asia-on-30-a-day.md": {
+	id: "2026-05-18-ai-how-to-travel-southeast-asia-on-30-a-day.md";
+  slug: "2026-05-18-ai-how-to-travel-southeast-asia-on-30-a-day";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-18-ai-is-bitcoin-a-good-investment-2026.md": {
+	id: "2026-05-18-ai-is-bitcoin-a-good-investment-2026.md";
+  slug: "2026-05-18-ai-is-bitcoin-a-good-investment-2026";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-18-ai-moving-averages-crypto-trading.md": {
+	id: "2026-05-18-ai-moving-averages-crypto-trading.md";
+  slug: "2026-05-18-ai-moving-averages-crypto-trading";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-18-ai-risk-management-in-crypto-trading.md": {
+	id: "2026-05-18-ai-risk-management-in-crypto-trading.md";
+  slug: "2026-05-18-ai-risk-management-in-crypto-trading";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-18-ai-rsi-trading-strategy-crypto.md": {
+	id: "2026-05-18-ai-rsi-trading-strategy-crypto.md";
+  slug: "2026-05-18-ai-rsi-trading-strategy-crypto";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-18-ai-support-and-resistance-levels-crypto.md": {
+	id: "2026-05-18-ai-support-and-resistance-levels-crypto.md";
+  slug: "2026-05-18-ai-support-and-resistance-levels-crypto";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-18-ai-understanding-bitcoin-halving.md": {
+	id: "2026-05-18-ai-understanding-bitcoin-halving.md";
+  slug: "2026-05-18-ai-understanding-bitcoin-halving";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-18-ai-what-is-bitcoin-explained-simply.md": {
+	id: "2026-05-18-ai-what-is-bitcoin-explained-simply.md";
+  slug: "2026-05-18-ai-what-is-bitcoin-explained-simply";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-19-ai-automated-emergency-fund-savings-strategies.md": {
+	id: "2026-05-19-ai-automated-emergency-fund-savings-strategies.md";
+  slug: "2026-05-19-ai-automated-emergency-fund-savings-strategies";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-19-ai-best-banks-for-emergency-fund-savings.md": {
+	id: "2026-05-19-ai-best-banks-for-emergency-fund-savings.md";
+  slug: "2026-05-19-ai-best-banks-for-emergency-fund-savings";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-19-ai-best-crypto-trading-bots.md": {
+	id: "2026-05-19-ai-best-crypto-trading-bots.md";
+  slug: "2026-05-19-ai-best-crypto-trading-bots";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-19-ai-best-crypto-trading-indicators.md": {
+	id: "2026-05-19-ai-best-crypto-trading-indicators.md";
+  slug: "2026-05-19-ai-best-crypto-trading-indicators";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-19-ai-best-crypto-trading-strategies-2026.md": {
+	id: "2026-05-19-ai-best-crypto-trading-strategies-2026.md";
+  slug: "2026-05-19-ai-best-crypto-trading-strategies-2026";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-19-ai-best-emergency-fund-calculators-and-tools.md": {
+	id: "2026-05-19-ai-best-emergency-fund-calculators-and-tools.md";
+  slug: "2026-05-19-ai-best-emergency-fund-calculators-and-tools";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-19-ai-best-high-yield-savings-accounts-for-emergency-funds-2026.md": {
+	id: "2026-05-19-ai-best-high-yield-savings-accounts-for-emergency-funds-2026.md";
+  slug: "2026-05-19-ai-best-high-yield-savings-accounts-for-emergency-funds-2026";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-19-ai-crypto-day-trading-for-beginners.md": {
+	id: "2026-05-19-ai-crypto-day-trading-for-beginners.md";
+  slug: "2026-05-19-ai-crypto-day-trading-for-beginners";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-19-ai-crypto-scalping-strategies-explained.md": {
+	id: "2026-05-19-ai-crypto-scalping-strategies-explained.md";
+  slug: "2026-05-19-ai-crypto-scalping-strategies-explained";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-19-ai-crypto-swing-trading-guide.md": {
+	id: "2026-05-19-ai-crypto-swing-trading-guide.md";
+  slug: "2026-05-19-ai-crypto-swing-trading-guide";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-19-ai-emergency-fund-vs-investing-which-comes-first.md": {
+	id: "2026-05-19-ai-emergency-fund-vs-investing-which-comes-first.md";
+  slug: "2026-05-19-ai-emergency-fund-vs-investing-which-comes-first";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-19-ai-how-much-emergency-fund-do-you-really-need.md": {
+	id: "2026-05-19-ai-how-much-emergency-fund-do-you-really-need.md";
+  slug: "2026-05-19-ai-how-much-emergency-fund-do-you-really-need";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-19-ai-how-to-build-emergency-fund-fast-on-low-income.md": {
+	id: "2026-05-19-ai-how-to-build-emergency-fund-fast-on-low-income.md";
+  slug: "2026-05-19-ai-how-to-build-emergency-fund-fast-on-low-income";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-19-ai-how-to-keep-emergency-fund-accessible-but-earning-interest.md": {
+	id: "2026-05-19-ai-how-to-keep-emergency-fund-accessible-but-earning-interest.md";
+  slug: "2026-05-19-ai-how-to-keep-emergency-fund-accessible-but-earning-interest";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-19-ai-how-to-read-crypto-candlestick-charts.md": {
+	id: "2026-05-19-ai-how-to-read-crypto-candlestick-charts.md";
+  slug: "2026-05-19-ai-how-to-read-crypto-candlestick-charts";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-19-ai-how-to-set-stop-losses-crypto.md": {
+	id: "2026-05-19-ai-how-to-set-stop-losses-crypto.md";
+  slug: "2026-05-19-ai-how-to-set-stop-losses-crypto";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-19-ai-risk-management-in-crypto-trading.md": {
+	id: "2026-05-19-ai-risk-management-in-crypto-trading.md";
+  slug: "2026-05-19-ai-risk-management-in-crypto-trading";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-19-ai-what-is-bitcoin-explained-simply.md": {
+	id: "2026-05-19-ai-what-is-bitcoin-explained-simply.md";
+  slug: "2026-05-19-ai-what-is-bitcoin-explained-simply";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-20-ai-best-budget-hostels-in-europe.md": {
+	id: "2026-05-20-ai-best-budget-hostels-in-europe.md";
+  slug: "2026-05-20-ai-best-budget-hostels-in-europe";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-20-ai-cheapest-countries-to-visit-in-2026.md": {
+	id: "2026-05-20-ai-cheapest-countries-to-visit-in-2026.md";
+  slug: "2026-05-20-ai-cheapest-countries-to-visit-in-2026";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-20-ai-crypto-options-trading-for-beginners.md": {
+	id: "2026-05-20-ai-crypto-options-trading-for-beginners.md";
+  slug: "2026-05-20-ai-crypto-options-trading-for-beginners";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-20-ai-crypto-perpetual-futures-guide.md": {
+	id: "2026-05-20-ai-crypto-perpetual-futures-guide.md";
+  slug: "2026-05-20-ai-crypto-perpetual-futures-guide";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-20-ai-how-to-find-cheap-flights-last-minute.md": {
+	id: "2026-05-20-ai-how-to-find-cheap-flights-last-minute.md";
+  slug: "2026-05-20-ai-how-to-find-cheap-flights-last-minute";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-21-ai-best-crypto-trading-strategies-2026.md": {
+	id: "2026-05-21-ai-best-crypto-trading-strategies-2026.md";
+  slug: "2026-05-21-ai-best-crypto-trading-strategies-2026";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
+"2026-05-21-ai-crypto-day-trading-for-beginners.md": {
+	id: "2026-05-21-ai-crypto-day-trading-for-beginners.md";
+  slug: "2026-05-21-ai-crypto-day-trading-for-beginners";
+  body: string;
+  collection: "articles";
+  data: any
+} & { render(): Render[".md"] };
 };
 
 	};

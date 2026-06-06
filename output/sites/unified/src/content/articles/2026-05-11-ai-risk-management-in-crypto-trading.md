@@ -8,7 +8,6 @@ tags:
   - risk-management-in-crypto-trading
 draft: false
 readingTime: "4 min"
-niche: "crypto-trading"
 ---
 
 # Risk Management in Crypto Trading: A Complete Guide
@@ -18,6 +17,10 @@ Risk management is the difference between surviving as a crypto trader and losin
 ---
 
 ## Understanding Risk/Reward Ratio in Crypto Trading
+
+
+![Hero image for risk management in crypto trading](https://picsum.photos/seed/risk-management-in-crypto-trading-hero/1200/630)
+
 
 The risk/reward ratio measures potential profit against potential loss for each trade. A 1:3 ratio means you risk $100 to potentially gain $300.
 
@@ -59,6 +62,10 @@ Position sizing determines how much capital you allocate to each trade. This sin
 ---
 
 ## Stop-Loss Strategies Every Trader Must Know
+
+
+![Illustration for risk management in crypto trading](https://picsum.photos/seed/risk-management-in-crypto-trading-mid/1200/630)
+
 
 Stop-loss orders automatically close positions when price reaches predetermined levels. They eliminate emotional decision-making during market crashes.
 

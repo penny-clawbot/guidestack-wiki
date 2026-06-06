@@ -8,7 +8,6 @@ tags:
   - emergency-fund-guide-for-self-employed-workers
 draft: false
 readingTime: "4 min"
-niche: "emergency-fund"
 ---
 
 # Emergency Fund Guide for Self-Employed Workers
@@ -16,6 +15,10 @@ niche: "emergency-fund"
 Self-employed workers need a minimum 6-month emergency fund to cover expenses if income stops, but most freelancers only have 1-2 months saved. This guide covers how to build, protect, and access your emergency savings when you lack traditional employment benefits.
 
 ## Why Self-Employed Workers Need a Larger Emergency Fund
+
+
+![Hero image for emergency fund guide for self employed workers](https://picsum.photos/seed/emergency-fund-guide-for-self-employed-workers-hero/1200/630)
+
 
 Traditional employees receive unemployment benefits averaging **$450 per week** (U.S. Department of Labor, 2024) during job loss, but self-employed workers typically do not qualify for standard unemployment insurance in most states. Freelancers face income volatility of **30-40% month-to-month fluctuations** (Freelancers Union, 2023), meaning one bad month can derail your entire financial plan.
 
@@ -42,6 +45,10 @@ Building an emergency fund while managing irregular income requires a systematic
 A freelance writer earning $60,000/year should save $500/month to reach $30,000 in 5 years, or $1,000/month to reach the same goal in 2.5 years. Treat it like a non-negotiable business expense, not optional savings.
 
 ## Where to Keep Your Emergency Fund
+
+
+![Illustration for emergency fund guide for self employed workers](https://picsum.photos/seed/emergency-fund-guide-for-self-employed-workers-mid/1200/630)
+
 
 Your emergency fund must be **liquid, FDIC-insured, and separate** from your business and personal checking accounts. Online high-yield savings accounts (HYSA) currently offer **4-5% APY** compared to 0.01% at traditional banks, making a significant difference in your returns.
 

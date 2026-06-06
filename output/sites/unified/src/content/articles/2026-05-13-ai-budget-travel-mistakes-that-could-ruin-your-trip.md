@@ -8,7 +8,6 @@ tags:
   - budget-travel-mistakes-that-could-ruin-your-trip
 draft: false
 readingTime: "6 min"
-niche: "emergency-fund"
 ---
 
 # Budget Travel Mistakes That Could Ruin Your Trip
@@ -17,12 +16,16 @@ The most costly budget travel mistakes include booking flights at peak times, sk
 
 ## 1. Booking Flights at Peak Times Without Price Tracking
 
+
+![Hero image for budget travel mistakes that could ruin your trip](https://picsum.photos/seed/budget-travel-mistakes-that-could-ruin-your-trip-hero/1200/630)
+
+
 **Mistake:** Paying full price by booking flights when airlines know demand is highest.
 
 Airlines use dynamic pricing algorithms that increase fares by **30-60%** during peak booking windows (Tuesday-Thursday, 3-8 weeks before departure). The cheapest booking windows are typically **6-10 months** in advance for international flights and **1-3 months** for domestic routes.
 
 **Specific Details:**
-- Flying on Tuesdays saves an average of **$85** compared to Fridays (Skyscanner 2024 data)
+- Flying on Tuesdays saves an average of **$85** compared to Fridays (Skyscanner 2026 data)
 - Booking on Incognito mode can prevent cookie-based price increases
 - Google Flights price tracking alerts caught savings of **$200-$400** per ticket in 2023 user surveys
 
@@ -42,6 +45,10 @@ Medical evacuation abroad costs **$15,000-$50,000** on average, and **68%** of u
 **The Fix:** Purchase insurance within **15 days** of booking to cover pre-existing conditions, and choose plans with **$100,000+** medical evacuation coverage.
 
 ## 3. Ignoring Dynamic Currency Conversion at ATMs
+
+
+![Illustration for budget travel mistakes that could ruin your trip](https://picsum.photos/seed/budget-travel-mistakes-that-could-ruin-your-trip-mid/1200/630)
+
 
 **Mistake:** Accepting the "convenient" conversion rate when withdrawing cash abroad.
 

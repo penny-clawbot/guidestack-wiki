@@ -5,7 +5,6 @@ date: "2026-05-10"
 description: "You've probably heard the term \"Bitcoin mining\" thrown around in crypto conversations, but what does it actually mean? Is it literal digging for digital coins? "
 category: "bitcoin-beginners"
 tags: ["bitcoin-beginners", "what"]
-niche: "bitcoin-beginners"
 ---
 
 # What is Bitcoin Mining and How Does It Work? A Complete Beginner's Guide
@@ -17,6 +16,10 @@ Bitcoin mining is the backbone of the entire Bitcoin network. Without it, transa
 This guide breaks down everything you need to know about Bitcoin mining in plain, straightforward language. By the end, you'll understand exactly how it works, why it matters, and whether diving deeper into mining makes sense for your crypto journey.
 
 ## Understanding the Fundamentals of Bitcoin Mining
+
+
+![Hero image for 2026 05 10 what is bitcoin mining and how does it work](https://picsum.photos/seed/2026-05-10-what-is-bitcoin-mining-and-how-does-it-work-hero/1200/630)
+
 
 Bitcoin mining is the process by which new transactions are verified and added to Bitcoin's public ledger, known as the blockchain. But here's what makes it unique: instead of relying on a central authority like a bank or payment processor, Bitcoin uses a distributed network of computers to validate transactions.
 
@@ -73,6 +76,10 @@ Here's how the halving schedule has played out:
 This programmatic halving creates artificial scarcity, which is why Bitcoin's price has historically risen significantly in the months and years following each halving event.
 
 ## Essential Mining Hardware and Software
+
+
+![Illustration for 2026 05 10 what is bitcoin mining and how does it work](https://picsum.photos/seed/2026-05-10-what-is-bitcoin-mining-and-how-does-it-work-mid/1200/630)
+
 
 If you're considering entering the mining space—or simply want to understand the technology better—you need to know about the hardware and software that powers modern Bitcoin mining.
 
@@ -210,4 +217,3 @@ Bitcoin operates on a decentralized blockchain network using proof-of-work conse
 ### Is Bitcoin Mining and How Does It a good investment?
 
 Investment decisions depend on individual circumstances. Bitcoin has shown significant long-term growth since its inception, but remains highly volatile. Most financial advisors recommend allocating no more than 5-10% of a portfolio to cryptocurrencies.
-

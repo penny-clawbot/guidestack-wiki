@@ -5,7 +5,6 @@ date: "2026-05-12"
 description: "If you rent your home, the monthly rent check is just the beginning of your financial responsibilities. A sudden job loss, a broken refrigerator, or an unexpect"
 category: "emergency fund"
 tags: ["emergency fund", "renters"]
-niche: "emergency-fund"
 ---
 
 # Renter's Guide to Emergency Funds: Security Deposits and Beyond  
@@ -17,6 +16,10 @@ This guide will walk you through why an emergency fund matters, how security dep
 ---
 
 ## 1. Why Every Renter Needs an Emergency Fund  
+
+
+![Hero image for 2026 05 12 renters guide to emergency funds security deposits and beyond](https://picsum.photos/seed/2026-05-12-renters-guide-to-emergency-funds-security-deposits-and-beyond-hero/1200/630)
+
 
 **The unpredictability of renting**  
 When you own a house, you have equity and often a mortgage that can be renegotiated. As a renter, you have no ownership stake—just a lease that can be terminated with notice. Unexpected events can force you to move, pay for repairs the landlord won’t cover, or absorb a sudden loss of income.  
@@ -57,6 +60,10 @@ If you receive a deduction you disagree with, many states allow you to dispute w
 ---
 
 ## 3. Building Your Emergency Fund: Step‑by‑Step  
+
+
+![Illustration for 2026 05 12 renters guide to emergency funds security deposits and beyond](https://picsum.photos/seed/2026-05-12-renters-guide-to-emergency-funds-security-deposits-and-beyond-mid/1200/630)
+
 
 **Step 1: Set a clear goal**  
 - Determine **3–6 months of rent** as a target, plus an amount equal to your security deposit (so you have both a cushion and the deposit ready for the next lease).  

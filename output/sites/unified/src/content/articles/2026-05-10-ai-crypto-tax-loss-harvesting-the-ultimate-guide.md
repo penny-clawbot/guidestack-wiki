@@ -8,7 +8,6 @@ tags:
   - crypto-tax-loss-harvesting-the-ultimate-guide
 draft: false
 readingTime: "13 min"
-niche: "crypto-investing"
 ---
 
 # Crypto Tax Loss Harvesting: The Ultimate Guide
@@ -22,6 +21,10 @@ This isn't about cheating the system. It's about playing by the rules in a way t
 By the end, you'll know exactly how to identify harvestable losses, execute them properly, avoid the traps that catch most people, and build a workflow you can repeat every quarter.
 
 ## What You'll Need
+
+
+![Hero image for crypto tax loss harvesting the ultimate guide](https://picsum.photos/seed/crypto-tax-loss-harvesting-the-ultimate-guide-hero/1200/630)
+
 
 Before you start harvesting losses, gather these essentials:
 
@@ -246,6 +249,10 @@ Building this into your regular workflow turns harvesting from a panic response 
 
 ## Pro Tips
 
+
+![Illustration for crypto tax loss harvesting the ultimate guide](https://picsum.photos/seed/crypto-tax-loss-harvesting-the-ultimate-guide-mid/1200/630)
+
+
 ### 1. Harvest the Loss, Not the Asset
 
 When you harvest a loss, you're selling the position. But if you still want exposure, you can buy a different asset in the same category. For example: Sell your losing altcoin position and buy a different altcoin with a similar thesis. You've harvested the tax loss while maintaining your market exposure. This works as long as the new asset isn't "substantially identical."
@@ -317,8 +324,3 @@ The core workflow is simple: identify losses, execute sales with proper lot sele
 The best time to start is now, before the next market move catches you off guard. Volatility is inevitable in crypto. Whether it costs you money or saves you money depends largely on what you do with it.
 
 Run your portfolio through Steps 1 and 2 today. You might find you have more harvesting opportunity than you realized.
-
-[LINK: crypto-tax-basics]
-[LINK: bitcoin-tax-calculations]
-[LINK: defi-tax-reporting]
-[LINK: crypto-loss-deductions]

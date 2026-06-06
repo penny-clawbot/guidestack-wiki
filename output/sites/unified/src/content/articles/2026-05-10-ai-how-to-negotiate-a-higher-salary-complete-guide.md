@@ -8,7 +8,6 @@ tags:
   - how-to-negotiate-a-higher-salary-complete-guide
 draft: false
 readingTime: "11 min"
-niche: "personal-finance"
 ---
 
 # How to Negotiate a Higher Salary: Complete Guide
@@ -20,6 +19,10 @@ Yet despite this potential, most workers never negotiate. They accept the initia
 ---
 
 ## Prerequisites: What You Need Before You Negotiate
+
+
+![Hero image for how to negotiate a higher salary complete guide](https://picsum.photos/seed/how-to-negotiate-a-higher-salary-complete-guide-hero/1200/630)
+
 
 Before you enter any salary negotiation, certain preparations are essential. Skipping these steps leaves you vulnerable to accepting less than you're worth.
 
@@ -57,6 +60,10 @@ Avoid negotiating during company crises, immediately after layoffs, or when your
 ---
 
 ## Step 2: Build Your Business Case with Concrete Evidence
+
+
+![Illustration for how to negotiate a higher salary complete guide](https://picsum.photos/seed/how-to-negotiate-a-higher-salary-complete-guide-mid/1200/630)
+
 
 Salary negotiation isn't about what you need—it's about what you've delivered. Employers respond to data, not emotions.
 
@@ -219,7 +226,7 @@ If you've made a counteroffer and haven't heard back, follow up appropriately. W
 
 ### Know When to Walk Away
 
-Not every negotiation will succeed, and that's okay. If the gap between your expectations and their offer is too large, and they're unwilling to make up the difference through other means, walking away may be the correct choice. A position that underpays you from day one rarely improves. [LINK: knowing when to quit a job]
+Not every negotiation will succeed, and that's okay. If the gap between your expectations and their offer is too large, and they're unwilling to make up the difference through other means, walking away may be the correct choice. A position that underpays you from day one rarely improves.
 
 ---
 
@@ -247,4 +254,4 @@ The steps outlined in this guide—researching thoroughly, building a compelling
 
 Remember: the worst outcome of negotiation is that you hear "no." The worst outcome of not negotiating is leaving thousands of dollars on the table year after year. That difference compounds over your career into hundreds of thousands of dollars of lost earning potential.
 
-Your salary isn't determined by what you're worth—it's determined by what you're willing to ask for. Start the conversation. [LINK: increasing your income in 2024]
+Your salary isn't determined by what you're worth—it's determined by what you're willing to ask for. Start the conversation.

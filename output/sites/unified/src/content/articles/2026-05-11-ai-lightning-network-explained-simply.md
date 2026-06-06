@@ -8,7 +8,6 @@ tags:
   - lightning-network-explained-simply
 draft: false
 readingTime: "5 min"
-niche: "bitcoin-beginners"
 ---
 
 # Lightning Network Explained Simply
@@ -17,19 +16,23 @@ This guide explains what the Lightning Network is, how it works, and how you can
 
 ## What Is the Lightning Network?
 
+
+![Hero image for lightning network explained simply](https://picsum.photos/seed/lightning-network-explained-simply-hero/1200/630)
+
+
 The Lightning Network is a second-layer solution built on top of Bitcoin's blockchain that enables fast, low-cost transactions. It was proposed in 2015 by Joseph Poon and Thaddeus Dryja and launched in 2018 after years of development. The network processes over 10,000 transactions per second compared to Bitcoin's base layer limit of approximately 7 transactions per second.
 
 ## Step-by-Step Instructions
 
 ### Step 1: Understand the Basic Concept of Payment Channels
 
-A payment channel is a two-way connection between two users that allows them to transact off the Bitcoin blockchain. When you open a channel, you lock a specific amount of Bitcoin (the minimum is typically 0.0001 BTC or about $4-6 USD as of 2024) into a multi-signature wallet. This transaction requires one on-chain confirmation, which takes about 10 minutes on average.
+A payment channel is a two-way connection between two users that allows them to transact off the Bitcoin blockchain. When you open a channel, you lock a specific amount of Bitcoin (the minimum is typically 0.0001 BTC or about $4-6 USD as of 2026) into a multi-signature wallet. This transaction requires one on-chain confirmation, which takes about 10 minutes on average.
 
 The channel stays open for as long as you want—some users keep channels open for months or years. You can conduct unlimited transactions within the channel, and only the opening and closing transactions are recorded on Bitcoin's main blockchain.
 
 ### Step 2: Set Up a Lightning Wallet
 
-Choose a Lightning wallet that supports the network. Popular options as of 2024 include:
+Choose a Lightning wallet that supports the network. Popular options as of 2026 include:
 
 - **Phoenix Wallet** - Available on iOS and Android, allows you to control your private keys
 - **BlueWallet** - Desktop and mobile support, user-friendly interface
@@ -72,7 +75,7 @@ To send a Lightning payment:
 5. Confirm the transaction
 6. Payment completes in milliseconds with fees typically under 1 satoshi (0.00000001 BTC)
 
-As of 2024, average Lightning transaction fees range from 0.001% to 0.5% of the transaction amount, often less than 1 cent per transaction.
+As of 2026, average Lightning transaction fees range from 0.001% to 0.5% of the transaction amount, often less than 1 cent per transaction.
 
 ### Step 6: Receive Lightning Payments
 
@@ -98,13 +101,17 @@ Your funds return to your on-chain Bitcoin wallet after confirmation.
 
 ## Frequently Asked Questions
 
+
+![Illustration for lightning network explained simply](https://picsum.photos/seed/lightning-network-explained-simply-mid/1200/630)
+
+
 ### How Does Routing Work on the Lightning Network?
 
 Lightning payments travel through a network of nodes using a process called Source Routing. When you pay someone, your wallet calculates a path across multiple channels that connect you to the recipient. This path can pass through 3-10+ intermediate nodes, each taking a tiny routing fee (typically 0.001% to 0.005%). Privacy is maintained because nodes along the path cannot see the full transaction—they only know their immediate neighbors.
 
 ### Is the Lightning Network Secure?
 
-The Lightning Network uses smart contracts called Hash Time-Locked Contracts (HTLCs) to secure funds. These contracts ensure that only you can claim funds you receive, and your counterparty cannot steal money during an open channel. As of 2024, the network has processed over 100 million transactions with no major security breaches. However, you must maintain backup copies of your channel state to prevent fund loss during node failures.
+The Lightning Network uses smart contracts called Hash Time-Locked Contracts (HTLCs) to secure funds. These contracts ensure that only you can claim funds you receive, and your counterparty cannot steal money during an open channel. As of 2026, the network has processed over 100 million transactions with no major security breaches. However, you must maintain backup copies of your channel state to prevent fund loss during node failures.
 
 ### What Happens If a Node Goes Offline?
 
@@ -112,7 +119,7 @@ If a node in your channel goes offline temporarily, your funds remain safe in th
 
 ### Can I Use Lightning for Large Transactions?
 
-Lightning is designed for small to medium transactions, typically under $5,000 USD. For larger amounts, opening multiple channels or using on-chain Bitcoin transactions is recommended. As of 2024, the largest known Lightning channel holds approximately 10 BTC (worth around $400,000 USD), but routing such large amounts through multiple hops can result in higher fees and routing complications.
+Lightning is designed for small to medium transactions, typically under $5,000 USD. For larger amounts, opening multiple channels or using on-chain Bitcoin transactions is recommended. As of 2026, the largest known Lightning channel holds approximately 10 BTC (worth around $400,000 USD), but routing such large amounts through multiple hops can result in higher fees and routing complications.
 
 ## Tips
 
@@ -122,4 +129,4 @@ Lightning is designed for small to medium transactions, typically under $5,000 U
 - **Monitor channel liquidity** - Ensure you have received capacity (inbound liquidity) to receive payments; services like Lightning Pool (launched 2020) allow you to rent liquidity
 - **Update your software regularly** - Lightning implementations release updates frequently to improve security and performance
 - **Test with free faucets** - Use Lightning faucet sites to practice sending and receiving without risking real funds
-- **Consider custodial wallets for simplicity** - Services like Cash App or Strike offer Lightning access without managing your own channels, though you sacrifice some decentralization
+- **Consider custodial wallets for simplicity** - Services like Cash App or Strike offer Lightning access without managing your own channels, though you sacrifice some decentralization.

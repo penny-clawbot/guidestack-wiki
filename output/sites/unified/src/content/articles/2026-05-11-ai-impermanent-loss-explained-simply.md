@@ -8,7 +8,6 @@ tags:
   - impermanent-loss-explained-simply
 draft: false
 readingTime: "6 min"
-niche: "defi-yield"
 ---
 
 # Impermanent Loss Explained Simply
@@ -16,6 +15,10 @@ niche: "defi-yield"
 **Impermanent loss occurs when the value of assets in a liquidity pool diverges from simply holding those assets, typically resulting in 5-50% less value depending on price divergence, with Uniswap v3 data showing 49% of liquidity positions losing money due to IL as of 2022.**
 
 ## What Is Impermanent Loss?
+
+
+![Hero image for impermanent loss explained simply](https://picsum.photos/seed/impermanent-loss-explained-simply-hero/1200/630)
+
 
 Impermanent loss (IL) is the temporary reduction in value that liquidity providers (LPs) experience when their deposited tokens change price relative to each other. This phenomenon exists because automated market makers (AMMs) maintain constant mathematical relationships between token pairs, causing arbitrageurs to continuously rebalance positions when prices shift.
 
@@ -32,6 +35,10 @@ For practical understanding, consider this scenario: You deposit **$10,000** equ
 Research from Bancor published in 2021 demonstrated that even modest price divergence causes measurable losses: a 25% price increase creates **0.6%** IL, while a 400% increase results in approximately **25%** permanent value reduction if withdrawn at that point. This mathematical reality explains why sophisticated DeFi participants carefully consider price volatility before entering liquidity positions.
 
 ## Statistics and Impact on Liquidity Providers
+
+
+![Illustration for impermanent loss explained simply](https://picsum.photos/seed/impermanent-loss-explained-simply-mid/1200/630)
+
 
 The scale of impermanent loss across DeFi is staggering and worth understanding before providing liquidity. According to a 2022 analysis by Token Terminal, approximately **$336 million** in value was lost to impermanent loss across major AMMs in a single calendar year. Uniswap's v2 and v3 protocols alone account for roughly **80%** of this figure due to their market dominance.
 

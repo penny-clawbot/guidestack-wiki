@@ -8,7 +8,6 @@ tags:
   - defi-flash-loans-explained
 draft: false
 readingTime: "4 min"
-niche: "defi-yield"
 ---
 
 # DeFi Flash Loans Explained
@@ -17,13 +16,21 @@ Flash loans are uncollateralized loans executed within a single blockchain trans
 
 ## What Is the Core Mechanism Behind Flash Loans?
 
+
+![Hero image for defi flash loans explained](https://picsum.photos/seed/defi-flash-loans-explained-hero/1200/630)
+
+
 Flash loans work because Ethereum Virtual Machine (EVM) transactions are atomic—all operations succeed or fail together, with no partial state changes. A user executes a flash loan by calling a lending protocol's flash loan function, receiving the requested capital, performing operations (arbitrage, liquidation, collateral swap), and returning the funds plus fees all within one transaction. If the user cannot return the borrowed amount plus the 0.09% fee (typical on Aave), the entire transaction reverts and the protocol keeps the initial funds.
 
 ## Which DeFi Protocols Support Flash Loans?
 
-Aave remains the largest flash loan provider with over $8 billion in total value locked as of 2024. Uniswap V3,Balancer, dYdX, and MakerDAO also support flash loan functionality. According to DeFi pulse tracking, Aave V3 processed approximately $2.3 billion in flash loans during 2023 alone. These protocols charge nominal fees ranging from 0.02% to 0.09% per flash loan transaction.
+Aave remains the largest flash loan provider with over $8 billion in total value locked as of 2026. Uniswap V3,Balancer, dYdX, and MakerDAO also support flash loan functionality. According to DeFi pulse tracking, Aave V3 processed approximately $2.3 billion in flash loans during 2023 alone. These protocols charge nominal fees ranging from 0.02% to 0.09% per flash loan transaction.
 
 ## What Are the Primary Use Cases for Flash Loans?
+
+
+![Illustration for defi flash loans explained](https://picsum.photos/seed/defi-flash-loans-explained-mid/1200/630)
+
 
 **Arbitrage exploitation** represents the most common use case, allowing traders to capitalize on price differences across exchanges. **Collateral swapping** enables users to shift between stablecoins or assets without closing positions. **Liquidation capture** lets bots repay unhealthy positions across multiple protocols to earn liquidation bonuses. **Governance attacks** have emerged as a controversial use where attackers acquire voting power through flash loans to manipulate protocol decisions.
 
