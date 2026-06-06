@@ -13,7 +13,7 @@ function load(): Art[] {
     const c = fs.readFileSync(path.join(cd,f),'utf-8');
     const fm: Record<string,any> = {}; const m = c.match(/^---\n([\s\S]*?)\n---/);
     if (m) { m[1].split('\n').forEach((l:string)=>{const x=l.match(/^(\w+):\s*["']?(.+?)["']?\s*$/);if(x)fm[x[1]]=x[2]}); if(typeof fm.tags==='string')fm.tags=fm.tags.split(',').map((t:string)=>t.trim()); }
-    a.push({title:fm.title||f,description:fm.description||'',slug:f.replace(/\.md$/,'').replace(/^\w+-\d{4}-\d{2}-\d{2}-(ai-)?/,''),date:fm.date||'',category:fm.category||'general',readingTime:fm.readingTime||'',tags:fm.tags||[],niche:f.match(/^([^-]+-[^-]+)-/)?.[1]||fm.niche||'general'});
+    a.push({title:fm.title||f,description:fm.description||'',slug:f.replace(/\.md$/,'').replace(/^([^-]+-){2}\d{4}-\d{2}-\d{2}-(ai-)?/,''),date:fm.date||'',category:fm.category||'general',readingTime:fm.readingTime||'',tags:fm.tags||[],niche:f.match(/^([^-]+-[^-]+)-/)?.[1]||fm.niche||'general'});
   }
   return a;
 }
@@ -27,7 +27,7 @@ const articles = load().filter(a=>a.niche===nicheId).sort((a,b)=>b.date.localeCo
 const catMap = new Map<string,number>(); articles.forEach(a=>catMap.set(a.category,(catMap.get(a.category)||0)+1));
 const cats = Array.from(catMap.entries()).sort((a,b)=>b[1]-a[1]);
 
-const nicheColors: Record<string,string> = {'crypto-investing':'from-blue-600 to-blue-700','ai-tools':'from-violet-600 to-violet-700','bitcoin-beginners':'from-amber-500 to-orange-600','crypto-trading':'from-emerald-600 to-emerald-700','defi-yield':'from-cyan-600 to-teal-700','personal-finance':'from-green-600 to-green-700','emergency-fund':'from-rose-600 to-rose-700','budget-travel':'from-sky-600 to-indigo-600'};
+const nicheColors: Record<string,string> = {'crypto-investing':'from-blue-600 to-blue-700','ai-tools':'from-violet-600 to-violet-700','bitcoin-beginners':'from-amber-500 to-orange-600','crypto-trading':'from-emerald-600 to-emerald-700','defi-yield':'from-cyan-600 to-teal-700','personal-finance':'from-green-600 to-green-700','emergency-fund':'from-rose-600 to-rose-700','budget-travel':'from-sky-600 to-indigo-600','memecoin-trading':'from-orange-500 to-amber-600'};
 const gradient = nicheColors[nicheId] || 'from-slate-600 to-slate-700';
 ---
 <BaseLayout title={`${nc?.name||nicheId} - ${siteConfig.name}`} description={nc?.description||''} breadcrumbs={[{name:'Home',url:'/'},{name:nc?.name||nicheId,url:`/${nicheId}`}]} siteName={siteConfig.name}>

@@ -52,6 +52,12 @@
       "name": "Budget Travel Tips",
       "emoji": "\u2708\ufe0f",
       "description": "Travel the world on a budget"
+    },
+    {
+      "id": "memecoin-trading",
+      "name": "Memecoin Trading",
+      "emoji": "\ud83d\udfe7",
+      "description": "Trade and analyze memecoins like DOGE, SHIB, and emerging tokens"
     }
   ]
 }
