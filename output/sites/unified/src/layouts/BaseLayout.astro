@@ -57,6 +57,7 @@ const autoOg = `data:image/svg+xml,${encodeURIComponent(`<svg xmlns='http://www.
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
   {schema && <script type="application/ld+json" set:html={JSON.stringify(schema)} />}
   {breadcrumbs.length > 0 && <script type="application/ld+json" set:html={JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":breadcrumbs.map((c,i)=>({"@type":"ListItem","position":i+1,"name":c.name,"item":`${siteUrl}${c.url}`}))})} />}
+  {ogType === 'website' && <script type="application/ld+json" set:html={JSON.stringify({"@context":"https://schema.org","@type":"WebSite","name":displayTitle,"url":siteUrl,"description":description,"potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":`${siteUrl}/?q={search_term_string}`},"query-input":"required name=search_term_string"}})} />}
   <style is:inline>body{margin:0;font-family:'Inter',system-ui,-apple-system,sans-serif;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;background:var(--color-bg,#fff);color:var(--color-text,#1e293b)}#reading-progress{position:fixed;top:0;left:0;height:3px;background:linear-gradient(90deg,#1e40af,#7c3aed);z-index:9999;width:0%;transition:width .1s linear}</style>
 
   <link rel="stylesheet" href="/_astro/print.css" media="print" onload="this.media='all'" />

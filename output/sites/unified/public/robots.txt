@@ -1,0 +1,20 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.guidestack.wiki/sitemap.xml
+
+# AI crawlers - full access
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
