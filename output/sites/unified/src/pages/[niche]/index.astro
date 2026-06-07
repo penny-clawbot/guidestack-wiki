@@ -28,11 +28,23 @@ const catMap = new Map<string,number>(); articles.forEach(a=>catMap.set(a.catego
 const cats = Array.from(catMap.entries()).sort((a,b)=>b[1]-a[1]);
 
 const nicheColors: Record<string,string> = {'crypto-investing':'from-blue-600 to-blue-700','ai-tools':'from-violet-600 to-violet-700','bitcoin-beginners':'from-amber-500 to-orange-600','crypto-trading':'from-emerald-600 to-emerald-700','defi-yield':'from-cyan-600 to-teal-700','personal-finance':'from-green-600 to-green-700','emergency-fund':'from-rose-600 to-rose-700','budget-travel':'from-sky-600 to-indigo-600','memecoin-trading':'from-orange-500 to-amber-600'};
+const nicheHeroImages: Record<string,string> = {
+  'crypto-investing':'https://www.guidestack.wiki/images/heroes/crypto-investing-hero.png',
+  'crypto-trading':'https://www.guidestack.wiki/images/heroes/crypto-trading-hero.png',
+  'ai-tools':'https://www.guidestack.wiki/images/heroes/ai-tools-hero.png',
+  'defi-yield':'https://www.guidestack.wiki/images/heroes/defi-yield-hero.png',
+  'bitcoin-beginners':'https://www.guidestack.wiki/images/heroes/bitcoin-beginners-hero.png',
+  'personal-finance':'https://www.guidestack.wiki/images/heroes/personal-finance-hero.png',
+  'emergency-fund':'https://www.guidestack.wiki/images/heroes/emergency-fund-hero.png',
+  'budget-travel':'https://www.guidestack.wiki/images/heroes/budget-travel-hero.png',
+  'memecoin-trading':'https://www.guidestack.wiki/images/heroes/crypto-investing-hero.png',
+};
 const gradient = nicheColors[nicheId] || 'from-slate-600 to-slate-700';
+const heroImg = nicheHeroImages[nicheId];
 ---
 <BaseLayout title={`${nc?.name||nicheId} - ${siteConfig.name}`} description={nc?.description||''} breadcrumbs={[{name:'Home',url:'/'},{name:nc?.name||nicheId,url:`/${nicheId}`}]} siteName={siteConfig.name}>
   <!-- Hero banner -->
-  <div class={`-mx-4 sm:-mx-6 lg:-mx-8 -mt-8 sm:-mt-12 mb-10 px-4 sm:px-6 lg:px-8 py-10 bg-gradient-to-br ${gradient} text-white`}>
+  <div class={heroImg ? '-mx-4 sm:-mx-6 lg:-mx-8 -mt-8 sm:-mt-12 mb-10 px-4 sm:px-6 lg:px-8 py-10 text-white' : `-mx-4 sm:-mx-6 lg:-mx-8 -mt-8 sm:-mt-12 mb-10 px-4 sm:px-6 lg:px-8 py-10 bg-gradient-to-br ${gradient} text-white`} style={heroImg ? 'background: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.7)), url(' + heroImg + ') center/cover no-repeat;' : undefined}>
     <div class="max-w-7xl mx-auto">
       <nav class="mb-4">
         <ol class="flex gap-1.5 text-sm text-white/60">
