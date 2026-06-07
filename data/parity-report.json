@@ -1,10 +1,59 @@
 {
-  "timestamp": "2026-06-01T09:01:33.417439",
+  "timestamp": "2026-06-07T09:35:19.212363",
   "results": {
-    "matching": 216,
+    "matching": 184,
     "missing": 0,
-    "drifted": 0,
+    "drifted": 32,
     "fixed": 0
   },
-  "issues": {}
+  "issues": {
+    "ai-tools-hub": [
+      "DRIFTED: src/layouts/BaseLayout.astro",
+      "DRIFTED: src/styles/global.css",
+      "DRIFTED: src/data/affiliates.json",
+      "DRIFTED: astro.config.mjs"
+    ],
+    "bitcoin-beginners": [
+      "DRIFTED: src/layouts/BaseLayout.astro",
+      "DRIFTED: src/styles/global.css",
+      "DRIFTED: src/data/affiliates.json",
+      "DRIFTED: astro.config.mjs"
+    ],
+    "budget-travel-tips": [
+      "DRIFTED: src/layouts/BaseLayout.astro",
+      "DRIFTED: src/styles/global.css",
+      "DRIFTED: src/data/affiliates.json",
+      "DRIFTED: astro.config.mjs"
+    ],
+    "crypto-investing-guide": [
+      "DRIFTED: src/layouts/BaseLayout.astro",
+      "DRIFTED: src/styles/global.css",
+      "DRIFTED: src/data/affiliates.json",
+      "DRIFTED: astro.config.mjs"
+    ],
+    "crypto-trading-strategies": [
+      "DRIFTED: src/layouts/BaseLayout.astro",
+      "DRIFTED: src/styles/global.css",
+      "DRIFTED: src/data/affiliates.json",
+      "DRIFTED: astro.config.mjs"
+    ],
+    "defi-yield-guide": [
+      "DRIFTED: src/layouts/BaseLayout.astro",
+      "DRIFTED: src/styles/global.css",
+      "DRIFTED: src/data/affiliates.json",
+      "DRIFTED: astro.config.mjs"
+    ],
+    "personal-finance-tips": [
+      "DRIFTED: src/layouts/BaseLayout.astro",
+      "DRIFTED: src/styles/global.css",
+      "DRIFTED: src/data/affiliates.json",
+      "DRIFTED: astro.config.mjs"
+    ],
+    "smart-emergency-fund": [
+      "DRIFTED: src/layouts/BaseLayout.astro",
+      "DRIFTED: src/styles/global.css",
+      "DRIFTED: src/data/affiliates.json",
+      "DRIFTED: astro.config.mjs"
+    ]
+  }
 }
